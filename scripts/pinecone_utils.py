@@ -16,7 +16,7 @@ if index_name in pc.list_indexes().names():
     pc.delete_index(index_name)
 
 # Create the index (UNCOMMENTED)
-pc.create_index(
+index = pc.create_index(
     name=index_name,
     dimension=768,
     metric="cosine",
@@ -25,6 +25,9 @@ pc.create_index(
         region="us-east-1"
     )
 )
+# stats = index.describe_index_stats()
+print(index)
+
 # index = Pinecone.Index(index_name)
 
 # # Check available namespaces
