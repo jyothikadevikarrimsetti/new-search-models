@@ -47,18 +47,14 @@
 # # print("\n🎯 Top Answer:")
 # # print(answer)
 # # print(f"⏱️ Time taken: {end_time - start_time:.2f} seconds")
-
-
-
 from scripts.extract_text import save_processed_text
 from scripts.metadata import extract_metadata
 from scripts.vector_store import upsert_to_pinecone, delete_from_pinecone
 from scripts.search_pipeline import search_query
 from scripts.hash_utils import compute_md5
-
 from pathlib import Path
 import json
-import time
+import os
 
 INPUT = "data/input_pdf_data"
 TEXTS = "data/processed_data"
@@ -74,29 +70,46 @@ except FileNotFoundError:
 
 updated_files = []
 
-# STEP 1: Check each PDF for changes
-for pdf_file in Path(INPUT).glob("*.pdf"):
-    current_hash = compute_md5(pdf_file)
-    file_key = pdf_file.name
-    txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
-
-    if stored_hashes.get(file_key) != current_hash:
-        print(f"🔄 PDF updated: {pdf_file.name}")
+# Check if processed_data folder is empty or doesn't exist
+if not os.path.exists(TEXTS) or not os.listdir(TEXTS):
+    print("⚠️ No processed files found. Reprocessing all PDFs...")
+    for pdf_file in Path(INPUT).glob("*.pdf"):
+        print(f"Processing {pdf_file.name}...")
         try:
             save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
-            if txt_path.exists():  # Only update hash if .txt was created
-                stored_hashes[file_key] = current_hash
+            txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
+            if txt_path.exists():
+                stored_hashes[pdf_file.name] = compute_md5(pdf_file)
                 updated_files.append(pdf_file.stem)
+                print(f"✅ Successfully processed {pdf_file.name}")
             else:
-                print(f"❌ Text extraction failed for: {pdf_file.name}")
+                print(f"❌ Failed to create text file for {pdf_file.name}")
         except Exception as e:
             print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
+else:
+    # Check for updated PDFs
+    for pdf_file in Path(INPUT).glob("*.pdf"):
+        current_hash = compute_md5(pdf_file)
+        file_key = pdf_file.name
+        txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
 
-# Save updated hash state
+        if stored_hashes.get(file_key) != current_hash:
+            print(f"🔄 PDF updated: {pdf_file.name}")
+            try:
+                save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
+                if txt_path.exists():
+                    stored_hashes[file_key] = current_hash
+                    updated_files.append(pdf_file.stem)
+                else:
+                    print(f"❌ Text extraction failed for: {pdf_file.name}")
+            except Exception as e:
+                print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
+
+# Save updated hashes
 with open(HASH_STORE, "w") as f:
     json.dump(stored_hashes, f, indent=2)
 
-# STEP 2: Re-extract metadata and update Pinecone for changed PDFs
+# Re-extract metadata for updated files
 for pdf_stem in updated_files:
     txt_path = Path(TEXTS) / f"{pdf_stem}.txt"
     json_path = Path(OUTPUT) / f"{pdf_stem}.json"
@@ -106,16 +119,14 @@ for pdf_stem in updated_files:
         metadata = extract_metadata(text)
         metadata["filename"] = txt_path.name
 
-        # Save updated metadata
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(metadata, f, indent=2)
 
-        # Delete old vector
         delete_from_pinecone(pdf_stem)
 
-# STEP 3: Upsert updated vectors
+# Upsert updated vectors - CORRECTED parameter name here
 upsert_to_pinecone(OUTPUT, only_ids=updated_files)
 
-# STEP 4: Ask a question
+# Ask a question
 user_question = input("❓ Enter your question: ")
 search_query(user_question, top_k=1)

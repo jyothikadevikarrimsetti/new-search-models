@@ -29,7 +29,7 @@
     "-",
     " Seq2Seq"
   ],
-  "summary": "This study addresses limitations in transformer-based extractive summarization models for long documents by proposing a novel approach that incorporates local topic extraction and hierarchical text structure analysis. Experimental results show improved performance using ROUGE metrics, highlighting the effectiveness of integrating local and hierarchical information in summarization tasks.",
+  "summary": "This study addresses limitations in transformer-based extractive summarization models for long documents by incorporating local topic and hierarchical information. The proposed model demonstrates improved performance on public datasets, enhancing its ability to identify summary-worthy sentences using ROUGE evaluation metrics.",
   "embedding": [
     0.05895839259028435,
     0.006331778131425381,
