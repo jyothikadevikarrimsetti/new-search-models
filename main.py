@@ -78,18 +78,19 @@ updated_files = []
 for pdf_file in Path(INPUT).glob("*.pdf"):
     current_hash = compute_md5(pdf_file)
     file_key = pdf_file.name
+    txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
 
     if stored_hashes.get(file_key) != current_hash:
         print(f"🔄 PDF updated: {pdf_file.name}")
-
-        # Update text
-        save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
-
-        # Update hash
-        stored_hashes[file_key] = current_hash
-        updated_files.append(pdf_file.stem)
-    else:
-        print(f"✅ No changes: {pdf_file.name}")
+        try:
+            save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
+            if txt_path.exists():  # Only update hash if .txt was created
+                stored_hashes[file_key] = current_hash
+                updated_files.append(pdf_file.stem)
+            else:
+                print(f"❌ Text extraction failed for: {pdf_file.name}")
+        except Exception as e:
+            print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
 
 # Save updated hash state
 with open(HASH_STORE, "w") as f:

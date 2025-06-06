@@ -25,6 +25,10 @@ pc.create_index(
         region="us-east-1"
     )
 )
+# index = Pinecone.Index(index_name)
 
+# # Check available namespaces
+# index_stats = index.describe_index_stats()
+# print(index_stats["namespaces"]) 
 # Now we can safely create the index connection
 index = pc.Index(index_name)

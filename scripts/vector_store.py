@@ -46,12 +46,21 @@ def upsert_to_pinecone(json_dir, only_ids=None, namespace="default"):
         print(f"✅ Upserted vector {json_file.stem} to namespace '{namespace}'")
 
 def delete_from_pinecone(vector_id, namespace="default"):
-    """Delete vector from a specific Pinecone namespace"""
+    """Delete a vector from a specific Pinecone namespace."""
     try:
-        index.delete(
-            ids=[vector_id], 
-            namespace=namespace
-        )
-        print(f"🗑️ Deleted vector {vector_id} from namespace '{namespace}'")
+        # Check if the namespace exists
+        index_stats = index.describe_index_stats()
+        if namespace not in index_stats["namespaces"]:
+            print(f"⚠️ Namespace '{namespace}' not found. Skipping deletion.")
+            return
+
+        # Check if the document exists in the namespace
+        if not index.fetch(ids=[vector_id], namespace=namespace):
+            print(f"⚠️ Document {vector_id} not found in namespace '{namespace}'. Skipping deletion.")
+            return
+
+        # Delete the document if it exists
+        index.delete(ids=[vector_id], namespace=namespace)
+        print(f"✅ Deleted {vector_id} from namespace '{namespace}'")
     except Exception as e:
         print(f"❌ Error deleting {vector_id}: {str(e)}")
