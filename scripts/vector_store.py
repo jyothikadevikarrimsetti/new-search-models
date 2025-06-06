@@ -23,7 +23,7 @@ from scripts.pinecone_utils import index
 from pathlib import Path
 import json
 
-def upsert_to_pinecone(json_dir, only_ids=None, namespace="default"):
+def upsert_to_pinecone(json_dir, only_ids=None, namespace="Default"):
     """Upsert vectors to a specific Pinecone namespace"""
     for json_file in Path(json_dir).glob("*.json"):
         if only_ids and json_file.stem not in only_ids:
@@ -45,7 +45,7 @@ def upsert_to_pinecone(json_dir, only_ids=None, namespace="default"):
         )
         print(f"✅ Upserted vector {json_file.stem} to namespace '{namespace}'")
 
-def delete_from_pinecone(vector_id, namespace="default"):
+def delete_from_pinecone(vector_id, namespace="Default"):
     """Delete a vector from a specific Pinecone namespace."""
     try:
         # Check if the namespace exists
