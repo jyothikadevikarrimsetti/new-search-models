@@ -69,64 +69,64 @@ except FileNotFoundError:
     stored_hashes = {}
 
 updated_files = []
-
+delete_from_pinecone("MHC_CaseStatus_511652")
 # Check if processed_data folder is empty or doesn't exist
-if not os.path.exists(TEXTS) or not os.listdir(TEXTS):
-    print("⚠️ No processed files found. Reprocessing all PDFs...")
-    for pdf_file in Path(INPUT).glob("*.pdf"):
-        print(f"Processing {pdf_file.name}...")
-        try:
-            save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
-            txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
-            if txt_path.exists():
-                stored_hashes[pdf_file.name] = compute_md5(pdf_file)
-                updated_files.append(pdf_file.stem)
-                print(f"✅ Successfully processed {pdf_file.name}")
-            else:
-                print(f"❌ Failed to create text file for {pdf_file.name}")
-        except Exception as e:
-            print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
-else:
-    # Check for updated PDFs
-    for pdf_file in Path(INPUT).glob("*.pdf"):
-        current_hash = compute_md5(pdf_file)
-        file_key = pdf_file.name
-        txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
+# if not os.path.exists(TEXTS) or not os.listdir(TEXTS):
+#     print("⚠️ No processed files found. Reprocessing all PDFs...")
+#     for pdf_file in Path(INPUT).glob("*.pdf"):
+#         print(f"Processing {pdf_file.name}...")
+#         try:
+#             save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
+#             txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
+#             if txt_path.exists():
+#                 stored_hashes[pdf_file.name] = compute_md5(pdf_file)
+#                 updated_files.append(pdf_file.stem)
+#                 print(f"✅ Successfully processed {pdf_file.name}")
+#             else:
+#                 print(f"❌ Failed to create text file for {pdf_file.name}")
+#         except Exception as e:
+#             print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
+# else:
+#     # Check for updated PDFs
+#     for pdf_file in Path(INPUT).glob("*.pdf"):
+#         current_hash = compute_md5(pdf_file)
+#         file_key = pdf_file.name
+#         txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
 
-        if stored_hashes.get(file_key) != current_hash:
-            print(f"🔄 PDF updated: {pdf_file.name}")
-            try:
-                save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
-                if txt_path.exists():
-                    stored_hashes[file_key] = current_hash
-                    updated_files.append(pdf_file.stem)
-                else:
-                    print(f"❌ Text extraction failed for: {pdf_file.name}")
-            except Exception as e:
-                print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
+#         if stored_hashes.get(file_key) != current_hash:
+#             print(f"🔄 PDF updated: {pdf_file.name}")
+#             try:
+#                 save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
+#                 if txt_path.exists():
+#                     stored_hashes[file_key] = current_hash
+#                     updated_files.append(pdf_file.stem)
+#                 else:
+#                     print(f"❌ Text extraction failed for: {pdf_file.name}")
+#             except Exception as e:
+#                 print(f"⛔ Error processing {pdf_file.name}: {str(e)}")
 
-# Save updated hashes
-with open(HASH_STORE, "w") as f:
-    json.dump(stored_hashes, f, indent=2)
+# # Save updated hashes
+# with open(HASH_STORE, "w") as f:
+#     json.dump(stored_hashes, f, indent=2)
 
-# Re-extract metadata for updated files
-for pdf_stem in updated_files:
-    txt_path = Path(TEXTS) / f"{pdf_stem}.txt"
-    json_path = Path(OUTPUT) / f"{pdf_stem}.json"
+# # Re-extract metadata for updated files
+# for pdf_stem in updated_files:
+#     txt_path = Path(TEXTS) / f"{pdf_stem}.txt"
+#     json_path = Path(OUTPUT) / f"{pdf_stem}.json"
 
-    if txt_path.exists():
-        text = txt_path.read_text(encoding="utf-8").strip()
-        metadata = extract_metadata(text)
-        metadata["filename"] = txt_path.name
+#     if txt_path.exists():
+#         text = txt_path.read_text(encoding="utf-8").strip()
+#         metadata = extract_metadata(text)
+#         metadata["filename"] = txt_path.name
 
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(metadata, f, indent=2)
+#         with open(json_path, "w", encoding="utf-8") as f:
+#             json.dump(metadata, f, indent=2)
 
-        delete_from_pinecone(pdf_stem)
+#         delete_from_pinecone(pdf_stem)
 
-# Upsert updated vectors - CORRECTED parameter name here
-upsert_to_pinecone(OUTPUT, only_ids=updated_files)
+# # Upsert updated vectors - CORRECTED parameter name here
+# upsert_to_pinecone(OUTPUT, only_ids=updated_files)
 
-# Ask a question
-user_question = input("❓ Enter your question: ")
-search_query(user_question, top_k=1)
+# # Ask a question
+# user_question = input("❓ Enter your question: ")
+# search_query(user_question, top_k=1)
