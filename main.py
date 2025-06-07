@@ -5,8 +5,9 @@ from scripts.vector_store import (
     delete_from_pinecone,
     pinecone_vector_exists,                   # 👈 NEW
 )
-from scripts.search_pipeline import search_query
+from scripts.search_pipeline import search_query , hybrid_search
 from scripts.hash_utils import compute_md5
+
 from pathlib import Path
 import json
 import os
@@ -74,20 +75,24 @@ need_upsert: set[str] = set(updated_files)
 
 for txt_file in Path(TEXTS).glob("*.txt"):
     stem = txt_file.stem
-    
-    if stem in need_upsert:
-        continue
-    if not pinecone_vector_exists(stem):                # 👈 NEW
-        print(f"🆕  Vector missing in Pinecone: {stem}")
-        need_upsert.add(stem)
+    json_path = Path(OUTPUT) / f"{stem}.json"
+    if not json_path.exists():
+        text = txt_file.read_text(encoding="utf-8").strip()
+        metadata = extract_metadata(text) | {"filename": txt_file.name}
+        json_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(json_path, "w", encoding="utf-8") as fh:
+            json.dump(metadata, fh, indent=2)
+        print(f"📝 Metadata JSON created for {stem}")
+        need_upsert.add(stem)  # <-- Ensure it will be upserted!
 
 # ------------------------------------------------------------------ #
 # 5.  Ensure metadata JSON exists for everything in need_upsert      #
 # ------------------------------------------------------------------ #
-for stem in list(need_upsert):                          # copy—it may shrink
+for stem in list(need_upsert):  # copy—it may shrink
     txt_path   = Path(TEXTS)  / f"{stem}.txt"
     json_path  = Path(OUTPUT) / f"{stem}.json"
 
+    # If metadata JSON does not exist, create it
     if not json_path.exists():
         if not txt_path.exists():
             print(f"⛔ Missing TXT for {stem}; skipping.")
@@ -122,3 +127,6 @@ else:
 # ------------------------------------------------------------------ #
 user_question = input("❓ Enter your question: ")
 search_query(user_question, top_k=1)
+results = hybrid_search(user_question, top_k=3)
+for match in results:
+    print(f"Score: {match['score']}, Metadata: {match['metadata']}")

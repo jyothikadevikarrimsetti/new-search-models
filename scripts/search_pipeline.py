@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 from dotenv import load_dotenv
 import os
 import time
+from typing import List
 
 # Load environment variables
 load_dotenv("config/.env")
@@ -46,3 +47,27 @@ def search_query(query_text, top_k=1):
     elapsed = time.time() - start_time
     print(f"\n✅ Top Answer: {top_summary}")
     print(f"⏱️  Search Time: {elapsed:.2f} seconds")
+
+
+def hybrid_search(query: str, top_k: int = 5, namespace: str = "__default__") -> List[dict]:
+    """
+    Perform a hybrid (vector + keyword) search in Pinecone.
+    """
+    # You need to encode the query to get its embedding
+    from sentence_transformers import SentenceTransformer
+    embedding_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+    query_vector = embedding_model.encode(query).tolist()
+
+    # For sparse (keyword) search, you can use the query string directly
+    # Pinecone expects: {'vector': ..., 'sparse_vector': ...}
+    # For simple hybrid, you can use {'vector': ..., 'filter': ...} or use the hybrid API if available
+
+    results = index.query(
+        vector=query_vector,
+        top_k=top_k,
+        namespace=namespace,
+        include_metadata=True,
+        filter=None,  # You can add filters if needed
+        # For advanced hybrid, see Pinecone docs for 'sparse_vector' or 'hybrid' params
+    )
+    return results.matches

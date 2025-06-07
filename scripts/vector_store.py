@@ -74,6 +74,8 @@ def upsert_to_pinecone(
                         "entities": ", ".join(data.get("entities", [])),
                         "intent": data.get("intent", ""),
                         "summary": data.get("summary", ""),
+                        "text": data.get("text", ""),  # <-- Add this line if you want to store the original text
+
                     },
                 )
             ]
@@ -116,3 +118,5 @@ def pinecone_vector_exists(vector_id: str, namespace: str = "__default__") -> bo
     except Exception as err:
         print(f"⚠️ Could not check vector ID '{vector_id}': {err}")
         return False
+
+

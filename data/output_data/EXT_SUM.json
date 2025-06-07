@@ -29,7 +29,7 @@
     "-",
     " Seq2Seq"
   ],
-  "summary": "This study addresses limitations in transformer-based extractive summarization models for long documents by incorporating local topic and hierarchical information. The proposed model demonstrates improved performance on public datasets, enhancing its ability to identify summary-worthy sentences using ROUGE evaluation metrics.",
+  "summary": "This study addresses limitations in extractive summarization of long documents by proposing a model that integrates local topic extraction and hierarchical structure information. Using ROUGE scores for evaluation, the model demonstrates superior performance compared to mainstream approaches, enhancing sentence selection for summaries.",
   "embedding": [
     0.05895839259028435,
     0.006331778131425381,
@@ -800,5 +800,6 @@
     -0.10068795830011368,
     0.01257487665861845
   ],
+  "text": "wwwnaturecomscientificreports scientific reports Check for updates OPEN A study of extractive summarization of long documents incorporating local topic and hierarchical information Ting Wang Chuan Yang Maoyang Zou Jiaying Liang Dong Xiang Wenjie Yang Hongyang Wang Jia Li In recent years the transformer-based language models have achieved remarkable success in the field of extractive text summarization However there are still some limitations in this kind of research First the transformer language model usually regards the text as a linear sequence ignoring the inherent hierarchical structure information of the text Second for long text data traditional extractive models often focus on global topic information which poses challenges in how they capturing and integrating local contextual information within topic segments To address these issues we propose a long text extractive summarization model that employs a local topic information extraction module and a text hierarchical extraction",
   "filename": "EXT_SUM.txt"
 }
