@@ -13,18 +13,20 @@ index_name = os.getenv("PINECONE_INDEX_NAME")
 
 # Delete if already exists (optional)
 if index_name in pc.list_indexes().names():
-    pc.delete_index(index_name)
+    # pc.delete_index(index_name)
+    pass
 
 # Create the index (UNCOMMENTED)
-pc.create_index(
-    name=index_name,
-    dimension=768,
-    metric="cosine",
-    spec=ServerlessSpec(
-        cloud="aws",
-        region="us-east-1"
+else:
+      pc.create_index(
+        name=index_name,
+        dimension=768,
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud="aws",
+            region="us-east-1"
+        )
     )
-)
 # index = Pinecone.Index(index_name)
 
 # # Check available namespaces
