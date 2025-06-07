@@ -3,6 +3,7 @@ transformers
  keybert
  openai
  pinecone
+ pinecone-text
  python-dotenv
  PyPDF2
 pdf2image

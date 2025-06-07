@@ -83,7 +83,13 @@ for txt_file in Path(TEXTS).glob("*.txt"):
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)
         print(f"📝 Metadata JSON created for {stem}")
-        need_upsert.add(stem)  # <-- Ensure it will be upserted!
+        # Only add to need_upsert if not already in Pinecone
+        if not pinecone_vector_exists(stem):
+            need_upsert.add(stem)
+    else:
+        # If JSON exists, check if vector exists in Pinecone
+        if not pinecone_vector_exists(stem):
+            need_upsert.add(stem)
 
 # ------------------------------------------------------------------ #
 # 5.  Ensure metadata JSON exists for everything in need_upsert      #
@@ -127,6 +133,7 @@ else:
 # ------------------------------------------------------------------ #
 user_question = input("❓ Enter your question: ")
 search_query(user_question, top_k=1)
-results = hybrid_search(user_question, top_k=3)
-for match in results:
-    print(f"Score: {match['score']}, Metadata: {match['metadata']}")
+# results =
+hybrid_search(user_question, top_k=1)
+# for match in results:
+#     print(f"Score: {match['score']}, Metadata: {match['metadata']}")
