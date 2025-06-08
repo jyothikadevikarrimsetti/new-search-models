@@ -69,7 +69,7 @@ except FileNotFoundError:
     stored_hashes = {}
 
 updated_files = []
-delete_from_pinecone("MHC_CaseStatus_511661")
+delete_from_pinecone("MHC_CaseStatus_511652")
 # Check if processed_data folder is empty or doesn't exist
 if not os.path.exists(TEXTS) or not os.listdir(TEXTS):
     print("⚠️ No processed files found. Reprocessing all PDFs...")
