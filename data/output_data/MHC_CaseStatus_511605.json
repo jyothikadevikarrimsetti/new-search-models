@@ -38,7 +38,11 @@
     " Aadhar Card",
     " Aadhar Card"
   ],
+<<<<<<< HEAD
   "summary": "This case involves a Civil Miscellaneous Petition filed to condone a delay of 2,540 days (over 6 years) in filing a first appeal against a judgment from 2010. The petitioners claimed the delay occurred due to waiting for Aadhar Card and Voter ID to support their case, but the court found this reason invalid and declined to condone the delay.",
+=======
+  "summary": "This case involves a Civil Miscellaneous Petition (CMP No. 6648 of 2018) filed to condone a delay of 2,540 days (over 6 years) in filing a first appeal against a 2010 judgment. The court found the petitioners' justification for the delay\u2014waiting for Aadhar and Voter ID documents\u2014unconvincing and noted that they had already contested the original trial.",
+>>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
   "embedding": [
     0.05523090064525604,
     -0.006703622173517942,
@@ -809,5 +813,6 @@
     -0.0780520960688591,
     0.0048400177620351315
   ],
+  "text": "CMPNo6648 of 2018 in ASSRNo19304 of 2018 IN THE HIGH COURT OF JUDICATURE AT MADRAS DATED 19122019 CORAM THE HON OURABLE M SJUSTICE SMSUBRAMANIAM CMPNo6648 of 2018 in ASSRNo19304 of 2018 1Palanisami 2Kumar Appellants Vs 1Thavamalligai 2Arumpayal 3Anandaraj 4Arunachalam 5Balasubramanian Respondents PRAYER CMPNo6648 of 2018 is filed under Order 41 Rule 3-A of the Code of Civil Procedure to condone the delay of 2540 in filing the present first appeal ASSRNo19304 of 2018 is filed under Section 96 of Civil Procedure Code rw Order 41 Rule 1 of CPC against the Judgment and Decree in OSNo15 of 2007 dated 30112010 on the file of the Principal District Judge Cuddalore For Appellants MrPSatheesh Kumar For Respondents MsRMeenal for R1 No appearance for R3 to R5 133 httpwwwjudisnicin CMPNo6648 of 2018 in ASSRNo19304 of 2018 J U D G M E N T This Civil Miscellaneous Petition is filed to condone the delay of 2540 days 6 years in filing the appeal suit 2 The learned counsel appearing on behalf of the pe",
   "filename": "MHC_CaseStatus_511605.txt"
 }

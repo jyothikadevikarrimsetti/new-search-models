@@ -46,10 +46,12 @@ def extract_metadata(text):
     ).choices[0].message.content.strip()
 
     return {
-        # "filename": txt_file.name,
+        # "filename": .name,
         "keywords": keywords,
         "intent": intent_labels[best_idx],
         "entities": named_entities,
         "summary": summary,
-        "embedding": doc_emb.tolist()
+        "embedding": doc_emb.tolist(),
+        "text": text[:1000]  # <-- Truncate to 1000 chars (adjust as needed)
+
     }

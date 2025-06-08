@@ -34,7 +34,11 @@
     " OS",
     " High Court"
   ],
+<<<<<<< HEAD
   "summary": "The case involves a petition filed under Section 5 of the Limitation Act to condone a delay of 429 days in filing an appeal against a judgment and decree dated 19.01.2018. The appellants cited financial constraints and delays in obtaining the judgment copy as reasons for the delay in filing the appeal.",
+=======
+  "summary": "The appellants filed a Civil Miscellaneous Petition (CMPNo21826 of 2019) seeking to condone a 429-day delay in filing an appeal suit against the judgment and decree in OSNo703 of 2011 dated 19.01.2018. They cited financial constraints and difficulty in mobilizing funds as reasons for the delay in initiating the appeal process.",
+>>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
   "embedding": [
     0.0589570589363575,
     -0.03210635110735893,
@@ -805,5 +809,6 @@
     -0.08794035017490387,
     0.005916438065469265
   ],
+  "text": "CMPNo21826 of 2019 in ASSRNo118176 of 2019 IN THE HIGH COURT OF JUDICATURE AT MADRAS DATED 19122019 CORAM THE HON OURABLE M SJUSTICE SMSUBRAMANIAM CMPNo21826 of 2019 in ASSRNo118176 of 2019 1TmtDeepa Swapna 2TmtLiviya Appellants Vs 1TmtSivabagyam 2TmtMahalakshmi 3ThiruPurshothaman Respondents PRAYER CMPNo21826 of 2019 is filed under Section 5 of the Limitation Act to condone the delay of 429 days in filing this Appeal Suit against the judgment and Decree made in OSNo703 of 2011 dated 19012018 on the file of the learned V Additional District Judge Coimbatore ASSRNo118176 of 2019 is filed under Section 96 of Civil Procedure Code against the judgment and Decree made in OSNo703 of 2011 dated 19012018 on the file of the learned V Additional District Judge Coimbatore For Appellants MrATamilarasan For Respondents MrMVKrishnan For R2 R3 136 httpwwwjudisnicin CMPNo21826 of 2019 in ASSRNo118176 of 2019 J U D G M E N T The Civil Miscellaneous Petition is filed to condone the delay of 429 days in ",
   "filename": "MHC_CaseStatus_511690.txt"
 }

@@ -58,7 +58,11 @@
     " ASS",
     "JBal"
   ],
+<<<<<<< HEAD
   "summary": "The case involves multiple petitions filed in the High Court of Madras concerning delays and procedural matters related to the death of the first respondent, MMadesh, in a land acquisition appeal connected to the Salem-Karur Broad Gauge Railway Line. The petitions seek to condone delays, set aside abatement, and bring legal heirs of the deceased respondent on record for further proceedings.",
+=======
+  "summary": "The case involves multiple petitions filed in the High Court of Madras related to land acquisition for the Salem-Karur Broad Gauge Railway Line. The appellant seeks to condone delays, set aside abatement due to the death of the first respondent, and bring legal heirs on record. The proceedings concern appeals against a judgment by the Additional District Sessions Court in Salem.",
+>>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
   "embedding": [
     0.03908958658576012,
     0.02532239258289337,
@@ -829,5 +833,6 @@
     -0.08873361349105835,
     0.008599699474871159
   ],
+  "text": "CMPNos1873 to 1875 of 2010 and CMPNo11477 of 2005 in ASSRNo15819 of 2005 IN THE HIGH COURT OF JUDICATURE AT MADRAS DATED 19122019 CORAM THE HON OURABLE M SJUSTICE SMSUBRAMANIAM CMPNos1873 to 1875 of 2010 and CMPNo11477 of 2005 in ASSRNo15819 of 2005 The Special TahsildarLA Salem-Karur Broad Gauge Railway Line Salem Salem District Appellant Vs 1MMadeshDeceased 2The Deputy Chief EngineerConstruction Southern Railway Salem-5 Salem-Karur Broad Gauge Railway Scheme 3Vellaiyammal 4MDhanapal 5MRani 6MRamesh R2 to R4 are Legal heirs of the deceased 1st respondent namely MMadesh in AS Respondents 136 httpwwwjudisnicin CMPNos1873 to 1875 of 2010 and CMPNo11477 of 2005 in ASSRNo15819 of 2005 PRAYER CMPNo1873 of 2010 is filed under Section 5 of Limitation Act to condone the delay of 2754 days in filing the petition to set aside the abatement caused to the death of 1st respondent MMadesh in ASSRNo15819 of 2005 in the main appeal CMPNo1874 of 2010 is filed under Order 22 Rule 9 of CPC to set aside t",
   "filename": "MHC_CaseStatus_511661.txt"
 }

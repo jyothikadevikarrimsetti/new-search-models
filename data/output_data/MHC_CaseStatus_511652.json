@@ -57,7 +57,11 @@
     "Mamtha Jain",
     " KManoh"
   ],
+<<<<<<< HEAD
   "summary": "The text outlines multiple appeals (AS Nos. 399 of 2008, 998 of 2009, and 274 of 2013) filed in the Madras High Court challenging judgments and decrees from earlier cases in the City Civil Court, Chennai. The appeals involve disputes between various appellants and respondents, including legal heirs, and were reserved for judgment on 28.11.2019 and pronounced on 16.12.2019.",
+=======
+  "summary": "The text summarizes appeals filed in the Madras High Court under Section 96 of the Code of Civil Procedure, challenging judgments and decrees from lower courts in civil suits. The cases involve multiple appellants and respondents, including legal heirs brought on record, with hearings reserved and judgments pronounced in late 2019.",
+>>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
   "embedding": [
     0.08226731419563293,
     0.007650935091078281,
@@ -828,5 +832,6 @@
     -0.09193295985460281,
     0.024036211892962456
   ],
+  "text": "ASNos399 of 2008 998 of 2009 274 of 2013 IN THE HIGH COURT OF JUDICATURE AT MADRAS Date of Reserving the JudgmentDate of Pronouncing the Judgment 28112019 16122019 CORAM THE HONOURABLE MRJUSTICE TRAVINDRAN ASNos399 of 2008 998 of 2009 274 of 2013 ASNo399 of 2008 1KVBakthavatsalam 2Bhuvaneswari 3Geetha 4Sreenivasan 5Poornima Appellants -vs- 1Pannalal Bafna 2Sameermal Bafna 3Uthamchand Bafna Died 4Devichand Bafna 5Bafna Mahaveer 146 httpwwwjudisnicin ASNos399 of 2008 998 of 2009 274 of 2013 6MsRSelvaraj Brothers Repby its Partner MrRSelvaraj Carrying on business at No44 Acharappan Street Chennai-600 001 7Sulochana Devi 8Sunil Bafna 9Mamtha Jain Respondents R7 to R9 brought on record as LRs of the deceased R3 vide order of Court dated 07112019 made in CMPNo23179 of 2019 PRAYER Appeal is filed under Section 96 of the Code of Civil Procedure to set aside the Judgment and Decree dated 19042006 made in OSNo7289 of 1996 on the file of the learned II Additional Judge City Civil Court Chennai Fo",
   "filename": "MHC_CaseStatus_511652.txt"
 }
