@@ -1,23 +1,4 @@
-# import json
-# from scripts.pinecone_utils import index
-# from pathlib import Path
 
-# def upsert_to_pinecone(json_dir):
-#     for json_file in Path(json_dir).glob("*.json"):
-#         with open(json_file, "r", encoding="utf-8") as f:
-#             data = json.load(f)
-
-#         metadata = {
-#             "keywords": ", ".join(data.get("keywords", [])),
-#             "entities": ", ".join(data.get("entities", [])),
-#             "intent": data.get("intent", ""),
-#             "summary": data.get("summary", "")
-#         }
-
-#         index.upsert([(json_file.stem, data["embedding"], metadata)])
-
-
-# scripts/vector_store.py
 """
 Utilities for upserting JSON embeddings and deleting vectors by ID
 using the *latest* Pinecone Python client.
@@ -114,14 +95,6 @@ def delete_from_pinecone(vector_id: str, namespace: str = "__default__"):
 def pinecone_vector_exists(vector_id: str, namespace: str = "__default__") -> bool:
     """Check if a vector exists in Pinecone using the updated client."""
     try:
-<<<<<<< HEAD
-        # Check if the namespace exists
-        index_stats = index.describe_index_stats()
-        if namespace not in index_stats["namespaces"]:
-            print(
-                f"⚠️ Namespace '{namespace}' not found. Skipping deletion.")
-            return
-=======
         print(f"🔍 Checking if vector ID '{vector_id}' exists in namespace '{namespace}'...")
         response = index.fetch(ids=[vector_id], namespace=namespace)
         # print(f"📦 Fetch response: {response.vectors}")
@@ -129,6 +102,5 @@ def pinecone_vector_exists(vector_id: str, namespace: str = "__default__") -> bo
     except Exception as err:
         print(f"⚠️ Could not check vector ID '{vector_id}': {err}")
         return False
->>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
 
 

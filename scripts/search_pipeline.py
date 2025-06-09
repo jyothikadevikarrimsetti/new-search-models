@@ -71,6 +71,8 @@ def get_bm25_encoder_for_query():
     bm25.fit(all_texts)
     return bm25
 
+
+# Hybrid search function combining dense and sparse retrieval
 def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
     print("[Hybrid Search Pipeline]")
 
@@ -106,13 +108,13 @@ def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
     print(f"\n✅ Top Answer: {top_summary}")
     print(f"⏱️  Search Time: {elapsed:.2f} seconds")
 
-    for i, match in enumerate(pinecone_result.matches):
-        score = float(cosine_scores[i]) if summaries else match.score
-        meta = match.metadata
-        print(f"\nScore: {score:.6f}")
-        print(f"  Intent: {meta.get('intent', '')}")
-        print(f"  Entities: {meta.get('entities', '')[:120]}{'...' if len(meta.get('entities', '')) > 120 else ''}")
-        print(f"  Keywords: {meta.get('keywords', '')[:120]}{'...' if len(meta.get('keywords', '')) > 120 else ''}")
-        print(f"  Summary: {meta.get('summary', '')[:300]}{'...' if len(meta.get('summary', '')) > 300 else ''}")
+    # for i, match in enumerate(pinecone_result.matches):
+    #     score = float(cosine_scores[i]) if summaries else match.score
+    #     meta = match.metadata
+    #     print(f"\nScore: {score:.6f}")
+    #     print(f"  Intent: {meta.get('intent', '')}")
+    #     print(f"  Entities: {meta.get('entities', '')[:120]}{'...' if len(meta.get('entities', '')) > 120 else ''}")
+    #     print(f"  Keywords: {meta.get('keywords', '')[:120]}{'...' if len(meta.get('keywords', '')) > 120 else ''}")
+    #     print(f"  Summary: {meta.get('summary', '')[:300]}{'...' if len(meta.get('summary', '')) > 300 else ''}")
 
     return None

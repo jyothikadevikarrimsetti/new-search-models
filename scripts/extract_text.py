@@ -35,20 +35,6 @@ def clean_text(text):
     text = re.sub(r"\s{2,}", " ", text)
     return text.strip()
 
-# def save_processed_text(input_dir, output_dir):
-#     Path(output_dir).mkdir(parents=True, exist_ok=True)
-#     for pdf in Path(input_dir).glob("*.pdf"):
-#         raw = extract_text_from_pdf(pdf)
-#         cleaned = clean_text(raw)
-
-#         # Filter garbage: require at least 10 words
-#         if len(cleaned.split()) < 10:
-#             print(f"⚠️ Skipping low-quality output for: {pdf.name}")
-#             continue
-
-#         out_file = Path(output_dir) / f"{pdf.stem}.txt"
-#         out_file.write_text(cleaned, encoding="utf-8")
-#         print(f"✅ Saved cleaned text for: {pdf.name}")
 
 def save_processed_text(input_dir, output_dir, specific_pdf=None):
     Path(output_dir).mkdir(parents=True, exist_ok=True)

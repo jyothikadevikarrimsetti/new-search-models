@@ -17,30 +17,7 @@ if index_name in pc.list_indexes().names():
     pass
 
 # Create the index (UNCOMMENTED)
-<<<<<<< HEAD
-index = pc.create_index(
-    name=index_name,
-    dimension=768,
-    metric="cosine",
-    spec=ServerlessSpec(
-        cloud="aws",
-        region="us-east-1"
-    )
-)
-# stats = index.describe_index_stats()
-print(index)
-
-=======
 else:
-    #   pc.create_index(
-    #     name=index_name,
-    #     dimension=768,
-    #     metric="cosine",
-    #     spec=ServerlessSpec(
-    #         cloud="aws",
-    #         region="us-east-1"
-    #     )
-    # )
      pc.create_index(
         name=index_name,
         dimension=768,  # your dense vector dimension
@@ -51,11 +28,5 @@ else:
             # pod_type="s1.x1"  # or another hybrid-capable pod type
         )
     )
->>>>>>> 9914bd6788a2ae7dc73974a15c37bc071852eb84
-# index = Pinecone.Index(index_name)
 
-# # Check available namespaces
-# index_stats = index.describe_index_stats()
-# print(index_stats["namespaces"]) 
-# Now we can safely create the index connection
 index = pc.Index(index_name)
