@@ -20,40 +20,33 @@ def search_query(query_text, top_k=1):
     print("[Dense Search Pipeline]")
 
     start_time = time.time()
-
-    # Step 1: Embed the query
     query_embedding = model.encode(query_text, convert_to_tensor=True)
 
-    # Step 2: Query Pinecone
     pinecone_result = index.query(
         vector=query_embedding.tolist(),
         top_k=top_k,
         include_metadata=True
     )
-    # print(pinecone_result)
 
-    # Step 3: Re-rank using cosine similarity with summary embeddings
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
-    # ids = [match.id for match in pinecone_result.matches]
-    # summary_dict = {match.id: match.metadata.get("summary", "") for match in pinecone_result.matches}
-    # # Access individual summaries by ID:
-    # for doc_id, summary in summary_dict.items():
-
-    #     print(f"ID: {doc_id}, Summary: {summary}")
-
-
+    filenames = [match.metadata.get("filename", "") for match in pinecone_result.matches]
+    relevance_scores = [match.score for match in pinecone_result.matches]
 
     summary_embeddings = model.encode(summaries, convert_to_tensor=True)
     cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0]
 
-    # Step 4: Find the best match
-    top_idx = cosine_scores.argmax().item()
-    top_summary = summaries[top_idx]
-
-    # Step 5: Display only the final answer and time
+    top_idx = cosine_scores.argmax().item() if summaries else None
+    top_summary = summaries[top_idx] if summaries else ""
     elapsed = time.time() - start_time
+
     print(f"\n✅ Top Answer: {top_summary}")
     print(f"⏱️  Search Time: {elapsed:.2f} seconds")
+
+    for i, match in enumerate(pinecone_result.matches):
+        print(f"\nPDF: {filenames[i]}")
+        print(f"Relevance Score (Pinecone): {relevance_scores[i]:.6f}")
+        print(f"Reranking Score (Cosine): {float(cosine_scores[i]):.6f}")
+        print(f"Summary: {summaries[i][:300]}{'...' if len(summaries[i]) > 300 else ''}")
 
 
 # Fit BM25 on your corpus (do this once, or load from disk)
@@ -77,7 +70,6 @@ def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
     start_time = time.time()
     query_embedding = model.encode(query, convert_to_tensor=True)
 
-    # BM25 sparse vector for the query
     bm25 = get_bm25_encoder_for_query()
     sparse_query_vector = bm25.encode_queries([query])[0]
 
@@ -90,8 +82,9 @@ def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
         filter=None,
     )
 
-
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
+    filenames = [match.metadata.get("filename", "") for match in pinecone_result.matches]
+    relevance_scores = [match.score for match in pinecone_result.matches]
 
     if summaries:
         summary_embeddings = model.encode(summaries, convert_to_tensor=True)
@@ -107,12 +100,8 @@ def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
     print(f"⏱️  Search Time: {elapsed:.2f} seconds")
 
     for i, match in enumerate(pinecone_result.matches):
-        score = float(cosine_scores[i]) if summaries else match.score
-        meta = match.metadata
-        print(f"\nScore: {score:.6f}")
-        print(f"  Intent: {meta.get('intent', '')}")
-        print(f"  Entities: {meta.get('entities', '')[:120]}{'...' if len(meta.get('entities', '')) > 120 else ''}")
-        print(f"  Keywords: {meta.get('keywords', '')[:120]}{'...' if len(meta.get('keywords', '')) > 120 else ''}")
-        print(f"  Summary: {meta.get('summary', '')[:300]}{'...' if len(meta.get('summary', '')) > 300 else ''}")
-
+        print(f"\nPDF: {filenames[i]}")
+        print(f"Relevance Score (Pinecone): {relevance_scores[i]:.6f}")
+        print(f"Reranking Score (Cosine): {float(cosine_scores[i]):.6f}")
+        print(f"Summary: {summaries[i][:300]}{'...' if len(summaries[i]) > 300 else ''}")
     return None
