@@ -4,8 +4,9 @@ from dotenv import load_dotenv
 import os
 import time
 from typing import List
-from pinecone_text.sparse import BM25Encoder
+from rank_bm25 import BM25Okapi
 from openai import AzureOpenAI
+import json
 
 
 # Load environment variables
@@ -22,7 +23,7 @@ model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 
 
-def search_query(query_text, top_k=1):
+def search_query(query_text, top_k=3):
     print("[Dense Search Pipeline]")
     start_time = time.time()
     query_embedding = model.encode(query_text, convert_to_tensor=True)
@@ -34,15 +35,23 @@ def search_query(query_text, top_k=1):
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
     filenames = [match.id for match in pinecone_result.matches]
     relevance_scores = [match.score for match in pinecone_result.matches]
-    summary_embeddings = model.encode(summaries, convert_to_tensor=True)
-    cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0] if summaries else []
-    top_idx = cosine_scores.argmax().item() if summaries else None
-    top_summary = summaries[top_idx] if summaries else ""
-    top_filename = filenames[top_idx] if summaries else ""
+    # Use both summary and text for reranking
+    rerank_texts = [
+        (match.metadata.get("summary", "") + "\n" + match.metadata.get("text", ""))
+        for match in pinecone_result.matches
+    ]
+    summary_embeddings = model.encode(rerank_texts, convert_to_tensor=True)
+    cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0] if rerank_texts else []
+    # Sort by rerank score
+    reranked = sorted(
+        zip(filenames, summaries, relevance_scores, cosine_scores.tolist()),
+        key=lambda x: x[3], reverse=True
+    )
     elapsed = time.time() - start_time
-    # RAG-style LLM answer
-    if top_summary:
-        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{top_summary}\n\nQuestion: {query_text}\n\nAnswer in detail:"
+    # RAG-style LLM answer using top reranked chunk(s)
+    if reranked:
+        context = "\n\n".join([r[1] for r in reranked[:min(3, len(reranked))]])
+        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{context}\n\nQuestion: {query_text}\n\nAnswer in detail:"
         answer = client.chat.completions.create(
             model=deployment,
             messages=[{"role": "user", "content": prompt}],
@@ -51,63 +60,81 @@ def search_query(query_text, top_k=1):
         ).choices[0].message.content.strip()
     else:
         answer = "No relevant document found."
-    print(f"\n✅ Top Answer (LLM): {answer}")
-    print(f"📄 Source Document: {top_filename}")
-    print(f"⏱️  Search Time: {elapsed:.2f} seconds")
-    for i, match in enumerate(pinecone_result.matches):
-        print(f"\nDocument_name: {filenames[i]}")
-        print(f"Relevance Score (Pinecone): {relevance_scores[i]:.6f}")
-        print(f"Summary: {summaries[i][:300]}{'...' if len(summaries[i]) > 300 else ''}")
+    # Prepare results for UI
+    results = []
+    for i, (fname, summary, rel_score, rerank_score) in enumerate(reranked):
+        results.append({
+            "document_name": fname,
+            "summary": summary,
+            "pinecone_score": rel_score,
+            "rerank_score": rerank_score
+        })
+    return {"answer": answer, "results": results, "search_time": elapsed}
 
 
 # Fit BM25 on your corpus (do this once, or load from disk)
 def get_bm25_encoder_for_query():
-    # Load all texts from your output JSONs
     from pathlib import Path
-    import json
     OUTPUT = "data/output_data"
     all_texts = []
     for json_file in Path(OUTPUT).glob("*.json"):
         with open(json_file, "r", encoding="utf-8") as fh:
             data = json.load(fh)
             all_texts.append(data.get("text", ""))
-    bm25 = BM25Encoder()
-    bm25.fit(all_texts)
-    return bm25
+    # Tokenize for BM25Okapi
+    tokenized_corpus = [text.split() for text in all_texts]
+    bm25 = BM25Okapi(tokenized_corpus)
+    return bm25, all_texts
 
 
 # Hybrid search function combining dense and sparse retrieval
-def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
+def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__"):
     print("[Hybrid Search Pipeline]")
     start_time = time.time()
     query_embedding = model.encode(query, convert_to_tensor=True)
-    bm25 = get_bm25_encoder_for_query()
-    sparse_query_vector = bm25.encode_queries([query])[0]
-    pinecone_result = index.query(
-        vector=query_embedding.tolist(),
-        sparse_vector=sparse_query_vector,
-        top_k=top_k,
-        namespace=namespace,
-        include_metadata=True,
-        filter=None,
-    )
-    summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
-    filenames = [match.id for match in pinecone_result.matches]
-    relevance_scores = [match.score for match in pinecone_result.matches]
+    bm25, all_texts = get_bm25_encoder_for_query()
+    query_tokens = query.split()
+    bm25_scores = bm25.get_scores(query_tokens)
+    # Get a large pool for fusion (increase recall)
+    bm25_top_n = 100  # Even larger pool for best recall
+    top_indices = sorted(range(len(bm25_scores)), key=lambda i: bm25_scores[i], reverse=True)[:bm25_top_n]
+    from pathlib import Path
+    OUTPUT = "data/output_data"
+    json_files = list(Path(OUTPUT).glob("*.json"))
+    summaries = []
+    filenames = []
+    bm25_selected_scores = []
+    dense_selected_scores = []
+    for idx in top_indices:
+        with open(json_files[idx], "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+            # Use both summary and text for dense scoring
+            summary = data.get("summary", "")
+            text = data.get("text", "")
+            combined = summary + "\n" + text
+            summaries.append(combined)
+            filenames.append(json_files[idx].stem)
+            bm25_selected_scores.append(bm25_scores[idx])
+    # Rerank with dense embeddings
     if summaries:
         summary_embeddings = model.encode(summaries, convert_to_tensor=True)
-        cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0]
-        top_idx = cosine_scores.argmax().item()
-        top_summary = summaries[top_idx]
-        top_filename = filenames[top_idx]
+        cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0].tolist()
+        dense_selected_scores = cosine_scores
+        # Only use dense scores for final ranking (true semantic hybrid)
+        reranked = sorted(
+            zip(filenames, summaries, bm25_selected_scores, dense_selected_scores),
+            key=lambda x: x[3], reverse=True
+        )
+        reranked = reranked[:top_k]
+        top_summaries = [r[1] for r in reranked]
+        context = "\n\n".join(top_summaries)
     else:
-        top_summary = ""
-        top_filename = ""
-        cosine_scores = []
+        reranked = []
+        context = ""
     elapsed = time.time() - start_time
     # RAG-style LLM answer
-    if top_summary:
-        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{top_summary}\n\nQuestion: {query}\n\nAnswer in detail:"
+    if context:
+        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer in detail:"
         answer = client.chat.completions.create(
             model=deployment,
             messages=[{"role": "user", "content": prompt}],
@@ -116,11 +143,13 @@ def hybrid_search(query: str, top_k: int = 1, namespace: str = "__default__"):
         ).choices[0].message.content.strip()
     else:
         answer = "No relevant document found."
-    print(f"\n✅ Top Answer (LLM): {answer}")
-    print(f"📄 Source Document: {top_filename}")
-    print(f"⏱️  Search Time: {elapsed:.2f} seconds")
-    for i, match in enumerate(pinecone_result.matches):
-        print(f"\nDocument_name: {filenames[i]}")
-        print(f"Relevance Score (Pinecone): {relevance_scores[i]:.6f}")
-        print(f"Summary: {summaries[i][:300]}{'...' if len(summaries[i]) > 300 else ''}")
-    return None
+    # Prepare results for UI
+    results = []
+    for i, (fname, combined, bm25_score, dense_score) in enumerate(reranked):
+        results.append({
+            "document_name": fname,
+            "summary": combined[:1000],
+            "bm25_score": bm25_score,
+            "cosine_score": dense_score
+        })
+    return {"answer": answer, "results": results, "search_time": elapsed}

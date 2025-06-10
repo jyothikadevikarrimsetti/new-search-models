@@ -16,6 +16,7 @@ INPUT       = "data/input_pdf_data"
 TEXTS       = "data/processed_data"
 OUTPUT      = "data/output_data"
 HASH_STORE  = "data/pdf_hashes.json"
+CHUNKS      = "data/chunks"
 
 # ------------------------------------------------------------------ #
 # 1.  Load stored MD5 hashes (or start empty)                        #
@@ -37,28 +38,37 @@ else:
     pdf_iter = Path(INPUT).glob("*.pdf")
 
 for pdf_file in pdf_iter:
-    txt_path = Path(TEXTS) / f"{pdf_file.stem}.txt"
     current_hash = compute_md5(pdf_file)
 
     needs_reprocess = (
         pdf_file.name not in stored_hashes              # new file
         or stored_hashes[pdf_file.name] != current_hash # changed file
-        or not txt_path.exists()                        # txt missing
     )
+
+    # Check if chunk files exist for this PDF
+    chunk_prefix = f"{pdf_file.stem}_chunk"
+    chunk_files = list(Path(CHUNKS).glob(f"{chunk_prefix}*.txt"))
+    if not chunk_files:
+        needs_reprocess = True
 
     if needs_reprocess:
         label = "Processing" if pdf_file.name not in stored_hashes else "🔄 Updating"
         print(f"{label} {pdf_file.name} …")
         try:
-            save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file)
-            if txt_path.exists():
+            # Use multiprocessing for chunking if more than one PDF
+            save_processed_text(INPUT, TEXTS, specific_pdf=pdf_file, chunk_size=300, overlap=50, chunk_dir=CHUNKS, use_multiprocessing=False)
+            chunk_files = list(Path(CHUNKS).glob(f"{chunk_prefix}*.txt"))
+            if chunk_files:
                 stored_hashes[pdf_file.name] = current_hash
-                updated_files.append(pdf_file.stem)
-                print(f"✅  Finished {pdf_file.name}")
+                updated_files.extend([f.stem for f in chunk_files])
+                print(f"✅  Finished {pdf_file.name} ({len(chunk_files)} chunk(s))")
             else:
-                print(f"❌  Failed to create text for {pdf_file.name}")
+                print(f"❌  Failed to create text chunks for {pdf_file.name}")
         except Exception as e:
             print(f"⛔ Error while processing {pdf_file.name}: {e}")
+
+# If you want to process all PDFs in parallel, you can call:
+# save_processed_text(INPUT, TEXTS, chunk_size=300, overlap=50, chunk_dir=CHUNKS, use_multiprocessing=True)
 
 # ------------------------------------------------------------------ #
 # 3.  Persist updated hashes                                         #
@@ -73,7 +83,8 @@ with open(HASH_STORE, "w") as fh:
 # ------------------------------------------------------------------ #
 need_upsert: set[str] = set(updated_files)
 
-for txt_file in Path(TEXTS).glob("*.txt"):
+# Use CHUNKS directory for downstream processing
+for txt_file in Path(CHUNKS).glob("*.txt"):
     stem = txt_file.stem
     json_path = Path(OUTPUT) / f"{stem}.json"
     if not json_path.exists():
@@ -83,11 +94,9 @@ for txt_file in Path(TEXTS).glob("*.txt"):
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)
         print(f"📝 Metadata JSON created for {stem}")
-        # Only add to need_upsert if not already in Pinecone
         if not pinecone_vector_exists(stem):
             need_upsert.add(stem)
     else:
-        # If JSON exists, check if vector exists in Pinecone
         if not pinecone_vector_exists(stem):
             need_upsert.add(stem)
 
@@ -135,5 +144,6 @@ user_question = input("❓ Enter your question: ")
 search_query(user_question, top_k=1)
 # results =
 hybrid_search(user_question, top_k=1)
+
 # for match in results:
 #     print(f"Score: {match['score']}, Metadata: {match['metadata']}")
