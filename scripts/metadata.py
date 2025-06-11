@@ -52,6 +52,5 @@ def extract_metadata(text):
         "entities": named_entities,
         "summary": summary,
         "embedding": doc_emb.tolist(),
-        "text": text[:1000]  # <-- Truncate to 1000 chars (adjust as needed)
-
+        "text": text  # <-- Store full text for BM25/hybrid search
     }

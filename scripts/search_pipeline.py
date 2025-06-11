@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 import time
 from typing import List
-from pinecone_text.sparse import BM25Encoder
+from pinecone_text.sparse import SpladeEncoder
 from openai import AzureOpenAI
 import json
 
@@ -72,45 +72,56 @@ def search_query(query_text, top_k=3):
     return {"answer": answer, "results": results, "search_time": elapsed}
 
 
-# Fit BM25 on your corpus (do this once, or load from disk)
-def get_bm25_encoder_for_query():
-    from pathlib import Path
-    OUTPUT = "data/output_data"
-    all_texts = []
-    for json_file in Path(OUTPUT).glob("*.json"):
-        with open(json_file, "r", encoding="utf-8") as fh:
-            data = json.load(fh)
-            all_texts.append(data.get("text", ""))
-    bm25 = BM25Encoder()
-    bm25.fit(all_texts)
-    return bm25, all_texts
+# --- SPLADEEncoder cache for efficiency ---
+_splade_encoder_cache = None
+
+def get_splade_encoder_for_query():
+    global _splade_encoder_cache
+    if _splade_encoder_cache is not None:
+        return _splade_encoder_cache
+    splade = SpladeEncoder()
+    _splade_encoder_cache = splade
+    return splade
 
 
 # Hybrid search function combining dense and sparse retrieval
-def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", alpha: float = 0.5):
-    print("[Hybrid Search Pipeline]")
+def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", alpha: float = 0.5, filter: dict = None):
+    print("[Local Hybrid Search Pipeline - SPLADE rerank]")
     start_time = time.time()
-    query_embedding = model.encode(query, convert_to_tensor=True)
+    query_lower = query.lower()
+    query_embedding = model.encode(query_lower, convert_to_tensor=True)
 
-    # Use the same BM25Encoder as you used for upsert
-    bm25, _ = get_bm25_encoder_for_query()
-    sparse_query_vector = bm25.encode_queries([query])[0]
-
-    # Query Pinecone with both dense and sparse vectors
+    # 1. Dense search with Pinecone
     pinecone_result = index.query(
         vector=query_embedding.tolist(),
-        sparse_vector=sparse_query_vector,
-        top_k=top_k,
+        top_k=top_k*3,  # get more for reranking
         namespace=namespace,
         include_metadata=True,
-        alpha=alpha  # 0.5 = equal weighting
+        filter=filter
     )
 
-    summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
-    filenames = [match.metadata.get("filename", "") for match in pinecone_result.matches]
-    relevance_scores = [match.score for match in pinecone_result.matches]
+    # 2. Locally rerank with SPLADE sparse vectors
+    splade = get_splade_encoder_for_query()
+    sparse_query_vector = splade.encode_queries([query_lower])[0]
 
-    # Rerank with dense embeddings (optional, for UI)
+    doc_texts = [match.metadata.get("text", "") for match in pinecone_result.matches]
+    doc_sparse_vecs = splade.encode_documents([t.lower() for t in doc_texts])
+
+    # Compute sparse (SPLADE) score: dot product between query and doc sparse vectors
+    def sparse_score(q, d):
+        q_indices, q_values = q.get("indices", []), q.get("values", [])
+        d_indices, d_values = d.get("indices", []), d.get("values", [])
+        q_map = dict(zip(q_indices, q_values))
+        d_map = dict(zip(d_indices, d_values))
+        # Intersection only
+        return sum(q_map[i] * d_map[i] for i in set(q_map) & set(d_map))
+
+    sparse_scores = [sparse_score(sparse_query_vector, dvec) for dvec in doc_sparse_vecs]
+
+    # 3. Prepare results and rerank by hybrid score (alpha * dense + (1-alpha) * sparse)
+    summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
+    filenames = [match.id for match in pinecone_result.matches]
+    relevance_scores = [match.score for match in pinecone_result.matches]
     rerank_texts = [
         (match.metadata.get("summary", "") + "\n" + match.metadata.get("text", ""))
         for match in pinecone_result.matches
@@ -121,10 +132,17 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     else:
         cosine_scores = []
 
+    # Hybrid score
+    hybrid_scores = [alpha * dense + (1-alpha) * sparse for dense, sparse in zip(cosine_scores, sparse_scores)]
+    # Sort by hybrid score
+    reranked = sorted(
+        zip(filenames, summaries, relevance_scores, cosine_scores, sparse_scores, hybrid_scores),
+        key=lambda x: x[5], reverse=True
+    )[:top_k]
+
     elapsed = time.time() - start_time
-    # RAG-style LLM answer using top reranked chunk(s)
-    if summaries:
-        context = "\n\n".join(summaries[:min(3, len(summaries))])
+    if reranked:
+        context = "\n\n".join([r[1] for r in reranked[:min(3, len(reranked))]])
         prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer in detail:"
         answer = client.chat.completions.create(
             model=deployment,
@@ -135,13 +153,22 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     else:
         answer = "No relevant document found."
 
-    # Prepare results for UI
+    # Prepare top-k results for UI
     results = []
-    for i, (fname, summary, rel_score, rerank_score) in enumerate(zip(filenames, summaries, relevance_scores, cosine_scores)):
+    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score) in enumerate(reranked):
         results.append({
             "document_name": fname,
             "summary": summary,
-            "pinecone_score": rel_score,
-            "rerank_score": rerank_score
+            "reranking_score": hybrid_score,
+            "dense_score": dense_score,
+            "sparse_score": sparse_score_val,
         })
-    return {"answer": answer, "results": results, "search_time": elapsed}
+    # Return top result's answer and all top-k results for UI
+    return {
+        "document_name": reranked[0][0] if reranked else None,
+        "answer": answer,
+        "time_complexity": f"{elapsed:.2f} seconds",
+        "reranking_score": reranked[0][5] if reranked else None,
+        "summary": reranked[0][1] if reranked else None,
+        "results": results
+    }

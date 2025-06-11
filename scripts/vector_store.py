@@ -1,4 +1,3 @@
-
 """
 Utilities for upserting JSON embeddings and deleting vectors by ID
 using the *latest* Pinecone Python client.
@@ -6,16 +5,14 @@ using the *latest* Pinecone Python client.
 from pathlib import Path
 import json
 from typing import Iterable, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from scripts.pinecone_utils import index
-from pinecone_text.sparse import BM25Encoder
+from pinecone_text.sparse import SpladeEncoder
 
 
-# Fit BM25 on your corpus (all texts)
-def get_bm25_encoder(texts):
-    bm25 = BM25Encoder()
-    bm25.fit(texts)
-    return bm25
+def get_splade_encoder():
+    return SpladeEncoder()
 # ------------------------------------------------------------------ #
 # Upsert                                                             #
 # ------------------------------------------------------------------ #
@@ -29,27 +26,19 @@ def upsert_to_pinecone(
     if not json_dir.is_dir():
         raise ValueError(f"{json_dir} is not a directory")
 
-    # Gather all texts for BM25 fitting
-    all_texts = []
-    for json_file in json_dir.glob("*.json"):
-        with open(json_file, "r", encoding="utf-8") as fh:
-            data = json.load(fh)
-            all_texts.append(data.get("text", ""))
+    splade = get_splade_encoder()
 
-    bm25 = get_bm25_encoder(all_texts)
-
-    for json_file in json_dir.glob("*.json"):
+    def upsert_one(json_file):
         vector_id = json_file.stem
         if only_ids and vector_id not in only_ids:
-            continue
-
+            return None
         try:
             with open(json_file, "r", encoding="utf-8") as fh:
                 data = json.load(fh)
-
             dense_vec = data["embedding"]
-            sparse_vec = bm25.encode_documents([data.get("text", "")])[0]
-
+            text_for_sparse = data.get("text", "").lower()
+            sparse_vec = splade.encode_documents([text_for_sparse])[0]
+            print(f"Upserting {vector_id}: SPLADE sparse_vec indices[:5]={sparse_vec.get('indices', [])[:5]}, values[:5]={sparse_vec.get('values', [])[:5]}")
             vectors = [
                 {
                     "id": vector_id,
@@ -64,12 +53,17 @@ def upsert_to_pinecone(
                     },
                 }
             ]
-
             index.upsert(vectors=vectors, namespace=namespace)
-            print(f"✅  Upserted '{vector_id}' → namespace '{namespace}'")
-
+            print(f"✅  Upserted '{vector_id}' → namespace '{namespace}' (SPLADE)")
         except Exception as err:
             print(f"❌  Error upserting '{vector_id}': {err}")
+        return None
+
+    json_files = list(json_dir.glob("*.json"))
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = [executor.submit(upsert_one, json_file) for json_file in json_files]
+        for future in as_completed(futures):
+            _ = future.result()
 
 # ------------------------------------------------------------------ #
 # Delete                                                             #

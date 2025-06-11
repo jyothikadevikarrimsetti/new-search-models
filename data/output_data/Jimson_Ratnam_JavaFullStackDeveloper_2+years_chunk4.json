@@ -20,7 +20,7 @@
     " Adikavi Nannaya University",
     " Adikavi Nannaya University"
   ],
-  "summary": "Streamlined efficiency for counter staff by containerizing applications with Docker, automating CI/CD pipelines via GitHub Actions, and deploying on AWS EC2 for scalability and reliability. Holds a Bachelor of Science (2016-2019) and Master of Computer Applications (2019-2022) from Adikavi Nannaya University.",
+  "summary": "Streamlined operations by containerizing applications with Docker for scalability and deploying on AWS EC2 for reliability. Automated CI/CD pipelines using GitHub Actions to enhance development efficiency. Holds a Bachelor of Science (2016-2019) and Master of Computer Applications (2019-2022) from Adikavi Nannaya University.",
   "embedding": [
     0.009354785084724426,
     -0.010127374902367592,

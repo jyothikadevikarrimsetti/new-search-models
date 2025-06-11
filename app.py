@@ -21,27 +21,49 @@ if st.button("Search") and query:
         if search_type == "Dense":
             st.write("### Dense Search Results")
             result = search_query(query, top_k=top_k)
+            if result:
+                st.markdown(f"**LLM Answer:**\n{result['answer']}")
+                st.markdown(f"_Search Time: {result['search_time']:.2f} seconds_")
+                st.write("---")
+                for doc in result['results']:
+                    st.markdown(f"**Document:** {doc.get('document_name','')}")
+                    if 'pinecone_score' in doc:
+                        st.markdown(f"Pinecone Score: {doc['pinecone_score']:.6f}")
+                    if 'dense_score' in doc:
+                        st.markdown(f"Dense Score: {doc['dense_score']:.6f}")
+                    if 'sparse_score' in doc:
+                        st.markdown(f"Sparse Score: {doc['sparse_score']:.6f}")
+                    if 'hybrid_score' in doc:
+                        st.markdown(f"Hybrid Score: {doc['hybrid_score']:.6f}")
+                    if 'bm25_score' in doc:
+                        st.markdown(f"BM25 Score: {doc['bm25_score']:.6f}")
+                    if 'rerank_score' in doc:
+                        st.markdown(f"Rerank Score: {doc['rerank_score']:.6f}")
+                    if 'cosine_score' in doc and doc['cosine_score'] is not None:
+                        st.markdown(f"Cosine Score: {doc['cosine_score']:.6f}")
+                    st.markdown(f"Summary: {doc.get('summary','')[:500]}")
+                    st.write("---")
+            else:
+                st.info("No results found.")
         else:
             st.write("### Hybrid Search Results")
             result = hybrid_search(query, top_k=top_k)
-        if result:
-            st.markdown(f"**LLM Answer:**\n{result['answer']}")
-            st.markdown(f"_Search Time: {result['search_time']:.2f} seconds_")
-            st.write("---")
-            for doc in result['results']:
-                st.markdown(f"**Document:** {doc.get('document_name','')}")
-                if 'pinecone_score' in doc:
-                    st.markdown(f"Pinecone Score: {doc['pinecone_score']:.6f}")
-                if 'bm25_score' in doc:
-                    st.markdown(f"BM25 Score: {doc['bm25_score']:.6f}")
-                if 'rerank_score' in doc:
-                    st.markdown(f"Rerank Score: {doc['rerank_score']:.6f}")
-                if 'cosine_score' in doc and doc['cosine_score'] is not None:
-                    st.markdown(f"Cosine Score: {doc['cosine_score']:.6f}")
-                st.markdown(f"Summary: {doc.get('summary','')[:500]}")
+            if result:
+                st.markdown(f"**LLM Answer (Top Result):**\n{result.get('answer', '')}")
+                st.markdown(f"**Time Taken:** {result.get('time_complexity', '')}")
                 st.write("---")
-        else:
-            st.info("No results found.")
+                # Show top-k hybrid results (document_name, reranking_score, dense_score, sparse_score, summary)
+                if 'results' in result and result['results']:
+                    st.markdown(f"**Top {len(result['results'])} Hybrid Results:**")
+                    for i, doc in enumerate(result['results'], 1):
+                        st.markdown(f"**{i}. Document:** {doc.get('document_name', '')}")
+                        st.markdown(f"Reranking Score: {doc.get('reranking_score', ''):.6f}" if doc.get('reranking_score') is not None else "")
+                        st.markdown(f"Dense Score: {doc.get('dense_score', ''):.6f}" if doc.get('dense_score') is not None else "")
+                        st.markdown(f"Sparse Score: {doc.get('sparse_score', ''):.6f}" if doc.get('sparse_score') is not None else "")
+                        st.markdown(f"Summary: {doc.get('summary', '')[:500]}")
+                        st.write("---")
+            else:
+                st.info("No results found.")
 
 st.markdown("---")
 st.caption("Built with Streamlit, Pinecone, and Azure OpenAI.")
