@@ -7,3 +7,4 @@ data/chunks
 data/processed_data
 data/processed_data.json
 data/input_pdf_data
+**/__pycache__

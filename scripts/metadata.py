@@ -42,19 +42,40 @@ def extract_metadata(text):
     def cosine_sim(a, b):
         a, b = np.array(a), np.array(b)
         return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+    
     intent_scores = [cosine_sim(doc_emb, emb) for emb in intent_embs]
     best_idx = int(np.argmax(intent_scores))
+    intent_confidence = float(intent_scores[best_idx])
+    detected_intent = intent_labels[best_idx] if intent_confidence > 0.5 else "general_info"
 
-    keywords = [kw for kw, _ in keyword_model.extract_keywords(text, top_n=10)]
-    named_entities = [ent['word'] for ent in ner_pipeline(text)]
+    # Extract keywords
+    keywords_with_scores = keyword_model.extract_keywords(text, top_n=10)
+    keywords = [kw for kw, _ in keywords_with_scores]
 
-    prompt = f"Summarize this text in 2-3 lines:\n\n{text[:2000]}"
+    # Get named entities with details
+    entities = []
+    for ent in ner_pipeline(text[:5000]):  # Limit text length for NER
+        if ent['score'] > 0.8:  # Only keep high confidence entities
+            entities.append({
+                'text': ent['word'],
+                'type': ent['entity_group'],
+                'score': float(ent['score'])
+            })
+
+    # Generate summary
+    summary_prompt = """Analyze and summarize this text. Extract:
+    1. Main topic/subject (1 sentence)
+    2. Key points (2-3 bullets)
+    3. Any dates, numbers, or identifiers mentioned
+
+    Text: {text}"""
+    
     summary = client.chat.completions.create(
         model=deployment,
         messages=[{"role": "user", "content": summary_prompt.format(text=text[:2000])}],
         temperature=0.3,
         max_tokens=256
-    ).choices[0].message.content.strip()    # 6. Structure the metadata for flexible filtering
+    ).choices[0].message.content.strip()
     return {
         "keywords": keywords,
         "intent": detected_intent,

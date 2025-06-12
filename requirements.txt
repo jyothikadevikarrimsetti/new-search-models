@@ -12,3 +12,4 @@ streamlit
 fastapi
 pydantic
 numpy
+uvicorn[standard]

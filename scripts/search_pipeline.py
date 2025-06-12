@@ -1,11 +1,12 @@
 from scripts.pinecone_utils import index
+from scripts.filter_utils import generate_filter, combine_filters
 from dotenv import load_dotenv
 import os
 import time
-from typing import List
+import numpy as np
+from typing import List, Dict, Any, Optional
 from pinecone_text.sparse import SpladeEncoder
 from openai import AzureOpenAI
-import json
 
 
 # Load environment variables
@@ -17,11 +18,19 @@ client = AzureOpenAI(
 )
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
-# Use OpenAI's text-embedding-3-small model for dense embeddings
-from openai import AzureOpenAI
+# Helper functions for embeddings and similarity
+def get_openai_embedding(text):
+    """Get embeddings using Azure OpenAI's text-embedding model."""
+    response = client.embeddings.create(
+        model="text-embedding-3-small",
+        input=text
+    )
+    return response.data[0].embedding
 
-# Replace SentenceTransformer with OpenAI embedding model
-embedding_model = None  # Not used
+def cosine_sim(a, b):
+    """Compute cosine similarity between two vectors."""
+    a, b = np.array(a), np.array(b)
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
 
 
@@ -35,27 +44,26 @@ def get_openai_embedding(text):
 
 def search_query(query_text, top_k=3, metadata_filter=None):
     print("[Dense Search Pipeline]")
-    
-    # Generate automatic filter from query unless manual filter provided
-    query_filter = generate_filter(query_text) if not filter else None
+      # Generate automatic filter from query unless manual filter provided
+    query_filter = generate_filter(query_text) if not metadata_filter else None
     
     # Combine manual and automatic filters if both present
-    if filter and query_filter:
-        combined_filter = combine_filters([filter, query_filter])
+    if metadata_filter and query_filter:
+        combined_filter = combine_filters([metadata_filter, query_filter])
     else:
-        combined_filter = filter or query_filter
+        combined_filter = metadata_filter or query_filter
         
     print(f"[Dense Search Pipeline] Using filter: {combined_filter}")
     
     start_time = time.time()
-    query_embedding = get_openai_embedding(query_text)
+    query_embedding = get_openai_embedding(query_text)    
     pinecone_query_kwargs = {
         "vector": query_embedding,
         "top_k": top_k,
         "include_metadata": True
     }
-    if metadata_filter:
-        pinecone_query_kwargs["filter"] = metadata_filter
+    if combined_filter:
+        pinecone_query_kwargs["filter"] = combined_filter
     pinecone_result = index.query(**pinecone_query_kwargs)
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
     filenames = [match.id for match in pinecone_result.matches]
@@ -126,15 +134,22 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     print("[Local Hybrid Search Pipeline - SPLADE rerank]")
     start_time = time.time()
     query_lower = query.lower()
-    query_embedding = get_openai_embedding(query_lower)
+    query_embedding = get_openai_embedding(query_lower)    # Generate and combine filters
+    query_filter = generate_filter(query) if not metadata_filter else None
+    combined_filter = None
+    if metadata_filter and query_filter:
+        combined_filter = combine_filters([metadata_filter, query_filter])
+    else:
+        combined_filter = metadata_filter or query_filter
+
     pinecone_query_kwargs = {
         "vector": query_embedding,
         "top_k": top_k*3,  # get more for reranking
         "namespace": namespace,
         "include_metadata": True
     }
-    if metadata_filter:
-        pinecone_query_kwargs["filter"] = metadata_filter
+    if combined_filter:
+        pinecone_query_kwargs["filter"] = combined_filter
     pinecone_result = index.query(**pinecone_query_kwargs)
 
     # 2. Locally rerank with SPLADE sparse vectors
@@ -193,11 +208,15 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     elapsed = time.time() - start_time
     if reranked:
         context = "\n\n".join([r[1] for r in reranked[:min(3, len(reranked))]])
-        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer in detail:"
+        system_msg = "You are a direct and concise assistant. Do not use phrases like 'Based on the context' or 'According to the information'. Just answer the question directly."
+        user_msg = f"Information:\n{context}\n\nQuestion: {query}\n\nAnswer:"
         answer = client.chat.completions.create(
             model=deployment,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg}
+            ],
+            temperature=0.1,
             max_tokens=256
         ).choices[0].message.content.strip()
     else:
