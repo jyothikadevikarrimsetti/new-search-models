@@ -1,6 +1,8 @@
 import streamlit as st
 from scripts.search_pipeline import search_query, hybrid_search
+from scripts.filter_utils import generate_filter
 import warnings
+import json
 
 # Suppress FutureWarning messages for a cleaner user experience
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -12,15 +14,57 @@ st.markdown("""
 This app lets you search your PDF knowledge base using dense, hybrid, and LLM-powered retrieval.
 """)
 
-query = st.text_input("Enter your question:")
-search_type = st.radio("Search type", ["Dense", "Hybrid"], horizontal=True)
-top_k = st.slider("Top K Results", 1, 10, 3)
+col1, col2 = st.columns([2, 1])
+
+with col1:
+    query = st.text_input("Enter your question:")
+    search_type = st.radio("Search type", ["Dense", "Hybrid"], horizontal=True)
+    top_k = st.slider("Top K Results", 1, 10, 3)
+
+with col2:
+    st.markdown("### Filter Options")
+    filter_method = st.radio("Filter Method", ["Automatic", "Manual"], horizontal=True)
+    
+    if filter_method == "Manual":
+        # Show manual filter input as JSON
+        manual_filter = st.text_area(
+            "Enter filter as JSON:", 
+            value='{"intent": {"$eq": "claim_process"}}',
+            help="Example: {'intent': {'$eq': 'claim_process'}}"
+        )
+        try:
+            filter_dict = json.loads(manual_filter) if manual_filter.strip() else None
+        except json.JSONDecodeError:
+            st.error("Invalid JSON filter format")
+            filter_dict = None
+    else:        # Show quick filter options
+        intent_options = [
+            "None",
+            "claim_process",
+            "case_status",
+            "document_request",
+            "technical_support",
+            "general_info"
+        ]
+        selected_intent = st.selectbox(
+            "Filter by Intent", 
+            intent_options
+        )
+        if selected_intent != "None":
+            filter_dict = {"intent": {"$eq": selected_intent}}
+        else:
+            filter_dict = None
+            
+    # Show the current filter
+    if filter_dict:
+        st.markdown("**Active Filter:**")
+        st.json(filter_dict)
 
 if st.button("Search") and query:
     with st.spinner("Searching..."):
         if search_type == "Dense":
             st.write("### Dense Search Results")
-            result = search_query(query, top_k=top_k)
+            result = search_query(query, top_k=top_k, filter=filter_dict)
             if result:
                 st.markdown(f"**LLM Answer:**\n{result['answer']}")
                 st.markdown(f"_Search Time: {result['search_time']:.2f} seconds_")
@@ -47,7 +91,7 @@ if st.button("Search") and query:
                 st.info("No results found.")
         else:
             st.write("### Hybrid Search Results")
-            result = hybrid_search(query, top_k=top_k)
+            result = hybrid_search(query, top_k=top_k, filter=filter_dict)
             if result:
                 st.markdown(f"**LLM Answer (Top Result):**\n{result.get('answer', '')}")
                 st.markdown(f"**Time Taken:** {result.get('time_complexity', '')}")

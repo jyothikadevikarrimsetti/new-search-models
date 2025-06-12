@@ -51,16 +51,17 @@ def extract_metadata(text):
     prompt = f"Summarize this text in 2-3 lines:\n\n{text[:2000]}"
     summary = client.chat.completions.create(
         model=deployment,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.5,
+        messages=[{"role": "user", "content": summary_prompt.format(text=text[:2000])}],
+        temperature=0.3,
         max_tokens=256
-    ).choices[0].message.content.strip()
-
+    ).choices[0].message.content.strip()    # 6. Structure the metadata for flexible filtering
     return {
-        # "filename": .name,
         "keywords": keywords,
-        "intent": intent_labels[best_idx],
-        "entities": named_entities,
+        "intent": detected_intent,
+        "intent_confidence": intent_confidence,
+        "entities": [e['text'] for e in entities],
+        "entity_types": list(set(e['type'] for e in entities)),
+        "entity_details": entities,
         "summary": summary,
         "embedding": doc_emb,
         "text": text  # <-- Store full text for BM25/hybrid search

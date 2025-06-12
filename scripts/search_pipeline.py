@@ -35,6 +35,18 @@ def get_openai_embedding(text):
 
 def search_query(query_text, top_k=3, metadata_filter=None):
     print("[Dense Search Pipeline]")
+    
+    # Generate automatic filter from query unless manual filter provided
+    query_filter = generate_filter(query_text) if not filter else None
+    
+    # Combine manual and automatic filters if both present
+    if filter and query_filter:
+        combined_filter = combine_filters([filter, query_filter])
+    else:
+        combined_filter = filter or query_filter
+        
+    print(f"[Dense Search Pipeline] Using filter: {combined_filter}")
+    
     start_time = time.time()
     query_embedding = get_openai_embedding(query_text)
     pinecone_query_kwargs = {
