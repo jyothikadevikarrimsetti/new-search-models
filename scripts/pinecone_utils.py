@@ -20,7 +20,7 @@ if index_name in pc.list_indexes().names():
 else:
      pc.create_index(
         name=index_name,
-        dimension=768,  # your dense vector dimension
+        dimension=1536,  # your dense vector dimension
         metric="dotproduct",  # required for hybrid
         spec=ServerlessSpec(
             cloud="aws",

@@ -1,12 +1,11 @@
 import json
-from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline, AutoTokenizer, AutoModelForTokenClassification
 from keybert import KeyBERT
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 import os
+import numpy as np
 
-embedding_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
     "ner",
@@ -27,12 +26,24 @@ with open("data/intent_categories/intent_examples.json", "r", encoding="utf-8") 
 
 intent_labels = list(intent_examples.keys())
 intent_texts = list(intent_examples.values())
-intent_embs = embedding_model.encode(intent_texts, convert_to_tensor=True)
+
+def get_openai_embedding(text):
+    response = client.embeddings.create(
+        model="text-embedding-3-small",
+        input=text
+    )
+    return response.data[0].embedding
+
+intent_embs = [get_openai_embedding(t) for t in intent_texts]
 
 def extract_metadata(text):
-    doc_emb = embedding_model.encode(text, convert_to_tensor=True)
-    intent_scores = util.cos_sim(doc_emb, intent_embs)[0]
-    best_idx = int(intent_scores.argmax())
+    doc_emb = get_openai_embedding(text)
+    # Compute cosine similarity with all intent embeddings
+    def cosine_sim(a, b):
+        a, b = np.array(a), np.array(b)
+        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+    intent_scores = [cosine_sim(doc_emb, emb) for emb in intent_embs]
+    best_idx = int(np.argmax(intent_scores))
 
     keywords = [kw for kw, _ in keyword_model.extract_keywords(text, top_n=10)]
     named_entities = [ent['word'] for ent in ner_pipeline(text)]
@@ -51,6 +62,6 @@ def extract_metadata(text):
         "intent": intent_labels[best_idx],
         "entities": named_entities,
         "summary": summary,
-        "embedding": doc_emb.tolist(),
+        "embedding": doc_emb,
         "text": text  # <-- Store full text for BM25/hybrid search
     }

@@ -73,7 +73,7 @@ for pdf_file in pdf_iter:
 # ------------------------------------------------------------------ #
 # 3.  Persist updated hashes                                         #
 # ------------------------------------------------------------------ #
-with open(HASH_STORE, "w") as fh:
+with open(HASH_STORE, "w") as fh:  
     json.dump(stored_hashes, fh, indent=2)
 
 # ------------------------------------------------------------------ #

@@ -1,5 +1,4 @@
 from scripts.pinecone_utils import index
-from sentence_transformers import SentenceTransformer, util
 from dotenv import load_dotenv
 import os
 import time
@@ -18,20 +17,34 @@ client = AzureOpenAI(
 )
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
-# Load the embedding model
-model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+# Use OpenAI's text-embedding-3-small model for dense embeddings
+from openai import AzureOpenAI
+
+# Replace SentenceTransformer with OpenAI embedding model
+embedding_model = None  # Not used
 
 
 
-def search_query(query_text, top_k=3):
+def get_openai_embedding(text):
+    response = client.embeddings.create(
+        model="text-embedding-3-small",
+        input=text
+    )
+    return response.data[0].embedding
+
+
+def search_query(query_text, top_k=3, metadata_filter=None):
     print("[Dense Search Pipeline]")
     start_time = time.time()
-    query_embedding = model.encode(query_text, convert_to_tensor=True)
-    pinecone_result = index.query(
-        vector=query_embedding.tolist(),
-        top_k=top_k,
-        include_metadata=True
-    )
+    query_embedding = get_openai_embedding(query_text)
+    pinecone_query_kwargs = {
+        "vector": query_embedding,
+        "top_k": top_k,
+        "include_metadata": True
+    }
+    if metadata_filter:
+        pinecone_query_kwargs["filter"] = metadata_filter
+    pinecone_result = index.query(**pinecone_query_kwargs)
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
     filenames = [match.id for match in pinecone_result.matches]
     relevance_scores = [match.score for match in pinecone_result.matches]
@@ -40,11 +53,19 @@ def search_query(query_text, top_k=3):
         (match.metadata.get("summary", "") + "\n" + match.metadata.get("text", ""))
         for match in pinecone_result.matches
     ]
-    summary_embeddings = model.encode(rerank_texts, convert_to_tensor=True)
-    cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0] if rerank_texts else []
+    if rerank_texts:
+        rerank_embeddings = [get_openai_embedding(text) for text in rerank_texts]
+        # Compute cosine similarity manually
+        import numpy as np
+        def cosine_sim(a, b):
+            a, b = np.array(a), np.array(b)
+            return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+        cosine_scores = [cosine_sim(query_embedding, emb) for emb in rerank_embeddings]
+    else:
+        cosine_scores = []
     # Sort by rerank score
     reranked = sorted(
-        zip(filenames, summaries, relevance_scores, cosine_scores.tolist()),
+        zip(filenames, summaries, relevance_scores, cosine_scores),
         key=lambda x: x[3], reverse=True
     )
     elapsed = time.time() - start_time
@@ -62,12 +83,16 @@ def search_query(query_text, top_k=3):
         answer = "No relevant document found."
     # Prepare results for UI
     results = []
-    for i, (fname, summary, rel_score, rerank_score) in enumerate(reranked):
+    for i, (fname, summary, rel_score, rerank_score, match) in enumerate(
+            zip(filenames, summaries, relevance_scores, cosine_scores, pinecone_result.matches)):
         results.append({
             "document_name": fname,
             "summary": summary,
             "pinecone_score": rel_score,
-            "rerank_score": rerank_score
+            "rerank_score": rerank_score,
+            "intent": match.metadata.get("intent", "[not present]"),
+            "entities": match.metadata.get("entities", "[not present]"),
+            "keywords": match.metadata.get("keywords", "[not present]")
         })
     return {"answer": answer, "results": results, "search_time": elapsed}
 
@@ -85,26 +110,35 @@ def get_splade_encoder_for_query():
 
 
 # Hybrid search function combining dense and sparse retrieval
-def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", alpha: float = 0.5, filter: dict = None):
+def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", alpha: float = 0.5, metadata_filter: dict = None):
     print("[Local Hybrid Search Pipeline - SPLADE rerank]")
     start_time = time.time()
     query_lower = query.lower()
-    query_embedding = model.encode(query_lower, convert_to_tensor=True)
-
-    # 1. Dense search with Pinecone
-    pinecone_result = index.query(
-        vector=query_embedding.tolist(),
-        top_k=top_k*3,  # get more for reranking
-        namespace=namespace,
-        include_metadata=True,
-        filter=filter
-    )
+    query_embedding = get_openai_embedding(query_lower)
+    pinecone_query_kwargs = {
+        "vector": query_embedding,
+        "top_k": top_k*3,  # get more for reranking
+        "namespace": namespace,
+        "include_metadata": True
+    }
+    if metadata_filter:
+        pinecone_query_kwargs["filter"] = metadata_filter
+    pinecone_result = index.query(**pinecone_query_kwargs)
 
     # 2. Locally rerank with SPLADE sparse vectors
     splade = get_splade_encoder_for_query()
     sparse_query_vector = splade.encode_queries([query_lower])[0]
 
     doc_texts = [match.metadata.get("text", "") for match in pinecone_result.matches]
+    if not doc_texts:
+        return {
+            "document_name": None,
+            "answer": "No relevant document found.",
+            "time_complexity": f"{time.time() - start_time:.2f} seconds",
+            "reranking_score": None,
+            "summary": None,
+            "results": []
+        }
     doc_sparse_vecs = splade.encode_documents([t.lower() for t in doc_texts])
 
     # Compute sparse (SPLADE) score: dot product between query and doc sparse vectors
@@ -127,8 +161,12 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
         for match in pinecone_result.matches
     ]
     if rerank_texts:
-        summary_embeddings = model.encode(rerank_texts, convert_to_tensor=True)
-        cosine_scores = util.cos_sim(query_embedding, summary_embeddings)[0].tolist()
+        rerank_embeddings = [get_openai_embedding(text) for text in rerank_texts]
+        import numpy as np
+        def cosine_sim(a, b):
+            a, b = np.array(a), np.array(b)
+            return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+        cosine_scores = [cosine_sim(query_embedding, emb) for emb in rerank_embeddings]
     else:
         cosine_scores = []
 
@@ -155,13 +193,17 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
 
     # Prepare top-k results for UI
     results = []
-    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score) in enumerate(reranked):
+    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score, match) in enumerate(
+            zip(filenames, summaries, relevance_scores, cosine_scores, sparse_scores, hybrid_scores, pinecone_result.matches)):
         results.append({
             "document_name": fname,
             "summary": summary,
             "reranking_score": hybrid_score,
             "dense_score": dense_score,
             "sparse_score": sparse_score_val,
+            "intent": match.metadata.get("intent", "[not present]"),
+            "entities": match.metadata.get("entities", "[not present]"),
+            "keywords": match.metadata.get("keywords", "[not present]")
         })
     # Return top result's answer and all top-k results for UI
     return {

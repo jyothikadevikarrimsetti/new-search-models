@@ -9,3 +9,6 @@ transformers
 pdf2image
 pytesseract
 streamlit
+fastapi
+pydantic
+numpy
