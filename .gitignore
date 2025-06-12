@@ -2,3 +2,8 @@ config
 search_env
 *.pdf
 *.txt
+data/output_data
+data/chunks
+data/processed_data
+data/processed_data.json
+data/input_pdf_data
