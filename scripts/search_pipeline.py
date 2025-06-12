@@ -23,15 +23,40 @@ model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 
 
-def search_query(query_text, top_k=3):
+from scripts.filter_utils import generate_filter, combine_filters
+
+def search_query(query_text, top_k=3, filter: dict = None):
+    """
+    Perform dense retrieval search with metadata filtering.
+    
+    Args:
+        query_text: The query string
+        top_k: Number of results to return
+        filter: Optional manual filter dict. If provided, will be combined with 
+               automatic filter generated from query.
+    """
     print("[Dense Search Pipeline]")
+    
+    # Generate automatic filter from query unless manual filter provided
+    query_filter = generate_filter(query_text) if not filter else None
+    
+    # Combine manual and automatic filters if both present
+    if filter and query_filter:
+        combined_filter = combine_filters([filter, query_filter])
+    else:
+        combined_filter = filter or query_filter
+        
+    print(f"[Dense Search Pipeline] Using filter: {combined_filter}")
+    
     start_time = time.time()
     query_embedding = model.encode(query_text, convert_to_tensor=True)
     pinecone_result = index.query(
         vector=query_embedding.tolist(),
         top_k=top_k,
-        include_metadata=True
+        include_metadata=True,
+        filter=combined_filter
     )
+    print(f"[Dense Search Pipeline] Pinecone returned {len(pinecone_result.matches)} matches.")
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
     filenames = [match.id for match in pinecone_result.matches]
     relevance_scores = [match.score for match in pinecone_result.matches]
@@ -86,7 +111,30 @@ def get_splade_encoder_for_query():
 
 # Hybrid search function combining dense and sparse retrieval
 def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", alpha: float = 0.5, filter: dict = None):
-    print("[Local Hybrid Search Pipeline - SPLADE rerank]")
+    """
+    Perform hybrid dense + sparse search with metadata filtering.
+    
+    Args:
+        query: The query string
+        top_k: Number of results to return
+        namespace: Pinecone namespace
+        alpha: Weight for dense scores (1-alpha for sparse scores) 
+        filter: Optional manual filter dict. If provided, will be combined with
+               automatic filter generated from query.
+    """
+    print(f"[Local Hybrid Search Pipeline - SPLADE rerank]")
+    
+    # Generate automatic filter from query unless manual filter provided
+    query_filter = generate_filter(query) if not filter else None
+    
+    # Combine manual and automatic filters if both present
+    if filter and query_filter:
+        combined_filter = combine_filters([filter, query_filter]) 
+    else:
+        combined_filter = filter or query_filter
+        
+    print(f"[Local Hybrid Search Pipeline - SPLADE rerank] Using filter: {combined_filter}")
+    
     start_time = time.time()
     query_lower = query.lower()
     query_embedding = model.encode(query_lower, convert_to_tensor=True)
@@ -97,8 +145,9 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
         top_k=top_k*3,  # get more for reranking
         namespace=namespace,
         include_metadata=True,
-        filter=filter
+        filter=combined_filter
     )
+    print(f"[Hybrid Search Pipeline] Pinecone returned {len(pinecone_result.matches)} matches.")
 
     # 2. Locally rerank with SPLADE sparse vectors
     splade = get_splade_encoder_for_query()

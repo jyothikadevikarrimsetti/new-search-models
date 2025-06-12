@@ -99,6 +99,10 @@ for txt_file in Path(CHUNKS).glob("*.txt"):
     else:
         if not pinecone_vector_exists(stem):
             need_upsert.add(stem)
+        # Print metadata for debugging
+        with open(json_path, "r", encoding="utf-8") as fh:
+            meta_dbg = json.load(fh)
+        print(f"[DEBUG] Metadata for {stem}: {json.dumps(meta_dbg, ensure_ascii=False)}")
 
 # ------------------------------------------------------------------ #
 # 5.  Ensure metadata JSON exists for everything in need_upsert      #
@@ -141,9 +145,20 @@ else:
 # 8.  Interactive query                                              #
 # ------------------------------------------------------------------ #
 user_question = input("❓ Enter your question: ")
-search_query(user_question, top_k=1)
-# results =
-hybrid_search(user_question, top_k=1)
+
+# Prompt user for metadata filter (optional)
+filter_str = input("Enter metadata filter as JSON (or leave blank for no filter): ")
+if filter_str.strip():
+    try:
+        user_filter = json.loads(filter_str)
+    except Exception as e:
+        print(f"Invalid filter JSON: {e}")
+        user_filter = None
+else:
+    user_filter = None
+
+search_query(user_question, top_k=1, filter=user_filter)
+results = hybrid_search(user_question, top_k=1, filter=user_filter)
 
 # for match in results:
 #     print(f"Score: {match['score']}, Metadata: {match['metadata']}")
