@@ -43,7 +43,7 @@ def upsert_to_pinecone(
                 {
                     "id": vector_id,
                     "values": dense_vec,
-                    "sparse_values": sparse_vec,
+                    # "sparse_values": sparse_vec,
                     "metadata": {
                         "keywords": ", ".join(data.get("keywords", [])),
                         "entities": ", ".join(data.get("entities", [])),

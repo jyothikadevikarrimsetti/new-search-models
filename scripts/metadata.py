@@ -63,12 +63,11 @@ def extract_metadata(text):
             })
 
     # Generate summary
-    summary_prompt = """Analyze and summarize this text. Extract:
-    1. Main topic/subject (1 sentence)
-    2. Key points (2-3 bullets)
-    3. Any dates, numbers, or identifiers mentioned
-
-    Text: {text}"""
+    summary_prompt = (
+    "Summarize the following text in 1-2 sentences. "
+    "Be extremely concise and do not include bullets or extra details. "
+    "Text: {text}"
+)
     
     summary = client.chat.completions.create(
         model=deployment,

@@ -44,7 +44,7 @@ def get_openai_embedding(text):
 
 def search_query(query_text, top_k=3, metadata_filter=None):
     print("[Dense Search Pipeline]")
-      # Generate automatic filter from query unless manual filter provided
+    # Generate automatic filter from query unless manual filter provided
     query_filter = generate_filter(query_text) if not metadata_filter else None
     
     # Combine manual and automatic filters if both present
@@ -108,13 +108,20 @@ def search_query(query_text, top_k=3, metadata_filter=None):
         results.append({
             "document_name": fname,
             "summary": summary,
-            "pinecone_score": rel_score,
-            "rerank_score": rerank_score,
+            "reranking_score": rerank_score,
             "intent": match.metadata.get("intent", "[not present]"),
             "entities": match.metadata.get("entities", "[not present]"),
             "keywords": match.metadata.get("keywords", "[not present]")
         })
-    return {"answer": answer, "results": results, "search_time": elapsed}
+    # Return only the top result's doc name, answer, time, and reranking score
+    top_doc = results[0] if results else {}
+    return {
+        "document_name": top_doc.get("document_name"),
+        "answer": answer,
+        "time_taken": elapsed,
+        "reranking_score": top_doc.get("reranking_score"),
+        "results": results
+    }
 
 
 # --- SPLADEEncoder cache for efficiency ---
@@ -236,12 +243,12 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
             "entities": match.metadata.get("entities", "[not present]"),
             "keywords": match.metadata.get("keywords", "[not present]")
         })
-    # Return top result's answer and all top-k results for UI
+    # Return only the top result's doc name, answer, time, and reranking score
+    top_doc = results[0] if results else {}
     return {
-        "document_name": reranked[0][0] if reranked else None,
+        "document_name": top_doc.get("document_name"),
         "answer": answer,
-        "time_complexity": f"{elapsed:.2f} seconds",
-        "reranking_score": reranked[0][5] if reranked else None,
-        "summary": reranked[0][1] if reranked else None,
+        "time_taken": elapsed,
+        "reranking_score": top_doc.get("reranking_score"),
         "results": results
     }
