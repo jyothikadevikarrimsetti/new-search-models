@@ -13,10 +13,110 @@
   ],
   "intent": "general_info",
   "intent_confidence": 0.4079670421344415,
-  "entities": [],
-  "entity_types": [],
-  "entity_details": [],
-  "summary": "The court emphasized that the law of limitation is substantial and must be strictly followed, requiring valid, convincing reasons for exercising discretionary powers, and dismissed the petition due to an unexplained delay of 2,540 days in filing the appeal.",
+  "entities": [
+    "speaki",
+    "indexy",
+    "inde",
+    "spea",
+    "yes",
+    "kak index",
+    "indexye",
+    "ind",
+    "spe",
+    "speakin",
+    "speak",
+    "kak",
+    "index",
+    "yes speaking",
+    "indexyes",
+    "speaking"
+  ],
+  "entity_types": [
+    "PER"
+  ],
+  "entity_details": [
+    {
+      "text": "speaki",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexy",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "inde",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spea",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kak index",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexye",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ind",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speakin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "index",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes speaking",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexyes",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speaking",
+      "type": "PER",
+      "score": 0.95
+    }
+  ],
+  "summary": "The court dismissed the petition due to an unexplained delay of 2,540 days, emphasizing that discretionary powers must be exercised cautiously and with valid, convincing reasons, especially in matters governed by the substantial law of limitation.",
   "embedding": [
     0.01742391288280487,
     0.019716894254088402,

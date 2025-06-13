@@ -18,11 +18,98 @@
     "lanka venkateswarlu d",
     "lrs",
     "ble supreme court",
-    "m balakrishnan"
+    "m balakrishnan",
+    "venk",
+    "lanka venkate",
+    "lanka",
+    "lanka venkateswarlu ",
+    "balakrishn",
+    "balakri",
+    "damocle",
+    "m b",
+    "m balakr",
+    "balakrishnan",
+    "m balakri",
+    "lanka venk",
+    "m balakris",
+    "m bal",
+    "ven",
+    "lanka venkateswar",
+    "balak",
+    "m ba",
+    "m balakrishn",
+    "venkat",
+    "lanka ven",
+    "lan",
+    "venkateswar",
+    "balakrishna",
+    "m bala",
+    "lanka venka",
+    "lanka venkateswarl",
+    "lanka venkat",
+    "venkatesw",
+    "venkate",
+    "m balak",
+    "m balakrish",
+    "bala",
+    "lanka venkateswarlu",
+    "m",
+    "lanka venkates",
+    "venkateswa",
+    "d",
+    "venkateswarlu",
+    "lanka venkatesw",
+    "damo",
+    "balakrish",
+    "lanka v",
+    "damoc",
+    "lanka venkateswa",
+    "venkateswarl",
+    "balakris",
+    "venkates",
+    "lank",
+    "dam",
+    "lanka ve",
+    "balakr",
+    "bal",
+    "venka",
+    "m balakrishna",
+    "damocl",
+    "lanka ",
+    "cour",
+    "supreme",
+    "sup",
+    "divisi",
+    "court",
+    "the",
+    "ben",
+    "divi",
+    "supre",
+    "bench",
+    "div",
+    "division",
+    "suprem",
+    "honb",
+    "divis",
+    "the division bench",
+    "supr",
+    "stat",
+    "honble",
+    "cou",
+    "hon",
+    "honble supreme court",
+    "rs vs state",
+    "rs",
+    "vs",
+    "honbl",
+    "sta",
+    "state",
+    "divisio",
+    "benc"
   ],
   "entity_types": [
-    "PER",
-    "ORG"
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -49,9 +136,444 @@
       "text": "m balakrishnan",
       "type": "PER",
       "score": 0.997930645942688
+    },
+    {
+      "text": "venk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkate",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarlu ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damocle",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishnan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ven",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m ba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka ven",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkatesw",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkate",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarlu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkates",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "d",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswarlu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkatesw",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka v",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damoc",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswarl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkates",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lank",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka ve",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damocl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honb",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "stat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rs vs state",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honbl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sta",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "state",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "benc",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "Courts emphasize a liberal approach in condoning delays unless there is a lack of bona fides or an attempt to mislead the court, balancing public policy and equity while avoiding a mechanical approach, especially for significant delays.",
+  "summary": "Courts emphasize a liberal approach in condoning delays unless there is a lack of bona fides or intent to mislead, balancing public policy, equity, and the need to avoid mechanical decisions, particularly in cases of significant delay.",
   "embedding": [
     0.04756597429513931,
     0.012934035621583462,

@@ -13,10 +13,44 @@
   ],
   "intent": "general_info",
   "intent_confidence": 0.3195345810158366,
-  "entities": [],
-  "entity_types": [],
-  "entity_details": [],
-  "summary": "Courts must differentiate between significant and minor delays, applying stricter scrutiny to the former while adopting a liberal approach to the latter, and should carefully evaluate the conduct, explanations, and facts presented, ensuring justice without enabling misuse of legal technicalities.",
+  "entities": [
+    "stat",
+    "sta",
+    "state",
+    "the state",
+    "the"
+  ],
+  "entity_types": [
+    "PER"
+  ],
+  "entity_details": [
+    {
+      "text": "stat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sta",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "state",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the state",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    }
+  ],
+  "summary": "Courts must differentiate between inordinate and short delays, applying strict scrutiny to the former and a liberal approach to the latter, while ensuring explanations are genuine and weighing justice for both parties without tolerating fraud or negligence. Judicial discretion should be objective, and entities representing collective causes may be granted reasonable latitude.",
   "embedding": [
     0.033629562705755234,
     0.030562281608581543,

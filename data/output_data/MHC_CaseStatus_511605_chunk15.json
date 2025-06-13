@@ -13,10 +13,50 @@
   ],
   "intent": "general_info",
   "intent_confidence": 0.42004717400245983,
-  "entities": [],
-  "entity_types": [],
-  "entity_details": [],
-  "summary": "The court criticized the lack of diligence and plausible explanation for delays in filing a special leave petition, emphasizing that the government cannot expect automatic condonation of delay without demonstrating genuine effort or unavoidable circumstances.",
+  "entities": [
+    "cour",
+    "they",
+    "court they",
+    "court",
+    "cou",
+    "the"
+  ],
+  "entity_types": [
+    "PER"
+  ],
+  "entity_details": [
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "they",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court they",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    }
+  ],
+  "summary": "The court criticized the Department for its lack of diligence and failure to provide a plausible explanation for delays in filing a special leave petition, emphasizing that the delay cannot be condoned solely because the government is involved.",
   "embedding": [
     0.05173252522945404,
     0.031319547444581985,

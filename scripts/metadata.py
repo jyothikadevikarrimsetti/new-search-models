@@ -5,6 +5,7 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 import os
 import numpy as np
+import re
 
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
@@ -36,6 +37,35 @@ def get_openai_embedding(text):
 
 intent_embs = [get_openai_embedding(t) for t in intent_texts]
 
+def extract_names_regex(text):
+    # Regex for names: capitalized words, possibly with middle initials, dots, underscores, etc.
+    # Also handle all-caps names and multi-part names
+    name_patterns = [
+        r'([A-Z][a-z]+(?: [A-Z][a-z]+)+)',  # John Smith, Jimson Ratnam
+        r'([A-Z][a-z]+_[A-Z][a-z]+)',      # John_Smith
+        r'([A-Z][a-z]+\.[A-Z][a-z]+)',    # John.Smith
+        r'([A-Z][a-z]+[A-Z][a-z]+)',       # JohnSmith (camel case)
+        r'([A-Z]{2,}(?: [A-Z]{2,})+)',     # ALL CAPS NAMES: JIMSON RATNAM
+    ]
+    found = set()
+    for pat in name_patterns:
+        for match in re.findall(pat, text):
+            found.add(match.strip().lower())
+    # Also split all found names into parts (space, underscore, dot)
+    parts = set()
+    for name in found:
+        for part in re.split(r'[ _\.]', name):
+            if part and len(part) > 1:
+                parts.add(part.lower())
+        # Add all substrings (prefixes of length >= 3) for each part
+        for part in re.split(r'[ _\.]', name):
+            part = part.lower()
+            for i in range(3, len(part)):
+                substr = part[:i]
+                if len(substr) >= 3:
+                    parts.add(substr)
+    return list(found | parts)
+
 def extract_metadata(text):
     doc_emb = get_openai_embedding(text)
     # Compute cosine similarity with all intent embeddings
@@ -52,15 +82,38 @@ def extract_metadata(text):
     keywords_with_scores = keyword_model.extract_keywords(text, top_n=10)
     keywords = [kw for kw, _ in keywords_with_scores]
 
-    # Get named entities with details
+    # Get named entities with details (NER)
     entities = []
     for ent in ner_pipeline(text[:5000]):  # Limit text length for NER
-        if ent['score'] > 0.8:  # Only keep high confidence entities
+        if ent['score'] > 0.8:
             entities.append({
-                'text': ent['word'].strip().lower(),  # Normalize entity text
+                'text': ent['word'].strip().lower(),
                 'type': ent['entity_group'],
                 'score': float(ent['score'])
             })
+    # Add split name parts for PERSON entities (space, underscore, dot, camel case)
+    extra_entities = set()
+    for ent in entities:
+        if ent['type'] == 'PER':
+            parts = re.split(r'[ _\.]', ent['text'])
+            camel_parts = re.findall(r'[A-Za-z][^A-Z]*', ent['text'])
+            for part in parts + camel_parts:
+                part = part.lower()
+                if part and part not in [e['text'] for e in entities]:
+                    extra_entities.add(part)
+                # Add all substrings (prefixes of length >= 3) for each part
+                for i in range(3, len(part)):
+                    substr = part[:i]
+                    if len(substr) >= 3 and substr not in [e['text'] for e in entities]:
+                        extra_entities.add(substr)
+    for part in extra_entities:
+        entities.append({'text': part, 'type': 'PER', 'score': 1.0})
+
+    # --- Hybrid: Regex-based name extraction ---
+    regex_names = extract_names_regex(text)
+    for name in regex_names:
+        if name not in [e['text'] for e in entities]:
+            entities.append({'text': name, 'type': 'PER', 'score': 0.95})
 
     # Generate summary
     summary_prompt = (
@@ -68,7 +121,6 @@ def extract_metadata(text):
     "Be extremely concise and do not include bullets or extra details. "
     "Text: {text}"
 )
-    
     summary = client.chat.completions.create(
         model=deployment,
         messages=[{"role": "user", "content": summary_prompt.format(text=text[:2000])}],
@@ -79,7 +131,7 @@ def extract_metadata(text):
         "keywords": keywords,
         "intent": detected_intent,
         "intent_confidence": intent_confidence,
-        "entities": [e['text'] for e in entities],  # Already normalized
+        "entities": [e['text'] for e in entities],
         "entity_types": list(set(e['type'] for e in entities)),
         "entity_details": entities,
         "summary": summary,

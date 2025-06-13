@@ -16,10 +16,104 @@
   "entities": [
     "living media india limited",
     "supreme court",
-    "supreme court"
+    "supreme court",
+    "supreme",
+    "honourable supreme court",
+    "hono",
+    "peti",
+    "sup",
+    "respondent",
+    "limit",
+    "execution petition",
+    "court",
+    "liv",
+    "supre",
+    "general",
+    "civil",
+    "limi",
+    "gener",
+    "limite",
+    "respo",
+    "on",
+    "lea",
+    "honour",
+    "honoura",
+    "postmast",
+    "indi",
+    "responde",
+    "revisio",
+    "execut",
+    "petitions",
+    "respondents",
+    "supr",
+    "res",
+    "gene",
+    "honourab",
+    "hon",
+    "postmaste",
+    "respondents on",
+    "exec",
+    "exe",
+    "honourable",
+    "ind",
+    "gen",
+    "special",
+    "petiti",
+    "resp",
+    "honourabl",
+    "postm",
+    "revision",
+    "petition",
+    "india",
+    "cour",
+    "living",
+    "leav",
+    "specia",
+    "respon",
+    "responden",
+    "in postmaster general",
+    "execu",
+    "petit",
+    "suprem",
+    "executi",
+    "genera",
+    "speci",
+    "pos",
+    "pet",
+    "in",
+    "execution",
+    "revisi",
+    "media",
+    "execution petitions",
+    "honou",
+    "postmas",
+    "cou",
+    "civ",
+    "petitio",
+    "postmaster",
+    "respond",
+    "med",
+    "spec",
+    "executio",
+    "civil revision petition",
+    "revis",
+    "leave",
+    "spe",
+    "special leave petition",
+    "lim",
+    "revi",
+    "rev",
+    "postma",
+    "livi",
+    "medi",
+    "post",
+    "livin",
+    "limited",
+    "civi"
   ],
   "entity_types": [
-    "ORG"
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -36,9 +130,474 @@
       "text": "supreme court",
       "type": "ORG",
       "score": 0.9971789121627808
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "peti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respondent",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "liv",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "general",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "gener",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limite",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "on",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lea",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honoura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmast",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "responde",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "revisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitions",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respondents",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "res",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "gene",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmaste",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respondents on",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ind",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "gen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "special",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "resp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "revision",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "india",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "living",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "leav",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "specia",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "responden",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in postmaster general",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "genera",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speci",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pet",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "revisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "media",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution petitions",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmas",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmaster",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respond",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "med",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civil revision petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "revis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "leave",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "special leave petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lim",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "revi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rev",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postma",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "livi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "medi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "post",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "livin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civi",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The court dismissed the petitioner's request to condone a 1581-day delay in representing an application to set aside an ex parte decree, citing insufficient explanation for the delay and deeming the petition an abuse of legal process that would unjustly affect the respondents.",
+  "summary": "The court dismissed the petitioner's request to condone a 1581-day delay in representing an application to set aside an ex parte decree, citing lack of satisfactory explanation, abuse of legal process, and the need to uphold substantial justice for the respondents.",
   "embedding": [
     0.023190952837467194,
     0.01646912842988968,

@@ -14,7 +14,23 @@
   "intent": "general_info",
   "intent_confidence": 0.35216363296459335,
   "entities": [
-    "damocles"
+    "damocles",
+    "damoc",
+    "dam",
+    "damocle",
+    "damocl",
+    "damo",
+    "ben",
+    "divi",
+    "the division bench",
+    "bench",
+    "the",
+    "div",
+    "division",
+    "divisi",
+    "divisio",
+    "benc",
+    "divis"
   ],
   "entity_types": [
     "PER"
@@ -24,9 +40,89 @@
       "text": "damocles",
       "type": "PER",
       "score": 0.9302166104316711
+    },
+    {
+      "text": "damoc",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damocle",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damocl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "damo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "benc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The court emphasized that limitation rules are grounded in public policy and equity, and while a liberal approach may be taken for condoning delays, no leniency should be shown if the delay results from a lack of bona fides or deliberate misconduct by the party seeking condonation.",
+  "summary": "The text emphasizes that rules of limitation are rooted in public policy and equity, and courts should adopt a liberal approach to condonation of delay unless there is evidence of bad faith or deliberate misconduct by the party seeking relief.",
   "embedding": [
     0.038764145225286484,
     0.014299950562417507,

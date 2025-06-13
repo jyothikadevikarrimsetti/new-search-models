@@ -37,8 +37,7 @@ class Result():
         self.search_time = search_time
         self.reranking_score = reranking_score
 
-MIN_RERANK_SCORE = 0.5  # Minimum score for a result to be considered relevant
-
+MIN_RERANK_SCORE = 0.15  # Lowered threshold for more results
 @app.post("/search/dense", tags=["search"])
 def dense_search(request: DenseSearchRequest):
     try:

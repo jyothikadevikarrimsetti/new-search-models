@@ -15,7 +15,29 @@
   "intent_confidence": 0.32636268547578207,
   "entities": [
     "g jayaraman",
-    "devarajan"
+    "devarajan",
+    "devaraja",
+    "g jay",
+    "devaraj",
+    "jayara",
+    "g jayarama",
+    "g jayaram",
+    "g j",
+    "jayaraman",
+    "g jayar",
+    "deva",
+    "g",
+    "g ja",
+    "g jaya",
+    "dev",
+    "devar",
+    "jayaram",
+    "devara",
+    "jay",
+    "g jayara",
+    "jayar",
+    "jaya",
+    "jayarama"
   ],
   "entity_types": [
     "PER"
@@ -30,9 +52,119 @@
       "text": "devarajan",
       "type": "PER",
       "score": 0.9983730316162109
+    },
+    {
+      "text": "devaraja",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jay",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "devaraj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jayara",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jayarama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jayaram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g j",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jayaraman",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jayar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "deva",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ja",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jaya",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dev",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "devar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jayaram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "devara",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jay",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g jayara",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jayar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jaya",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "jayarama",
+      "type": "PER",
+      "score": 1.0
     }
   ],
-  "summary": "Courts should condone delays only when the party demonstrates genuine reasons for the delay, ensuring no deliberate misconduct, and must balance this with compensating any prejudice caused to the opposing party, exercising discretion cautiously and not arbitrarily.",
+  "summary": "Courts should condone delays only when the party provides a genuine explanation, avoiding arbitrary discretion, and ensuring compensation for prejudice caused, while prioritizing substantial justice and protecting the rights of the opposing party.",
   "embedding": [
     0.03204810619354248,
     0.019755173474550247,

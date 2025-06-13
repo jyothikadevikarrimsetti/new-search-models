@@ -16,11 +16,53 @@
   "entities": [
     "ble supreme court",
     "esha bhattacharjee",
-    "ble apex court"
+    "ble apex court",
+    "bhattachar",
+    "bhattach",
+    "bhatt",
+    "esha bhatt",
+    "esha bhattacha",
+    "bhattacharj",
+    "bhattacharje",
+    "esha ",
+    "esha bhatta",
+    "esha b",
+    "bhattacharjee",
+    "bhattacha",
+    "esha bhat",
+    "esha bhattacharje",
+    "esha bhattac",
+    "bhattac",
+    "esha bhattacharj",
+    "bhat",
+    "esh",
+    "esha",
+    "esha bhattach",
+    "esha bh",
+    "bhatta",
+    "esha bhattachar",
+    "esha bha",
+    "bha",
+    "cour",
+    "supr",
+    "apex",
+    "supreme",
+    "honble",
+    "cou",
+    "sup",
+    "hon",
+    "ape",
+    "court",
+    "honble supreme court",
+    "supre",
+    "honble apex court",
+    "suprem",
+    "honbl",
+    "honb"
   ],
   "entity_types": [
-    "PER",
-    "ORG"
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -37,9 +79,219 @@
       "text": "ble apex court",
       "type": "ORG",
       "score": 0.837235152721405
+    },
+    {
+      "text": "bhattachar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattach",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhatt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatta",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharjee",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacharje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattac",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattac",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacharj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattach",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhatta",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattachar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "apex",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ape",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble apex court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honbl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honb",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "Applications for condonation of delay must be carefully drafted and evaluated with consistency, avoiding a casual approach, as guided by the Supreme Court in *Esha Bhattacharjee*, which emphasizes balancing liberal and reasonable approaches within the framework of limitation laws.",
+  "summary": "Applications for condonation of delay must be carefully drafted and not treated casually, balancing a liberal, justice-oriented approach with adherence to the substantive law of limitation as emphasized by the Supreme Court in Esha Bhattacharjee.",
   "embedding": [
     0.04600727558135986,
     0.016076046973466873,

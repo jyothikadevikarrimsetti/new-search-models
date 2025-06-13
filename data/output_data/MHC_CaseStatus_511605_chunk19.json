@@ -16,11 +16,128 @@
   "entities": [
     "lln",
     "tamil nadu mercantile bank ltd tuticorin",
-    "m srinivasan"
+    "m srinivasan",
+    "srin",
+    "srinivasan",
+    "srini",
+    "m srin",
+    "m sriniva",
+    "m srinivas",
+    "m",
+    "m s",
+    "m srinivasa",
+    "m sriniv",
+    "sriniv",
+    "srinivas",
+    "sri",
+    "srinivasa",
+    "m sri",
+    "m srini",
+    "sriniva",
+    "m sr",
+    "appella",
+    "anothe",
+    "nadu",
+    "ban",
+    "anoth",
+    "madu",
+    "establishme",
+    "lordsh",
+    "nad",
+    "shops",
+    "the",
+    "tut",
+    "appellat",
+    "ben",
+    "lordshi",
+    "division bench judgment",
+    "div",
+    "jus",
+    "mer",
+    "judgme",
+    "his lordship mr justice",
+    "appell",
+    "merc",
+    "tuti",
+    "tuticori",
+    "act",
+    "shop",
+    "esta",
+    "lord",
+    "tam",
+    "app",
+    "under",
+    "authority",
+    "merca",
+    "authorit",
+    "justi",
+    "mercant",
+    "judgm",
+    "und",
+    "sho",
+    "judgmen",
+    "bank",
+    "unde",
+    "mad",
+    "madur",
+    "mercanti",
+    "divisio",
+    "establ",
+    "establis",
+    "appellate authority under the tamil nadu shops and establishments act madurai and another",
+    "madurai",
+    "auth",
+    "mercantile",
+    "divisi",
+    "establishments",
+    "his",
+    "ano",
+    "establi",
+    "anot",
+    "lordship",
+    "judg",
+    "divi",
+    "bench",
+    "tuticorin",
+    "division",
+    "justic",
+    "tutic",
+    "establishment",
+    "lor",
+    "lords",
+    "justice",
+    "establishm",
+    "tami",
+    "tutico",
+    "divis",
+    "mercan",
+    "and",
+    "mercantil",
+    "estab",
+    "appe",
+    "jud",
+    "tamil",
+    "author",
+    "authori",
+    "mr",
+    "another",
+    "establish",
+    "madura",
+    "ltd",
+    "appel",
+    "autho",
+    "establishmen",
+    "judgment",
+    "just",
+    "est",
+    "tuticor",
+    "aut",
+    "appellate",
+    "benc"
   ],
   "entity_types": [
-    "PER",
-    "ORG"
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -37,9 +154,594 @@
       "text": "m srinivasan",
       "type": "PER",
       "score": 0.9991048574447632
+    },
+    {
+      "text": "srin",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivasan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srini",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m srin",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sriniva",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m srinivas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m s",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sriniv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriniv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m srini",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriniva",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "appella",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "anothe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nadu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ban",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "anoth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordsh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shops",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordshi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "his lordship mr justice",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appell",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "act",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shop",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "esta",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lord",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tam",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "app",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "under",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authority",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merca",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authorit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercant",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "und",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bank",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "unde",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madur",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercanti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellate authority under the tamil nadu shops and establishments act madurai and another",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madurai",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "auth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantile",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishments",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "his",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ano",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "anot",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordship",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judg",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticorin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lords",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justice",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tami",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutico",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "and",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "estab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tamil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "author",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "another",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establish",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ltd",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "autho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "just",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "est",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellate",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "benc",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The determination of \"sufficient cause\" for condoning delays is a matter of judicial discretion based on the acceptability of the explanation, not the length of the delay, and such discretion should not be disturbed unless exercised perversely, with the aim of ensuring justice without enabling dilatory tactics.",
+  "summary": "The determination of \"sufficient cause\" for condoning delays is fact-specific and at the court's discretion, focusing on the acceptability of the explanation rather than the length of the delay, with the aim of ensuring justice without encouraging dilatory tactics or causing undue hardship to either party.",
   "embedding": [
     0.02463664300739765,
     0.022297142073512077,

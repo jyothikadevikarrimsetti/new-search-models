@@ -16,12 +16,37 @@
   "entities": [
     "ramlal",
     "rewa coalfields ltd",
-    "limitation act"
+    "limitation act",
+    "ramla",
+    "raml",
+    "ram",
+    "coalf",
+    "coalfields",
+    "act",
+    "limitatio",
+    "coalfield",
+    "limit",
+    "limitation",
+    "in ramlal",
+    "rew",
+    "coalfiel",
+    "coalfi",
+    "limitat",
+    "coa",
+    "lim",
+    "limi",
+    "ltd",
+    "limitati",
+    "coal",
+    "in",
+    "rewa",
+    "coalfie",
+    "limita"
   ],
   "entity_types": [
+    "ORG",
     "PER",
-    "MISC",
-    "ORG"
+    "MISC"
   ],
   "entity_details": [
     {
@@ -38,9 +63,134 @@
       "text": "limitation act",
       "type": "MISC",
       "score": 0.8699114918708801
+    },
+    {
+      "text": "ramla",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "raml",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "coalf",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coalfields",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "act",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitatio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coalfield",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitation",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in ramlal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rew",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coalfiel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coalfi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lim",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ltd",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rewa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coalfie",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limita",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The law of limitation, rooted in public policy, ensures legal remedies are sought within a fixed timeframe to prevent uncertainty and anarchy, emphasizing prompt action while balancing the rights of both parties.",
+  "summary": "The law of limitation, rooted in public policy, ensures legal remedies are pursued within a fixed timeframe to prevent uncertainty and anarchy, while balancing the rights of both parties and discouraging delays or dilatory tactics.",
   "embedding": [
     0.04272047057747841,
     0.04363274201750755,

@@ -34,13 +34,243 @@
     "sriarumbayal",
     "ramasamy",
     "aadhar card",
-    "aadhar card"
+    "aadhar card",
+    "anandar",
+    "anand",
+    "sriarum",
+    "arump",
+    "balasubrama",
+    "psathe",
+    "psathee",
+    "arumpay",
+    "arunachala",
+    "arun",
+    "sriarumba",
+    "anan",
+    "balasubram",
+    "ramas",
+    "sriarumbaya",
+    "pal",
+    "aru",
+    "psatheesh kum",
+    "ramasam",
+    "sriaru",
+    "kum",
+    "psatheesh kuma",
+    "balasub",
+    "kuma",
+    "psat",
+    "sriarumb",
+    "psa",
+    "thavamall",
+    "palan",
+    "balasu",
+    "palanis",
+    "pala",
+    "psathees",
+    "balas",
+    "sriar",
+    "rme",
+    "sri",
+    "balasubr",
+    "arumpaya",
+    "tha",
+    "aruna",
+    "balasubramani",
+    "thavamalli",
+    "balasubraman",
+    "psatheesh ku",
+    "thavam",
+    "bala",
+    "palanisa",
+    "anandara",
+    "balasubramania",
+    "rama",
+    "balasubra",
+    "palanisam",
+    "arum",
+    "psatheesh",
+    "thavamallig",
+    "palani",
+    "psatheesh ",
+    "psath",
+    "arunachal",
+    "arunacha",
+    "sria",
+    "thava",
+    "thavamal",
+    "ramasa",
+    "arumpa",
+    "rmeen",
+    "thavama",
+    "ana",
+    "ananda",
+    "psatheesh k",
+    "arunach",
+    "rmee",
+    "rmeena",
+    "sriarumbay",
+    "thavamalliga",
+    "arunac",
+    "bal",
+    "ram",
+    "thav",
+    "sathe",
+    "appellants",
+    "ms",
+    "distr",
+    "sat",
+    "cuddal",
+    "cmp",
+    "miscell",
+    "ourabl",
+    "prin",
+    "judicatu",
+    "respo",
+    "prayer cmpn",
+    "satheesh kumar for respondents ms",
+    "coram",
+    "this",
+    "responde",
+    "miscellane",
+    "appell",
+    "procedur",
+    "judi",
+    "civil procedure",
+    "smsubr",
+    "judic",
+    "aadhar",
+    "dat",
+    "sjustic",
+    "princi",
+    "hon",
+    "district",
+    "of",
+    "pri",
+    "cod",
+    "praye",
+    "petiti",
+    "ourab",
+    "cudd",
+    "resp",
+    "misc",
+    "miscellaneou",
+    "mis",
+    "miscella",
+    "sjusti",
+    "madr",
+    "sjustice smsubramaniam cmpn",
+    "procedu",
+    "date",
+    "misce",
+    "judg",
+    "pra",
+    "sjust",
+    "petit",
+    "pray",
+    "pet",
+    "in",
+    "sath",
+    "smsubramani",
+    "pro",
+    "cou",
+    "sms",
+    "civ",
+    "petitio",
+    "jud",
+    "oura",
+    "cora",
+    "ourable",
+    "distric",
+    "smsubramania",
+    "proc",
+    "our",
+    "code",
+    "coram the hon ourable",
+    "civil procedure code",
+    "in the high court of judicature at madras dated",
+    "card",
+    "cudda",
+    "sathees",
+    "vs",
+    "cuddalor",
+    "cuddalo",
+    "this civil miscellaneous petition",
+    "appella",
+    "peti",
+    "smsubrama",
+    "respondent",
+    "judica",
+    "miscellaneo",
+    "sju",
+    "court",
+    "for",
+    "the",
+    "civil",
+    "sathee",
+    "thi",
+    "miscel",
+    "aad",
+    "proced",
+    "aadh",
+    "car",
+    "smsubraman",
+    "respondents",
+    "satheesh",
+    "res",
+    "at",
+    "smsu",
+    "principa",
+    "app",
+    "dis",
+    "distri",
+    "appellant",
+    "smsubram",
+    "high",
+    "mad",
+    "petition",
+    "judicat",
+    "cor",
+    "cour",
+    "dated",
+    "prayer",
+    "miscellaneous",
+    "balasubramanian respondents",
+    "aadha",
+    "respon",
+    "responden",
+    "principal",
+    "sjus",
+    "sjustice",
+    "appellan",
+    "judicatur",
+    "smsub",
+    "princip",
+    "proce",
+    "princ",
+    "procedure",
+    "cud",
+    "appe",
+    "hig",
+    "respond",
+    "dist",
+    "judge",
+    "cmpn",
+    "mr",
+    "kumar appellants vs",
+    "madra",
+    "smsubra",
+    "appel",
+    "judicature",
+    "miscellan",
+    "principal district judge cuddalore for appellants mr",
+    "civi"
   ],
   "entity_types": [
+    "ORG",
     "PER",
-    "LOC",
     "MISC",
-    "ORG"
+    "LOC"
   ],
   "entity_details": [
     {
@@ -147,9 +377,1159 @@
       "text": "aadhar card",
       "type": "MISC",
       "score": 0.9903019070625305
+    },
+    {
+      "text": "anandar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "anand",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriarum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arump",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubrama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psathe",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psathee",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumpay",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arunachala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arun",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriarumba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "anan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriarumbaya",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aru",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh kum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramasam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriaru",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh kuma",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kuma",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriarumb",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavamall",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "palan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "palanis",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psathees",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rme",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumpaya",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "tha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aruna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubramani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavamalli",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubraman",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh ku",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "palanisa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "anandara",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubramania",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "palanisam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavamallig",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "palani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psath",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arunachal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arunacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sria",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thava",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavamal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumpa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rmeen",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ananda",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "psatheesh k",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arunach",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rmee",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rmeena",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriarumbay",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thavamalliga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arunac",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "thav",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sathe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellants",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ms",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "distr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cuddal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cmp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscell",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "prin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judicatu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "prayer cmpn",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "satheesh kumar for respondents ms",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coram",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "this",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "responde",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscellane",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appell",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "procedur",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civil procedure",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aadhar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjustic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "princi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "district",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "of",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pri",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cod",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "praye",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cudd",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "resp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "misc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscellaneou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscella",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjusti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjustice smsubramaniam cmpn",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "procedu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "date",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "misce",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judg",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pra",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjust",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pray",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pet",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sath",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubramani",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pro",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sms",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "oura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cora",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "distric",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubramania",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "proc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "our",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "code",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "coram the hon ourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civil procedure code",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in the high court of judicature at madras dated",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "card",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cudda",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sathees",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cuddalor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cuddalo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "this civil miscellaneous petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appella",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "peti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubrama",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respondent",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judica",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscellaneo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sju",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "for",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sathee",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "thi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "proced",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aadh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "car",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubraman",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respondents",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "satheesh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "res",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "at",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "principa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "app",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "distri",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellant",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubram",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "high",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judicat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dated",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "prayer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscellaneous",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "balasubramanian respondents",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aadha",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "responden",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "principal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sjustice",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judicatur",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsub",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "princip",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "proce",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "princ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "procedure",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hig",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "respond",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dist",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judge",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cmpn",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kumar appellants vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madra",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "smsubra",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judicature",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "miscellan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "principal district judge cuddalore for appellants mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "civi",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The High Court of Madras dismissed a petition to condone a 2540-day delay in filing an appeal, ruling that the appellants' justification of waiting for Aadhar and Voter ID documents was insufficient and lacked valid reasoning.",
+  "summary": "The High Court of Madras dismissed a petition to condone a 2540-day delay in filing an appeal, ruling that the appellants' justification of waiting for Aadhar and Voter ID documents was insufficient and invalid.",
   "embedding": [
     0.04772104322910309,
     -0.001782245235517621,

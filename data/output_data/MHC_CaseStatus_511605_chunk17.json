@@ -23,12 +23,176 @@
     "g ramegowda major",
     "limitation act",
     "n balakrishnan",
-    "m krishnamurthy"
+    "m krishnamurthy",
+    "p arumu",
+    "n b",
+    "g ramegowda majo",
+    "majo",
+    "p a",
+    "n bala",
+    "krishnamurthy",
+    "krishnamur",
+    "prasad",
+    "balak",
+    "m krishna",
+    "arumugam",
+    "arumu",
+    "balakrishna",
+    "g",
+    "n balakrishna",
+    "prasa",
+    "arumug",
+    "g ra",
+    "p aru",
+    "rame",
+    "n balakrish",
+    "krishnamurt",
+    "aru",
+    "n balak",
+    "m krish",
+    "m krishnamurth",
+    "ramegow",
+    "kri",
+    "krishnamu",
+    "mk p",
+    "mk ",
+    "pra",
+    "g r",
+    "maj",
+    "mk",
+    "mk pra",
+    "mk pr",
+    "ramegowda",
+    "m k",
+    "m krishnam",
+    "krishna",
+    "p ar",
+    "n ba",
+    "m krishn",
+    "balakrish",
+    "balakris",
+    "krishnamurth",
+    "g ramegowda ma",
+    "n",
+    "rameg",
+    "g ramegowda m",
+    "balakrishn",
+    "balakri",
+    "m kri",
+    "g ramegowda ",
+    "n bal",
+    "m kris",
+    "g ram",
+    "g rameg",
+    "n balakris",
+    "arumuga",
+    "g ramegow",
+    "bala",
+    "m",
+    "pras",
+    "m krishnamu",
+    "n balakri",
+    "arum",
+    "kris",
+    "p",
+    "mk pras",
+    "g ramegowda",
+    "p arum",
+    "n balakrishn",
+    "balakrishnan",
+    "g ramegowd",
+    "g ramegowda maj",
+    "major",
+    "ramego",
+    "g ramego",
+    "m krishnamur",
+    "p arumuga",
+    "ramegowd",
+    "g rame",
+    "m krishnamurt",
+    "m kr",
+    "p arumug",
+    "krish",
+    "balakr",
+    "krishnam",
+    "mk prasa",
+    "bal",
+    "ram",
+    "n balakr",
+    "krishn",
+    "special land acquisition officer",
+    "how",
+    "offic",
+    "admi",
+    "limit",
+    "limitation",
+    "offi",
+    "ben",
+    "acqui",
+    "div",
+    "limi",
+    "acquisit",
+    "howra",
+    "adm",
+    "acquisition",
+    "municipality",
+    "administrator",
+    "admin",
+    "muni",
+    "act",
+    "limitatio",
+    "division bench",
+    "administrat",
+    "land",
+    "acquisi",
+    "munici",
+    "munic",
+    "limitat",
+    "howrah",
+    "special",
+    "municipalit",
+    "officer",
+    "off",
+    "howr",
+    "acq",
+    "acquisitio",
+    "administr",
+    "divisio",
+    "administ",
+    "administrator howrah municipality",
+    "acqu",
+    "divisi",
+    "municipal",
+    "office",
+    "specia",
+    "municip",
+    "divi",
+    "bench",
+    "division",
+    "limitati",
+    "acquis",
+    "lan",
+    "speci",
+    "mun",
+    "limita",
+    "divis",
+    "administra",
+    "adminis",
+    "acquisiti",
+    "municipali",
+    "spec",
+    "administrato",
+    "spe",
+    "ramegowda major",
+    "lim",
+    "admini",
+    "municipa",
+    "benc"
   ],
   "entity_types": [
+    "ORG",
     "PER",
-    "MISC",
-    "ORG"
+    "MISC"
   ],
   "entity_details": [
     {
@@ -80,9 +244,829 @@
       "text": "m krishnamurthy",
       "type": "PER",
       "score": 0.9993926286697388
+    },
+    {
+      "text": "p arumu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda majo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "majo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p a",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurthy",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamur",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasad",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumugam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumug",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p aru",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rame",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aru",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramegow",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g r",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "maj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramegowda",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m k",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p ar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n ba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda ma",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rameg",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g rameg",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumuga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegow",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pras",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pras",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishnan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowd",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramegowda maj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "major",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramego",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g ramego",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamur",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumuga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ramegowd",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "g rame",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamurt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumug",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk prasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "special land acquisition officer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "how",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "offic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "admi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitation",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "offi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acqui",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquisit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "howra",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "adm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquisition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municipality",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administrator",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "admin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "muni",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "act",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitatio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administrat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "land",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "munici",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "munic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "howrah",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "special",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municipalit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "officer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "off",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "howr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acq",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquisitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administrator howrah municipality",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acqu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municipal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "office",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "specia",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municip",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speci",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mun",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limita",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administra",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "adminis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acquisiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municipali",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "administrato",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ramegowda major",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lim",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "admini",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "municipa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "benc",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "Courts have emphasized that delays should generally be condoned in the interest of justice if there is no evidence of mala fides, deliberate inaction, or negligence, with the explanation for the delay being the key consideration rather than its length.",
+  "summary": "Courts have emphasized that delays should generally be condoned to advance justice unless caused by gross negligence, deliberate inaction, or mala fides, with the acceptability of the explanation being the key factor rather than the length of the delay.",
   "embedding": [
     0.025499705225229263,
     0.04566393792629242,

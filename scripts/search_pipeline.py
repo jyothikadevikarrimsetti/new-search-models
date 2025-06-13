@@ -64,7 +64,7 @@ def safe_pinecone_query(**kwargs):
         logging.error(f"Pinecone query failed: {e}")
         raise
 
-def search_query(query_text, top_k=3, metadata_filter=None):
+def search_query(query_text, top_k=10, metadata_filter=None):
     print("[Dense Search Pipeline]")
     logging.info(f"[Dense Search Pipeline] Query: {query_text}")
     # Generate automatic filter from query unless manual filter provided
@@ -119,6 +119,10 @@ def search_query(query_text, top_k=3, metadata_filter=None):
         key=lambda x: x[3], reverse=True
     )
     elapsed = time.time() - start_time
+    # Print all results for debugging
+    print("[DEBUG] All Pinecone matches:")
+    for fname, summary, rel_score, rerank_score in reranked:
+        print(f"  - {fname} | rerank_score: {rerank_score}")
     # RAG-style LLM answer using top reranked chunk(s)
     if reranked:
         context = "\n\n".join([r[1] for r in reranked[:min(3, len(reranked))]])

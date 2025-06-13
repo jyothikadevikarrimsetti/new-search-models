@@ -13,10 +13,296 @@
   ],
   "intent": "general_info",
   "intent_confidence": 0.3984816799111101,
-  "entities": [],
-  "entity_types": [],
-  "entity_details": [],
-  "summary": "The petitioner, having deliberately delayed proceedings and evaded service in earlier execution petitions, is not entitled to seek condonation of a 1581-day delay in representing an application to set aside an ex parte decree, as the sale of the property has been completed, confirmed, and satisfied through public auction.",
+  "entities": [
+    "debto",
+    "peti",
+    "petitioner",
+    "limit",
+    "execution petition",
+    "limitation",
+    "petitionerjudg",
+    "petitionerj",
+    "judg",
+    "deb",
+    "limi",
+    "limitati",
+    "execu",
+    "petit",
+    "debt",
+    "executi",
+    "petitione",
+    "petitionerju",
+    "judgme",
+    "petitionerjudgme",
+    "pet",
+    "execution",
+    "petitionerjudgmen",
+    "limita",
+    "execut",
+    "limitation act",
+    "petitions",
+    "petitionerjud",
+    "execution petitions",
+    "act",
+    "judgment debtor",
+    "limitatio",
+    "petitionerjudgm",
+    "petitionerjudgment",
+    "petitio",
+    "debtor",
+    "jud",
+    "executio",
+    "exec",
+    "exe",
+    "limitat",
+    "lim",
+    "petiti",
+    "judgmen",
+    "judgm",
+    "judgment",
+    "petition"
+  ],
+  "entity_types": [
+    "PER"
+  ],
+  "entity_details": [
+    {
+      "text": "debto",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "peti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitioner",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitation",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjudg",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerj",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judg",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "deb",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "debt",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitione",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerju",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjudgme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pet",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjudgmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limita",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitation act",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitions",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution petitions",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "act",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgment debtor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitatio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjudgm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitionerjudgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "debtor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lim",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petition",
+      "type": "PER",
+      "score": 0.95
+    }
+  ],
+  "summary": "The petitioner, after deliberately delaying legal proceedings and evading service in multiple execution petitions, is seeking to condone a significant delay of 1581 days in filing an application to set aside an ex parte decree, despite the property being sold in auction and full satisfaction recorded.",
   "embedding": [
     0.009624248370528221,
     0.010629115626215935,

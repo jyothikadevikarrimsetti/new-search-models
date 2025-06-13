@@ -16,11 +16,97 @@
   "entities": [
     "supreme court",
     "km balasubramaniam",
-    "c loganathan"
+    "c loganathan",
+    "km balasub",
+    "km balasubramani",
+    "km",
+    "km ba",
+    "loganatha",
+    "km balasubrama",
+    "km b",
+    "balasubrama",
+    "km balasubramania",
+    "loganathan",
+    "c logana",
+    "c loganath",
+    "balasubr",
+    "loga",
+    "km balasubram",
+    "loganat",
+    "c l",
+    "c log",
+    "balasubramani",
+    "km bal",
+    "km ",
+    "balasubram",
+    "c lo",
+    "balasubraman",
+    "km balasubra",
+    "c logan",
+    "balasubramaniam",
+    "c loganat",
+    "logan",
+    "bala",
+    "balasu",
+    "balasubramania",
+    "km balasubr",
+    "km balasubraman",
+    "loganath",
+    "c loganatha",
+    "balasubra",
+    "logana",
+    "km balasu",
+    "km bala",
+    "bal",
+    "balas",
+    "c",
+    "km balas",
+    "balasub",
+    "log",
+    "c loga",
+    "cour",
+    "air",
+    "in para nos",
+    "honourable supreme court",
+    "supreme",
+    "hono",
+    "peti",
+    "sup",
+    "execution petition",
+    "court",
+    "supre",
+    "execu",
+    "suprem",
+    "petit",
+    "honour",
+    "honoura",
+    "executi",
+    "scw",
+    "in",
+    "pet",
+    "execution",
+    "execut",
+    "honou",
+    "supr",
+    "air scw",
+    "honourab",
+    "cou",
+    "hon",
+    "petitio",
+    "par",
+    "nos",
+    "para",
+    "executio",
+    "honourable",
+    "exe",
+    "exec",
+    "petiti",
+    "honourabl",
+    "petition"
   ],
   "entity_types": [
-    "PER",
-    "ORG"
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -37,9 +123,439 @@
       "text": "c loganathan",
       "type": "PER",
       "score": 0.9989142417907715
+    },
+    {
+      "text": "km balasub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubramani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km ba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "loganatha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubrama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubrama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubramania",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "loganathan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c logana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c loganath",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "loga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "loganat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c l",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c log",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubramani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c lo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubraman",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c logan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubramaniam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c loganat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "logan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubramania",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasubraman",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "loganath",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c loganatha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasubra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "logana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balasu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "km balas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balasub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "log",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c loga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "air",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in para nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "peti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honoura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "scw",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pet",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execution",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "execut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "air scw",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "par",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "para",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "executio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "exec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petition",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The Supreme Court and High Court rejected applications for condonation of significant delays in setting aside ex-parte decrees, citing unsatisfactory explanations for the delays and emphasizing the lack of due diligence by the petitioners.",
+  "summary": "The Supreme Court and High Court rejected applications for condonation of significant delays in setting aside ex-parte decrees, citing unsatisfactory explanations and improper justifications for the delays.",
   "embedding": [
     0.006526789627969265,
     0.03330124169588089,
