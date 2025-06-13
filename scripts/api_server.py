@@ -77,6 +77,6 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             search_time=results.get('time_taken', 0.0),
             reranking_score=results.get('reranking_score', None)
         )
-        return results
+        return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
