@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.40481809772996,
+  "intent_confidence": 0.40481809772995997,
   "entities": [
     " City Civil Court",
     " Chennai",
@@ -26,7 +26,7 @@
     {
       "text": " City Civil Court",
       "type": "ORG",
-      "score": 0.9001681804656982
+      "score": 0.9001679420471191
     },
     {
       "text": " Chennai",
@@ -39,7 +39,7 @@
       "score": 0.9749255180358887
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The court dismissed a petition to condone a significant delay in filing an appeal suit due to insufficient justification.\n\n2. **Key Points**:\n   - The court emphasized the importance of exercising discretion cautiously, especially in cases involving substantial laws like the law of limitation.\n   - The petitioner's request to condone a delay of 573 days in filing the appeal was rejected due to the absence of valid reasons.\n   - The related case numbers and petitions (CMP No. 3003 of 2019 and ASSR No. 70907 of 2018) were dismissed with no costs.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Delay in filing: 573 days.\n   - Case identifiers: CMP No. 3003 of 2019 and ASSR No. 70907 of 2018.\n   - Date of judgment: December 12, 2019 (12/12/2019).\n   - Reference to VI Additional Judge, City Civil Court, Chennai.",
+  "summary": "1. **Main Topic/Subject:**  \nThe court dismissed a petition to condone a delay of 573 days in filing an appeal, emphasizing the importance of adhering to the law of limitation.\n\n2. **Key Points:**  \n   - The court stressed that discretion must be exercised cautiously, especially in cases involving substantial laws like the law of limitation.  \n   - The petitioner failed to provide a valid reason for the significant delay of 573 days in filing the appeal.  \n   - As a result, CMP No. 3003 of 2019 was dismissed, and ASSR No. 70907 of 2018 was rejected without costs.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Delay: 573 days.  \n   - Case identifiers: CMP No. 3003 of 2019, ASSR No. 70907 of 2018.  \n   - Date of judgment: December 12, 2019 (12.12.2019).  \n   - Reference to VI Additional Judge, City Civil Court, Chennai.  \n   - URL: http://www.judis.nic.in.",
   "embedding": [
     0.032282404601573944,
     0.0149460444226861,

@@ -12,7 +12,7 @@
     "panchnama"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3534501129003975,
+  "intent_confidence": 0.35345011290039735,
   "entities": [
     " Karnataka High Court"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9967086315155029
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses legal provisions related to the authorization, inspection, seizure, and limitation periods for searches conducted under Section 132(1) of the Income Tax Act, particularly in relation to prohibitory and restraint orders.\n\n---\n\n#### 2. **Key Points**:\n- **Authorization and Inspection**: A prohibitory or restraint order itself serves as authorization for officials to enter premises, inspect materials, and seize incriminating evidence related to the subject matter of the order.\n- **Scope of Actions**: Officials must confine their actions to inspecting materials specified in the prohibitory or restraint order and cannot conduct a full search of the premises again without fresh authorization.\n- **Panchnama and Limitation**: The Panchnama evidencing inspection and seizure is considered the last Panchnama for the premises but does not serve as the final Panchnama for determining the limitation period under Section 158BE of the Act.\n\n---\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Section References**: Section 132(1) and Section 158BE of the Income Tax Act.\n- **Case Reference**: WP No. 20999 of 200",
+  "summary": "### Analysis and Summary\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal framework regarding the authorization, inspection, seizure, and limitations related to searches under Section 132(1) and Section 158BE of the Income Tax Act.\n\n#### 2. **Key Points**  \n- **Authorization and Inspection:** A prohibitory or restraint order acts as authorization for officials to enter premises, inspect materials, and seize incriminating evidence related to the subject matter of the order. However, actions must be confined to the scope of the order, and no additional searches can be conducted without fresh authorization.\n- **Panchnama and Limitation:** The Panchnama documenting the inspection and seizure is considered the last Panchnama for the premises, but for the purpose of limitation under Section 158BE, it is not regarded as the final Panchnama concluding the search. Only one search and one Panchnama are valid for limitation purposes.\n- **Execution of Search Authorization:** Once the search party concludes the search, leaves the premises, and takes the seized material, the authorization is deemed fully executed. Any subsequent entry for inspection under a prohibitory order does not require fresh authorization.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned",
   "embedding": [
     0.05318759009242058,
     0.028007829561829567,

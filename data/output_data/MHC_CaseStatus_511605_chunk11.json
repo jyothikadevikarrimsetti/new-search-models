@@ -12,7 +12,7 @@
     "sale"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3733539076327807,
+  "intent_confidence": 0.37335390763278054,
   "entities": [
     " Supreme Court",
     " KM Balasubramaniam",
@@ -39,7 +39,7 @@
       "score": 0.9989142417907715
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the rejection of applications for condonation of delay in filing to set aside ex parte decrees by the Honourable Supreme Court and other courts, emphasizing the insufficiency of explanations for such delays.\n\n#### 2. Key Points:\n- The Supreme Court rejected an application for condonation of a 4-year delay in filing to set aside an ex parte decree, citing an unsatisfactory explanation for the delay.\n- A similar case (KM Balasubramaniam vs. C. Loganathan, 2011) involved a 1581-day delay in re-presenting an application to set aside an ex parte decree, which was also rejected due to inadequate justification.\n- Courts have consistently held that delays in such cases must be properly explained, and failure to do so renders the applications unacceptable.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **AIR SCW 1788**: Identifier for the Supreme Court case.\n- **4 years**: Delay in filing the application in the first case.\n- **KM Balasubramaniam vs. C. Loganathan and another, 2011 (2 MWN Civil 741)**: Case reference.\n- **158",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The Supreme Court and High Court decisions rejecting applications for condonation of significant delays in filing to set aside ex parte decrees due to unsatisfactory explanations.\n\n2. **Key Points**:  \n   - The Honourable Supreme Court rejected an application for condonation of a 4-year delay in setting aside an ex parte decree, citing an unsatisfactory explanation for the delay.  \n   - A similar case (KM Balasubramaniam vs. C Loganathan, 2011) involved a 1581-day delay in re-presenting an application to set aside an ex parte decree, which was also rejected due to improper justification for the delay.  \n   - The courts emphasized that delays in such cases must be adequately justified and that mere filing of petitions under procedural rules (e.g., Order 9 Rule 13 CPC or Section 47 CPC) does not automatically warrant condonation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Case Citation**: AIR SCW 1788  \n   - **Delay Periods**: 4 years and 1581 days  \n   - **Related Case**: KM Balasubramaniam",
   "embedding": [
     0.006526789627969265,
     0.03330124169588089,

@@ -12,11 +12,11 @@
     "obtaining"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.29198331687310963,
+  "intent_confidence": 0.29198331687310947,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal interpretation of a \"panchnama\" in the context of search operations under Section 158BE, emphasizing its role in concluding a search and its implications for the limitation period in assessment proceedings.\n\n#### 2. **Key Points**:\n- A panchnama is a document that marks the conclusion of a search operation, and it is essential for computing the limitation period under the law.\n- Once a search is concluded and a panchnama is drawn, the authorized officer cannot revisit the premises under the same authorization; a fresh authorization is required for any further searches.\n- Revisits to the premises for investigation or inspection do not extend the limitation period, even if a new panchnama is written during such revisits.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Section 158BE (legal provision referenced).\n- Case reference: WP No. 20999 of 2003.\n- Numbers mentioned: 80, 2960, 3060 (context unclear but possibly identifiers or placeholders).",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal interpretation of a \"panchnama\" in the context of search and seizure operations under Section 158BE, focusing on its role in concluding a search and its implications for the limitation period.\n\n---\n\n#### 2. **Key Points**:\n- A panchnama signifies the conclusion of a search operation, and the law does not require the authorized officer to explicitly state in the panchnama that the search has been \"finally concluded.\"\n- If a fresh search of the same premises is required, a new authorization must be obtained, and revisits to the premises for investigation or inspection do not extend the statutory limitation period.\n- The limitation period for initiating proceedings is strictly prescribed by statute, and failure to act within this period results in the loss of the remedy, granting the assessee a valuable legal right.\n\n---\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Section 158BE**: The legal provision being discussed.\n- **WP No. 20999 of 2003**: Case reference cited twice in the text.\n- **80**, **2960**, **3060**: Numbers mentioned, though their context is unclear",
   "embedding": [
     0.050389569252729416,
     0.04569642245769501,

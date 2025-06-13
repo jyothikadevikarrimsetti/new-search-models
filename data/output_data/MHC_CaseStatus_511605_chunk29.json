@@ -12,7 +12,7 @@
     "dispensation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.314168687649015,
+  "intent_confidence": 0.3141686876490149,
   "entities": [
     "ble Supreme Court",
     " Esha Bhattacharjee",
@@ -26,7 +26,7 @@
     {
       "text": "ble Supreme Court",
       "type": "ORG",
-      "score": 0.8900737762451172
+      "score": 0.8900741934776306
     },
     {
       "text": " Esha Bhattacharjee",
@@ -36,10 +36,10 @@
     {
       "text": "ble Apex Court",
       "type": "ORG",
-      "score": 0.837235152721405
+      "score": 0.8372352123260498
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses guidelines and principles for drafting and adjudicating applications for condonation of delay in legal proceedings, emphasizing the need for a balanced and reasoned approach.\n\n#### 2. **Key Points**:\n- Applications for condonation of delay must be drafted with care and should not assume automatic condonation based on the principle of adjudicating cases on merit.\n- Judicial discretion in condoning delays should aim for consistency and collegiality, avoiding subjective or routine handling of such applications.\n- The principles laid down by the Supreme Court in the *Esha Bhattacharjee* case emphasize a balanced approach that incorporates reasonableness and adherence to the law of limitation, rather than an overly liberal or unfettered approach.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- Mention of the Supreme Court case: *Esha Bhattacharjee*.\n- Number: \"2933\" (context unclear).",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the guidelines and principles for drafting and adjudicating applications for condonation of delay in legal cases, emphasizing the importance of judicial discretion, consistency, and adherence to the law of limitation.\n\n#### 2. Key Points:\n- Applications for condonation of delay must be carefully drafted and not treated as a routine matter, as courts are not obligated to condone delays without valid reasoning.\n- Judicial discretion should aim for consistency and collegiality, avoiding subjective or casual approaches to delay condonation.\n- The Supreme Court's judgment in the case of *Esha Bhattacharjee* provides guiding principles, emphasizing a balance between a liberal approach and the substantial law of limitation, which must be strictly followed.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018\n- Judgment cited: *Esha Bhattacharjee* case\n- Number: 2933 (context unclear but mentioned in the text)",
   "embedding": [
     0.04600727558135986,
     0.016076046973466873,

@@ -12,7 +12,7 @@
     "occasioned"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3302727409108581,
+  "intent_confidence": 0.330272740910858,
   "entities": [
     " Damocles"
   ],
@@ -23,10 +23,10 @@
     {
       "text": " Damocles",
       "type": "PER",
-      "score": 0.8481321334838867
+      "score": 0.8481319546699524
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles and considerations surrounding the condonation of delay in court cases, emphasizing the importance of the party's intent and the equitable treatment of all parties involved.\n\n2. **Key Points**:  \n   - Courts assess the attitude and intent of the party requesting condonation of delay, ensuring that the delay was not caused by deliberate misconduct but by reasonable circumstances.  \n   - A liberal approach may be taken if the delay does not prejudice the other party, but lack of bona fides or attempts to mislead the court will result in rejection of the application.  \n   - The principle of limitation is rooted in public policy and equity, aiming to balance fairness and prevent indefinite uncertainty for litigants.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: CMP No. 3003 of 2008.  \n   - URL mentioned: http://www.judis.nic.in  \n   - Number: 2739 (context unclear).  \n   - Phrase: \"Damocles sword\" metaphorically used to describe indefinite uncertainty.",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles and considerations for condoning delays in legal cases, emphasizing the importance of the party's intent and the impact on the opposing party.\n\n2. **Key Points:**  \n   - Courts assess the attitude and intent of the party requesting condonation of delay, ensuring the delay was not caused by deliberate misconduct but due to valid reasons.  \n   - A liberal approach may be adopted for condonation if the delay does not prejudice the opposing party, and monetary compensation can address any harm caused.  \n   - Lack of bona fides or attempts to deceive the court by the applicant will result in denial of condonation, as limitation periods are grounded in public policy and equity.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - CMP No. 3003 of 2008  \n   - Reference to \"2739\" (context unclear)  \n   - The principle that litigants should not face indefinite uncertainty (\"Damocles sword\").",
   "embedding": [
     0.04639214277267456,
     0.012631268240511417,

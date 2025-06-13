@@ -12,7 +12,7 @@
     "law"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.33786878244229546,
+  "intent_confidence": 0.33786878244229535,
   "entities": [
     " Sundar Gnanaolivu",
     " Rajendran Gnanavolivu",
@@ -27,8 +27,8 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -64,25 +64,25 @@
     {
       "text": " State of WB",
       "type": "ORG",
-      "score": 0.9452183842658997
+      "score": 0.9452182650566101
     },
     {
       "text": " G Ramegowda Major",
       "type": "PER",
-      "score": 0.9837532639503479
+      "score": 0.9837527871131897
     },
     {
       "text": " Special Land Acquisition Officer",
       "type": "ORG",
-      "score": 0.8133212327957153
+      "score": 0.8133240938186646
     },
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.8778343200683594
+      "score": 0.8778354525566101
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the principles surrounding delays in legal and procedural matters, emphasizing that government departments must act with diligence and that condonation of delay should not be misused.\n\n#### 2. Key Points:\n- Government departments are obligated to perform their duties with diligence and cannot rely on condonation of delay as a routine benefit.\n- Courts must assess whether delays are genuine or part of a deliberate strategy to gain time, showing leniency only when explanations are not malicious or dilatory.\n- Legal precedents, such as *N. Balakrishnan vs. M. Krishnamurthy* and *M.K. Prasad vs. P. Arumugam*, highlight the importance of evaluating \"sufficient cause\" under Section 5 of the Limitation Act.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case references:\n  - *Sundar Gnanaolivu vs. Rajendran Gnanavolivu* (MANU/TN/2123/2003)\n  - *N. Balakrishnan vs. M. Krishnamurthy* (MANU/SC/0573/1998; 1998 2",
+  "summary": "### Summary and Analysis\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal principles surrounding the condonation of delays in government-related cases, emphasizing the need for diligence and fairness in judicial processes.\n\n#### 2. Key Points:\n- Government departments must perform their duties with diligence and cannot rely on condonation of delay as a routine benefit; the law applies equally to all parties.\n- Courts should carefully assess explanations for delays, rejecting those that appear to be part of a deliberate strategy to gain time, while showing consideration for genuine cases.\n- Several legal precedents are cited to illustrate these principles, including judgments in *N. Balakrishnan vs. M. Krishnamurthy* and *M.K. Prasad vs. P. Arumugam*.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case references:\n  - *Sundar Gnanaolivu vs. Rajendran Gnanavolivu* (MANU/TN/2123/2003)\n  - *N. Balakrishnan vs. M. Krishnamurthy* (MANU/SC/0573/1998; 1998 2 CTC 533)\n  - *M.K",
   "embedding": [
     0.05756635218858719,
     0.04299776256084442,

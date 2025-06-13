@@ -12,7 +12,7 @@
     "prohibitory"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3322609980871904,
+  "intent_confidence": 0.33226099808719034,
   "entities": [
     " Revenue",
     " Revenue",
@@ -49,7 +49,7 @@
     {
       "text": " Kodambakkam High Road Chennai",
       "type": "LOC",
-      "score": 0.9928749799728394
+      "score": 0.9928750395774841
     },
     {
       "text": " Noor Veeraswamy Street Chennai",
@@ -74,7 +74,7 @@
     {
       "text": " Noor Veeraswamy Street Chennai",
       "type": "LOC",
-      "score": 0.9814556837081909
+      "score": 0.9814555644989014
     },
     {
       "text": " Kodambakkam High Road Chennai",
@@ -84,10 +84,10 @@
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9963065385818481
+      "score": 0.9963064193725586
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the timeline and legal implications of search operations conducted by the Revenue Department under Section 158BE(1)(b) of the Income Tax Act, focusing on the validity of the limitation period for passing an order based on panchanamas issued during the searches.\n\n2. **Key Points**:  \n   - The Revenue Department conducted searches on January 25, 2001, at two premises: **23 Noor Veeraswamy Street, Chennai - 34**, and **No. 418/1 Kodambakkam High Road, Chennai - 34**.  \n   - The panchanama for **23 Noor Veeraswamy Street** indicated the search concluded on the same day (January 25, 2001), while the panchanama for **No. 418/1 Kodambakkam High Road** stated that the search continued, with prohibitory orders issued for this premise.  \n   - The Revenue's claim that the limitation period commenced after June 30, 2001, based on the last panchanama, is contested, as the petitioner argues the impugned order passed on June 30, 2003",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject:**\n   The text discusses the timeline and legal interpretation of search operations and panchanamas conducted by the Revenue Department at two premises in Chennai, focusing on the limitation period under Section 158BE(1)(b) of the Income Tax Act.\n\n#### 2. **Key Points:**\n   - The Revenue Department conducted searches on January 25, 2001, at two premises: **No. 23 Noor Veeraswamy Street, Chennai - 34**, and **No. 418/1 Kodambakkam High Road, Chennai - 34**.\n   - The panchanama for **No. 23 Noor Veeraswamy Street** indicated the search concluded on the same day (January 25, 2001), while the panchanama for **No. 418/1 Kodambakkam High Road** stated that the search continued, with prohibitory orders issued.\n   - The Revenue's claim that the limitation period started after June 30, 2001, based on the last panchanama, was challenged, as the search operations and panchanamas extended from February to June 2001.\n\n#### 3.",
   "embedding": [
     0.05232629552483559,
     0.007586144842207432,

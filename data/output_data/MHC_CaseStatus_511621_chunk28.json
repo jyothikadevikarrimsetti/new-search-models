@@ -12,34 +12,34 @@
     "emphasis"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3214620095625158,
+  "intent_confidence": 0.3214620095625159,
   "entities": [
     " Esha Bhattacharjee",
     " Raghunathpur Nafar Academy",
     " Honble Apex Court of India"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
       "text": " Esha Bhattacharjee",
       "type": "PER",
-      "score": 0.9980668425559998
+      "score": 0.998066782951355
     },
     {
       "text": " Raghunathpur Nafar Academy",
       "type": "ORG",
-      "score": 0.9946828484535217
+      "score": 0.9946829676628113
     },
     {
       "text": " Honble Apex Court of India",
       "type": "ORG",
-      "score": 0.8935267925262451
+      "score": 0.8935275673866272
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and considerations for courts when deciding on applications for condonation of delay in filing appeals, with reference to the case of *Esha Bhattacharjee vs. Managing Committee of Raghunathpur Nafar Academy & Others*.\n\n2. **Key Points**:  \n   - The respondent beneficiary in this case was deemed not diligent in pursuing the remedy of appeal, and the application for condonation of delay lacked sufficient cause to justify the court's discretion.  \n   - The Hon'ble Apex Court of India in the *Esha Bhattacharjee* case outlined principles for handling condonation of delay applications, emphasizing a liberal, justice-oriented approach while balancing the need to avoid negligence or lack of bona fides.  \n   - The principles include avoiding undue technicalities, ensuring substantial justice, and recognizing that \"sufficient cause\" is elastic and must be applied in context to prevent injustice.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Esha Bhattacharjee vs. Managing Committee of Raghunathpur Nafar Academy & Others* (reported in MANU/SC/0932/201",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles and considerations for condoning delays in filing appeals, with reference to a legal case and observations made by the Supreme Court of India.\n\n#### 2. **Key Points**:\n- The respondent beneficiary was deemed not diligent in pursuing an appeal, and the reasons provided for the delay were insufficient to warrant the court's discretion.\n- The case of *Esha Bhattacharjee vs. Managing Committee of Raghunathpur Nafar Academy & Others* (MANU/SC/0932/2013) outlines principles for condonation of delay, emphasizing a justice-oriented approach while balancing substantial justice and technical considerations.\n- Key principles include the need for a liberal and pragmatic approach, understanding \"sufficient cause\" in its proper context, and avoiding undue emphasis on technicalities while ensuring no gross negligence or lack of bona fides.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: *Esha Bhattacharjee vs. Managing Committee of Raghunathpur Nafar Academy & Others* (MANU/SC/0932/2013).\n- CMP No. 3003 of 2008.\n-",
   "embedding": [
     0.06371523439884186,
     0.039004672318696976,

@@ -45,7 +45,7 @@
     {
       "text": " Kodambakkam High Road Chennai",
       "type": "LOC",
-      "score": 0.9798590540885925
+      "score": 0.9798592329025269
     },
     {
       "text": " Revenue",
@@ -55,10 +55,10 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8851121664047241
+      "score": 0.8851131796836853
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the timeline and legal provisions related to searches conducted under the Income Tax Act at a specific premises in Chennai, culminating in the final panchanama drawn on June 12, 2001.\n\n2. **Key Points**:\n   - Searches were conducted at premises No. 4181, Kodambakkam High Road, Chennai-34, over several months from February to June, with panchanamas drawn as proof of the searches.\n   - Prohibitory orders under Section 132(3) of the Income Tax Act were issued during the search process, which continued until June 12, 2001, when the final panchanama was drawn.\n   - Section 158BE of the Income Tax Act outlines the time limits for completing block assessments based on the date of the last authorization for search or requisition.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Premises: No. 4181, Kodambakkam High Road, Chennai-34.\n   - Final search date: June 12, 2001 (12062001).\n   - Relevant sections of the Income Tax Act: Section 132(3), Section 158BE,",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the timeline and legal provisions related to searches conducted under the Income Tax Act at a specific premises in Chennai, culminating in the final panchanama drawn on June 12, 2001.\n\n2. **Key Points**:  \n   - Multiple searches were conducted at the premises located at No. 4181 Kodambakkam High Road, Chennai-34, between February and June, with panchanamas drawn as proof of the searches.  \n   - The final search and panchanama were completed on June 12, 2001, marking the conclusion of the search process for that premises.  \n   - Section 158BE of the Income Tax Act specifies the time limits for completing block assessments based on the date of the last search or requisition, with different timelines depending on whether the search occurred before or after January 1, 1997.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Premises: No. 4181 Kodambakkam High Road, Chennai-34.  \n   - Final panchanama date: June 12, 2001 (12062001).  \n   - Relevant sections of the",
   "embedding": [
     0.05975978076457977,
     0.039252959191799164,

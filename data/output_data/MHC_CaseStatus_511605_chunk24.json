@@ -25,15 +25,15 @@
   ],
   "entity_types": [
     "MISC",
+    "PER",
     "ORG",
-    "LOC",
-    "PER"
+    "LOC"
   ],
   "entity_details": [
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.869766891002655
+      "score": 0.8697684407234192
     },
     {
       "text": " Pundlik Jalam Patil",
@@ -43,12 +43,12 @@
     {
       "text": " ExeEngJalgaon Medium Project",
       "type": "ORG",
-      "score": 0.9718157649040222
+      "score": 0.9718155264854431
     },
     {
       "text": "ble Supreme Court",
       "type": "ORG",
-      "score": 0.8629348874092102
+      "score": 0.8629360795021057
     },
     {
       "text": " Ajit Singh Thakur Singh",
@@ -58,7 +58,7 @@
     {
       "text": " Gujarat",
       "type": "LOC",
-      "score": 0.9685624241828918
+      "score": 0.968562126159668
     },
     {
       "text": " N Balakrishnan",
@@ -71,7 +71,7 @@
       "score": 0.9973242878913879
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the judicial exercise of discretionary powers within the bounds of the law, particularly in the context of the Limitation Act and related case law.\n\n2. **Key Points**:  \n   - Judicial discretionary powers must be exercised systematically, based on reason, and not influenced by whims, prejudices, or personal biases.  \n   - The Supreme Court has clarified that sufficient cause for delay in filing appeals must be based on events occurring before the limitation period expires, not after.  \n   - The length of the delay is less important than the acceptability and genuineness of the explanation provided, as long as it is not motivated by bad faith or dilatory tactics.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project & others* (MANU/SC/4694/2004)  \n     - *Ajit Singh Thakur Singh and anr vs State of Gujarat* (1981 1 SCC 495)  \n     - *N Balakrishnan vs M Krishnamurthy* (1998 7 SCC",
+  "summary": "1. **Main topic/subject:**  \n   The text discusses the judicial exercise of discretionary powers under Section 5 of the Limitation Act, emphasizing the need for reasoned and systematic application within legal bounds.\n\n2. **Key points:**  \n   - Judicial discretionary powers must be exercised systematically, based on reason, and not influenced by whims, prejudices, or personal preferences.  \n   - Courts have ruled that sufficient cause for delays in filing appeals must arise before the expiration of the limitation period, as events occurring after the limitation period cannot justify delays.  \n   - The acceptability of an explanation for delay depends on its genuineness and absence of mala fides, rather than the length of the delay itself.\n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - Case references:  \n     - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project & others* (MANU/SC/4694/2004)  \n     - *Ajit Singh Thakur Singh and anr vs State of Gujarat* (1981 1 SCC 495)  \n     - *N Balakrishnan vs M Krishnamurthy* (1998 7 SCC 123)  \n   -",
   "embedding": [
     0.04859592393040657,
     0.03989843279123306,

@@ -12,7 +12,7 @@
     "court"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3594170475773171,
+  "intent_confidence": 0.3594170475773172,
   "entities": [
     " Aadhar Card",
     " Voter ID"
@@ -29,10 +29,10 @@
     {
       "text": " Voter ID",
       "type": "MISC",
-      "score": 0.9522957801818848
+      "score": 0.9522958993911743
     }
   ],
-  "summary": "### Summary:\n\n1. **Main Topic/Subject**:  \n   The court discusses the rejection of a petition to condone a delay of over 6 years (2540 days) in filing an appeal, citing a lack of valid reasons and emphasizing the importance of adhering to the law of limitation.\n\n2. **Key Points**:  \n   - The petitioners failed to provide a valid explanation for the significant delay, and the stated reason (waiting for Aadhar Card and Voter ID) was deemed unacceptable.  \n   - The court emphasized that condonation of delay is an exception to the rule of filing appeals within the time limit and must be exercised judiciously, with valid reasons provided.  \n   - The petition was viewed as an attempt to prolong the partition suit, and the court ruled that unexplained or unsubstantiated delays cannot be condoned.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Delay: 2540 days (over 6 years).  \n   - Final decree passed by the trial court: 14-02-2018.  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The court discusses the rejection of a petition to condone a delay of over 6 years (2,540 days) in filing an appeal, emphasizing the importance of adhering to the law of limitation and the need for valid reasons to justify such delays.\n\n2. **Key Points**:  \n   - The petitioners failed to provide a valid reason for condoning the delay, citing waiting for Aadhar Card and Voter ID, which the court deemed unacceptable.  \n   - The court emphasized that the law of limitation is substantive, and condonation of delay is an exception that requires valid justification, to be exercised judiciously and cautiously.  \n   - The petitioners' attempt to prolong the partition suit was deemed devoid of merit, and the court highlighted that unexplained or unsubstantiated delays cannot be condoned.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Delay: **2,540 days** (over 6 years).  \n   - Final decree passed: **14-02-2018**.  \n   - Case references: **CMP No. 6648 of 2018**, **ASSR No. 19304 of",
   "embedding": [
     0.06951102614402771,
     0.028904583305120468,

@@ -12,7 +12,7 @@
     "assessment"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3539308223560545,
+  "intent_confidence": 0.35393082235605444,
   "entities": [
     " Department",
     " Revenue",
@@ -30,12 +30,12 @@
     {
       "text": " Department",
       "type": "ORG",
-      "score": 0.9167380928993225
+      "score": 0.9167375564575195
     },
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9915472865104675
+      "score": 0.991547167301178
     },
     {
       "text": " Revenue",
@@ -63,7 +63,7 @@
       "score": 0.994807779788971
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the legal determination of the limitation period for tax assessments under Section 158BE of the Income Tax Act, in the context of multiple searches and fresh authorizations.\n\n2. **Key Points**:\n   - The search conducted on 27/03/2003 and 28/03/2003 was followed by a second search on 27/08/2003, which was based on a fresh authorization, and the limitation period for assessment should be calculated from the end of August 2003, not March 2003.\n   - The court rejected the assessee's plea that the assessment was barred by limitation and allowed the Revenue's appeal, setting aside the earlier judgment by the learned Single Judge.\n   - The judgment referenced prior cases, including \"Rakesh Sarin\" and \"Rakesh Kumar Jain,\" and distinguished the facts of this case from those precedents.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Dates: 27/03/2003, 28/03/2003, 27/08/2003, 28/08/2003.\n   - Section 158BE of the Income Tax Act.\n   - Case references",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legality and limitation period for tax assessments following searches conducted under separate authorizations, with reference to specific legal provisions and judicial rulings.\n\n2. **Key Points**:  \n   - The search conducted on 27/03/2003 and 28/03/2003 was under one authorization, while a second search on 27/08/2003 required a fresh authorization due to its scope and premises.  \n   - The limitation period for assessment under Section 158BE of the Act should be calculated from the end of August 2003 (28/08/2003), not from the earlier searches in March 2003.  \n   - The court rejected the assessee's argument that the assessment was barred by limitation, setting aside the learned Single Judge's order and ruling in favor of the Revenue on the issue of limitation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Search dates: 27/03/2003, 28/03/2003, and 27/08/2003.  \n   - Relevant legal provision: Section 158BE of the Act.  \n   - Limitation period calculated",
   "embedding": [
     0.05438273027539253,
     -0.000603735214099288,

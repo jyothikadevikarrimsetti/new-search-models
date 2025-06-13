@@ -12,7 +12,7 @@
     "authorisation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.29645587240625026,
+  "intent_confidence": 0.29645587240625015,
   "entities": [
     " Northwest Steel Rolling Mills",
     " Commissioner of Internal Revenue CCA Wash",
@@ -32,20 +32,20 @@
     {
       "text": " Commissioner of Internal Revenue CCA Wash",
       "type": "ORG",
-      "score": 0.9961668848991394
+      "score": 0.9961668252944946
     },
     {
       "text": "Foust",
       "type": "PER",
-      "score": 0.9681098461151123
+      "score": 0.9681099653244019
     },
     {
       "text": " Foust",
       "type": "PER",
-      "score": 0.9743583798408508
+      "score": 0.9743585586547852
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal definitions and interpretations of the terms \"execute\" and \"execution\" in the context of warrants of authorization or requisition, as defined in Black's Law Dictionary and judicial precedents.\n\n2. **Key Points**:  \n   - The term \"execute\" is defined in Black's Law Dictionary (5th edition, page 509) as completing, signing, performing, or carrying out an act according to its terms, including fulfilling commands or purposes and performing necessary formalities.  \n   - The term \"execution\" (page 510) refers to carrying out an act or course of conduct to its completion, putting something into force, fulfilling or perfecting an act, or implementing a decree or judgment, as cited in judicial cases like *Northwest Steel Rolling Mills v Commissioner of Internal Revenue* and *Foust v Foust*.  \n   - The text debates whether the execution of a warrant refers solely to the act of carrying out the warrant or includes the conclusion of proceedings under sections 132 and/or 132A, emphasizing the need for detailed discussion on this interpretation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Black's",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the legal definitions and interpretations of the terms \"execute\" and \"execution\" in the context of warrants of authorization or requisition, as defined in Black's Law Dictionary and relevant case law.\n\n2. **Key Points:**  \n   - The term \"execute\" is defined in Black's Law Dictionary (5th edition, page 509) as completing, performing, signing, or carrying out an act according to its terms, including fulfilling commands or purposes.  \n   - \"Execution\" is defined (page 510) as carrying out an act to its completion, putting something into force, or fulfilling and perfecting a process, as referenced in case law such as *Northwest Steel Rolling Mills v. Commissioner of Internal Revenue* and *Foust v. Foust*.  \n   - The text debates whether the execution of a warrant refers solely to the act of carrying out the warrant or includes the conclusion of proceedings under sections 132 and/or 132A, suggesting this interpretation requires detailed discussion.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Black's Law Dictionary (5th edition, pages 509 and 510).  \n   - Case references:  \n     - *Northwest",
   "embedding": [
     0.02444668672978878,
     0.06943067908287048,

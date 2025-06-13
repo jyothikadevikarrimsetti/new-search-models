@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3687328095258671,
+  "intent_confidence": 0.36873280952586696,
   "entities": [
     " Supreme Court",
     " MK Prasad",
@@ -57,7 +57,7 @@
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.988184928894043
+      "score": 0.9881849884986877
     },
     {
       "text": " Sundar Gnanaolivu",
@@ -67,7 +67,7 @@
     {
       "text": " Rukmini",
       "type": "PER",
-      "score": 0.9992542266845703
+      "score": 0.9992541074752808
     },
     {
       "text": " Rajendran Gnanavolivu",
@@ -77,17 +77,17 @@
     {
       "text": " Veina Gnanavalivu",
       "type": "PER",
-      "score": 0.9747315645217896
+      "score": 0.974730908870697
     },
     {
       "text": " Law Weekly",
       "type": "ORG",
-      "score": 0.953426718711853
+      "score": 0.9534253478050232
     },
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.9977746605873108
+      "score": 0.9977747201919556
     },
     {
       "text": " MK Prasad",
@@ -102,27 +102,27 @@
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.9890415668487549
+      "score": 0.9890416860580444
     },
     {
       "text": " LLN",
       "type": "ORG",
-      "score": 0.9884660243988037
+      "score": 0.9884656667709351
     },
     {
       "text": " Tamil Nadu Mercantile Bank Limited Tuticorin",
       "type": "ORG",
-      "score": 0.9844726324081421
+      "score": 0.9844722747802734
     },
     {
       "text": " Tamil Nadu",
       "type": "MISC",
-      "score": 0.8980773687362671
+      "score": 0.898076057434082
     },
     {
       "text": "ments Act Madurai",
       "type": "MISC",
-      "score": 0.8586522936820984
+      "score": 0.8586519956588745
     },
     {
       "text": " M Srinivasan",
@@ -130,7 +130,7 @@
       "score": 0.9992262721061707
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial decisions regarding the refusal to condone delays in filing petitions, emphasizing the importance of bona fides and the exceptions to the rule of a liberal approach in such matters.\n\n#### 2. **Key Points**:\n- Courts have refused to condone significant delays in filing petitions (e.g., 797 days) when the petitioner demonstrates negligence, irresponsibility, or a lack of bona fides.\n- The decisions reference precedents, including the Supreme Court case *MK Prasad vs. P. Arumugam (2001 6 SCC 176)*, which emphasizes that untrue or insincere affidavits do not warrant a liberal approach to condonation of delay.\n- Division Bench judgments, such as *Sundar Gnanaolivu vs. Rajendran Gnanavolivu (2003 1 LW 585)* and *Tamil Nadu Mercantile Bank Limited vs. Appellate Authority (1990 1 LLN 457)*, reinforce the principle that exceptions to the rule of limitation must be carefully applied.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Delay**: 797 days",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses court rulings on condonation of delay in legal proceedings, emphasizing the importance of bona fides and the application of the Rule of Limitation.\n\n#### 2. **Key Points**:\n- A petitioner's inability to mobilize evidence for over two years, leading to a delay of 797 days in filing a petition to set aside an ex parte decree, was deemed gross negligence and lacked bona fides, resulting in the court refusing to condone the delay.\n- The court referred to the Supreme Court decision in *MK Prasad vs P Arumugam* (2001) 6 SCC 176, which was relied upon by the respondents, emphasizing that untrue averments and lack of bona fides fall outside the liberal approach formula for condonation of delay.\n- Another case, *Sundar Gnanaolivu vs Rajendran Gnanavolivu* (2003) 1 Law Weekly 585, reinforced the principle that cases lacking bona fides do not deserve a liberal approach, citing the same Supreme Court decision.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **797 days**: Delay in",
   "embedding": [
     0.03093721717596054,
     0.020273251459002495,

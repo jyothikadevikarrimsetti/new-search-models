@@ -12,7 +12,7 @@
     "3rajeswari"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4480251706108317,
+  "intent_confidence": 0.4480251706108316,
   "entities": [
     " HIGH COURT OF JUDICATURE",
     " MADRAS",
@@ -51,7 +51,7 @@
     {
       "text": " HIGH COURT OF JUDICATURE",
       "type": "ORG",
-      "score": 0.9724878072738647
+      "score": 0.9724880456924438
     },
     {
       "text": " MADRAS",
@@ -61,7 +61,7 @@
     {
       "text": " SMSUBRAMANIAM",
       "type": "ORG",
-      "score": 0.8585809469223022
+      "score": 0.8585796356201172
     },
     {
       "text": "MArjunan",
@@ -101,7 +101,7 @@
     {
       "text": "HKrishnaveni Vanibai",
       "type": "PER",
-      "score": 0.9985342621803284
+      "score": 0.9985342025756836
     },
     {
       "text": "Kavitha",
@@ -151,7 +151,7 @@
     {
       "text": " City Civil Court",
       "type": "ORG",
-      "score": 0.8766048550605774
+      "score": 0.8766055107116699
     },
     {
       "text": " Chennai",
@@ -161,22 +161,22 @@
     {
       "text": " MrRAnand Kumar",
       "type": "PER",
-      "score": 0.9529339671134949
+      "score": 0.9529336094856262
     },
     {
       "text": " MrSPurushothamadoss",
       "type": "PER",
-      "score": 0.9390568733215332
+      "score": 0.9390566945075989
     },
     {
       "text": " MrANRajan",
       "type": "PER",
-      "score": 0.9552940130233765
+      "score": 0.9552937746047974
     },
     {
       "text": " City Civil Court",
       "type": "ORG",
-      "score": 0.8786904811859131
+      "score": 0.8786909580230713
     },
     {
       "text": " Chennai",
@@ -184,7 +184,7 @@
       "score": 0.9910934567451477
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text pertains to a Civil Miscellaneous Petition (CMP No. 3003 of 2008) filed in the High Court of Madras to condone a delay of 573 days in filing an appeal against a judgment and decree passed in a civil suit (OS No. 2538 of 2012).\n\n---\n\n#### 2. Key Points:\n- **Purpose of the Petition:** The appellants (defendants in the original suit) filed the petition under Order 41 Rule 3A of the Civil Procedure Code (CPC), 1908, seeking condonation of a 573-day delay in filing an appeal against the judgment of the VI Additional Judge, City Civil Court, Chennai.\n- **Reason for Delay:** The appellants claimed the delay was not willful or intentional but occurred due to the death of their trial court counsel during the pendency of the suit.\n- **Legal Representation:** The petitioners were represented by Mr. R. Anand Kumar, while the respondents were represented by Mr. S. Purushothamadoss (for R1) and Mr. A.N. Rajan (for R5 to R9). Some respondents (R2, R3",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject (1 sentence):**  \nThe text discusses a Civil Miscellaneous Petition (CMP No. 3003 of 2008) filed in the High Court of Madras to condone a delay of 573 days in filing an appeal against a judgment and decree in a civil suit (OS No. 2538 of 2012).\n\n---\n\n#### 2. **Key Points:**  \n- The petition seeks condonation of a 573-day delay in filing an Appeal Suit against a judgment passed by the VI Additional Judge, City Civil Court, Chennai.  \n- The appellants argue that the delay was due to the death of their Trial Court counsel during the pendency of the suit, and claim the delay was neither willful nor wanton.  \n- The petitioners include multiple defendants from the original suit, while the respondents include individuals represented by various counsels, with some respondents not appearing in court.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned:**  \n- **Case Numbers:** CMP No. 3003 of 2008, AS No. SR70907 of 2018, OS No. 2538 of 2012.  \n- **Date:**",
   "embedding": [
     0.029661385342478752,
     -0.004858858417719603,

@@ -12,7 +12,7 @@
     "justice"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.36589442248952825,
+  "intent_confidence": 0.3658944224895282,
   "entities": [
     " Supreme Court",
     " MK Prasad",
@@ -31,7 +31,7 @@
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.9974665641784668
+      "score": 0.9974666833877563
     },
     {
       "text": " MK Prasad",
@@ -46,12 +46,12 @@
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.9745844006538391
+      "score": 0.9745839834213257
     },
     {
       "text": " LLN",
       "type": "ORG",
-      "score": 0.9934449791908264
+      "score": 0.9934448599815369
     },
     {
       "text": " Tamil Nadu Mercantile Bank Limited Tuticorin",
@@ -61,7 +61,7 @@
     {
       "text": " Appellate Authority",
       "type": "ORG",
-      "score": 0.8120428323745728
+      "score": 0.8120440244674683
     },
     {
       "text": " M Srinivasan",
@@ -69,7 +69,7 @@
       "score": 0.9990540742874146
     }
   ],
-  "summary": "### 1. **Main Topic/Subject**  \nThe text discusses the legal principles and precedents related to the condonation of delay in court proceedings, emphasizing exceptions to the rule of a liberal approach.\n\n---\n\n### 2. **Key Points**  \n- **Lack of Bona Fides:** If the averments in an affidavit are found to be untrue or lack bona fides, the case falls outside the scope of the liberal approach for condonation of delay.  \n- **Precedents Cited:** The Division Bench of the Court followed the Supreme Court's decision in *MK Prasad vs P Arumugam* (2001) and referred to another judgment in *Tamil Nadu Mercantile Bank Limited Tuticorin vs Appellate Authority* (1990), which discussed the legal position on limitation rules.  \n- **Impact of Delay:** It was noted that condoning delays without considering potential prejudice to the respondent (e.g., destruction of records) is fallacious, and each case must be decided based on its specific facts and circumstances.\n\n---\n\n### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Case References:**  \n  - CMP No. 6648 of 2018 in ASSR No.",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal principles surrounding the condonation of delay in court cases, emphasizing exceptions to the liberal approach when affidavits lack bona fides or are untrue.\n\n#### 2. Key Points:\n- The case highlights that when an affidavit's averments are untrue and lack bona fides, the liberal approach to condonation of delay does not apply, as stated in CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- The Division Bench of the Court relied on the Supreme Court's decision in *M.K. Prasad vs. P. Arumugam* (2001 6 SCC 176) to reinforce this principle.\n- The text references another judgment (*Tamil Nadu Mercantile Bank Limited, Tuticorin vs. Appellate Authority under the Tamil Nadu Shops and Establishments Act, Madurai and another*, 1990 1 LLN 457), which discusses the importance of adhering to limitation rules and the potential prejudice caused to respondents when delays are condoned.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- CMP No. 6648 of 2018 in ASS",
   "embedding": [
     0.02488158643245697,
     0.009950106032192707,

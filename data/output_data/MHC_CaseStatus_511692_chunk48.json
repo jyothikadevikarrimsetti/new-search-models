@@ -12,7 +12,7 @@
     "wpno20999"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4049671331162231,
+  "intent_confidence": 0.40496713311622307,
   "entities": [
     " Income Tax Central",
     " Chennai",
@@ -33,27 +33,27 @@
     {
       "text": " Income Tax Central",
       "type": "ORG",
-      "score": 0.809872567653656
+      "score": 0.809873104095459
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9941567182540894
+      "score": 0.9941565990447998
     },
     {
       "text": " Income Tax Central",
       "type": "ORG",
-      "score": 0.8000006079673767
+      "score": 0.8000012040138245
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9943721294403076
+      "score": 0.9943720102310181
     },
     {
       "text": " Income Tax Unit",
       "type": "ORG",
-      "score": 0.9707608222961426
+      "score": 0.9707607626914978
     },
     {
       "text": " Chennai",
@@ -63,20 +63,20 @@
     {
       "text": " Income Tax",
       "type": "ORG",
-      "score": 0.9158651232719421
+      "score": 0.9158647060394287
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9926400184631348
+      "score": 0.9926398992538452
     },
     {
       "text": "URESH KUMAR",
       "type": "PER",
-      "score": 0.9722124338150024
+      "score": 0.972212016582489
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the dismissal of a writ petition (WP No. 20999 of 2003) by the court, along with related orders and procedural details.\n\n#### 2. **Key Points**:\n- The writ petition (WP No. 20999 of 2003) was dismissed as the grounds presented by the petitioner were insufficient to challenge the impugned order.\n- There is no order regarding costs, and the connected miscellaneous petition is also closed.\n- The court issued a speaking order and indexed the decision.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Writ Petition Number**: WP No. 20999 of 2003\n- **Date**: 31/12/2019\n- **Identifiers**: \n  - Deputy Commissioner of Income Tax (Central Circle I-3, I-5), Chennai - 600 034\n  - Deputy Director of Income Tax (Unit I-2), Chennai - 600 034\n  - Additional Commissioner of Income Tax (Central Range I), Chennai - 600 034\n- **URLs**: http://www.judis.nic.in",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text pertains to the dismissal of a writ petition (WP No. 20999 of 2003) by the court, with no order as to costs and closure of the connected miscellaneous petition.\n\n#### 2. **Key Points**:\n- The court ruled that the grounds presented by the petitioner were insufficient to challenge the impugned order, resulting in the dismissal of the writ petition.\n- The writ petition (WP No. 20999 of 2003) was dismissed without any order regarding costs, and the connected miscellaneous petition was closed.\n- The judgment was delivered by Justice R. Suresh Kumar.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Writ Petition Number**: WP No. 20999 of 2003\n- **Date**: December 31, 2019 (31122019)\n- **Identifiers**: \n  - Deputy Commissioner of Income Tax (Central Circle I-3 and I-5, Chennai - 600 034)\n  - Deputy Director of Income Tax (Unit I-2, Chennai - 600 034)\n  - Additional Commissioner of Income Tax (Central Range I,",
   "embedding": [
     0.02221549302339554,
     -0.006080029997974634,

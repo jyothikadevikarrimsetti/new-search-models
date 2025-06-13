@@ -12,7 +12,7 @@
     "panchanamas"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.34896930976102936,
+  "intent_confidence": 0.34896930976102913,
   "entities": [
     " Kodambakkam High Road Chennai",
     " Revenue",
@@ -70,7 +70,7 @@
     {
       "text": " Computer",
       "type": "MISC",
-      "score": 0.9194090366363525
+      "score": 0.9194091558456421
     },
     {
       "text": " Revenue",
@@ -80,10 +80,10 @@
     {
       "text": " Code of Criminal Procedure 1973",
       "type": "MISC",
-      "score": 0.9902798533439636
+      "score": 0.9902799725532532
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legality and procedural validity of a search operation conducted by the Revenue Department at a specific premises in Chennai, particularly focusing on the interpretation of search continuation, prohibitory orders, and the issuance of multiple panchanamas.\n\n#### 2. Key Points:\n- A search was conducted at **No. 4181 Kodambakkam High Road, Chennai-34** on **25/01/2001**, and a panchanama was issued stating that the search was \"inconclusive\" and would continue, accompanied by a prohibitory order.\n- The petitioner argues that the continuation of the search through multiple panchanamas without a new authorization was unauthorized and that only the initial panchanama dated **25/01/2001** should be considered for legal purposes.\n- The Revenue Department faced challenges in accessing electronic documents stored on a computer system, which delayed the completion of the search, raising questions about the interpretation of \"search\" under the **Code of Criminal Procedure, 1973**.\n\n#### 3. Dates, Numbers, and Identifiers Mentioned:\n- **Premises Address:** No. 4181 Kodambakkam High Road, Chennai-",
+  "summary": "### Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal interpretation and procedural validity of a search conducted at a specific premises in Chennai, focusing on whether the continuation of the search beyond the initial date was authorized and within the limitations of the law.\n\n#### 2. Key Points:\n- A search was conducted at No. 4181 Kodambakkam High Road, Chennai-34, on 25/01/2001, and a panchanama was issued stating that the search was ongoing, along with a prohibitory order.\n- The petitioner argues that subsequent searches at the premises were unauthorized and that only the initial panchanama dated 25/01/2001 should be considered for the purpose of legal limitation.\n- The Revenue contends that the search remained inconclusive due to the inability to access electronic documents, justifying the continuation of the search under the provisions of the Code of Criminal Procedure, 1973.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Address: No. 4181 Kodambakkam High Road, Chennai-34.\n- Date of initial search and panchanama: 25/01/2001.\n- Case reference: WP No. 20999",
   "embedding": [
     0.055099427700042725,
     -0.01104819867759943,

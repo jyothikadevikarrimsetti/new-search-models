@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.37066252323464915,
+  "intent_confidence": 0.3706625232346491,
   "entities": [
     " Act",
     " Revenue",
@@ -30,7 +30,7 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8971169590950012
+      "score": 0.8971174359321594
     },
     {
       "text": " Revenue",
@@ -55,10 +55,10 @@
     {
       "text": " Commissioner of Income tax",
       "type": "ORG",
-      "score": 0.9226935505867004
+      "score": 0.9226953387260437
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses procedural and legal irregularities in a block assessment order under the Income Tax Act, focusing on violations of statutory provisions, lack of required approvals, and denial of natural justice.\n\n#### 2. Key Points:\n- **Procedural Irregularities:** The notice under Section 143(2) was either not issued or issued beyond the limitation period, which is a violation of the Act's provisions.\n- **Approval Requirements:** For block assessments after January 1, 1997, Section 158BG requires approval from the Joint Commissioner or Joint Director, but such approval was allegedly not obtained or served to the petitioner.\n- **Violation of Natural Justice:** The petitioner argues that proper opportunities for representation, as mandated by the Income Tax Act, were not provided during the assessment proceedings, thereby violating the principles of natural justice.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Sections of the Income Tax Act:** Section 143(2), Section 158BG, Section 132.\n- **Date:** After January 1, 1997 (relevant for Section 158BG proviso b).\n- **Case Reference:** WP No. 20999 of 200",
+  "summary": "### Summary of Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses procedural and legal issues regarding the issuance and approval of a Block Assessment Order under the Income Tax Act, emphasizing violations of natural justice and procedural lapses by the Revenue.\n\n2. **Key Points**:  \n   - Section 143(2) notice should have been issued within the prescribed limitation period, but either was not issued or was issued beyond the limitation.  \n   - Under Section 158BG, Block Assessment Orders must be approved by the Principal Commissioner, Principal Director, or Director, and for cases after January 1, 1997, approval by the Joint Commissioner or Joint Director is required. However, no such approval was obtained or served in this case.  \n   - The petitioner claims procedural lapses during assessment proceedings, including denial of proper opportunity, violating principles of natural justice.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: After January 1, 1997 (Section 158BG proviso b applies).  \n   - **Case Identifier**: WP No. 20999 of 2003.  \n   - **Judgment Referenced**: A. Rakesh Kumar Jain v. Joint",
   "embedding": [
     -0.000515103223733604,
     -0.0019108069827780128,

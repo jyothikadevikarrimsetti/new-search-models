@@ -21,29 +21,29 @@
     " M Balakrishnan"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
       "text": " Damocles",
       "type": "PER",
-      "score": 0.8300862908363342
+      "score": 0.8300876021385193
     },
     {
       "text": " Lanka Venkateswarlu D",
       "type": "PER",
-      "score": 0.9487905502319336
+      "score": 0.948792040348053
     },
     {
       "text": " LRs",
       "type": "ORG",
-      "score": 0.8584423661231995
+      "score": 0.8584421277046204
     },
     {
       "text": "ble Supreme Court",
       "type": "ORG",
-      "score": 0.8785699009895325
+      "score": 0.8785710334777832
     },
     {
       "text": " M Balakrishnan",
@@ -51,7 +51,7 @@
       "score": 0.997930645942688
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the legal principles and considerations surrounding the condonation of delay in filing appeals, emphasizing equity, public policy, and the conduct of the parties involved.\n\n2. **Key Points**:\n   - Courts adopt a liberal approach when considering applications for condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the party seeking condonation.\n   - The principle of limitation is rooted in sound public policy and equity, ensuring that litigants are not indefinitely burdened by unresolved disputes.\n   - Mechanical or routine condonation of delay is impermissible, especially for delays of significant duration, and must be evaluated based on the intention and conduct of the parties.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n   - Mention of \"2133\" and \"2233\" (unclear context, possibly typographical errors or identifiers).\n   - Case citation: Lanka Venkateswarlu D by LRs Vs State of AP, reported in MANU/SC/0153/2011.",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the legal principles and considerations surrounding the condonation of delays in filing appeals, emphasizing the need for equity, public policy, and a case-by-case approach.\n\n2. **Key Points:**  \n   - Courts adopt a liberal approach when considering applications for condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the applicant.  \n   - Delays that cause prejudice to the opposing party or are filed without genuine intent cannot be condoned, as the principle of limitation is rooted in public policy and equity.  \n   - A mechanical or routine approach is impermissible, especially for delays of longer durations, and each case must be assessed on its merits.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Mention of \"2133\" and \"2233\" (context unclear, possibly typographical errors or placeholders).  \n   - Case citation: Lanka Venkateswarlu D by LRs Vs State of AP (MANU/SC/0153/2011).  \n   - Reference to M",
   "embedding": [
     0.04756597429513931,
     0.012934035621583462,

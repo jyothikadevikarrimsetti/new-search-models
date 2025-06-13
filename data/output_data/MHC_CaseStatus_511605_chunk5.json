@@ -12,7 +12,7 @@
     "delay"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3757746789234901,
+  "intent_confidence": 0.3757746789234899,
   "entities": [
     " Kandaswamy",
     " Krishnamandiram Trust Karur",
@@ -28,8 +28,8 @@
     " Law Weekly"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -40,12 +40,12 @@
     {
       "text": " Krishnamandiram Trust Karur",
       "type": "ORG",
-      "score": 0.9964300394058228
+      "score": 0.9964300990104675
     },
     {
       "text": "TC",
       "type": "ORG",
-      "score": 0.8197205066680908
+      "score": 0.8197200298309326
     },
     {
       "text": " Supreme Court",
@@ -65,7 +65,7 @@
     {
       "text": " Supreme Court Cases",
       "type": "ORG",
-      "score": 0.8995268940925598
+      "score": 0.8995275497436523
     },
     {
       "text": " Sundar Gnanaolivu",
@@ -75,7 +75,7 @@
     {
       "text": " Mr Rukmini",
       "type": "PER",
-      "score": 0.8697845339775085
+      "score": 0.869784414768219
     },
     {
       "text": " Rajendran Gnanavolivu",
@@ -85,15 +85,15 @@
     {
       "text": " Veina Gnanavalivu",
       "type": "PER",
-      "score": 0.8111623525619507
+      "score": 0.8111532330513
     },
     {
       "text": " Law Weekly",
       "type": "ORG",
-      "score": 0.8983808755874634
+      "score": 0.89838045835495
     }
   ],
-  "summary": "### Summary:\n\n1. **Main Topic/Subject:**  \n   The text discusses a legal case concerning the condonation of delay in filing a petition and examines whether sufficient cause has been shown for the delay, referencing prior judgments for context.\n\n2. **Key Points:**  \n   - The primary issue is whether the delay in filing the petition has been adequately explained and whether sufficient cause has been demonstrated.  \n   - The court referenced prior judgments, including *Kandaswamy vs. Krishnamandiram Trust* (2001) and *MK Prasad vs. P Arumugam* (2001), to highlight the importance of bona fide conduct and the consequences of negligence in legal proceedings.  \n   - The Division Bench in *Sundar Gnanaolivu vs. Rajendran Gnanavolivu* (2003) emphasized that cases lacking bona fides or containing untrue averments do not warrant a liberal approach for condonation of delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Prior judgments cited:  \n     - *Kandaswamy vs. Kr",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal case (CMP No. 6648 of 2018 in ASSR No. 19304 of 2018) focusing on whether the delay in filing a petition has been adequately explained and if sufficient cause has been shown to condone the delay.\n\n---\n\n#### 2. **Key Points**:\n- The court emphasizes that each case must be judged based on its specific facts and circumstances, particularly regarding delays in filing petitions.\n- The revision petitioner cited prior legal precedents to support their argument, including:\n  - *Kandaswamy vs. Krishnamandiram Trust (2001 4 CTC 722)*, where the court refused to condone a 797-day delay due to gross negligence and lack of bona fides.\n  - *Sundar Gnanaolivu vs. Rajendran Gnanavolivu (2003 1 Law Weekly 585)*, where the court held that untrue and non-bona fide affidavits do not warrant a liberal approach to condonation of delay.\n- The court referred to the principle that exceptions to the \"Rule of Liberal Approach\" apply when the petitioner\u2019s conduct lacks bona f",
   "embedding": [
     0.03478720784187317,
     0.039649657905101776,

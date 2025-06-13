@@ -20,8 +20,8 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -37,10 +37,10 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.8699114918708801
+      "score": 0.8699128031730652
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the principles and public policy underlying the law of limitation, emphasizing the importance of adhering to prescribed time limits for legal remedies to ensure certainty and avoid misuse of the legal process.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to prevent unending litigation and ensure legal remedies are sought within a legislatively fixed period, avoiding uncertainty and anarchy.  \n   - Courts must balance consideration for the suitor with the rights of the opposite party, ensuring that dilatory tactics are not encouraged and legal rights are not destroyed.  \n   - In *Ramlal and others vs. Rewa Coalfields Ltd (AIR 1962 SC 361)*, the Supreme Court highlighted that the expiration of the limitation period gives the decree holder a legal right to treat the decree as binding, and this right must be respected.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Maxim: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period be put",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the principles and public policy underlying the law of limitation, emphasizing the importance of adhering to legislatively fixed time limits for legal remedies.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to prevent unending uncertainty and ensure timely resolution of disputes, discouraging dilatory tactics.  \n   - Courts must balance consideration for the suitor with the rights of the opposing party, ensuring that remedies are sought promptly and within the legislatively fixed period.  \n   - The expiration of a limitation period grants the decree holder a legal right to treat the decree as binding, as highlighted in the case of *Ramlal and others vs Rewa Coalfields Ltd (AIR 1962 SC 361)*.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Ramlal and others vs Rewa Coalfields Ltd (AIR 1962 SC 361)*.  \n   - Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Legal maxim: *Interest reipublicae up sit finis litium* (It is for the general welfare",
   "embedding": [
     0.04272047057747841,
     0.04363274201750755,

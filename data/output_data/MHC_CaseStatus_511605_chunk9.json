@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3665175825664623,
+  "intent_confidence": 0.3665175825664622,
   "entities": [
     " Supreme Court",
     " Limitation Act"
@@ -30,10 +30,10 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.9521174430847168
+      "score": 0.9521181583404541
     }
   ],
-  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the judicial discretion to condone delays in legal proceedings, emphasizing the balance between substantial justice and preventing misuse of liberal approaches.\n\n#### 2. **Key Points**  \n- The case in question involved a decree holder who was unable to enjoy the benefits of the decree for 8 years due to repeated petitions filed by the defendants to stall execution.  \n- The court held that while the Limitation Act allows for a liberal approach to condoning delays, such discretion must be exercised judiciously and not arbitrarily, especially when negligence or lack of bona fide is evident.  \n- Judicial discretion should not condone delays as a matter of generosity, but rather with vigilance and circumspection, ensuring substantial justice is served without prejudice to the plaintiff.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **8 years**: Duration the decree holder was prevented from enjoying the decree's benefits.  \n- **553 days**: Delay in filing addressed by the trial court.  \n- **CMP No. 6648 of 2018 in ASSR No. 19304 of 2018**: Case identifiers.  \n- **Sections 5 of",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial approach to condoning delays under Section 5 of the Limitation Act, balancing the need for substantial justice with the avoidance of prejudice to the opposing party.\n\n2. **Key Points**:  \n   - Courts should adopt a liberal and pragmatic approach to condone delays when sufficient cause is properly explained, provided there is no negligence, inaction, or lack of bona fide on the part of the applicant.  \n   - Judicial discretion to condone delays must be exercised with vigilance and circumspection, avoiding arbitrary or overly generous decisions, especially when delays could have been avoided with due care.  \n   - In the referenced case, the decree holder was unable to enjoy the decree's benefits for 8 years due to repeated petitions by the defendants, leading the court to reject the trial court's decision to condone a 553-day delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Delay of **553 days** in the case under discussion.  \n   - The decree holder was prevented from enjoying the decree's benefits for **8 years**.  \n   - Case reference: **CMP No. 6648 of 2018",
   "embedding": [
     0.048029880970716476,
     0.03227520361542702,

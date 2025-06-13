@@ -27,8 +27,8 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -44,7 +44,7 @@
     {
       "text": " MK Prasad",
       "type": "PER",
-      "score": 0.9993401169776917
+      "score": 0.9993400573730469
     },
     {
       "text": " P Arumugam",
@@ -54,22 +54,22 @@
     {
       "text": " State of WB",
       "type": "ORG",
-      "score": 0.932732880115509
+      "score": 0.9327345490455627
     },
     {
       "text": "rah Municipality",
       "type": "ORG",
-      "score": 0.8910651206970215
+      "score": 0.8910682201385498
     },
     {
       "text": " G Ramegowda Major",
       "type": "PER",
-      "score": 0.9939666390419006
+      "score": 0.9939665198326111
     },
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.8724918365478516
+      "score": 0.8724921345710754
     },
     {
       "text": " N Balakrishnan",
@@ -82,7 +82,7 @@
       "score": 0.9993926286697388
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses judicial observations and principles regarding the condonation of delays under the Limitation Act, emphasizing the importance of substantial justice over procedural technicalities.\n\n#### 2. Key Points:\n- Courts should consider the explanation for delays with utmost care and lean towards condoning delays unless there is evidence of mala fides, deliberate inaction, or a dilatory strategy by the litigant.\n- The principle of \"sufficient cause\" under Section 5 of the Limitation Act must be interpreted liberally to advance substantial justice, as the law of limitation is intended to serve justice, not defeat it.\n- Length of delay is not as significant as the acceptability of the explanation provided, provided there is no indication of gross negligence or bad faith.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case references:\n  - **MANUTN21232003** (Division Bench observation)\n  - **MANUSC05731998** (1998 2 CTC 533, N. Balakrishnan vs. M. Krishnamurthy)\n  - **MANUSC03982001** (2001 6 SCC 176, M.K. Prasad",
+  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses judicial principles regarding the condonation of delays in legal cases under the Limitation Act, emphasizing the importance of substantial justice over procedural technicalities.\n\n#### 2. Key Points:\n- Courts should consider the explanation for delays with utmost care, focusing on whether the delay was caused by mala fides, deliberate inaction, or a dilatory strategy. If no such factors are present, delays should generally be condoned to ensure justice.\n- The length of the delay is less important than the acceptability of the explanation provided, as the Limitation Act aims to serve justice rather than defeat it.\n- Several judgments, including *N. Balakrishnan v. M. Krishnamurthy* and *M.K. Prasad v. P. Arumugam*, have reinforced the principle that \"sufficient cause\" for delay must be liberally construed to advance substantial justice.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case identifiers: \n  - MANUTN21232003\n  - MANUSC05731998 (1998 2 CTC 533)\n  - MANUSC03982001 (2001 6 SCC",
   "embedding": [
     0.025499705225229263,
     0.04566393792629242,

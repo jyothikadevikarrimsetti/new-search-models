@@ -21,8 +21,8 @@
     " Revenues"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -48,10 +48,10 @@
     {
       "text": " Revenues",
       "type": "ORG",
-      "score": 0.8489299416542053
+      "score": 0.8489325642585754
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legality and timeline of search operations conducted by the Revenue Department under Section 132(1)(iib) of the Income Tax Act, focusing on whether the searches conducted between January 25, 2001, and June 12, 2001, were authorized and valid.\n\n---\n\n#### 2. **Key Points**:\n- The petitioner argued that the search operations conducted after January 25, 2001, were unauthorized, as the panchanama on that date indicated the conclusion of the search.\n- The court clarified that under Section 132(1)(iib), the search operations conducted at the second premises from January 25, 2001, to June 12, 2001, were valid and authorized, as separate panchanamas were drawn for each search.\n- The Revenue's actions were deemed lawful, and the limitation period under Section 158BE(1)(b) should not be calculated based on the January 25, 2001, panchanama but rather the June 12, 2001, panchanama.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- **",
+  "summary": "### Summary Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legality and interpretation of continuous search operations conducted by the Revenue department under Section 132(1)(iib) of the Income Tax Act, focusing on the timeline and validity of panchanamas issued during the searches.\n\n2. **Key Points**:  \n   - The search operations at the petitioner's second premises began on **25/01/2001** and continued until **12/06/2001**, with multiple panchanamas issued during this period.  \n   - The petitioner argued that the search concluded on **25/01/2001**, rendering subsequent searches unauthorized, but the court held that the continuous searches were valid under Section 132(1)(iib), even though this provision came into effect on **01/06/2002**.  \n   - The court rejected the petitioner's claim that the limitation period should be calculated from **01/02/2001**, based on the first panchanama, and instead upheld the validity of the search operations up to **12/06/2001**.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - Search commenced",
   "embedding": [
     0.04602617770433426,
     0.003896974725648761,

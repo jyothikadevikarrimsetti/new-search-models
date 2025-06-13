@@ -12,7 +12,7 @@
     "judge"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.34281989944290675,
+  "intent_confidence": 0.3428198994429066,
   "entities": [
     " Lanka Venkateswarlu D",
     " LRs",
@@ -23,30 +23,30 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
       "text": " Lanka Venkateswarlu D",
       "type": "PER",
-      "score": 0.9345696568489075
+      "score": 0.9345711469650269
     },
     {
       "text": " LRs",
       "type": "ORG",
-      "score": 0.8766318559646606
+      "score": 0.8766335248947144
     },
     {
       "text": " AP",
       "type": "LOC",
-      "score": 0.8877582550048828
+      "score": 0.8877580761909485
     },
     {
       "text": " Supreme Court",
       "type": "ORG",
-      "score": 0.9865812063217163
+      "score": 0.9865813255310059
     },
     {
       "text": " M Balakrishnan",
@@ -56,10 +56,10 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.8281740546226501
+      "score": 0.8281731009483337
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the Supreme Court's observations on the principles of limitation laws, judicial discretion, and the importance of maintaining judicial balance and restraint in adjudicating cases involving delays.\n\n2. **Key Points**:  \n   - The Supreme Court reiterated that limitation laws are designed to encourage prompt action and prevent dilatory tactics, not to destroy the rights of parties.  \n   - The Court criticized the High Court for condoning an unjustifiable delay, emphasizing that judicial discretion must be exercised within reasonable legal bounds and not influenced by whims, fancies, or prejudices.  \n   - The use of intemperate or sarcastic language in judgments was disapproved, as it undermines judicial balance and decorum.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references: *Lanka Venkateswarlu D by LRs Vs State of AP* (MANU/SC/0153/2011) and *M. Balakrishnan*.  \n   - Section 5 of the Limitation Act.  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.",
+  "summary": "1. **Main topic/subject:**  \n   The text discusses the principles and judicial observations regarding the application of limitation rules and the condonation of delays in legal cases, particularly focusing on the Supreme Court's critique of a High Court's approach.\n\n2. **Key points:**  \n   - The Supreme Court reiterated that limitation rules are designed to ensure parties seek remedies promptly and not to destroy their rights, emphasizing that delays must be justified.  \n   - The Court criticized the High Court for condoning an unjustifiable delay, highlighting the improper use of intemperate language and lack of judicial balance in its judgment.  \n   - Judicial discretion in condoning delays must be exercised within reasonable legal bounds, avoiding arbitrary or prejudiced decisions.\n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - Case references: *Lanka Venkateswarlu D by LRs Vs State of AP* (MANU/SC/0153/2011) and *M. Balakrishnan*.  \n   - Citation: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Section 5 of the Limitation Act.  \n   - URL reference: http://www.judis.nic.in.",
   "embedding": [
     0.03591817989945412,
     0.04059717804193497,

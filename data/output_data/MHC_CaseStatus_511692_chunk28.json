@@ -12,7 +12,7 @@
     "1328a"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.30663414676870304,
+  "intent_confidence": 0.306634146768703,
   "entities": [
     " CRamaiah Reddy"
   ],
@@ -23,10 +23,10 @@
     {
       "text": " CRamaiah Reddy",
       "type": "PER",
-      "score": 0.9976937174797058
+      "score": 0.997693657875061
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the interpretation of legal provisions related to the limitation period for block assessments under Section 158BE, particularly in cases involving searches and authorizations under Sections 1323 and 1328A.\n\n2. **Key Points**:  \n   - The limitation period for block assessments under Section 158BE should not be extended due to delays in lifting restraint under Section 1323, as this could lead to absurd results and violate legislative intent.  \n   - Legislative intent indicates that one authorization should correspond to one search, and the limitation period is determined by the date of the last panchnama drawn in proof of the conclusion of the search.  \n   - The Explanation added to the Act is meant to clarify doubts, not to extend the prescribed limitation period.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - \"Two years\" and \"one or two years\" refer to the limitation period under Section 158BE.  \n   - Sections referenced: 158BE, 1323, 1328A.  \n   - Case identifier: WP No. 20999 of 2003.  \n   - Numbers: \"3460\" and \"",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal interpretations and limitations related to search and seizure provisions under specific sections of an Act, particularly focusing on the period of limitation and the legislative intent behind authorizations for searches.\n\n2. **Key Points**:  \n   - The limitation period under Section 158BE should not be extended due to prolonged restraint under Section 1323, as this would contradict the legislative intent and lead to absurd results.  \n   - Legislative intent is clear that one authorization corresponds to one search, and the conclusion of such a search is evidenced by a panchnama. For multiple searches or authorizations, the last panchnama determines the limitation period for block assessment.  \n   - The Explanation added to the Act is meant to clarify doubts but cannot be interpreted as extending the limitation period beyond what is prescribed in the main section.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Sections**: 158BE, 1323, 1328A.  \n   - **Case Reference**: C. Ramaiah Reddy case.  \n   - **URLs**: http://www.judis.nic.in WP No. 20999 of 2003.",
   "embedding": [
     0.037293411791324615,
     0.006013185251504183,

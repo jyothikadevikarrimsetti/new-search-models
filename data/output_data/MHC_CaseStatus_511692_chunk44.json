@@ -12,7 +12,7 @@
     "alleged"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3514428570446694,
+  "intent_confidence": 0.35144285704466915,
   "entities": [
     " DIT",
     " Chennai",
@@ -25,20 +25,20 @@
     {
       "text": " DIT",
       "type": "ORG",
-      "score": 0.9399570226669312
+      "score": 0.9399571418762207
     },
     {
       "text": " Chennai",
       "type": "ORG",
-      "score": 0.8106145262718201
+      "score": 0.8106077313423157
     },
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9902870655059814
+      "score": 0.9902869462966919
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses a series of search operations conducted by Revenue authorities on a petitioner, focusing on delays caused by the petitioner's refusal to provide computer passwords and the subsequent issuance of prohibitory orders.\n\n2. **Key Points:**  \n   - Search operations were conducted between January 2001 and June 2001 under valid authorization (Warrant No. 5360, WP No. 20999 of 2003, DIT Inv Chennai).  \n   - The petitioner did not cooperate by withholding passwords for computer files, leading to delays in verification and the need to seize the files.  \n   - Prohibitory orders were issued multiple times to facilitate the continuation of the search, not to harass the petitioner.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Search operations spanned from January 2001 to June 25, 2001.  \n   - Warrant of authorization: 5360.  \n   - Case reference: WP No. 20999 of 2003, DIT Inv Chennai.  \n   - Password-protected files were ultimately seized due to non-cooperation.",
+  "summary": "### 1. Main Topic/Subject:\nThe text discusses the search operations conducted by tax authorities on a petitioner\u2019s premises, focusing on delays caused by the petitioner\u2019s refusal to provide computer passwords and the need for prohibitory orders during the investigation.\n\n---\n\n### 2. Key Points:\n- The search operations were conducted under a valid warrant of authorization and spanned from January 2001 to June 25, 2001, due to the petitioner\u2019s non-cooperation.\n- The petitioner\u2019s refusal to provide passwords for files on computers and the voluminous nature of the books of accounts delayed the verification process, necessitating prohibitory orders to continue the search.\n- Authorities denied allegations of harassment, stating that the delays were caused by the petitioner\u2019s lack of cooperation and the complexity of the materials being examined.\n\n---\n\n### 3. Dates, Numbers, and Identifiers:\n- **Dates:** January 2001 to June 25, 2001\n- **Case Reference:** WP No. 20999 of 2003\n- **Identifiers:** 5360, 5460 (possibly document references or identifiers)",
   "embedding": [
     0.03748856857419014,
     -0.01521772425621748,

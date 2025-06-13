@@ -12,7 +12,7 @@
     "court"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3335652735817057,
+  "intent_confidence": 0.3335652735817055,
   "entities": [
     " ARakesh Kumar Jain",
     " Jt CIT",
@@ -25,8 +25,8 @@
     " ARakesh Kumar Jain"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -37,7 +37,7 @@
     {
       "text": " Jt CIT",
       "type": "ORG",
-      "score": 0.9533362984657288
+      "score": 0.9533363580703735
     },
     {
       "text": " Taxman",
@@ -57,7 +57,7 @@
     {
       "text": " Asst CIT",
       "type": "ORG",
-      "score": 0.9271396398544312
+      "score": 0.9271397590637207
     },
     {
       "text": " Karnataka High Court",
@@ -75,7 +75,7 @@
       "score": 0.9977487921714783
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of the limitation period under Section 158BE of the Income Tax Act, particularly in relation to the conclusion of searches and panchanamas.\n\n2. **Key Points**:  \n   - Multiple panchanamas were drawn following authorizations for searches under Section 132 of the Income Tax Act, with specific dates indicating the commencement and conclusion of searches.  \n   - The Karnataka High Court decision in *C. Ramaiah Reddy v. Asst. CIT* established that the limitation period should be calculated based on the date of the panchanama that proves the conclusion of the search, not the prohibitory order.  \n   - A similar question was addressed by the Court in an unreported decision (*Tax Case Appeal No. 1240 of 2006*) dated 25.09.2012, which upheld the precedent set by the Karnataka High Court.\n\n3. **Dates, Numbers, and Identifiers Mentioned**:  \n   - **Dates**:  \n     - Panchanamas drawn: 27.03.2003, 28.03.2003, 28.08.2003, 29.",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal interpretation of search and seizure procedures under Section 132 of the Income Tax Act, focusing on the timeline for concluding searches and the applicability of limitation periods under Section 158BE.\n\n#### 2. Key Points:\n- **Search and Panchanama Details:** Multiple searches were conducted, with panchanamas (official records of the searches) drawn on specific dates. The timeline of searches and their conclusion is critical for determining the limitation period under Section 158BE.\n- **Legal Precedents:** The text references decisions by courts, including the Karnataka High Court and an unreported decision by the Madras High Court in Tax Case Appeal No. 1240 of 2006, which clarified that the limitation period is determined based on the panchanama date marking the conclusion of the search, not the date of any prohibitory order.\n- **Judgment Outcome:** The court rejected the assessee's plea, affirming the earlier decision based on the legal precedents cited.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Dates:**\n  - Panchanamas drawn: 27/03/2003, 28/03/2003,",
   "embedding": [
     0.04842308163642883,
     0.006510160863399506,

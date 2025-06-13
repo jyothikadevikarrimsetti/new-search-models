@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3706120505846106,
+  "intent_confidence": 0.3706120505846104,
   "entities": [
     " Shanmugam",
     " Chokkalingam",
@@ -21,8 +21,8 @@
     " Supreme Court"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -33,7 +33,7 @@
     {
       "text": " Chokkalingam",
       "type": "PER",
-      "score": 0.9941009283065796
+      "score": 0.9941008687019348
     },
     {
       "text": " Oriental Aroma Chemical Industries Limited",
@@ -51,7 +51,7 @@
       "score": 0.9971007108688354
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the judicial principles and precedents related to condoning delays in legal proceedings and emphasizes the importance of due diligence and the avoidance of prejudice to the opposing party.\n\n2. **Key Points**:\n   - Delay in legal proceedings cannot be excused as a matter of judicial generosity, especially when it could have been avoided with due care and caution.\n   - Courts must ensure that condoning delays does not cause prejudice to the opposing party, particularly when the plaintiff has been diligently pursuing the matter for an extended period.\n   - Precedents, such as *Shanmugam vs. Chokkalingam* and *Oriental Aroma Chemical Industries Limited vs. Gujarat Industrial Development Corporation*, highlight instances where delays were not condoned due to insufficient justification or false claims.\n\n3. **Dates, Numbers, or Identifiers**:\n   - The money suit was filed in 1998.\n   - The plaintiff has been pursuing the matter for 7\u20138 years.\n   - Reference to CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n   - Delay of 332 days in *Shanmugam vs. Chokkalingam*.\n   - Delay of",
+  "summary": "1. **Main topic/subject:**  \nThe text discusses the principles and judicial precedents regarding the condonation of delay in legal proceedings, emphasizing that delays caused by lack of due diligence cannot be excused as a matter of judicial generosity.\n\n2. **Key points:**  \n   - Courts are cautious about condoning delays, especially when the delay could have been avoided through due care and diligence, as it may prejudice the opposing party.  \n   - In the specific case mentioned, the plaintiff has been pursuing a money suit since 1998, and the delay caused by the defendant's applications has prevented the matter from reaching finality.  \n   - Judicial precedents, such as *Shanmugam vs. Chokkalingam (2009)* and *Oriental Aroma Chemical Industries Limited vs. Gujarat Industrial Development Corporation (2010)*, highlight that delays caused by insufficient or false explanations are not condoned.  \n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - **1998:** The year the money suit was filed.  \n   - **7 to 8 years:** The time the plaintiff has been pursuing the matter.  \n   - **332 days:** The delay in filing a petition in *Shanmugam vs. Chokkalingam",
   "embedding": [
     0.03254052251577377,
     0.02163076587021351,

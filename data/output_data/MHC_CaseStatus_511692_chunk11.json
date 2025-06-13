@@ -31,22 +31,22 @@
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.826952338218689
+      "score": 0.8269527554512024
     },
     {
       "text": " Income Tax",
       "type": "ORG",
-      "score": 0.8868813514709473
+      "score": 0.886881947517395
     },
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.8664956092834473
+      "score": 0.8664965033531189
     },
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8103047609329224
+      "score": 0.8103048205375671
     },
     {
       "text": " Revenue",
@@ -56,12 +56,12 @@
     {
       "text": " Constitution",
       "type": "MISC",
-      "score": 0.8680346012115479
+      "score": 0.8680344223976135
     },
     {
       "text": " Constitution",
       "type": "MISC",
-      "score": 0.8868845105171204
+      "score": 0.8868836760520935
     },
     {
       "text": " Revenue",
@@ -69,7 +69,7 @@
       "score": 0.99611496925354
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal arguments surrounding the validity of an Assessment Order issued under Section 158BE(1)(b) of the Income Tax Act, addressing the limitation period, procedural compliance, and allegations of violation of natural justice.\n\n2. **Key Points**:  \n   - The learned standing counsel argues that the limitation period for Section 158BE(1)(b) commenced on **01/07/2001**, as the last search was conducted on **12/06/2001**, and the month of the last search ended on **30/06/2001**. Therefore, the Assessment Order issued on **30/06/2003** is within the limitation period.  \n   - The counsel asserts that the procedure under the Income Tax Act was followed scrupulously, including obtaining prior approval from the Joint Commissioner under Section 158BG, issuing notices, and providing opportunities to the petitioner.  \n   - The petitioner\u2019s claim of violation of natural justice is argued to be baseless, as the petitioner bypassed the statutory appellate remedy and directly approached the Court under Article 226 of the Constitution.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:",
+  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal dispute regarding the limitation period for issuing an assessment order under Section 158BE(1)(b) of the Income Tax Act, and the petitioner's allegations of procedural violations by the Revenue.\n\n#### 2. Key Points:\n- The learned standing counsel for the Revenue argues that the limitation period for issuing the assessment order commenced on **01/07/2001**, as the last search concluded on **12/06/2001**, making the assessment order issued on **30/06/2003** valid and within the limitation period.\n- The Revenue contends that all procedural requirements, including obtaining prior approval from the Joint Commissioner of Income Tax under Section 158BG and issuing notices, were followed, ensuring compliance with the principles of natural justice.\n- The petitioner is accused of bypassing the statutory appellate remedy and directly approaching the court under Article 226 of the Constitution of India by alleging a violation of natural justice.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **WP No. 20999 of 2003** (case identifier)\n- **01/02/2001** (date mentioned for limitation commencement, disputed by Revenue)\n- **",
   "embedding": [
     0.01723380573093891,
     0.024090660735964775,

@@ -29,27 +29,27 @@
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.99037104845047
+      "score": 0.9903708100318909
     },
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.8563246726989746
+      "score": 0.8563261032104492
     },
     {
       "text": "BB",
       "type": "MISC",
-      "score": 0.8162622451782227
+      "score": 0.8162620663642883
     },
     {
       "text": " 158BC",
       "type": "MISC",
-      "score": 0.8292690515518188
+      "score": 0.8292691707611084
     },
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.9050211906433105
+      "score": 0.9050208926200867
     },
     {
       "text": "BG",
@@ -57,7 +57,7 @@
       "score": 0.8944580554962158
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal arguments regarding the validity and limitation period of a Block Assessment Order under Section 158BE(1)(b) of the Income Tax Act, in relation to a search conducted on 25/01/2001.\n\n2. **Key Points**:  \n   - The petitioner contends that the search authorization dated 25/01/2001 should be the starting point for computing the two-year limitation period under Section 158BE(1)(b), making the Block Assessment Order dated 30/06/2003 time-barred.  \n   - The petitioner argues that a notice under Section 143(2) of the Income Tax Act, required for determining undisclosed income under Section 158BC, was either not issued or issued beyond the limitation period.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Search Authorization Date**: 25/01/2001  \n   - **Limitation Period End Date**: 31/01/2003  \n   - **Block Assessment Order Date**: 30/06/2003  \n   - **Relevant Sections of Income Tax Act**: 132(3",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal challenge to a Block Assessment Order under Section 158BE(1)(b) of the Income Tax Act, arguing it is barred by the two-year limitation period due to procedural lapses in authorizations and notices.\n\n#### 2. **Key Points**:\n- The petitioner contends that the search authorization issued on **25/01/2001** and the corresponding panchanama should be treated as the starting point for the two-year limitation period under Section 158BE(1)(b). Based on this, the limitation period ended on **31/01/2003**, making the Block Assessment Order dated **30/06/2003** invalid.\n- The petitioner argues that the issuance of a prohibitory order under Section 132(3) was unwarranted after the search concluded on **25/01/2001**, and no further authorization was provided by the Revenue.\n- It is further contended that proceedings under Section 158BC require compliance with provisions of Section 143(2), including the issuance of a notice, which was either not issued or issued beyond the limitation period.\n\n#### 3. **Dates, Numbers, or Ident",
   "embedding": [
     0.04281482473015785,
     0.013250449672341347,

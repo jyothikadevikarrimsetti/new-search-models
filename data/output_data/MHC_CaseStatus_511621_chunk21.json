@@ -12,7 +12,7 @@
     "nadu"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3254631419202876,
+  "intent_confidence": 0.32546314192028764,
   "entities": [
     " LLN",
     " Tamil Nadu Mercantile Bank Ltd Tuticorin",
@@ -34,17 +34,17 @@
     {
       "text": " Tamil Nadu Mercantile Bank Ltd Tuticorin",
       "type": "ORG",
-      "score": 0.9894288778305054
+      "score": 0.989428699016571
     },
     {
       "text": " Appellate Authority",
       "type": "ORG",
-      "score": 0.8135492205619812
+      "score": 0.8135498762130737
     },
     {
       "text": " Tamil Nadu",
       "type": "MISC",
-      "score": 0.8806909322738647
+      "score": 0.8806929588317871
     },
     {
       "text": " M Srinivasan",
@@ -52,7 +52,7 @@
       "score": 0.9991167783737183
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal principles related to the condonation of delay in court proceedings, emphasizing the need for careful consideration of explanations and the impact on the opposing party.\n\n2. **Key Points**:  \n   - Courts should show consideration to litigants unless the delay is caused by mala fides or a deliberate dilatory strategy; in such cases, courts should lean against accepting the explanation.  \n   - Condonation of delay should account for the potential prejudice to the opposing party, as they may have destroyed relevant records due to the lapse in time.  \n   - Each case must be assessed based on its specific facts and circumstances, including the length of the delay, and litigants cannot arbitrarily set their own timelines.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **1990 1 LLN 457**: Citation for a Division Bench Judgment.  \n   - **CMP No. 3003 of 2008**: Case identifier.  \n   - Reference to paragraphs **14** and **17** from a judgment by Justice M. Srinivasan.  \n   - Location identifiers: **Tamil Nadu Mercantile Bank Ltd Tuticorin**,",
+  "summary": "### Summary and Analysis\n\n#### 1. Main Topic/Subject:\nThe text discusses the principles and considerations courts must follow when deciding whether to condone delays in legal proceedings, particularly focusing on the potential prejudice to the opposing party and the intent behind the delay.\n\n#### 2. Key Points:\n- Courts should carefully evaluate explanations for delays, ensuring they are not motivated by bad faith or a strategy to deliberately waste time. If the delay is intentional, courts should be less inclined to condone it.\n- The opposing party's interests must be considered when condoning delays, as they may have disposed of relevant records or assumed the matter was closed due to the lapse of time.\n- Each case should be assessed individually, with the length of the delay being a critical factor in determining whether condonation is justified.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **1990 1 LLN 457**: A Division Bench judgment cited as a precedent.\n- **CMP No. 3003 of 2008**: A case reference mentioned in the text.\n- **Paragraphs 14 and 17**: Sections of the judgment by Justice M. Srinivasan where relevant principles are discussed.",
   "embedding": [
     0.035142045468091965,
     0.017723042517900467,

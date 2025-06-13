@@ -12,11 +12,11 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3160602776317725,
+  "intent_confidence": 0.31606027763177247,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles courts should follow in balancing justice, addressing delays, and ensuring fairness in legal proceedings while maintaining vigilance against misuse of the judicial process.\n\n#### 2. **Key Points**:\n- Courts must ensure justice is not compromised by strict adherence to procedural proof, avoiding public harm or failure of justice.\n- A distinction is made between inordinate delays (requiring strict scrutiny) and short delays (calling for a more liberal approach), with factors like conduct, negligence, and reasonableness being relevant considerations.\n- Fraud, misrepresentation, or misuse of legal technicalities should not be tolerated, and judicial discretion should be exercised objectively, especially when dealing with public entities.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- CMP No. 3003 of 2008\n- Reference to \"3439\" (possibly a case number or identifier)\n- Mention of \"16\" (context unclear, could be a paragraph or section number).",
+  "summary": "1. **Main Topic/Subject:** The text discusses the principles and considerations courts must follow in balancing justice, particularly regarding delays, fraud, and the application of a liberal approach in legal proceedings.\n\n2. **Key Points:**\n   - Courts must ensure that strict adherence to proof does not lead to public injustice or mischief, and they should remain vigilant to prevent failures of justice.\n   - Delays in legal proceedings are categorized as either inordinate (requiring strict scrutiny due to prejudice) or short-term (allowing for a more liberal approach), with the conduct and behavior of the parties being relevant factors.\n   - Fraud, misrepresentation, or manipulation cannot be excused by technicalities, and courts must exercise judicial discretion based on objective reasoning rather than personal perception.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**\n   - CMP No. 3003 of 2008\n   - Reference number: 3439\n   - URL: http://www.judis.nic.in\n   - \"16\" (possibly indicating a paragraph or section number).",
   "embedding": [
     0.05054201930761337,
     0.02063591033220291,

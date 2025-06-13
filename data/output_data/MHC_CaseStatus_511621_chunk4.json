@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3627341697231843,
+  "intent_confidence": 0.36273416972318423,
   "entities": [
     " Radhika",
     " Sreekuma ran Nair",
@@ -39,12 +39,12 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.9005094170570374
+      "score": 0.9005104899406433
     },
     {
       "text": " Limitation Act 1963",
       "type": "MISC",
-      "score": 0.8863469362258911
+      "score": 0.8863475322723389
     },
     {
       "text": " AEdwin Raj",
@@ -57,7 +57,7 @@
       "score": 0.9980261325836182
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses legal principles and judgments related to the condonation of delay under Section 5 of the Limitation Act, 1963, emphasizing a liberal and lenient approach to ensure substantial justice.\n\n#### 2. **Key Points**:\n- Courts generally view applications to condone delays under Section 5 of the Limitation Act in a liberal and lenient manner to ensure substantial justice between parties.\n- Denying condonation of delay may risk defeating justice, as meritorious cases could be dismissed prematurely, while allowing condonation enables cases to be decided on their merits.\n- The length and breadth of the delay are not considered material factors in deciding condonation applications.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case References**:\n  - *Radhika Vs Sreekumaran Nair*, CRPNPDMD No. 1620 of 2004.\n  - *A. Edwin Raj Vs A. Ruban David*, MP No. 1 of 2015 in ASSR No. 52108 of 2015.\n- **Dates**:\n  - Judgment in *Radhika Vs Sreekumaran N",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject:**  \n   The text discusses legal principles and judgments related to the condonation of delay under Section 5 of the Limitation Act, 1963, as cited in specific court cases.\n\n2. **Key Points:**  \n   - Courts generally adopt a liberal and lenient approach when dealing with applications for condonation of delay under Section 5 of the Limitation Act to ensure substantial justice between parties.  \n   - Allowing such applications enables the main legal issues to be decided on their merits, whereas rejecting them prematurely could defeat the cause of justice.  \n   - The length of the delay is not a critical factor in deciding condonation applications; the focus is on advancing justice.  \n\n3. **Dates, Numbers, and Identifiers Mentioned:**  \n   - Case: *Radhika Vs Sreekumaran Nair*, CRPNPDMD No. 1620 of 2004.  \n   - Judgment Date: 31/01/2011.  \n   - Section 5 of the Limitation Act, 1963.  \n   - Case: *A. Edwin Raj Vs A. Ruban David*, MP No. 1 of 2015 in ASSR No.",
   "embedding": [
     0.05637163668870926,
     0.025323575362563133,

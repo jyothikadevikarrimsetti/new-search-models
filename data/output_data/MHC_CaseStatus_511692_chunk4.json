@@ -12,7 +12,7 @@
     "assessm"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3665116130662904,
+  "intent_confidence": 0.36651161306629015,
   "entities": [
     " of Income Tax",
     " Act",
@@ -37,22 +37,22 @@
     {
       "text": " of Income Tax",
       "type": "ORG",
-      "score": 0.9798052310943604
+      "score": 0.9798054099082947
     },
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8463031053543091
+      "score": 0.8463024497032166
     },
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9871541857719421
+      "score": 0.9871540665626526
     },
     {
       "text": " DrBharat Mehta",
       "type": "PER",
-      "score": 0.9294978380203247
+      "score": 0.9294981956481934
     },
     {
       "text": "Bharat Mehta",
@@ -72,17 +72,17 @@
     {
       "text": "BC",
       "type": "MISC",
-      "score": 0.8690565824508667
+      "score": 0.869057297706604
     },
     {
       "text": "BD",
       "type": "MISC",
-      "score": 0.8298196792602539
+      "score": 0.8298203349113464
     },
     {
       "text": " 158BC",
       "type": "MISC",
-      "score": 0.8366142511367798
+      "score": 0.8366148471832275
     },
     {
       "text": "BG",
@@ -92,7 +92,7 @@
     {
       "text": " JCIT",
       "type": "ORG",
-      "score": 0.9892024993896484
+      "score": 0.9892023801803589
     },
     {
       "text": " Revenue",
@@ -100,7 +100,7 @@
       "score": 0.99233078956604
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The writ petition challenges a Block Assessment Order issued by the Revenue on June 30, 2003, citing procedural violations, including lack of approval, limitation issues, and violation of natural justice principles.\n\n2. **Key Points**:  \n   - The petitioner argued that the Block Assessment Order under Section 158BC read with Section 158BD was barred by limitation as per Section 158BE(1)(b).  \n   - The mandatory notice under Section 143(2) was either not issued or issued belatedly, rendering it invalid.  \n   - Prior approval from the Joint Commissioner of Income Tax (JCIT) under Section 158BG was not obtained, and the petitioner was not given an opportunity to be heard, violating principles of natural justice.\n\n3. **Dates, Numbers, and Identifiers**:  \n   - Block Assessment Order date: June 30, 2003.  \n   - Substitution of legal representative (Mr. Mehul Mehta) for deceased petitioner (Dr. Bharat Mehta): September 12, 2017.  \n   - Relevant sections of the Income Tax Act: 158BC, 158BD, 158BE(1",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a writ petition filed to challenge a Block Assessment Order issued by the Revenue Department, citing procedural violations, including lack of approval, limitation issues, and breach of natural justice principles.\n\n#### 2. **Key Points**:\n- The petitioner, initially Dr. Bharat Mehta (now represented by Mr. Mehul Mehta after Dr. Mehta's death), filed a writ petition against a Block Assessment Order dated 30.06.2003, alleging procedural lapses and violations of natural justice.\n- The grounds for challenging the order include:\n  - The Block Assessment Order is barred by limitation under Section 158BE(1)(b).\n  - Mandatory notice under Section 143(2) was either not issued or issued belatedly, making it invalid.\n  - Prior approval from the Joint Commissioner of Income Tax (JCIT) under Section 158BG was not obtained.\n  - The petitioner was not given an opportunity to present their case, violating principles of natural justice.\n- The case was contested by legal representative Mr. Mehul Mehta after the original petitioner passed away.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **",
   "embedding": [
     0.00985273439437151,
     0.01625269465148449,

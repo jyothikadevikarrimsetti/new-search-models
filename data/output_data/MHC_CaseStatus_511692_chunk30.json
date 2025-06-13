@@ -12,7 +12,7 @@
     "requisitioned"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3405407869021657,
+  "intent_confidence": 0.34054078690216555,
   "entities": [
     " Revenue",
     " Karnataka High Court",
@@ -26,7 +26,7 @@
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9522060751914978
+      "score": 0.9522050023078918
     },
     {
       "text": " Karnataka High Court",
@@ -39,7 +39,7 @@
       "score": 0.9987252354621887
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of search authorizations and Panchanamas under Section 132 of the Income Tax Act, particularly in cases involving single or multiple authorizations and prohibitory or restraint orders.\n\n2. **Key Points**:  \n   - The Explanation under Section 132 addresses cases with multiple authorizations for searches and extends the deemed conclusion of the warrant to the last Panchanama related to the person in question.  \n   - There is debate on whether the Explanation applies to cases with a single authorization but multiple Panchanamas, with the Karnataka High Court reasoning that it does not.  \n   - Prohibitory or restraint orders do not require separate authorization for entering premises; these orders themselves act as authorization for inspection and seizure of incriminating materials.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: On or after January 1, 1997.  \n   - **Section**: Section 132 of the Income Tax Act.  \n   - **Case Reference**: Karnataka High Court case of C Ramaiah Reddy (paragraph 77).  \n   - **Identifier**: WP No. 20999 of",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of search authorizations, Panchanamas, and prohibitory or restraint orders under Section 132 of the Income Tax Act.\n\n2. **Key Points**:  \n   - The section distinguishes between cases involving multiple search authorizations and a single authorization with multiple Panchanamas, questioning whether the explanation provided applies to the latter scenario.  \n   - The Karnataka High Court's reasoning in the case of C. Ramaiah Reddy is cited, emphasizing that prohibitory or restraint orders do not require separate authorization for entering premises, as the order itself serves as authorization.  \n   - Actions taken under prohibitory or restraint orders are limited to inspection and seizure of incriminating materials related to the subject matter of those orders.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: 1st day of January 1997  \n   - **Section**: Section 132 of the Income Tax Act  \n   - **Case Reference**: C. Ramaiah Reddy case (Karnataka High Court)  \n   - **Identifier**: WP No. 20999 of 2003",
   "embedding": [
     0.06308834999799728,
     0.043137554079294205,

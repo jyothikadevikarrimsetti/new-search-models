@@ -12,7 +12,7 @@
     "madurai"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.32836922918399664,
+  "intent_confidence": 0.3283692291839966,
   "entities": [
     " Tuticorin versus Appellate Authority",
     " Act Madurai",
@@ -32,7 +32,7 @@
     {
       "text": " Act Madurai",
       "type": "MISC",
-      "score": 0.8437581062316895
+      "score": 0.8437570929527283
     },
     {
       "text": " M Srinivasan",
@@ -40,7 +40,7 @@
       "score": 0.9990278482437134
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the principles of limitation under the Tamil Nadu Shops and Establishments Act, emphasizing the importance of adhering to prescribed time limits for legal proceedings and the consequences of delay.\n\n#### 2. Key Points:\n- **Impact of Delay on Legal Proceedings:** The text highlights that delays in approaching the court beyond the prescribed time can prejudice the opposing party, as they may have discarded relevant records assuming no further action would occur.\n- **Strict Adherence to Limitation Rules:** It is emphasized that litigants cannot set their own timelines for initiating legal proceedings, and the length of the delay is a critical factor in deciding whether it should be condoned.\n- **Substantial Justice vs. Technical Considerations:** The court asserts that limitation rules are not merely technical but substantive, and a party cannot claim substantial justice if they have been inactive for an extended period.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Case Reference:** CMP No. 3003 of 2008\n- **Paragraphs Referenced:** 14 and 17\n- **URL Mentioned:** http://www.judis.nic.in",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the principles of limitation rules under the Tamil Nadu Shops and Establishments Act, emphasizing the importance of adhering to prescribed time limits for legal proceedings and the consequences of delay.\n\n2. **Key Points**:  \n   - A delay in approaching the court beyond the prescribed time limit can prejudice the other party, as they may have destroyed relevant records assuming no further proceedings would occur.  \n   - The length of the delay and the circumstances surrounding it are critical factors in deciding whether to condone the delay, and litigants cannot set their own time limits outside the law.  \n   - A party that has lost its right to have a matter considered due to prolonged inaction cannot argue for substantial justice over technical considerations, as limitation rules are not merely technical but substantive.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Paragraphs 14 and 17 of the judgment are referenced.  \n   - CMP No. 3003 of 2008 is cited.  \n   - The URL \"http://www.judis.nic.in\" is mentioned.  \n   - The number \"1039\" appears but its context is unclear.",
   "embedding": [
     0.028850039467215538,
     0.01320690754801035,

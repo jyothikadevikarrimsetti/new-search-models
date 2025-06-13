@@ -12,7 +12,7 @@
     "issuing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3683495240754421,
+  "intent_confidence": 0.36834952407544214,
   "entities": [
     " Order",
     " Revenue",
@@ -33,7 +33,7 @@
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.8680799603462219
+      "score": 0.8680819272994995
     },
     {
       "text": " Revenue",
@@ -43,7 +43,7 @@
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.8617342710494995
+      "score": 0.8617361187934875
     },
     {
       "text": " Revenue",
@@ -58,7 +58,7 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8502582311630249
+      "score": 0.8502581715583801
     },
     {
       "text": " Revenue",
@@ -68,12 +68,12 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8280975818634033
+      "score": 0.8280971050262451
     },
     {
       "text": " Order",
       "type": "MISC",
-      "score": 0.8845157027244568
+      "score": 0.8845176696777344
     },
     {
       "text": " Revenue",
@@ -81,7 +81,7 @@
       "score": 0.9969141483306885
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses a legal dispute over the validity and timing of a Block Assessment Order issued by the Revenue Department, focusing on whether the search and seizure operations were conducted within the prescribed limitation period under tax laws.\n\n2. **Key Points**:  \n   - The petitioner argues that the search and seizure operations were concluded on 25/01/2001, as per the panchanama issued on that date, and no further authorization was given for continued searches.  \n   - The Revenue contends that the search was continuous and concluded only on 12/06/2001, making the Block Assessment Order dated 30/06/2003 fall within the two-year limitation period under Section 158BE(1)(b) of the Act.  \n   - The petitioner claims that the issuance of a prohibitory order under Section 132(3) of the Act after the search was concluded on 25/01/2001 was unwarranted.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - Search conducted: 25/01/2001  \n     - Search concluded (as per Revenue): 12/06/2001",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute regarding the validity of a Block Assessment Order issued by the Revenue Department, focusing on whether the search and seizure operations were conducted within the prescribed limitation period under tax law.\n\n2. **Key Points**:  \n   - The petitioner challenges the Block Assessment Order, arguing that the search and seizure operations concluded on **25/01/2001**, and any subsequent actions were unauthorized.  \n   - The Revenue contends that the search was continuous and concluded only on **12/06/2001**, making the Block Assessment Order dated **30/06/2003** fall within the two-year limitation period under Section 158BE(1)(b) of the Act.  \n   - The petitioner disputes the issuance of a prohibitory order under Section 132(3) of the Act, claiming it was unnecessary since the search had already concluded on **25/01/2001**.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **25/01/2001**: Date of the initial search and seizure operation.  \n   - **12/06/2001**: Date claimed by the Revenue as the conclusion of",
   "embedding": [
     0.03691767901182175,
     0.011635770089924335,

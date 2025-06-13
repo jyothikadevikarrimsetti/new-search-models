@@ -21,8 +21,8 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -43,10 +43,10 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.9319806098937988
+      "score": 0.931980550289154
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses judicial discretion in condoning delays in legal proceedings, focusing on a case where a significant delay in filing an application was not condoned due to its impact on the opposing party.\n\n2. **Key Points**:  \n   - Courts must exercise discretion in condoning delays with vigilance and avoid arbitrary decisions, keeping in mind the prejudice caused to the opposing party.  \n   - In the case *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*, the court refused to condone a 553-day delay, emphasizing that judicial generosity should not override the rights accrued to the other party.  \n   - Liberal approaches to delay condonation can harm plaintiffs, as seen in cases where defendants use repeated petitions to stall the execution of decrees.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*  \n   - Delay: 553 days  \n   - URL reference: http://www.judis.nic.in  \n   - CMP No. 3003 of 2008  \n   - Mention of an 8-year delay in decree",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial principles surrounding the condonation of delays in legal proceedings, emphasizing the need for vigilance and fairness in exercising discretion.\n\n2. **Key Points**:  \n   - Courts must exercise discretion in condoning delays with vigilance and not arbitrarily, ensuring that the rights of the opposing party are not prejudiced.  \n   - In the case *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*, a delay of 553 days in filing an application to set aside a decree was deemed unjustifiable, as it caused significant prejudice to the decree holder.  \n   - While courts generally adopt a liberal approach to \"sufficient cause\" under Section 5 of the Limitation Act, this should not be misused to indefinitely delay justice or harm the rights of the other party.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*  \n   - Delay: 553 days  \n   - URL reference: \"http://www.judis.nic.in CMPNo3003 of 2008\"",
   "embedding": [
     0.05758599936962128,
     0.02540704235434532,

@@ -12,7 +12,7 @@
     "premises"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.33364957929868266,
+  "intent_confidence": 0.3336495792986826,
   "entities": [
     " Revenue",
     " Tribunal",
@@ -31,20 +31,20 @@
     {
       "text": " Tribunal",
       "type": "ORG",
-      "score": 0.8260776400566101
+      "score": 0.8260766267776489
     },
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9951823353767395
+      "score": 0.995182454586029
     },
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9948511719703674
+      "score": 0.994851291179657
     }
   ],
-  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the limitation period for tax-related searches and the legal interpretation of when a search is considered concluded under the provisions of the Act.\n\n#### 2. **Key Points**  \n- The search in question was completed on **13.12.2001**, as evidenced by the Panchanama and the departure of the search party from the premises. The mere mention in the Panchanama that the search \"continues\" does not justify extending the search indefinitely.\n- The limitation period for the search ends on **31.12.2002**, as per the assessee's argument, and not on **29.02.2004**, as contended by the Revenue. The court accepted the assessee's interpretation and allowed the appeal.\n- Once a search is concluded, any subsequent entry into the premises by the Revenue team can only be for the purpose of seizing documents/materials under a prohibitory order, not for continuing the search.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Search completion date:** 13.12.2001  \n- **Last Panchanama drawn:** 15.02.2002  \n- **",
+  "summary": "### Analysis and Summary\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the limitation period for tax-related searches and the legal interpretation of when a search operation is considered complete under the provisions of the Act.\n\n#### 2. **Key Points**  \n- The search operation is deemed complete once the search team leaves the premises and the Panchanama is drawn, regardless of whether the Panchanama states that the search continues.  \n- The limitation period for tax-related actions should be calculated from the date the search is completed, not from subsequent Panchanamas or actions.  \n- The court accepted the assessee's argument that the limitation period ended on 31-12-2002, rejecting the Revenue's contention that it extended to 29-02-2004.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Search completion date:** 13-12-2001  \n- **Last Panchanama date:** 15-02-2002  \n- **Limitation period ends:** 31-12-2002 (as per assessee)  \n- **Revenue's contention of limitation period:** 29-02-2004  \n- **Tribunal order:** Set aside  \n- **Case identifiers",
   "embedding": [
     0.0628117024898529,
     0.022219950333237648,

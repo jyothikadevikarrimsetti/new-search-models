@@ -12,7 +12,7 @@
     "criterion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3203057538258885,
+  "intent_confidence": 0.32030575382588844,
   "entities": [
     " High Court",
     " Subraniam",
@@ -26,12 +26,12 @@
     {
       "text": " High Court",
       "type": "ORG",
-      "score": 0.9781635403633118
+      "score": 0.9781638383865356
     },
     {
       "text": " Subraniam",
       "type": "PER",
-      "score": 0.9981206059455872
+      "score": 0.9981207251548767
     },
     {
       "text": " Tamil Nadu Housing Board",
@@ -39,7 +39,7 @@
       "score": 0.9984909296035767
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles surrounding the condonation of delay in court proceedings, emphasizing the discretion of the court and the importance of substantial justice.\n\n2. **Key Points**:  \n   - Condonation of delay is at the discretion of the court, and sufficient cause for the delay must be liberally construed to ensure substantial justice.  \n   - The length of the delay is less important than the acceptability of the explanation, and courts should avoid penalizing parties unless there is evidence of mala fides or deliberate delay tactics.  \n   - Rules of limitation are designed to prevent dilatory tactics but should not destroy the rights of parties if manifest injustice or hardship would result.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case citation: MANU/TN/0252/2000; 2000 (3) CTC 727; 2000 (3) LW 938.  \n   - Case name: C. Subraniam vs. Tamil Nadu Housing Board.  \n   - Paragraph referenced: Para 31.  \n   - CMP No. 3003 of 2008.",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles and considerations surrounding the condonation of delay in court proceedings, emphasizing the discretion of the court and the importance of justice over procedural delays.\n\n2. **Key Points**:  \n   - The concept of \"sufficient cause\" for condoning delays should be interpreted liberally to ensure substantial justice, but the explanation must be acceptable and not part of a dilatory strategy.  \n   - The discretion to condone delays lies with the court, and such decisions should not be overturned unless they are based on untenable or perverse reasoning.  \n   - Rules of limitation are designed to prevent dilatory tactics and ensure prompt remedies, but they should not destroy the rights of parties unless manifest injustice or hardship is evident.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case citation: MANU/TN/0252/2000, 2000 (3) CTC 727, 2000 (3) LW 938.  \n   - Case name: C. Subraniam vs. Tamil Nadu Housing Board, represented by its Chairman and Managing Director.  \n   - Paragraph referenced: Para 31.  \n   -",
   "embedding": [
     0.044251639395952225,
     0.03985297307372093,

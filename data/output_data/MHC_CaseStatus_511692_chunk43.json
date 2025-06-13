@@ -12,7 +12,7 @@
     "clause"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.36036811506347105,
+  "intent_confidence": 0.3603681150634709,
   "entities": [
     " Revenue",
     " Code of Criminal Procedure 1973",
@@ -37,17 +37,17 @@
     {
       "text": " Code of Criminal Procedure 1973",
       "type": "MISC",
-      "score": 0.9919846653938293
+      "score": 0.9919845461845398
     },
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.9122600555419922
+      "score": 0.9122603535652161
     },
     {
       "text": " Information Technology Act 2000",
       "type": "MISC",
-      "score": 0.9541436433792114
+      "score": 0.9541442394256592
     },
     {
       "text": " Finance Act 2002",
@@ -57,7 +57,7 @@
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9945766925811768
+      "score": 0.9945765733718872
     },
     {
       "text": " Revenue",
@@ -67,15 +67,15 @@
     {
       "text": " DIT",
       "type": "ORG",
-      "score": 0.9232045412063599
+      "score": 0.9232058525085449
     },
     {
       "text": " Chennai",
       "type": "ORG",
-      "score": 0.9407545924186707
+      "score": 0.940755307674408
     }
   ],
-  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal provisions and challenges related to search and seizure operations conducted by the Revenue Department, particularly in the context of electronic records and documents under Section 132 of the Income Tax Act and the Information Technology Act, 2000.\n\n#### 2. **Key Points**  \n- Section 132(1)(iib) of the Income Tax Act, inserted by the Finance Act, 2002 (effective from June 1, 2002), mandates individuals in possession or control of electronic records to provide necessary access to authorized officers for inspection during search and seizure operations.  \n- In a specific case, the Revenue Department faced difficulties accessing electronic records during a search operation at the petitioner\u2019s premises, as disclosed in their counter affidavit. Prohibitory orders were issued due to the large volume of documents and books related to multiple assessees and years.  \n- The search operations were conducted under a valid warrant of authorization issued by the DIT (Investigation), Chennai, and continued from January 30, 2001, to June 25, 2001.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Dates:**",
+  "summary": "### Summary Analysis of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal framework and procedural challenges related to search and seizure operations under Section 132 of the Income Tax Act, particularly concerning electronic records and prohibitory orders.\n\n#### 2. **Key Points**:\n- Section 132(1)(iib) of the Income Tax Act, introduced by the Finance Act 2002 (effective from June 1, 2002), mandates individuals in possession or control of electronic records to provide necessary access to authorized officers during search and seizure operations.\n- The Revenue faced challenges during a search operation in the petitioner\u2019s premises due to the large volume of books and documents, spanning multiple years and assessees, which led to prohibitory orders and extended search operations.\n- The search operations were conducted based on a valid warrant of authorization issued by the DIT (Investigation), Chennai.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Dates**: \n  - January 30, 2001: Some books and documents were seized after verification.\n  - June 25, 2001: Search operations continued until this date.\n  - June 1, 2002: Clause (i",
   "embedding": [
     0.029318399727344513,
     0.01034184917807579,

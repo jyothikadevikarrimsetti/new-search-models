@@ -7,6 +7,7 @@ from pathlib import Path
 from collections import defaultdict
 from sentence_transformers import SentenceTransformer, util
 import re
+import subprocess
 
 def initialize_spacy():
     """Initialize spaCy with error handling and automatic model download."""

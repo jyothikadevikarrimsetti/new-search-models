@@ -12,7 +12,7 @@
     "entry"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3537367684257037,
+  "intent_confidence": 0.3537367684257036,
   "entities": [
     " Revenue",
     " Revenue",
@@ -52,12 +52,12 @@
     {
       "text": " Ramaiah Reddy",
       "type": "PER",
-      "score": 0.9787050485610962
+      "score": 0.978705108165741
     },
     {
       "text": " Rakesh Kumar Jain",
       "type": "PER",
-      "score": 0.9708814024925232
+      "score": 0.9708817005157471
     },
     {
       "text": " Revenue",
@@ -67,7 +67,7 @@
     {
       "text": "APSrinivas",
       "type": "PER",
-      "score": 0.9969096183776855
+      "score": 0.9969095587730408
     },
     {
       "text": " Revenue",
@@ -82,25 +82,25 @@
     {
       "text": " Rakesh Sarin",
       "type": "PER",
-      "score": 0.9969621896743774
+      "score": 0.9969620704650879
     },
     {
       "text": " Madras",
       "type": "LOC",
-      "score": 0.8142715692520142
+      "score": 0.8142726421356201
     },
     {
       "text": " Ramaiah Reddy",
       "type": "PER",
-      "score": 0.9632565379142761
+      "score": 0.9632567167282104
     },
     {
       "text": " Rakesh Kumar Jain",
       "type": "PER",
-      "score": 0.9178999066352844
+      "score": 0.917900800704956
     }
   ],
-  "summary": "1. **Main topic/subject**:  \n   The text discusses the legal framework and judicial interpretations regarding the conclusion of search operations and the role of authorizations and panchanamas in determining the starting point of limitation under Section 158BE(1)(b) of the Income Tax Act.\n\n2. **Key points**:  \n   - Once a search operation is concluded with the issuance of a panchanama, the Revenue team can only re-enter the premises for document seizure under a prohibitory order, which serves as authorization for re-entry but not for continuing the search without further authorization.  \n   - Judicial decisions, including those by the Karnataka High Court in *Ramaiah Reddy* and a Division Bench in *Rakesh Kumar Jain*, clarified that in cases of multiple panchanamas under one authorization, the last panchanama does not determine the starting point of limitation unless explicitly intended under Explanation 2 of Section 158BE(1)(b).  \n   - A subsequent Division Bench decision in *Deputy Commissioner of Income-Tax v. Rakesh Sarin* (2014) offered a different interpretation, potentially conflicting with earlier rulings.\n\n3. **Dates, numbers, or identifiers mentioned**:  \n   - Section",
+  "summary": "1. **Main topic/subject:**  \n   The text discusses the legal framework and judicial interpretations regarding the conclusion of search operations and the application of prohibitory orders under tax law, specifically in relation to the starting point for the limitation period under Section 158BE(1)(b).\n\n2. **Key points:**  \n   - Once a search operation is completed and the panchanama is drawn, the Revenue team can only re-enter the premises for document seizure under the authority of a prohibitory order, not to continue the search without further authorization.  \n   - Judicial precedents, including decisions by the Karnataka High Court in *Ramaiah Reddy* and a Division Bench in *Rakesh Kumar Jain*, clarify that the last panchanama under one authorization does not mark the starting point for the limitation period under Section 158BE(1)(b).  \n   - A subsequent Division Bench decision in *Deputy Commissioner of Income-Tax v. Rakesh Sarin* (2014) provided a different interpretation of the limitation period, following the earlier cases.\n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - Section 158BE(1)(b) (legal provision)  \n   - *Ramaiah Reddy*",
   "embedding": [
     0.04205923154950142,
     0.030203280970454216,

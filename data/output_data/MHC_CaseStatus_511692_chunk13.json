@@ -12,7 +12,7 @@
     "filed"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3691885599514205,
+  "intent_confidence": 0.3691885599514204,
   "entities": [
     " Revenue",
     " Revenue",
@@ -44,12 +44,12 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8581100106239319
+      "score": 0.8581101894378662
     },
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8083089590072632
+      "score": 0.8083088994026184
     },
     {
       "text": " Revenue",
@@ -59,30 +59,30 @@
     {
       "text": " of Income Tax",
       "type": "ORG",
-      "score": 0.846971333026886
+      "score": 0.8469729423522949
     },
     {
       "text": " Income-Tax Central-I Chennai",
       "type": "ORG",
-      "score": 0.9598891139030457
+      "score": 0.9598892331123352
     },
     {
       "text": " DCIT Central Circle",
       "type": "ORG",
-      "score": 0.8600429892539978
+      "score": 0.860044002532959
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9242015480995178
+      "score": 0.9242009520530701
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9629199504852295
+      "score": 0.9629195928573608
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the maintainability of a writ petition filed under Article 226 of the Constitution, focusing on procedural objections raised by the Revenue and the grounds on which the petition was admitted.\n\n2. **Key Points**:  \n   - The petitioner bypassed the appellate remedy and directly invoked Article 226, which was initially contested by the Revenue as a ground for dismissal. However, the court decided to entertain the writ petition due to the specific issues raised, including alleged violations of natural justice and procedural lapses.  \n   - The court considered the petition's admission in 2003 and the grounds raised, such as the alleged lack of approval from the Joint Commissioner of Income Tax under Section 158BG and non-issuance of notice under Section 143(2) of the Income Tax Act.  \n   - The Revenue mentioned a Notification dated 16.04.2003, which transferred the case between different tax authorities in Chennai.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Year**: 2003 (year of the writ petition).  \n   - **Sections of the Income Tax Act**: 158BE(1)(b),",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the maintainability of a writ petition filed under Article 226 of the Constitution, addressing objections raised by the Revenue regarding the availability of an appellate remedy and procedural compliance under the Income Tax Act.\n\n2. **Key Points**:  \n   - The petitioner bypassed the appellate remedy and directly invoked Article 226, which the Revenue argued made the writ petition non-maintainable. However, the Court decided to entertain the petition due to its long pendency (since 2003) and the substantive grounds raised.  \n   - The petitioner alleged violations of principles of natural justice, issues related to limitation under Section 158BE(1)(b), and non-issuance of notice under Section 143(2) of the Income Tax Act.  \n   - The Revenue countered that the case had been transferred between tax authorities as per a Notification dated 16.04.2003, and procedural compliance was claimed in the counter affidavit.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Year of the writ petition**: 2003  \n   - **Notification date**: 16.04.2003  \n   - **Sections of",
   "embedding": [
     0.024221695959568024,
     0.006052439566701651,

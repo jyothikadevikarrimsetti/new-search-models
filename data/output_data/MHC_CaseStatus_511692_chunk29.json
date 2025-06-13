@@ -12,15 +12,15 @@
     "requisition"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3664043112703892,
+  "intent_confidence": 0.3664043112703891,
   "entities": [
     " CRamaiah Reddy",
     " ARakesh Kumar Jain",
     " of Income tax"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -36,10 +36,10 @@
     {
       "text": " of Income tax",
       "type": "ORG",
-      "score": 0.9152345657348633
+      "score": 0.9152348041534424
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the time limits for completing block assessments under Section 158BE of the Income Tax Act, with reference to judicial precedents and specific cases.\n\n2. **Key Points**:  \n   - The time limit for completing block assessments depends on the date of the last authorization for search or requisition under Sections 132 or 132A of the Income Tax Act.  \n   - Judicial precedents, such as the CRamaiah Reddy case and ARakesh Kumar Jain v Joint Commissioner of Income Tax (2012), have clarified the interpretation of Section 158BE.  \n   - The section accounts for multiple authorizations for search and provides specific timelines based on whether the search occurred before or after January 1, 1997.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - June 30, 1995  \n     - January 1, 1997  \n   - **Case References**:  \n     - CRamaiah Reddy case  \n     - ARakesh Kumar Jain v Joint Commissioner of Income Tax (2012)  \n   - **Judgment Citation**:  \n     -",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:  \nThe text discusses the time limits for completing block assessments under Section 158BE of the Income Tax Act, considering the last authorization for search or requisition as the basis for determining the limitation period.\n\n#### 2. **Key Points**:  \n- The conclusion of a search, as evidenced by the last panchnama drawn, determines the limitation period for block assessments under Section 158BE.  \n- Section 158BE specifies different time limits for block assessments based on the date of the search or requisition authorization:  \n  - **One year** for searches initiated between June 30, 1995, and January 1, 1997.  \n  - **Two years** for searches initiated on or after January 1, 1997.  \n- The legal position established in the CRamaiah Reddy case was upheld by the Division Bench in the case of ARakesh Kumar Jain v Joint Commissioner of Income Tax (2012).\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned**:  \n- **Dates**:  \n  - June 30, 1995  \n  - January 1, 1997  \n  - Judgment",
   "embedding": [
     0.04032665118575096,
     0.033339884132146835,

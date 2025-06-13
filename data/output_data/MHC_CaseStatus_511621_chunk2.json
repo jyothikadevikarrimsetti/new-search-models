@@ -12,7 +12,7 @@
     "decree"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3606435684491028,
+  "intent_confidence": 0.36064356844910267,
   "entities": [
     " Trial Court"
   ],
@@ -23,10 +23,10 @@
     {
       "text": " Trial Court",
       "type": "ORG",
-      "score": 0.880039393901825
+      "score": 0.8800394535064697
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal case involving a delay of 573 days in filing an appeal suit, with the petitioners seeking condonation of the delay due to the death of their counsel.\n\n#### 2. Key Points:\n- The petitioners argue that the delay in filing the appeal was caused by the sudden death of their counsel on **14-03-2016**, which left them unaware of the developments in the case.\n- The court must determine whether there is sufficient cause to condone the significant delay, but the opposing counsel disputes the petitioners' claims, noting that the preliminary decree was passed **6 months after the counsel's death** on **20-09-2016**, making the petitioners' reasoning questionable.\n- The suit in question pertains to a partition, with the Trial Court granting a **1/7th share** to each party, which the petitioners found unsatisfactory, prompting them to file an appeal.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **573 days**: Duration of the delay in filing the appeal.\n- **14-03-2016**: Date of the counsel's death.\n- **20-09-2016",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe court is addressing a petition to condone a delay of 573 days in filing an appeal suit, primarily based on the claim of the petitioner's counsel's death during the trial proceedings.\n\n#### 2. **Key Points**:\n- The petitioners argue that the delay in filing the appeal was due to their counsel's sudden death on **14-03-2016**, which left them unaware of the developments in the suit.\n- The court notes that the preliminary decree was passed on **20-09-2016**, six months after the counsel's death, and questions the validity of the petitioners' claim that the delay was caused by this event.\n- The court emphasizes that it must determine whether there is \"sufficient cause\" to condone the significant delay of 573 days, and it dismisses unrelated arguments on the merits of the case.\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- **573 days**: Length of the delay in filing the appeal.\n- **14-03-2016**: Date of the petitioners' counsel's death.\n- **20-09-2016**: Date the preliminary decree was passed.\n-",
   "embedding": [
     0.03486652299761772,
     0.01490099262446165,

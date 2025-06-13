@@ -12,7 +12,7 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.30873886282530316,
+  "intent_confidence": 0.3087388628253031,
   "entities": [
     "ble Supreme Court",
     " Esha Bhattacharjee",
@@ -26,20 +26,20 @@
     {
       "text": "ble Supreme Court",
       "type": "ORG",
-      "score": 0.8582417368888855
+      "score": 0.8582431674003601
     },
     {
       "text": " Esha Bhattacharjee",
       "type": "PER",
-      "score": 0.996048629283905
+      "score": 0.9960485696792603
     },
     {
       "text": "ble Apex Court",
       "type": "ORG",
-      "score": 0.830348014831543
+      "score": 0.8303495049476624
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and guidelines for judicial discretion, particularly in the context of applications for condonation of delay, emphasizing objectivity, consistency, and reasonableness.\n\n2. **Key Points**:  \n   - Judicial discretion should be based on objective reasoning rather than subjective individual perception, ensuring fairness and consistency in decision-making.  \n   - Applications for condonation of delay must be carefully drafted and not treated as routine, with a focus on achieving justice while curbing a casual attitude toward delays.  \n   - The Supreme Court's judgment in *Esha Bhattacharjee* highlights guiding principles for deciding petitions related to condonation of delay, advocating a balanced liberal approach grounded in reasonableness.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 3003 of 2008  \n   - Principles referenced from the Supreme Court judgment in *Esha Bhattacharjee*  \n   - Numbers: 3539, 3639 (possibly identifiers or references)  \n   - Website: http://www.judis.nic.in",
+  "summary": "### Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses judicial discretion and guidelines for handling applications for condonation of delay in legal proceedings, emphasizing objective reasoning, consistency, and curbing a casual approach to delays.\n\n2. **Key Points**:  \n   - Judicial discretion should be based on objective reasoning, not subjective perceptions, and public entities should be given reasonable latitude.  \n   - Applications for condonation of delay must be carefully drafted and not treated casually, with efforts to ensure consistency and collegiality in the adjudicatory system.  \n   - The Supreme Court's judgment in *Esha Bhattacharjee* provides guiding principles for deciding petitions to condone delays, emphasizing reasonableness within a liberal approach.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: CMP No. 3003 of 2008  \n   - Paragraph references: 35-39, 36-39  \n   - Mention of the Supreme Court judgment in *Esha Bhattacharjee*",
   "embedding": [
     0.0628800317645073,
     0.030337778851389885,

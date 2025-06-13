@@ -12,7 +12,7 @@
     "criterion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.32917455637579995,
+  "intent_confidence": 0.3291745563757998,
   "entities": [
     " State of WB",
     " Administrator Howrah Municipality",
@@ -33,22 +33,22 @@
     {
       "text": " State of WB",
       "type": "ORG",
-      "score": 0.9565653204917908
+      "score": 0.956566572189331
     },
     {
       "text": " Administrator Howrah Municipality",
       "type": "ORG",
-      "score": 0.8576599955558777
+      "score": 0.8576627969741821
     },
     {
       "text": " G Ramegowda Major",
       "type": "PER",
-      "score": 0.9539897441864014
+      "score": 0.9539887309074402
     },
     {
       "text": " Special Land Acquisition Officer",
       "type": "ORG",
-      "score": 0.9273579120635986
+      "score": 0.9273594617843628
     },
     {
       "text": " N Balakrishnan",
@@ -73,15 +73,15 @@
     {
       "text": " Gobardhan Sap",
       "type": "PER",
-      "score": 0.9711465239524841
+      "score": 0.9711461067199707
     },
     {
       "text": " High Court",
       "type": "ORG",
-      "score": 0.9851441383361816
+      "score": 0.9851443767547607
     }
   ],
-  "summary": "### Summary and Analysis\n\n1. **Main Topic/Subject**:  \n   The text discusses judicial interpretations of \"sufficient cause\" under Section 5 of the Limitation Act, emphasizing the need for a liberal approach to condoning delays in the interest of justice.\n\n2. **Key Points**:  \n   - Courts have consistently held that the term \"sufficient cause\" should be liberally construed to promote substantial justice, provided there is no gross negligence, deliberate inaction, or lack of bona fides by the party seeking condonation of delay.  \n   - The acceptability of the explanation for the delay is more important than the duration of the delay, and courts should generally condone delays unless there is evidence of mala fide intent or deliberate delay tactics.  \n   - While condoning delays, courts must balance the interests of justice with the rights of the opposing party, ensuring that accrued rights are not defeated without valid reasons.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - CMP No. 3003 of 2008  \n     - MANU/SC/0135/2002  \n     - 2002 (3) SCC 195  \n     - 2002-3-LW",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial interpretations of \"sufficient cause\" under Section 5 of the Limitation Act, emphasizing a liberal approach to condoning delays in legal proceedings to ensure justice.\n\n#### 2. **Key Points**:\n- Courts have consistently held that the term \"sufficient cause\" in Section 5 of the Limitation Act should be liberally construed to promote substantial justice, provided there is no gross negligence, deliberate inaction, or lack of bona fides by the party seeking condonation.\n- The acceptability of the explanation for delay is the primary consideration, and the length of the delay is irrelevant unless there is evidence of mala fide intent or deliberate delay as a tactic.\n- While condoning delays should generally be the rule, courts must also consider the accrued rights of the opposing party and avoid condoning delays in a routine or mechanical manner.\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned**:\n- **Case References**:\n  - *State of WB v Administrator Howrah Municipality*\n  - *G. Ramegowda Major v Special Land Acquisition Officer*\n  - *N. Balakrishnan v M. Krishnamurthy*",
   "embedding": [
     0.05521351844072342,
     0.03380679711699486,

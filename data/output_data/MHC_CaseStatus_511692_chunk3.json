@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.384964399770456,
+  "intent_confidence": 0.38496439977045593,
   "entities": [
     " Revenue",
     " Revenue",
@@ -47,10 +47,10 @@
     {
       "text": " of Income Tax",
       "type": "ORG",
-      "score": 0.8990278244018555
+      "score": 0.8990305066108704
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject:**\n   The petitioner challenges a Block Assessment Order issued by the Revenue Department, alleging it is barred by limitation and violates procedural requirements under the Income Tax Act.\n\n2. **Key Points:**\n   - Search operations and seizures were conducted under Section 132 of the Income Tax Act, and a notice under Section 158BC was issued on 05.10.2001. The petitioner filed a return for the block period 01.04.1990 to 24.01.2001 on 23.10.2001.\n   - The Block Assessment Order for the block period was issued on 30.06.2003, computing tax, surcharge, and interest on undisclosed income amounting to Rs. 5,23,08,245. Penalty proceedings were also initiated under Section 158BFA(2).\n   - The petitioner filed a writ petition instead of a regular appeal, claiming the Block Assessment Order was barred by limitation under Section 158BE(1)(b), lacked proper notice under Section 143(2), and did not have prior approval from the Joint Commissioner under Section 158BG, violating principles of natural justice.\n\n3. **Dates, Numbers, and",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute involving a Block Assessment Order issued by the Revenue Department for undisclosed income, which the petitioner challenges on grounds of limitation, procedural lapses, and violation of natural justice.\n\n2. **Key Points**:  \n   - Search operations under Section 132 of the Income Tax Act were conducted, and a notice under Section 158BC was issued on 05.10.2001, leading the petitioner to file a return for the block period from 01.04.1990 to 24.01.2001.  \n   - The Block Assessment Order, issued on 30.06.2003, computed tax, surcharge, and interest on undisclosed income amounting to Rs. 5,23,08,245 and initiated penalty proceedings under Section 158BFA(2).  \n   - The petitioner filed a writ petition instead of an appeal, claiming the Block Assessment Order was barred by limitation under Section 158BE(1)(b), lacked proper notice under Section 143(2), and violated procedural requirements, including approval by the Joint Commissioner under Section 158BG.\n\n3. **Dates, Numbers, and Identifiers Mentioned**:",
   "embedding": [
     0.014336624182760715,
     -0.004274957347661257,

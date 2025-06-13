@@ -12,7 +12,7 @@
     "balakrishnan"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3287854127912923,
+  "intent_confidence": 0.32878541279129225,
   "entities": [
     "ri Mohta",
     " N Balakrishnan",
@@ -21,14 +21,14 @@
     " Rewa Coalfields Ltd"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
       "text": "ri Mohta",
       "type": "PER",
-      "score": 0.8925955891609192
+      "score": 0.8925998210906982
     },
     {
       "text": " N Balakrishnan",
@@ -51,7 +51,7 @@
       "score": 0.9990099668502808
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles of the law of limitation, emphasizing the importance of adhering to time limits for legal remedies and the conditions under which delays may be excused.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to ensure timely resolution of disputes and prevent uncertainty and anarchy in legal processes.  \n   - Courts may excuse delays if the explanation provided is reasonable, not mala fide, and not intended as a dilatory tactic, but they must also consider the impact on the opposing party.  \n   - Legal remedies must be pursued within a legislatively fixed period to maintain fairness and efficiency in the legal system.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *N. Balakrishnan vs. M. Krishnamurthy* (1998, 7 SCC 123).  \n   - Case: *Ramlal and others vs. Rewa Coalfields Ltd* (AIR 1962 SC 361).  \n   - Maxim referenced: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period be put to litigation).",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles of the law of limitation, emphasizing the importance of adhering to time limits for legal remedies and the conditions under which delays in filing appeals may be excused.\n\n#### 2. **Key Points**:\n- The law of limitation is based on public policy to ensure timely resolution of disputes and prevent prolonged uncertainty and anarchy in legal matters.\n- Courts may excuse delays if the explanation provided is reasonable, does not indicate bad faith, and is not part of dilatory tactics; however, the rights of the opposing party must also be considered.\n- Legal remedies must be pursued within the legislatively fixed time frame, and litigants cannot delay indefinitely or act lethargically in filing appeals.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: *N. Balakrishnan vs. M. Krishnamurthy*, 1998 (7 SCC 123).\n- Case reference: *Ramlal and others vs. Rewa Coalfields Ltd.*, AIR 1962 SC 361.\n- Maxim cited: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period",
   "embedding": [
     0.046260084956884384,
     0.01504600327461958,

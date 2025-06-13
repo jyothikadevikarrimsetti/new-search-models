@@ -12,7 +12,7 @@
     "trial"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3868125951204575,
+  "intent_confidence": 0.38681259512045757,
   "entities": [
     " Radhika",
     " Sreekuma ran Nair"
@@ -32,7 +32,7 @@
       "score": 0.9957280158996582
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the dismissal of an appeal due to an insufficient explanation for a delay of 573 days in filing, and the court's stance on condoning delays based on valid reasons.\n\n2. **Key Points:**  \n   - The petitioners filed an application (IA No. 1802 of 2017) to set aside an ex parte decree in OS No. 2538 of 2012, but it was dismissed by the Trial Court.  \n   - The petitioners later filed an appeal with a delay of 573 days, citing insufficient and unconvincing reasons, including the death of their counsel, which the court found invalid.  \n   - The court emphasized that enormous delays in filing appeals cannot be condoned without candid and convincing reasons, rejecting a mechanical approach to condoning delays.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - **OS No. 2538 of 2012**: Original suit in question.  \n   - **IA No. 1802 of 2017**: Interlocutory application filed to set aside the ex parte decree.  \n   - **Date of ex parte decree**: September 20, 2018 (20",
+  "summary": "1. **Main Topic/Subject**: The text discusses the dismissal of an appeal due to an insufficient and unconvincing explanation for a significant delay in filing, despite claims related to the death of counsel.\n\n2. **Key Points**:\n   - The petitioner filed an Interlocutory Application (IA No. 1802 of 2017) to set aside an ex parte decree in a suit (OS No. 2538 of 2012) dated 20.09.2018, but the affidavit did not substantiate the claim that the delay was caused by the counsel's death.\n   - The Trial Court dismissed the application, and the petitioners later filed an appeal with a delay of 573 days, which was deemed excessive and inadequately justified.\n   - Courts may condone short delays routinely, but significant delays require valid, convincing reasons; mechanical condonation of large delays is discouraged.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - **Dates**: 20.09.2018 (ex parte decree), 31.01.2011 (judgment cited), 2017 (IA No. 1802 filing year).\n   - **Numbers**: IA No. 1802 of",
   "embedding": [
     0.015594078227877617,
     0.028145993128418922,

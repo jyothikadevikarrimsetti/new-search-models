@@ -12,7 +12,7 @@
     "approval"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3336725546782323,
+  "intent_confidence": 0.33367255467823226,
   "entities": [
     " of Income-Tax Central-I Chennai",
     " DCIT Central Circle",
@@ -36,27 +36,27 @@
     {
       "text": " of Income-Tax Central-I Chennai",
       "type": "ORG",
-      "score": 0.9643751382827759
+      "score": 0.9643754959106445
     },
     {
       "text": " DCIT Central Circle",
       "type": "ORG",
-      "score": 0.9374329447746277
+      "score": 0.9374338984489441
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.8466176986694336
+      "score": 0.8466181755065918
     },
     {
       "text": " DCIT Central Circle",
       "type": "ORG",
-      "score": 0.8571360111236572
+      "score": 0.8571364879608154
     },
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9513524174690247
+      "score": 0.9513520002365112
     },
     {
       "text": " JCIT",
@@ -76,25 +76,25 @@
     {
       "text": " Revenue",
       "type": "ORG",
-      "score": 0.9917056560516357
+      "score": 0.9917055368423462
     },
     {
       "text": "BG",
       "type": "MISC",
-      "score": 0.8560038208961487
+      "score": 0.8560036420822144
     },
     {
       "text": " Income Tax Act",
       "type": "MISC",
-      "score": 0.9887378811836243
+      "score": 0.9887378215789795
     },
     {
       "text": " Income Tax Act",
       "type": "MISC",
-      "score": 0.9902933239936829
+      "score": 0.9902932643890381
     }
   ],
-  "summary": "1. **Main topic/subject**:  \n   The text discusses a legal dispute regarding compliance with procedural requirements under the Income Tax Act, particularly concerning notices, approvals, and transfers of jurisdiction in a case involving undisclosed income.\n\n2. **Key points**:  \n   - The transfer of the case from DCIT Central Circle I-5 Chennai to DCIT Central Circle I-3 Chennai was made effective from 16/04/2003, as per a notification. The Revenue asserts that the search of the petitioner's premises was conducted following approval by the JCIT under Section 158BG.  \n   - A notice under Section 158BC was issued on 05/10/2001, requiring the petitioner to file a return for the block period, which the petitioner complied with on 23/10/2001. Additionally, a notice under Section 143(2) was issued on 06/06/2003 and served by affixture on 10/06/2003.  \n   - The Revenue denies allegations of procedural non-compliance, maintaining that all notices and approvals were valid and in accordance with the Income Tax Act.\n\n3. **Dates, numbers, or identifiers mentioned**:  \n   - Notification date: 16/04/",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses a legal dispute involving the transfer of an income tax case, compliance with Section 158BG of the Income Tax Act, and the validity of notices issued under Sections 158BC and 143(2).\n\n2. **Key Points**:  \n   - The case was transferred from DCIT Central Circle I5 Chennai to DCIT Central Circle I3 Chennai as per a notification dated 16.04.2003, and the Revenue contends that the search was conducted following approval from the JCIT under Section 158BG.  \n   - The petitioner alleged non-compliance with Section 143(2) notice requirements, but the Revenue countered that notices were duly issued and served, with the petitioner filing the requisite return for the block period.  \n   - The Court accepted the Revenue's assertion that Section 158BG was complied with and addressed the petitioner's claims regarding the validity of notices.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Notification date: 16.04.2003  \n   - Notice under Section 158BC issued: 05.10.2001  \n   - Petitioner filed return in Form 2B: 23.10",
   "embedding": [
     0.012191039510071278,
     -0.0028118696063756943,

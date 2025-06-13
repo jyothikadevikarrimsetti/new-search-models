@@ -12,7 +12,7 @@
     "considerations"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3378761181536818,
+  "intent_confidence": 0.33787611815368174,
   "entities": [
     " Damocles",
     " G Jayaraman",
@@ -25,7 +25,7 @@
     {
       "text": " Damocles",
       "type": "PER",
-      "score": 0.9284660816192627
+      "score": 0.9284656047821045
     },
     {
       "text": " G Jayaraman",
@@ -38,7 +38,7 @@
       "score": 0.9989033937454224
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical limitations.\n\n2. **Key Points:**  \n   - Rules of limitation are grounded in public policy and equity, ensuring that litigants are not indefinitely subjected to uncertainty due to delays caused by opponents.  \n   - Courts should adopt a liberal approach to condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the applicant.  \n   - The number of days of delay is less important than the attitude and explanation provided by the party seeking condonation, with monetary compensation being a potential remedy for prejudice caused to the opposing side.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - CMP No. 3003 of 2008  \n   - Case reference: G Jayaraman vs Devarajan, 2007 (2) CTC 643  \n   - Page reference: 1139",
+  "summary": "1. **Main Topic/Subject**: The text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the importance of equity and public policy.\n\n2. **Key Points**:\n   - Rules of limitation are grounded in sound public policy and equity, and delays should not be condoned if caused by lack of bona fides or attempts to mislead the court.\n   - Courts should adopt a liberal approach to condonation of delay when the delay is not deliberate and the explanation provided is reasonable, ensuring any prejudice caused to the opposing party is compensated.\n   - The number of days delayed is less significant than the attitude and intent of the party seeking condonation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case reference: CMP No. 3003 of 2008.\n   - Citation: G Jayaraman vs Devarajan, 2007 (2) CTC 643.\n   - URL mentioned: http://www.judis.nic.in.",
   "embedding": [
     0.05026606470346451,
     0.014409095980226994,

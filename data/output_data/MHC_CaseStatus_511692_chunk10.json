@@ -30,12 +30,12 @@
     {
       "text": " Kodambakkam High Road Chennai",
       "type": "LOC",
-      "score": 0.9917750358581543
+      "score": 0.9917749762535095
     },
     {
       "text": "BC",
       "type": "MISC",
-      "score": 0.8120347261428833
+      "score": 0.8120348453521729
     },
     {
       "text": " Act",
@@ -45,7 +45,7 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8250615000724792
+      "score": 0.8250620365142822
     },
     {
       "text": " Revenue",
@@ -58,7 +58,7 @@
       "score": 0.9960964322090149
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the timeline and procedural details of searches conducted at specific premises, issuance of notices under tax law, and the interpretation of limitations under Section 158BE(1)(b) of the Income Tax Act.\n\n2. **Key Points**:  \n   - Searches were conducted on January 25, 2001, at two premises, one concluding the same day and the other continuing until late evening, leading to prohibitory orders.  \n   - Notices under Section 158BC and Section 143(2) of the Income Tax Act were issued to the petitioner on October 5, 2001, and June 6, 2003, respectively, with the latter served by affixture due to failed delivery attempts.  \n   - The Revenue argued that the limitation period under Section 158BE(1)(b) should commence from July 1, 2001, as the last search was conducted on June 12, 2001.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - January 25, 2001 (searches conducted).  \n     - October 5, 2001",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the timeline and procedural details of searches conducted at two premises, issuance of notices under tax laws, and the commencement of limitation periods for filing returns and assessments.\n\n2. **Key Points**:  \n   - Searches were conducted on January 25, 2001, at two premises: one concluded on the same day, while the other was inconclusive, leading to prohibitory orders. The last search was conducted on June 12, 2001.  \n   - Notices under Section 158BC and Section 143(2) of the Income Tax Act were issued to the petitioner, with the latter being served via affixture after unsuccessful attempts.  \n   - The limitation period for Section 158BE(1)(b) was argued to commence from July 1, 2001, based on the date of the last search.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - January 25, 2001 (searches conducted).  \n     - October 5, 2001 (notice under Section 158BC issued).  \n     - October 23, 2001 (return filed",
   "embedding": [
     0.01786705292761326,
     0.004385726526379585,

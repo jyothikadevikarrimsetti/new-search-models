@@ -12,11 +12,11 @@
     "delay"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.38154573908022776,
+  "intent_confidence": 0.3815457390802276,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal case involving a petition to condone a delay of 1581 days in setting aside an ex parte decree, which was ultimately deemed improper and unacceptable by the court.\n\n2. **Key Points**:  \n   - The case revolves around a suit filed based on a promissory note dated 01/08/1999, leading to an ex parte decree passed on 08/09/2004. The petitioner failed to represent the case for over four years and four months.  \n   - The petitioner's property was sold in a public auction after proper notice and proclamation of sale. The auction purchaser paid the full amount, and the decree-holder withdrew the deposited amount, recording full satisfaction.  \n   - The court held that the petitioner was not entitled to condone the inordinate delay of 1581 days in representing the petition under Order 9 Rule 13 of the CPC to set aside the ex parte decree.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Promissory note date: 01/08/1999  \n   - Ex parte decree date: 08/09/2004  \n   - Delay",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject:**  \n   The text discusses a legal case involving a petition to condone a delay of 1581 days in setting aside an ex parte decree, which was ultimately deemed unacceptable by the court.\n\n2. **Key Points:**  \n   - The case revolves around a suit based on a promissory note dated 01.08.1999, with an ex parte decree passed on 08.09.2004. The petitioner failed to act on the decree for over four years.  \n   - The property of the petitioner was sold in a public auction after proper notice and proclamation, and the sale was confirmed with the proceeds distributed to the decree-holder.  \n   - The court ruled that the petitioner was not entitled to condonation of the significant delay (1581 days) in representing the petition to set aside the decree.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Promissory note date: 01.08.1999  \n   - Ex parte decree date: 08.09.2004  \n   - Delay in filing: 1581 days  \n   - Earlier Execution Petition (EP) No.: 87 of 2005  \n   - Current Execution Petition",
   "embedding": [
     0.0032640681602060795,
     0.018604576587677002,

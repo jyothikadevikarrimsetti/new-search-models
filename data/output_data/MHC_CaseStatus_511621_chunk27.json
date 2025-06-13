@@ -12,7 +12,7 @@
     "decree"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3226548963140743,
+  "intent_confidence": 0.32265489631407424,
   "entities": [
     " Ramlal",
     " Rewa Coalfields Ltd",
@@ -20,8 +20,8 @@
   ],
   "entity_types": [
     "MISC",
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -37,10 +37,10 @@
     {
       "text": " Limitation Act",
       "type": "MISC",
-      "score": 0.9149931073188782
+      "score": 0.9149937629699707
     }
   ],
-  "summary": "### Summary of the Text\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and considerations surrounding the condonation of delay under Section 5 of the Limitation Act, with reference to the case *Ramlal and others vs Rewa Coalfields Ltd* (AIR 1962 SC 361).\n\n2. **Key Points**:  \n   - Legal remedies must be pursued within a legislatively fixed period, and the expiration of the limitation period grants the decree-holder a right to treat the decree as binding.  \n   - Courts have discretionary power to condone delays if \"sufficient cause\" is shown, but this is not an automatic right and depends on the diligence and bona fides of the party seeking condonation.  \n   - In the referenced case, the court found that the respondent beneficiary was not diligent in pursuing the appeal, and the reasons provided for the delay were not sufficient to justify condonation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *Ramlal and others vs Rewa Coalfields Ltd*  \n   - Citation: AIR 1962 SC 361  \n   - Section: Section 5 of the Limitation Act  \n   - CMP No. 3003",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the principles and considerations surrounding the condonation of delay under Section 5 of the Limitation Act, as interpreted in the case of *Ramlal and Others vs. Rewa Coalfields Ltd* (AIR 1962 SC 361).\n\n2. **Key Points**:  \n   - The Limitation Act ensures that legal remedies are pursued within a legislatively fixed period to prevent delays and protect the rights of decree holders, which should not be disturbed lightly.  \n   - Courts have discretionary power to condone delays if \"sufficient cause\" is shown, but this is not an automatic right and depends on factors like diligence and bona fides of the party seeking condonation.  \n   - In the specific case discussed, the respondent was found not diligent in filing the appeal, and the application for condonation of delay lacked sufficient cause.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *Ramlal and Others vs. Rewa Coalfields Ltd*  \n   - Citation: AIR 1962 SC 361  \n   - Section: Section 5 of the Limitation Act  \n   - CMP No. 3003 of 2008",
   "embedding": [
     0.05198264494538307,
     0.03891393914818764,

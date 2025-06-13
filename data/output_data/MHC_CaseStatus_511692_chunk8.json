@@ -12,7 +12,7 @@
     "affidavit"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.36824305249908956,
+  "intent_confidence": 0.36824305249908945,
   "entities": [
     " Block Assess ment Order",
     " ARakesh Kumar Jain",
@@ -36,15 +36,15 @@
   ],
   "entity_types": [
     "MISC",
+    "PER",
     "ORG",
-    "LOC",
-    "PER"
+    "LOC"
   ],
   "entity_details": [
     {
       "text": " Block Assess ment Order",
       "type": "MISC",
-      "score": 0.9698303937911987
+      "score": 0.9698308706283569
     },
     {
       "text": " ARakesh Kumar Jain",
@@ -54,17 +54,17 @@
     {
       "text": " of Income tax",
       "type": "ORG",
-      "score": 0.941927969455719
+      "score": 0.9419281482696533
     },
     {
       "text": " CTC",
       "type": "ORG",
-      "score": 0.9658165574073792
+      "score": 0.9658161401748657
     },
     {
       "text": " DTR",
       "type": "ORG",
-      "score": 0.8503924012184143
+      "score": 0.8503928184509277
     },
     {
       "text": " CRamaiah Reddy",
@@ -74,22 +74,22 @@
     {
       "text": " of Income Tax",
       "type": "ORG",
-      "score": 0.9196977615356445
+      "score": 0.9196975827217102
     },
     {
       "text": " ITR",
       "type": "ORG",
-      "score": 0.8914118409156799
+      "score": 0.8914121389389038
     },
     {
       "text": " Karnataka",
       "type": "LOC",
-      "score": 0.9804925918579102
+      "score": 0.9804924726486206
     },
     {
       "text": " Karnataka",
       "type": "LOC",
-      "score": 0.9925839900970459
+      "score": 0.9925839304924011
     },
     {
       "text": "APSrinivas",
@@ -109,7 +109,7 @@
     {
       "text": " Act",
       "type": "MISC",
-      "score": 0.8359721899032593
+      "score": 0.8359730839729309
     },
     {
       "text": " Ms Emcorp Finance Ltd",
@@ -124,7 +124,7 @@
     {
       "text": " Chennai",
       "type": "LOC",
-      "score": 0.9441957473754883
+      "score": 0.9441981911659241
     },
     {
       "text": " Kodambakkam High Road Chennai",
@@ -137,7 +137,7 @@
       "score": 0.9925695657730103
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute over a Block Assessment Order, focusing on a search operation conducted under Section 132 of the Income Tax Act and the subsequent legal arguments presented by both the petitioner and the Revenue.\n\n2. **Key Points**:  \n   - The petitioner challenges the Block Assessment Order, citing various legal judgments, including *Rakesh Kumar Jain v. Joint Commissioner of Income Tax (2012)* and *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax (2011)*.  \n   - The Revenue argues that the petitioner and his family were subjected to a search operation initiated on January 25, 2001, under valid warrants of authorization, and that the search continued across multiple dates due to its inconclusive nature.  \n   - A prohibitory order was issued for the premises at No. 418/1 Kodambakkam High Road, Chennai, as the search could not be concluded on the initial date.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Search operation dates:  \n     - Initiated on **25/01/2001**.  \n     - Continued on **30/01/2001**,",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal dispute involving a Block Assessment Order, a search operation under Section 132 of the Income Tax Act, and related judicial proceedings.\n\n#### 2. **Key Points**:\n- The petitioner challenges the Block Assessment Order, relying on various judicial precedents, including cases such as *Rakesh Kumar Jain v. Joint Commissioner of Income Tax (2012)* and *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax (2011)*.\n- The Revenue's counsel argues that the petitioner and his family business, M/s Emcorp Finance Ltd, were subjected to a search operation initiated on January 25, 2001, based on separate warrants of authorization.\n- The search operation was conducted at multiple premises and dates, with some searches remaining inconclusive, necessitating the issuance of a prohibitory order.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Dates of search operations**: January 25, 2001; January 30, 2001; February 2, 2001; February 8, 2001; February 20, 2001; February 23, 2001",
   "embedding": [
     0.038138892501592636,
     -0.016702286899089813,

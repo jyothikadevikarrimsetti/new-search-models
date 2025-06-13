@@ -12,7 +12,7 @@
     "conducted"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3417119564362022,
+  "intent_confidence": 0.341711956436202,
   "entities": [
     " Kodambakkam High Road",
     " Revenue",
@@ -31,7 +31,7 @@
     {
       "text": " Kodambakkam High Road",
       "type": "LOC",
-      "score": 0.9946381449699402
+      "score": 0.9946380257606506
     },
     {
       "text": " Revenue",
@@ -46,7 +46,7 @@
     {
       "text": " Kodambakkam High Road Chennai",
       "type": "LOC",
-      "score": 0.9922666549682617
+      "score": 0.9922665953636169
     },
     {
       "text": " Revenue",
@@ -61,15 +61,15 @@
     {
       "text": " Noor Veeraswamy Street Chennai",
       "type": "LOC",
-      "score": 0.984142005443573
+      "score": 0.9841417670249939
     },
     {
       "text": " Kodambakkam High Road Chennai",
       "type": "LOC",
-      "score": 0.9920615553855896
+      "score": 0.9920614957809448
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses a prolonged search operation conducted by Revenue authorities at two locations in Chennai, primarily at No. 4181 Kodambakkam High Road, which lasted from January 25, 2001, to June 12, 2001, due to difficulties in accessing electronic documents.\n\n2. **Key Points**:  \n   - The search operation at No. 4181 Kodambakkam High Road, Chennai - 34, spanned multiple dates over several months because the petitioner did not cooperate in providing passwords to access electronic documents stored on devices.  \n   - Separate panchanamas (official records of the search) and prohibitory orders were issued for each search date, with the operation finally concluding on June 12, 2001.  \n   - A separate search at No. 23 Noor Veeraswamy Street, Chennai - 34, was conducted on January 25, 2001, and concluded on the same day.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**: January 25, 2001; January 30, 2001; February 2, 2001",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses a prolonged search operation conducted by the Revenue Department at multiple premises in Chennai, primarily at No. 4181 Kodambakkam High Road, which spanned several months in 2001 due to non-cooperation from the petitioner.\n\n2. **Key Points**:  \n   - The search operation at No. 4181 Kodambakkam High Road, Chennai, began on January 25, 2001, and concluded on June 12, 2001, involving multiple sessions and the issuance of prohibitory orders.  \n   - The delay in concluding the search was attributed to the petitioner\u2019s refusal to disclose passwords to access electronic documents, which were eventually retrieved on June 12, 2001.  \n   - A separate search at No. 23 Noor Veeraswamy Street, Chennai, was conducted and concluded on January 25, 2001, within a few hours.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Dates: January 25, 2001; January 30, 2001; February 2, 2001; February 8, 2001; February 20, 2001; February",
   "embedding": [
     0.04466075077652931,
     -0.011508354917168617,

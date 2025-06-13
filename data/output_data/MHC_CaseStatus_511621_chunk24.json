@@ -12,7 +12,7 @@
     "limitation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3589973166425178,
+  "intent_confidence": 0.35899731664251777,
   "entities": [
     " Lanka Venkateswarlu D",
     "ble Supreme Court",
@@ -20,19 +20,19 @@
     " High Court"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
       "text": " Lanka Venkateswarlu D",
       "type": "PER",
-      "score": 0.9250596165657043
+      "score": 0.9250629544258118
     },
     {
       "text": "ble Supreme Court",
       "type": "ORG",
-      "score": 0.8308278918266296
+      "score": 0.8308294415473938
     },
     {
       "text": " M Balakrishnan",
@@ -42,10 +42,10 @@
     {
       "text": " High Court",
       "type": "ORG",
-      "score": 0.8226872682571411
+      "score": 0.8226878643035889
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses judicial perspectives on condoning delays in filing appeals, emphasizing the importance of adhering to limitation rules and avoiding unjustifiable delays.\n\n2. **Key Points**:\n   - Courts have clarified that delays in filing appeals, especially those causing prejudice to other parties, cannot be condoned through discretionary powers unless justified.\n   - Rules of limitation aim to ensure parties seek remedies promptly and discourage dilatory tactics, as reiterated by the Supreme Court in various cases.\n   - Liberal or justice-oriented approaches cannot override substantial laws of limitation, especially when delays are deemed unjustifiable.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case reference: CMP No. 3003 of 2008.\n   - Supreme Court case: Lanka Venkateswarlu D by LRs Vs State of AP & others (MANU/SC/0153/2011).\n   - Mention of \"M Balakrishnan supra\" case.\n   - Website reference: http://www.judis.nic.in.\n   - Numbers: \"2839,\" \"2939,\" \"21 to 25,\" and \"26\" (likely paragraph or case identifiers).",
+  "summary": "### Summary of the Text\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial approach to condoning delays in filing appeals, emphasizing the importance of adhering to limitation rules and avoiding unjustifiable delays that prejudice other parties.\n\n2. **Key Points**:  \n   - Courts have established that delays in filing appeals cannot be condoned if they cause prejudice to other parties, and discretion must be exercised judiciously rather than mechanically.  \n   - Limitation rules are designed to ensure parties seek remedies promptly and avoid dilatory tactics, as reiterated by the Supreme Court in cases like *Lanka Venkateswarlu Vs State of AP* and *M. Balakrishnan*.  \n   - The High Court's unjustifiable condoning of delays, coupled with the use of intemperate language and sarcasm, was criticized for lacking judicial balance and restraint.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Lanka Venkateswarlu D by LRs Vs State of AP others* (MANU/SC/0153/2011).  \n   - Case reference: CMP No. 3003 of 2008.  \n   - Mention of \"2839\" and \"",
   "embedding": [
     0.04358042776584625,
     0.029688669368624687,

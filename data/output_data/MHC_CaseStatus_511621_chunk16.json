@@ -12,7 +12,7 @@
     "circumstances"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4214402009656438,
+  "intent_confidence": 0.4214402009656437,
   "entities": [
     " High Court",
     " Office of the Chief Postmaster",
@@ -25,12 +25,12 @@
     {
       "text": " High Court",
       "type": "ORG",
-      "score": 0.9960140585899353
+      "score": 0.9960141181945801
     },
     {
       "text": " Office of the Chief Postmaster",
       "type": "ORG",
-      "score": 0.9464554786682129
+      "score": 0.9464581608772278
     },
     {
       "text": " Living Media Limited",
@@ -38,7 +38,7 @@
       "score": 0.9980149865150452
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the delay and lack of diligence by a government department in applying for a certified copy of a High Court judgment and filing a special leave petition within the prescribed limitation period.\n\n2. **Key Points**:  \n   - The department delayed applying for the certified copy of the judgment for nearly four months, despite being aware of the judgment date (11/09/2009). The certified copy was only applied for on 08/01/2010.  \n   - No adequate explanation was provided for the delay at various stages, despite being given opportunities to file a better affidavit.  \n   - The department attributed the delay to unavoidable circumstances but failed to demonstrate diligence or provide sufficient justification.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Judgment date: **11/09/2009**  \n   - Certified copy applied for: **08/01/2010**  \n   - Delay period: **Nearly four months**  \n   - Case reference: **CMP No. 3003 of 2008**  \n   - Website mentioned: **http://www.judis.nic.in**",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the delays and lack of diligence by a government department in applying for a certified copy of a court judgment and filing a special leave petition within the prescribed limitation period.\n\n2. **Key Points**:  \n   - The Department delayed applying for the certified copy of the judgment from 11/09/2009 to 08/01/2010, a gap of nearly four months, without providing a valid explanation.  \n   - Despite being given another opportunity to file a better affidavit with adequate material, the Department failed to explain the delays at various stages.  \n   - The Department's claim of \"unavoidable circumstances and genuine difficulties\" was deemed insufficient, as the concerned persons were aware of the prescribed limitation period and failed to act diligently.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Judgment date: **11/09/2009**  \n   - Application for certified copy: **08/01/2010**  \n   - Delay period: **Nearly four months**  \n   - Case reference: **CMP No. 3003 of 2008**  \n   - Website reference: **http://www.judis.nic.in**",
   "embedding": [
     0.026264403015375137,
     0.029359621927142143,

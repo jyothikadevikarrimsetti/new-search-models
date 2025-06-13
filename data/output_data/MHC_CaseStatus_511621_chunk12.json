@@ -12,7 +12,7 @@
     "case"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.39274407400026123,
+  "intent_confidence": 0.39274407400026107,
   "entities": [
     " Shanmugam",
     " Chokkalingam",
@@ -23,8 +23,8 @@
     " C Loganathan"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -63,7 +63,7 @@
       "score": 0.9976560473442078
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial decisions regarding the condonation of delays in filing petitions to set aside ex parte decrees, emphasizing improper discretion and the rejection of applications due to unsatisfactory explanations.\n\n#### 2. **Key Points**:\n- Courts have consistently refused to condone delays in cases where explanations provided were deemed unsatisfactory or where discretion was improperly exercised.\n- Specific cases cited include:\n  - **Shanmugam vs Chokkalingam (2009)**: Delay of 332 days was not condoned due to false averments in the affidavit.\n  - **Oriental Aroma Chemical Industries Limited vs Gujarat Industrial Development Corporation (2010)**: Delay of 4 years was rejected by the Supreme Court due to unsatisfactory explanations.\n  - **KM Balasubramaniam vs C Loganathan (2011)**: Delay of 1581 days in re-presenting an application to set aside an ex parte decree was not condoned, as the decree holder had already executed the decree and obtained a sale certificate.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **2009**: Shanmugam vs Chokkalingam case (332 days",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial decisions regarding the condonation of delays in filing petitions to set aside ex parte decrees, emphasizing improper discretion and the rejection of applications with unsatisfactory explanations.\n\n#### 2. **Key Points**:\n- Courts have consistently refused to condone delays in cases where explanations provided were deemed unsatisfactory or false, as seen in various judgments (e.g., *Shanmugam vs Chokkalingam* and *Oriental Aroma Chemical Industries Limited vs Gujarat Industrial Development Corporation*).\n- Significant delays, such as 332 days, 4 years, or 1581 days, have been rejected, particularly when improper discretion was exercised or the decree holder's rights were prejudiced.\n- The text highlights the importance of timely legal action and the consequences of failing to adhere to procedural timelines.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Cases and Judgments**:\n  - *Shanmugam vs Chokkalingam* (2009, 5 CTC 48)\n  - *Oriental Aroma Chemical Industries Limited vs Gujarat Industrial Development Corporation* (2010 AIR SCW 1788)\n  - *KM Bal",
   "embedding": [
     0.02344575710594654,
     0.012453197501599789,
