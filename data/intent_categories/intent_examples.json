@@ -2,5 +2,13 @@
   "policy_info": "The document describes insurance policy rules and information.",
   "contact_details": "The document contains phone numbers and email addresses.",
   "user_faq": "This file answers frequently asked questions from users.",
-  "claim_process": "Steps to file or understand an insurance claim."
+  "claim_process": "Steps to file or understand an insurance claim.",
+  "general_info": [
+    "What skills are listed in the resume?",
+    "Show me the proficiencies in this CV.",
+    "List the abilities mentioned in the candidate's resume.",
+    "What expertise does the applicant have?",
+    "Which competencies are present in the resume?",
+    "What qualifications are included in the CV?"
+  ]
 }

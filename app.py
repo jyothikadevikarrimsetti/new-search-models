@@ -1,8 +1,8 @@
 import streamlit as st
+import json
+import warnings
 from scripts.search_pipeline import search_query, hybrid_search
 from scripts.filter_utils import generate_filter
-import warnings
-import json
 
 # Suppress FutureWarning messages for a cleaner user experience
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -62,9 +62,11 @@ with col2:
 
 if st.button("Search") and query:
     with st.spinner("Searching..."):
+        # If no manual filter, generate automatically
+        auto_filter = filter_dict if filter_method == "Manual" else generate_filter(query)
         if search_type == "Dense":
             st.write("### Dense Search Results")
-            result = search_query(query, top_k=top_k, filter=filter_dict)
+            result = search_query(query, top_k=top_k, filter=auto_filter)
             if result:
                 st.markdown(f"**LLM Answer:**\n{result['answer']}")
                 st.markdown(f"_Search Time: {result['search_time']:.2f} seconds_")
@@ -91,7 +93,7 @@ if st.button("Search") and query:
                 st.info("No results found.")
         else:
             st.write("### Hybrid Search Results")
-            result = hybrid_search(query, top_k=top_k, filter=filter_dict)
+            result = hybrid_search(query, top_k=top_k, filter=auto_filter)
             if result:
                 st.markdown(f"**LLM Answer (Top Result):**\n{result.get('answer', '')}")
                 st.markdown(f"**Time Taken:** {result.get('time_complexity', '')}")

@@ -7,6 +7,7 @@ from scripts.vector_store import (
 )
 from scripts.search_pipeline import search_query , hybrid_search
 from scripts.hash_utils import compute_md5
+from scripts.filter_utils import generate_filter
 
 from pathlib import Path
 import json
@@ -146,16 +147,9 @@ else:
 # ------------------------------------------------------------------ #
 user_question = input("❓ Enter your question: ")
 
-# Prompt user for metadata filter (optional)
-filter_str = input("Enter metadata filter as JSON (or leave blank for no filter): ")
-if filter_str.strip():
-    try:
-        user_filter = json.loads(filter_str)
-    except Exception as e:
-        print(f"Invalid filter JSON: {e}")
-        user_filter = None
-else:
-    user_filter = None
+# AUTOMATIC FILTER GENERATION
+user_filter = generate_filter(user_question)
+print(f"[INFO] Auto-generated metadata filter: {user_filter}")
 
 search_query(user_question, top_k=1, filter=user_filter)
 results = hybrid_search(user_question, top_k=1, filter=user_filter)

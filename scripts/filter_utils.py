@@ -35,7 +35,8 @@ INTENT_KEYWORDS = {
     "case_status": ["status", "case", "update", "progress"],
     "document_request": ["document", "request", "copies", "forms"],
     "technical_support": ["error", "issue", "problem", "technical"],
-    "general_info": ["information", "contact", "hours", "location"]
+    "general_info": ["information", "contact", "hours", "location"],
+    "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
 }
 
 # Load the sentence transformer model for semantic similarity
@@ -56,42 +57,44 @@ def load_intent_examples():
             "case_status": ["status", "case", "update", "progress"],
             "document_request": ["document", "request", "copies", "forms"],
             "technical_support": ["error", "issue", "problem", "technical"],
-            "general_info": ["information", "contact", "hours", "location"]
+            "general_info": ["information", "contact", "hours", "location"],
+            "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
         }
 
 def extract_query_metadata(query: str) -> Dict[str, Any]:
     """Extract metadata fields from a query for filtering."""
     doc = nlp(query)
-    
     # Extract entities
     entities = [ent.text for ent in doc.ents]
-    
     # Load intent examples
     intent_examples = load_intent_examples()
-    
     # Encode query
     query_embedding = model.encode(query.lower(), convert_to_tensor=True)
-    
     # Calculate similarity with each intent's examples
     intent_scores = {}
     for intent, examples in intent_examples.items():
-        # Encode all examples for this intent
         example_embeddings = model.encode([ex.lower() for ex in examples], convert_to_tensor=True)
-        # Calculate similarity scores
         similarities = util.cos_sim(query_embedding, example_embeddings)[0]
-        # Use max similarity as the score for this intent
         intent_scores[intent] = float(max(similarities))
-    
-    # Get highest scoring intent if above threshold
     max_score = max(intent_scores.values())
-    if max_score > 0.5:  # Confidence threshold
+    # Lowered threshold for more permissive intent detection
+    if max_score > 0.35:
         detected_intent = max(intent_scores.items(), key=lambda x: x[1])[0]
     else:
         detected_intent = None
-    
     # Extract potential keywords
     keywords = [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
-    
+    # Keyword-based fallback: if no intent detected, use keyword match
+    if not detected_intent and keywords:
+        for intent, kw_list in INTENT_KEYWORDS.items():
+            if any(kw in keywords for kw in kw_list):
+                detected_intent = intent
+                print(f"[FilterUtils] Fallback: intent '{intent}' matched by keyword.")
+                break
+    print(f"[FilterUtils] Query: {query}")
+    print(f"[FilterUtils] Extracted entities: {entities}")
+    print(f"[FilterUtils] Detected intent: {detected_intent}")
+    print(f"[FilterUtils] Extracted keywords: {keywords}")
     return {
         "entities": entities,
         "intent": detected_intent,
@@ -102,18 +105,15 @@ def generate_filter(query: str) -> Optional[Dict[str, Any]]:
     """Generate a Pinecone metadata filter based on query analysis."""
     metadata = extract_query_metadata(query)
     filter_dict = {}
-    
     # Add intent filter if detected
     if metadata["intent"]:
         filter_dict["intent"] = {"$eq": metadata["intent"]}
-    
     # Add entity filters if found
     if metadata["entities"]:
-        # Look for entities in the comma-separated entities field
+        import re
         entity_pattern = "|".join(re.escape(e) for e in metadata["entities"])
         filter_dict["entities"] = {"$contains": entity_pattern}
-    
-    # No filter if no meaningful criteria found
+    print(f"[FilterUtils] Final generated filter: {filter_dict if filter_dict else None}")
     return filter_dict if filter_dict else None
 
 def combine_filters(filters: list[Dict[str, Any]]) -> Dict[str, Any]:
