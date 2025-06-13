@@ -48,6 +48,9 @@ def dense_search(request: DenseSearchRequest):
             top_k=request.top_k,
             metadata_filter=filter_dict
         )
+        # If no results, show 'Document not found'
+        if not results.get('results'):
+            return {"answer": "Document not found.", "results": []}
         result = Result(
             DocumentName=results.get('document_name', 'Unknown'),
             answer=results.get('answer', 'No answer found'),
@@ -71,6 +74,9 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             alpha=request.alpha,
             metadata_filter=filter_dict
         )
+        # If no results, show 'Document not found'
+        if not results.get('results'):
+            return {"answer": "Document not found.", "results": []}
         result = Result(
             DocumentName=results.get('document_name', 'Unknown'),
             answer=results.get('answer', 'No answer found'),
