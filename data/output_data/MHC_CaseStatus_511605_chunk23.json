@@ -12,7 +12,7 @@
     "judge"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1895068870365122,
+  "intent_confidence": 0.34281989944290675,
   "entities": [
     " Lanka Venkateswarlu D",
     " LRs",
@@ -22,10 +22,10 @@
     " Limitation Act"
   ],
   "entity_types": [
+    "MISC",
     "ORG",
     "LOC",
-    "PER",
-    "MISC"
+    "PER"
   ],
   "entity_details": [
     {
@@ -59,7 +59,7 @@
       "score": 0.8281740546226501
     }
   ],
-  "summary": "### Analysis and Summary\n\n#### 1. **Main Topic/Subject**  \nThe text discusses judicial observations by the Supreme Court regarding the principles of limitation laws and the discretionary powers of courts in condoning delays.\n\n#### 2. **Key Points**  \n- The Supreme Court emphasized that limitation laws are designed to ensure parties seek remedies promptly and avoid dilatory tactics, rather than destroy their rights.  \n- The Court criticized the High Court for condoning delays without justification, highlighting the need for judicial balance, restraint, and adherence to the substantial law of limitation.  \n- Discretionary powers of courts, especially in condoning delays under Section 5 of the Limitation Act, must be exercised systematically, reasonably, and without bias or intemperate language.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- Case reference: **Lanka Venkateswarlu D by LRs Vs State of AP** (reported in **MANUSC01532011**).  \n- Sections mentioned: **Section 5 of the Limitation Act**.  \n- Case identifiers: **CMP No. 6648 of 2018** in **ASSR No. 19304 of 2018**.  \n- Paragraph references: **20",
+  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the Supreme Court's observations on the principles of limitation laws, judicial discretion, and the importance of maintaining judicial balance and restraint in adjudicating cases involving delays.\n\n2. **Key Points**:  \n   - The Supreme Court reiterated that limitation laws are designed to encourage prompt action and prevent dilatory tactics, not to destroy the rights of parties.  \n   - The Court criticized the High Court for condoning an unjustifiable delay, emphasizing that judicial discretion must be exercised within reasonable legal bounds and not influenced by whims, fancies, or prejudices.  \n   - The use of intemperate or sarcastic language in judgments was disapproved, as it undermines judicial balance and decorum.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references: *Lanka Venkateswarlu D by LRs Vs State of AP* (MANU/SC/0153/2011) and *M. Balakrishnan*.  \n   - Section 5 of the Limitation Act.  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.",
   "embedding": [
     0.03591817989945412,
     0.04059717804193497,

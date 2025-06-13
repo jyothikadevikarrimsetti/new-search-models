@@ -12,15 +12,15 @@
     "sale"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1851035323584719,
+  "intent_confidence": 0.3733539076327807,
   "entities": [
     " Supreme Court",
     " KM Balasubramaniam",
     " C Loganathan"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.9989142417907715
     }
   ],
-  "summary": "### Analysis and Summary of the Text:\n\n#### 1. **Main Topic/Subject (1 sentence):**\nThe Supreme Court rejected applications for condonation of significant delays in filing petitions to set aside ex parte decrees, citing unsatisfactory explanations for the delays.\n\n#### 2. **Key Points:**\n- The Supreme Court rejected an application for condonation of a 4-year delay in filing a petition to set aside an ex parte decree, as the explanation for the delay was deemed unsatisfactory.\n- In a related case (KM Balasubramaniam vs. C Loganathan, 2011), the Court similarly dismissed a petition for condonation of a 1581-day delay in re-presenting an application to set aside an ex parte decree, where the petitioner failed to provide a proper explanation.\n- The Court emphasized that delays in such cases must be justified with acceptable reasons, especially when the petitioner had previously participated in the legal proceedings.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned:**\n- **Case Citation:** AIR SCW 1788\n- **Related Case:** KM Balasubramaniam vs. C Loganathan, 2011 (2 MWN Civil 741)\n- **Dates:** \n  - Pro",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the rejection of applications for condonation of delay in filing to set aside ex parte decrees by the Honourable Supreme Court and other courts, emphasizing the insufficiency of explanations for such delays.\n\n#### 2. Key Points:\n- The Supreme Court rejected an application for condonation of a 4-year delay in filing to set aside an ex parte decree, citing an unsatisfactory explanation for the delay.\n- A similar case (KM Balasubramaniam vs. C. Loganathan, 2011) involved a 1581-day delay in re-presenting an application to set aside an ex parte decree, which was also rejected due to inadequate justification.\n- Courts have consistently held that delays in such cases must be properly explained, and failure to do so renders the applications unacceptable.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **AIR SCW 1788**: Identifier for the Supreme Court case.\n- **4 years**: Delay in filing the application in the first case.\n- **KM Balasubramaniam vs. C. Loganathan and another, 2011 (2 MWN Civil 741)**: Case reference.\n- **158",
   "embedding": [
     0.006526789627969265,
     0.03330124169588089,

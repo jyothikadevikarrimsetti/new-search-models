@@ -2,9 +2,9 @@ config
 search_env
 *.pdf
 *.txt
-data/output_data
-data/chunks
-data/processed_data
-data/processed_data.json
-data/input_pdf_data
-**/__pycache__
+data/output_data/**.json
+data/chunks/**.txt 
+data/processed_data/**.txt
+
+data/input_pdf_data/**.pdf 
+__pycache__

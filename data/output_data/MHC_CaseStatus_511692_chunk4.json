@@ -12,7 +12,7 @@
     "assessm"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2531710218842452,
+  "intent_confidence": 0.3665116130662904,
   "entities": [
     " of Income Tax",
     " Act",
@@ -29,9 +29,9 @@
     " Revenue"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -100,7 +100,7 @@
       "score": 0.99233078956604
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a writ petition filed to challenge a Block Assessment Order issued by the Revenue Department, alleging procedural violations, including lack of approval from the Joint Commissioner of Income Tax and breach of natural justice principles.\n\n---\n\n#### 2. **Key Points**:\n- The petitioner, initially Dr. Bharat Mehta (now represented by his legal heir, Mr. Mehul Mehta), filed a writ petition instead of a regular appeal to quash the Block Assessment Order dated 30.06.2003.\n- The petitioner raised several grounds to challenge the order, including:\n  - The Block Assessment Order under Section 158BC read with Section 158BD was barred by limitation under Section 158BE(1)(b).\n  - Mandatory notice under Section 143(2) was either not issued or issued belatedly, rendering it invalid.\n  - Approval from the Joint Commissioner of Income Tax (JCIT) under Section 158BG was not obtained, and the petitioner was not given an opportunity to present their case, violating principles of natural justice.\n- The legal representative, Mr. Mehul Mehta, was substituted as the petitioner after Dr. Bharat Mehta's death, as per",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The writ petition challenges a Block Assessment Order issued by the Revenue on June 30, 2003, citing procedural violations, including lack of approval, limitation issues, and violation of natural justice principles.\n\n2. **Key Points**:  \n   - The petitioner argued that the Block Assessment Order under Section 158BC read with Section 158BD was barred by limitation as per Section 158BE(1)(b).  \n   - The mandatory notice under Section 143(2) was either not issued or issued belatedly, rendering it invalid.  \n   - Prior approval from the Joint Commissioner of Income Tax (JCIT) under Section 158BG was not obtained, and the petitioner was not given an opportunity to be heard, violating principles of natural justice.\n\n3. **Dates, Numbers, and Identifiers**:  \n   - Block Assessment Order date: June 30, 2003.  \n   - Substitution of legal representative (Mr. Mehul Mehta) for deceased petitioner (Dr. Bharat Mehta): September 12, 2017.  \n   - Relevant sections of the Income Tax Act: 158BC, 158BD, 158BE(1",
   "embedding": [
     0.00985273439437151,
     0.01625269465148449,

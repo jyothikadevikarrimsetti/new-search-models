@@ -12,7 +12,7 @@
     "alleged"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18199752325183655,
+  "intent_confidence": 0.33110241240813354,
   "entities": [
     " Revenue",
     " Revenue",
@@ -23,8 +23,8 @@
     " Rakesh Kumar Jain"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -63,7 +63,7 @@
       "score": 0.998952329158783
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the prolonged search proceedings conducted by the Revenue due to the petitioner's failure to provide access to electronic documents, and the legal interpretation of such situations under relevant legislative provisions.\n\n2. **Key Points:**  \n   - The petitioner did not divulge the password to their computer, preventing the Revenue from accessing electronic documents during the search from January 2001 to June 2001.  \n   - The Revenue continued the search over several days, ultimately gaining access to the electronic documents in June 2001, which led to the conclusion of the search.  \n   - A legislative clause (effective from June 1, 2002) was introduced to address situations where electronic records are inaccessible during searches.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Search proceedings spanned from January 2001 to June 2001.  \n   - Specific search date: January 25, 2001.  \n   - Legislative clause effective date: June 1, 2002.  \n   - Case reference: WP No. 20999 of 2003.  \n   - URL mentioned: http://www.judis.nic.in.",
+  "summary": "### Summary Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the prolonged search proceedings conducted by the Revenue due to the petitioner's failure to provide access to electronic documents, and the legal interpretation of the continuation of such searches.\n\n2. **Key Points**:  \n   - The petitioner delayed the conclusion of the search proceedings by not divulging the password to access electronic documents, which extended the search from January 2001 to June 2001.  \n   - The Revenue's actions were justified under legal provisions, as the search could not be considered complete until access to electronic records was granted.  \n   - A legislative clause (effective from June 1, 2002) was introduced to address situations where electronic records are inaccessible during searches.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Search proceedings occurred between **January 2001 and June 2001**.  \n   - Specific search date: **25/01/2001**.  \n   - Legislative clause introduced on **01/06/2002**.  \n   - Case identifier: **WP No. 20999 of 2003**.  \n   - URL reference: **http://www.judis.nic.in**.",
   "embedding": [
     0.03003099001944065,
     0.0038048168644309044,

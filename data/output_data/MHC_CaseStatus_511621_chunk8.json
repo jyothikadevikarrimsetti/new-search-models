@@ -12,16 +12,16 @@
     "madurai"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18843834635508103,
+  "intent_confidence": 0.32836922918399664,
   "entities": [
     " Tuticorin versus Appellate Authority",
     " Act Madurai",
     " M Srinivasan"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -40,7 +40,7 @@
       "score": 0.9990278482437134
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the principles of limitation rules in legal proceedings, particularly under the Tamil Nadu Shops and Establishments Act, as analyzed by Justice M. Srinivasan.\n\n2. **Key Points**:\n   - Delay in approaching the court beyond the prescribed time can prejudice the opposing party, as they may have destroyed records assuming no further proceedings would occur.\n   - The length of delay and the specific facts and circumstances of each case are critical in deciding whether to condone the delay.\n   - Limitation rules are not merely technical considerations; they are essential for ensuring timely legal actions and preventing inaction from undermining justice.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - CMP No. 3003 of 2008\n   - Paragraphs 14 and 17 of Justice M. Srinivasan's judgment\n   - Reference to \"1039\" (possibly a page or identifier in the cited legal document).",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the principles of limitation under the Tamil Nadu Shops and Establishments Act, emphasizing the importance of adhering to prescribed time limits for legal proceedings and the consequences of delay.\n\n#### 2. Key Points:\n- **Impact of Delay on Legal Proceedings:** The text highlights that delays in approaching the court beyond the prescribed time can prejudice the opposing party, as they may have discarded relevant records assuming no further action would occur.\n- **Strict Adherence to Limitation Rules:** It is emphasized that litigants cannot set their own timelines for initiating legal proceedings, and the length of the delay is a critical factor in deciding whether it should be condoned.\n- **Substantial Justice vs. Technical Considerations:** The court asserts that limitation rules are not merely technical but substantive, and a party cannot claim substantial justice if they have been inactive for an extended period.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Case Reference:** CMP No. 3003 of 2008\n- **Paragraphs Referenced:** 14 and 17\n- **URL Mentioned:** http://www.judis.nic.in",
   "embedding": [
     0.028850039467215538,
     0.01320690754801035,

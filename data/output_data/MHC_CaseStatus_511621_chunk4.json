@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17787738742490333,
+  "intent_confidence": 0.3627341697231843,
   "entities": [
     " Radhika",
     " Sreekuma ran Nair",
@@ -57,7 +57,7 @@
       "score": 0.9980261325836182
     }
   ],
-  "summary": "### 1. **Main Topic/Subject**  \nThe text discusses legal principles and judgments related to applications for condonation of delay under Section 5 of the Limitation Act, 1963.\n\n---\n\n### 2. **Key Points**  \n- **Liberal Approach to Delay Condonation:** Courts generally adopt a liberal and lenient approach when dealing with applications to condone delays under Section 5 of the Limitation Act, aiming to ensure substantial justice between the parties.  \n- **Risk and Consequences:** Filing a delay condonation application belatedly carries risks for the applicant, but allowing such applications can ensure that meritorious cases are decided on their merits rather than being dismissed prematurely.  \n- **Length of Delay Not Critical:** The length and breadth of the delay are not considered material or relevant factors in deciding condonation applications under Section 5 of the Limitation Act.\n\n---\n\n### 3. **Dates, Numbers, and Identifiers Mentioned**  \n- **Case Reference:** Radhika Vs Sreekumaran Nair in CRPNPDMD No. 1620 of 2004.  \n- **Judgment Date:** January 31, 2011 (31012011).  \n- **Legal Provision:** Section 5 of",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses legal principles and judgments related to the condonation of delay under Section 5 of the Limitation Act, 1963, emphasizing a liberal and lenient approach to ensure substantial justice.\n\n#### 2. **Key Points**:\n- Courts generally view applications to condone delays under Section 5 of the Limitation Act in a liberal and lenient manner to ensure substantial justice between parties.\n- Denying condonation of delay may risk defeating justice, as meritorious cases could be dismissed prematurely, while allowing condonation enables cases to be decided on their merits.\n- The length and breadth of the delay are not considered material factors in deciding condonation applications.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case References**:\n  - *Radhika Vs Sreekumaran Nair*, CRPNPDMD No. 1620 of 2004.\n  - *A. Edwin Raj Vs A. Ruban David*, MP No. 1 of 2015 in ASSR No. 52108 of 2015.\n- **Dates**:\n  - Judgment in *Radhika Vs Sreekumaran N",
   "embedding": [
     0.05637163668870926,
     0.025323575362563133,

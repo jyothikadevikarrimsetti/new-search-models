@@ -12,7 +12,7 @@
     "court"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18672276916375283,
+  "intent_confidence": 0.34049850067155935,
   "entities": [
     " of Income-Tax Central Circle II1",
     " Rakesh Sarin",
@@ -24,9 +24,9 @@
     " Department"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -70,7 +70,7 @@
       "score": 0.8081308007240295
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal judgment by the Division Bench of the Madras High Court regarding the interpretation of the limitation period under Section 158BE of the Income Tax Act in the context of search and seizure operations.\n\n---\n\n#### 2. **Key Points**:\n- The judgment clarifies that the limitation period for passing an order under Section 158BE of the Income Tax Act is two years from the end of the month in which the last authorization for a search was executed.\n- Explanation 2 of Section 158BE specifies that the execution of an authorization is determined by the conclusion of the search as recorded in the last panchanama (official record) related to the person in question.\n- In the case discussed, the Department issued an authorization on **26-03-2003**, and searches were conducted on **27-03-2003** and **28-03-2003**, with the panchanamas noting \"search continues temporarily concluded.\" Another authorization was issued on **27-08-2003** for further searches.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- **Case References**: \n  - *Income-Tax Central",
+  "summary": "1. **Main Topic/Subject**:  \n   The judgment discusses the limitation period for passing orders under Section 158BE of the Income Tax Act in cases involving search and seizure operations, with reference to the interpretation of the \"last panchanama\" and the execution of authorizations.\n\n2. **Key Points**:  \n   - The Division Bench clarified that the limitation period for passing an order under Section 158BE of the Income Tax Act is two years from the end of the month in which the last authorization was executed, as per the provision applicable to searches conducted after January 1, 1996.  \n   - The \"last panchanama\" drawn in relation to the assessee is critical for determining the limitation period, and the conclusion of the search must be recorded in the panchanama.  \n   - In the specific case, the Department issued an authorization on March 26, 2003, and conducted searches on March 27 and 28, 2003, with the search temporarily concluded. A subsequent authorization was issued on August 27, 2003, for further searches.\n\n3. **Dates, Numbers, and Identifiers Mentioned**:  \n   - Case references: *Income-Tax Central Circle II1",
   "embedding": [
     0.034169990569353104,
     0.027200616896152496,

@@ -12,7 +12,7 @@
     "alleged"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20742315218714594,
+  "intent_confidence": 0.3514428570446694,
   "entities": [
     " DIT",
     " Chennai",
@@ -38,7 +38,7 @@
       "score": 0.9902870655059814
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses search operations conducted by tax authorities on a group of assessees, focusing on delays caused by the petitioner's non-cooperation, including withholding computer passwords.\n\n#### 2. Key Points:\n- Search operations were conducted based on a valid warrant of authorization (WP No. 20999 of 2003) and continued from January 2001 to June 25, 2001.\n- Delays occurred because the petitioner refused to provide passwords for password-protected computer files and due to the voluminous books of account found during the search.\n- Prohibitory orders were issued to facilitate the continuation of the search, and the authorities denied allegations of harassment, attributing delays to the petitioner's lack of cooperation.\n\n#### 3. Dates, Numbers, and Identifiers:\n- Dates: January 2001 to June 25, 2001.\n- Warrant of Authorization: WP No. 20999 of 2003.\n- URLs mentioned: \"httpwwwjudisnicin\".\n- Numbers: 5360, 5460 (context unclear).",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses a series of search operations conducted by Revenue authorities on a petitioner, focusing on delays caused by the petitioner's refusal to provide computer passwords and the subsequent issuance of prohibitory orders.\n\n2. **Key Points:**  \n   - Search operations were conducted between January 2001 and June 2001 under valid authorization (Warrant No. 5360, WP No. 20999 of 2003, DIT Inv Chennai).  \n   - The petitioner did not cooperate by withholding passwords for computer files, leading to delays in verification and the need to seize the files.  \n   - Prohibitory orders were issued multiple times to facilitate the continuation of the search, not to harass the petitioner.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Search operations spanned from January 2001 to June 25, 2001.  \n   - Warrant of authorization: 5360.  \n   - Case reference: WP No. 20999 of 2003, DIT Inv Chennai.  \n   - Password-protected files were ultimately seized due to non-cooperation.",
   "embedding": [
     0.03748856857419014,
     -0.01521772425621748,

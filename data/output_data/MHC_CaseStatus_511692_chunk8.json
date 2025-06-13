@@ -12,7 +12,7 @@
     "affidavit"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20456112064725726,
+  "intent_confidence": 0.36824305249908956,
   "entities": [
     " Block Assess ment Order",
     " ARakesh Kumar Jain",
@@ -35,10 +35,10 @@
     " Kodambakkam High Road"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER",
-    "LOC"
+    "ORG",
+    "LOC",
+    "PER"
   ],
   "entity_details": [
     {
@@ -137,7 +137,7 @@
       "score": 0.9925695657730103
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal dispute concerning a Block Assessment Order issued by tax authorities following a search operation conducted under Section 132 of the Income Tax Act.\n\n#### 2. Key Points:\n- The petitioner challenges the Block Assessment Order, relying on various judicial precedents, including *Rakesh Kumar Jain v. Joint Commissioner of Income Tax* (2012) and *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax* (2011).\n- The Revenue's counsel argues that the petitioner and his family were subjected to a search operation on January 25, 2001, under valid warrants of authorization, and the search continued over multiple dates due to its inconclusive nature.\n- A prohibitory order was issued for the premises at No. 418/1 Kodambakkam High Road, Chennai, as the search remained incomplete.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Dates of the search operation:** January 25, 2001; January 30, 2001; February 2, 2001; February 8, 2001; February 20, 2001; February 23, 2001; March",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute over a Block Assessment Order, focusing on a search operation conducted under Section 132 of the Income Tax Act and the subsequent legal arguments presented by both the petitioner and the Revenue.\n\n2. **Key Points**:  \n   - The petitioner challenges the Block Assessment Order, citing various legal judgments, including *Rakesh Kumar Jain v. Joint Commissioner of Income Tax (2012)* and *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax (2011)*.  \n   - The Revenue argues that the petitioner and his family were subjected to a search operation initiated on January 25, 2001, under valid warrants of authorization, and that the search continued across multiple dates due to its inconclusive nature.  \n   - A prohibitory order was issued for the premises at No. 418/1 Kodambakkam High Road, Chennai, as the search could not be concluded on the initial date.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Search operation dates:  \n     - Initiated on **25/01/2001**.  \n     - Continued on **30/01/2001**,",
   "embedding": [
     0.038138892501592636,
     -0.016702286899089813,

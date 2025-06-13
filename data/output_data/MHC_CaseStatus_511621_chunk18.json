@@ -12,7 +12,7 @@
     "law"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21761780750481186,
+  "intent_confidence": 0.33786878244229546,
   "entities": [
     " Sundar Gnanaolivu",
     " Rajendran Gnanavolivu",
@@ -26,8 +26,8 @@
     " Limitation Act"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
+    "ORG",
     "PER"
   ],
   "entity_details": [
@@ -82,7 +82,7 @@
       "score": 0.8778343200683594
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principle of condonation of delay, emphasizing that it should not be misused by government departments and must be granted only under sufficient and reasonable cause.\n\n2. **Key Points**:  \n   - Government departments have a special duty to perform their tasks diligently and should not rely on condonation of delay as a routine benefit.  \n   - Courts must carefully evaluate the reasons for delays, ensuring they are not deliberate or part of a dilatory strategy, as highlighted in various legal precedents.  \n   - The principle of \"sufficient cause\" under Section 5 of the Limitation Act requires careful judicial consideration to ensure fairness for all parties.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - **Sundar Gnanaolivu Vs Rajendran Gnanavolivu** (MANU/TN/2123/2003)  \n     - **N Balakrishnan Vs M Krishnamurthy** (MANU/SC/0573/1998; 1998 2 CTC 533)  \n     - **MK Prasad Vs P Arumugam** (",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the principles surrounding delays in legal and procedural matters, emphasizing that government departments must act with diligence and that condonation of delay should not be misused.\n\n#### 2. Key Points:\n- Government departments are obligated to perform their duties with diligence and cannot rely on condonation of delay as a routine benefit.\n- Courts must assess whether delays are genuine or part of a deliberate strategy to gain time, showing leniency only when explanations are not malicious or dilatory.\n- Legal precedents, such as *N. Balakrishnan vs. M. Krishnamurthy* and *M.K. Prasad vs. P. Arumugam*, highlight the importance of evaluating \"sufficient cause\" under Section 5 of the Limitation Act.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case references:\n  - *Sundar Gnanaolivu vs. Rajendran Gnanavolivu* (MANU/TN/2123/2003)\n  - *N. Balakrishnan vs. M. Krishnamurthy* (MANU/SC/0573/1998; 1998 2",
   "embedding": [
     0.05756635218858719,
     0.04299776256084442,

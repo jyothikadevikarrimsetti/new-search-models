@@ -12,7 +12,7 @@
     "cases"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1909647018672473,
+  "intent_confidence": 0.36655802531465653,
   "entities": [
     " Damocles"
   ],
@@ -26,7 +26,7 @@
       "score": 0.8961980938911438
     }
   ],
-  "summary": "### 1. Main Topic/Subject  \nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the importance of facts, circumstances, and public policy.\n\n---\n\n### 2. Key Points  \n- **Delay Assessment**: The length of delay and the reasons behind it are crucial factors in deciding whether to condone the delay, with no litigant allowed to set their own limitation period outside what is prescribed by law.  \n- **Equity vs. Technicality**: Substantial justice should not automatically override technical considerations, especially when delays result from deliberate inaction or lack of bona fides by the party seeking condonation.  \n- **Liberal Approach with Caution**: Courts may adopt a liberal approach to condonation of delay but must exercise caution when there is evidence of bad faith or attempts to mislead the court.\n\n---\n\n### 3. Dates, Numbers, or Identifiers Mentioned  \n- **CMP No. 3003 of 2008**: A case identifier referenced in the text.  \n- **2639**: Possibly a reference number or identifier.  \n- **17** and **14**: Paragraph or section numbers mentioned in the text.",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and considerations surrounding the condonation of delays in legal proceedings, emphasizing the importance of equity, public policy, and the litigant's bona fides.\n\n2. **Key Points**:  \n   - The length of the delay is a relevant factor, but the focus should be on the reasons and attitude of the party seeking condonation, rather than the number of days of delay.  \n   - Rules of limitation are grounded in public policy and equity, and litigants cannot arbitrarily set their own timelines for initiating proceedings.  \n   - Courts should adopt a liberal approach to condonation of delay, except in cases where there is a lack of bona fides or an attempt to mislead the court.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 3003 of 2008  \n   - Reference to \"2639\" (context unclear)  \n   - No specific dates are mentioned.",
   "embedding": [
     0.05275144800543785,
     0.03726501762866974,

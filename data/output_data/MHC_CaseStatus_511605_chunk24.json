@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1648275738420348,
+  "intent_confidence": 0.33460986526298925,
   "entities": [
     " Limitation Act",
     " Pundlik Jalam Patil",
@@ -24,10 +24,10 @@
     " MKrishnamurthy"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER",
-    "LOC"
+    "ORG",
+    "LOC",
+    "PER"
   ],
   "entity_details": [
     {
@@ -71,7 +71,7 @@
       "score": 0.9973242878913879
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the judicial exercise of discretionary powers under Section 5 of the Limitation Act, emphasizing the need for reasonableness and adherence to legal principles.\n\n#### 2. Key Points:\n- Judicial discretionary powers must be exercised systematically, based on reason, and not influenced by whims, biases, or personal preferences.\n- The Supreme Court has clarified that sufficient cause for delay in filing appeals must be based on circumstances arising before the expiration of the limitation period, not after.\n- Precedents such as *Pundlik Jalam Patil D. by Lrs vs. Exe. Eng. Jalgaon Medium Project* and *Ajit Singh Thakur Singh vs. State of Gujarat* highlight the importance of reasonable explanations for delays, while *N. Balakrishnan vs. M. Krishnamurthy* underscores that the length of delay is less important than the credibility of the explanation.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Section 5 of the Limitation Act**: Legal provision under discussion.\n- **Case references**:\n  - *Pundlik Jalam Patil D. by Lrs vs. Exe. Eng. Jalgaon",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the judicial exercise of discretionary powers within the bounds of the law, particularly in the context of the Limitation Act and related case law.\n\n2. **Key Points**:  \n   - Judicial discretionary powers must be exercised systematically, based on reason, and not influenced by whims, prejudices, or personal biases.  \n   - The Supreme Court has clarified that sufficient cause for delay in filing appeals must be based on events occurring before the limitation period expires, not after.  \n   - The length of the delay is less important than the acceptability and genuineness of the explanation provided, as long as it is not motivated by bad faith or dilatory tactics.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project & others* (MANU/SC/4694/2004)  \n     - *Ajit Singh Thakur Singh and anr vs State of Gujarat* (1981 1 SCC 495)  \n     - *N Balakrishnan vs M Krishnamurthy* (1998 7 SCC",
   "embedding": [
     0.04859592393040657,
     0.03989843279123306,

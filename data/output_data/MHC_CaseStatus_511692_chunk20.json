@@ -12,7 +12,7 @@
     "premises"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21248830824285286,
+  "intent_confidence": 0.3579994660943654,
   "entities": [
     " High Court",
     " CRamaiah Reddy",
@@ -24,9 +24,9 @@
     " Karnataka High Court"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -70,7 +70,7 @@
       "score": 0.9873215556144714
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the interpretation of legal provisions related to search and seizure under Section 132 of the Income Tax Act, as analyzed in the Karnataka High Court case of C. Ramaiah Reddy v. Assistant Commissioner of Income Tax.\n\n#### 2. **Key Points**:\n- **Search and Seizure Authorization**: Section 132 requires specific authorization for searches, but no separate authorization is needed to inspect premises under a prohibitory or restraint order. The order itself acts as authorization for inspection and seizure of incriminating materials.\n- **Scope of Actions During Inspection**: Officials must confine their actions to inspecting materials specified in the prohibitory or restraint order and cannot conduct a full search again. Any material seized during such inspection is treated as undisclosed income for block assessment purposes.\n- **Panchnama and Limitation**: The panchnama evidencing inspection and seizure is considered the last panchnama for the premises, but for limitation purposes under Section 158BE, only one search and one panchnama are recognized.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case Name**: C. Ramaiah Reddy v. Assistant",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject:**\n   The text discusses the legal interpretation of search and seizure procedures under Section 132 of the Income Tax Act, as clarified in the Karnataka High Court case *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax*.\n\n#### 2. **Key Points:**\n   - The case clarifies that a prohibitory or restraint order under Section 132 does not require separate authorization for entering and inspecting premises; the order itself acts as authorization.\n   - Actions during such inspections must be limited to the scope of the prohibitory or restraint order, and any material seized during this process is treated as undisclosed income for block assessment.\n   - For the purpose of limitation under Section 158BE, only one search and one panchnama (document recording the search) are considered valid, even if multiple authorizations are issued.\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned:**\n   - Case: *C. Ramaiah Reddy v. Assistant Commissioner of Income Tax*\n   - Reported in: 2011, 339 ITR 210 (Karnataka)\n   - Additional citation: 2011, 244 CTR 2460\n   -",
   "embedding": [
     0.04956340044736862,
     0.00952807255089283,

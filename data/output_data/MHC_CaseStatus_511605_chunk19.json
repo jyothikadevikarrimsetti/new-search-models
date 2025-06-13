@@ -12,15 +12,15 @@
     "occasioned"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20779489314405036,
+  "intent_confidence": 0.3297144071567893,
   "entities": [
     " LLN",
     " Tamil Nadu Mercantile Bank Ltd Tuticorin",
     " M Srinivasan"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.9991048574447632
     }
   ],
-  "summary": "### Summary of Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles surrounding the condonation of delay in legal cases, emphasizing the discretionary power of courts and the importance of substantial justice.\n\n#### 2. **Key Points**:\n- **Discretion of the Court**: Condonation of delay is at the discretion of the court, and the length of the delay is less important than the acceptability of the explanation provided.\n- **Criteria for Condonation**: Courts must ensure the explanation for the delay is not mala fide or part of a dilatory strategy, and must balance the interests of both parties while exercising discretion.\n- **Purpose of Limitation Rules**: Limitation rules are intended to prevent dilatory tactics and ensure prompt remedies, not to destroy the rights of parties.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **1933**: A reference to a year, possibly related to legal principles or precedents.\n- **CMP No. 6648 of 2018 in ASSR No. 19304 of 2018**: Case identifiers mentioned in the text.\n- **1990 (1) LLN 457**: A citation for a Division Bench Judgment",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and judicial discretion involved in condoning delays under rules of limitation in legal proceedings.\n\n2. **Key Points**:  \n   - **Sufficient Cause and Judicial Discretion**: Determining \"sufficient cause\" for condoning delays is a factual question, and courts have discretion in accepting explanations for delays. The length of delay is less important than the acceptability of the explanation provided.  \n   - **Legal Purpose of Limitation Rules**: Limitation rules aim to prevent dilatory tactics and ensure prompt remedies, rather than destroying parties' rights. Courts should exercise discretion with consideration for both parties.  \n   - **Conditions for Condonation**: Courts must reject explanations that are malicious, part of a dilatory strategy, or intended to gain time unfairly. Conversely, explanations free from mala fides should be treated with utmost consideration.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **1933**: Mentioned in the context of delay caused deliberately.  \n   - **CMP No. 6648 of 2018 in ASSR No. 19304 of 2018**: Case identifiers referenced.",
   "embedding": [
     0.02463664300739765,
     0.022297142073512077,

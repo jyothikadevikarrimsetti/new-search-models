@@ -12,7 +12,7 @@
     "1328a"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1885744360222581,
+  "intent_confidence": 0.30663414676870304,
   "entities": [
     " CRamaiah Reddy"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9976937174797058
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the interpretation of legal provisions related to the limitation period for block assessments under Section 158BE of the Income Tax Act, particularly in the context of searches conducted under Section 132.\n\n2. **Key Points**:  \n   - The limitation period of one or two years under Section 158BE should not be extended due to delays caused by pending proceedings under Section 132(3), as this would conflict with the legislative intent and lead to absurd results.  \n   - The Explanation added to the Act is meant to clarify doubts and cannot be interpreted as extending the limitation period beyond what is prescribed in the main section.  \n   - For block assessments, the last panchnama (document evidencing the conclusion of a search) drawn under the relevant authorization is critical for determining the limitation period, especially when multiple authorizations or searches are involved.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Limitation period: One or two years under Section 158BE.  \n   - Sections referenced: 158BE, 132(3), 132(8A).  \n   - Case reference: C. Ramaiah Reddy case.  \n   -",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the interpretation of legal provisions related to the limitation period for block assessments under Section 158BE, particularly in cases involving searches and authorizations under Sections 1323 and 1328A.\n\n2. **Key Points**:  \n   - The limitation period for block assessments under Section 158BE should not be extended due to delays in lifting restraint under Section 1323, as this could lead to absurd results and violate legislative intent.  \n   - Legislative intent indicates that one authorization should correspond to one search, and the limitation period is determined by the date of the last panchnama drawn in proof of the conclusion of the search.  \n   - The Explanation added to the Act is meant to clarify doubts, not to extend the prescribed limitation period.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - \"Two years\" and \"one or two years\" refer to the limitation period under Section 158BE.  \n   - Sections referenced: 158BE, 1323, 1328A.  \n   - Case identifier: WP No. 20999 of 2003.  \n   - Numbers: \"3460\" and \"",
   "embedding": [
     0.037293411791324615,
     0.006013185251504183,

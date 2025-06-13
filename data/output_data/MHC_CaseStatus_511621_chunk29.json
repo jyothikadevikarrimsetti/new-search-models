@@ -12,11 +12,11 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2380920936373134,
+  "intent_confidence": 0.3160602776317725,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles guiding judicial discretion, the balance of justice, and the approach courts should adopt in cases involving delays, fraud, or misrepresentation.\n\n2. **Key Points:**  \n   - Courts must ensure that strict adherence to proof does not compromise public justice or cause harm, while maintaining vigilance to prevent failures of justice.  \n   - A distinction exists between inordinate delays (requiring strict scrutiny) and short delays (calling for a more liberal approach), with considerations of reasonableness and the conduct of parties being critical.  \n   - Fraud, misrepresentation, or misuse of legal technicalities should not be tolerated, and judicial discretion must be exercised objectively, not based on individual perceptions.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case identifier: CMP No. 3003 of 2008.  \n   - Reference number: 3439.  \n   - URL: http://www.judis.nic.in.  \n   - Mention of \"16\" (possibly a paragraph or section number).",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles courts should follow in balancing justice, addressing delays, and ensuring fairness in legal proceedings while maintaining vigilance against misuse of the judicial process.\n\n#### 2. **Key Points**:\n- Courts must ensure justice is not compromised by strict adherence to procedural proof, avoiding public harm or failure of justice.\n- A distinction is made between inordinate delays (requiring strict scrutiny) and short delays (calling for a more liberal approach), with factors like conduct, negligence, and reasonableness being relevant considerations.\n- Fraud, misrepresentation, or misuse of legal technicalities should not be tolerated, and judicial discretion should be exercised objectively, especially when dealing with public entities.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- CMP No. 3003 of 2008\n- Reference to \"3439\" (possibly a case number or identifier)\n- Mention of \"16\" (context unclear, could be a paragraph or section number).",
   "embedding": [
     0.05054201930761337,
     0.02063591033220291,

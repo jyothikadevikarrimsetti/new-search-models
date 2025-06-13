@@ -12,7 +12,7 @@
     "conducted"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17775622814300246,
+  "intent_confidence": 0.35519109896172946,
   "entities": [
     " Rakesh Kumar Jains",
     " Rakesh Kumar Jains",
@@ -76,7 +76,7 @@
       "score": 0.9965987801551819
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject (1 sentence):**\nThe text discusses the interpretation and application of Explanation 2 to Section 158BE of the Income Tax Act, particularly in the context of search and seizure operations and related judicial rulings.\n\n#### 2. **Key Points:**\n- The interpretation of Explanation 2 to Section 158BE is not a universal rule and must be applied based on the specific facts and circumstances of each case.\n- The case involves two premises in Chennai where searches were conducted on January 25, 2001, with differing outcomes: one search concluded on the same day, while the other search continued with a prohibitory order issued.\n- Judicial precedents, including rulings from the Karnataka High Court and two Division Benches of the same Court, have been reviewed to assess the applicability of Explanation 2 in this case.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned:**\n- **Dates:** January 25, 2001 (date of searches and panchanamas issued).\n- **Section:** Section 158BE (and its Explanation 2) of the Income Tax Act.\n- **Case Reference:** WP No. 20999 of 2003 (R",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the interpretation and application of Explanation 2 to Section 158BE of the Income Tax Act in the context of judicial rulings and specific search and seizure cases.\n\n2. **Key Points**:  \n   - The interpretation of Explanation 2 to Section 158BE is not a universal rule and depends on the specific facts and circumstances of each case, as highlighted by judicial precedents, including the Rakesh Kumar Jain case.  \n   - In the case at hand, searches were conducted at two premises on January 25, 2001, with differing outcomes: one search concluded the same day, while the other continued with a prohibitory order issued.  \n   - Judicial rulings from the Karnataka High Court and two Division Benches of this Court were reviewed, emphasizing that the application of Explanation 2 must be case-specific.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**: January 25, 2001 (search and panchanama dates).  \n   - **Case References**: WP No. 20999 of 2003, Rakesh Kumar Jain\u2019s case.  \n   - **Premises**:  \n     - No",
   "embedding": [
     0.02844373881816864,
     -0.006152968388050795,

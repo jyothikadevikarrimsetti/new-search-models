@@ -12,7 +12,7 @@
     "panchanama"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20957666481096668,
+  "intent_confidence": 0.38558221590518726,
   "entities": [
     " Revenue",
     " Rakesh Kumar Jain",
@@ -27,9 +27,9 @@
     " Revenue"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -88,7 +88,7 @@
       "score": 0.9961701035499573
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal dispute involving the invocation of writ jurisdiction under Article 226, focusing on the applicability of judgments and the limitation period for block assessment under Section 158BE(1)(b) of the Income Tax Act.\n\n#### 2. Key Points:\n- The petitioner alleges a violation of natural justice to invoke writ jurisdiction, bypassing the appellate remedy, which the Revenue argues is not permissible.\n- The petitioner cites two judgments (Rakesh Kumar Jain and Ramaiah Reddy cases) to support their claim, but the Revenue contends these are inapplicable and instead relies on a Division Bench decision in *Deputy Commissioner of Income-Tax Central Circle II(1) v. Rakesh Sarin* (2014).\n- The dispute centers on the limitation period for block assessment, with the petitioner claiming it commenced on January 25, 2001, while the Revenue asserts it began on June 12, 2001.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Judgments Referenced**: \n  - *Rakesh Kumar Jain case*\n  - *Ramaiah Reddy case*\n  - *Deputy Commissioner of",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute involving the invocation of writ jurisdiction under Article 226, the applicability of judicial precedents, and the sustainability of a Block Assessment Order in a tax-related case.\n\n2. **Key Points**:  \n   - The petitioner alleges a violation of natural justice principles to approach the court under writ jurisdiction, bypassing the appellate remedy.  \n   - The Revenue's counsel argues that the judicial precedents cited by the petitioner (Rakesh Kumar Jain and Ramaiah Reddy cases) are not applicable, and instead, a Division Bench ruling in *Deputy Commissioner of Income-Tax v. Rakesh Sarin* (2014) is relevant.  \n   - The dispute revolves around the interpretation of the limitation period under Section 158BE(1)(b), with differing claims about when the last panchanama was executed (January 25, 2001, vs. June 12, 2001).  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - *Deputy Commissioner of Income-Tax Central Circle II(1) v. Rakesh Sarin* (201",
   "embedding": [
     0.012314963154494762,
     -0.0016635131323710084,

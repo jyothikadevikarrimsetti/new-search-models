@@ -12,7 +12,7 @@
     "deemed"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19087416613500077,
+  "intent_confidence": 0.4031386393074238,
   "entities": [
     " Block Assess ment Order",
     " Block Assessm ent Order",
@@ -38,7 +38,7 @@
       "score": 0.8755878806114197
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legality and validity of a Block Assessment Order dated 30/06/2003 under Section 158BE(1)(b) of the Income Tax Act, in the context of authorized search operations and limitation periods.\n\n#### 2. **Key Points**:\n- The Revenue's continuous search operations, conducted between 25/01/2001 and 12/06/2001, were deemed authorized, making the panchanama issued on 12/06/2001 the last authorization under Section 132.\n- The Block Assessment Order dated 30/06/2003 was ruled to be within the two-year limitation period starting from 01/07/2001, as per Section 158BE(1)(b).\n- The court dismissed the writ petition challenging the Block Assessment Order, stating that the petitioner's claims regarding limitation and other grounds were unsustainable.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Dates**: \n  - Search operations: 25/01/2001 to 12/06/2001.\n  - Last panchanama: 12/06/2001.",
+  "summary": "1. **Main Topic/Subject**: The court evaluates whether the Block Assessment Order dated 30/06/2003 is barred by limitation under Section 158BE(1)(b) of the Income Tax Act and concludes that it is valid.\n\n2. **Key Points**:\n   - The Revenue conducted continuous search operations on various dates from 25/01/2001 to 12/06/2001, with the panchanama issued on 12/06/2001 deemed the last authorization under Section 132.\n   - The Block Assessment Order dated 30/06/2003 falls within the two-year limitation period starting from 01/07/2001, as per Section 158BE(1)(b).\n   - The court dismisses the petitioner\u2019s claim that the order is barred by limitation and finds the impugned order legally sustainable.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Search operation dates: 25/01/2001 to 12/06/2001.\n   - Panchanama date: 12/06/2001.\n   - Block Assessment Order date: 30/06/2003.\n   - Limitation period commencement: 01/07",
   "embedding": [
     0.030768200755119324,
     0.018049269914627075,

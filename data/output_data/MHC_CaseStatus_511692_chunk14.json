@@ -12,7 +12,7 @@
     "approval"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2416176471614319,
+  "intent_confidence": 0.3336725546782323,
   "entities": [
     " of Income-Tax Central-I Chennai",
     " DCIT Central Circle",
@@ -28,9 +28,9 @@
     " Income Tax Act"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "LOC"
+    "LOC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -94,7 +94,7 @@
       "score": 0.9902933239936829
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject:**\nThe text discusses a legal dispute involving the Income Tax Department and the petitioner, focusing on compliance with procedural requirements under various sections of the Income Tax Act, including Sections 158BG, 158BC, and 143(2).\n\n---\n\n#### 2. **Key Points:**\n- The case was transferred from DCIT Central Circle I5 Chennai to DCIT Central Circle I3 Chennai as per a notification dated 16.04.2003, and the Revenue contends that the search of the petitioner\u2019s premises was conducted with proper approval under Section 158BG.\n- The petitioner alleged procedural lapses, including the absence of a valid notice under Section 143(2), but the Revenue countered these claims, stating that the notice under Section 158BC was issued on 05.10.2001, and the notice under Section 143(2) was issued on 06.06.2003 and served by affixture on 10.06.2003.\n- The petitioner filed the requisite return in Form 2B on 23.10.2001, and the block period was specified in accordance with Section 158BA of the Income Tax Act.\n\n---\n\n####",
+  "summary": "1. **Main topic/subject**:  \n   The text discusses a legal dispute regarding compliance with procedural requirements under the Income Tax Act, particularly concerning notices, approvals, and transfers of jurisdiction in a case involving undisclosed income.\n\n2. **Key points**:  \n   - The transfer of the case from DCIT Central Circle I-5 Chennai to DCIT Central Circle I-3 Chennai was made effective from 16/04/2003, as per a notification. The Revenue asserts that the search of the petitioner's premises was conducted following approval by the JCIT under Section 158BG.  \n   - A notice under Section 158BC was issued on 05/10/2001, requiring the petitioner to file a return for the block period, which the petitioner complied with on 23/10/2001. Additionally, a notice under Section 143(2) was issued on 06/06/2003 and served by affixture on 10/06/2003.  \n   - The Revenue denies allegations of procedural non-compliance, maintaining that all notices and approvals were valid and in accordance with the Income Tax Act.\n\n3. **Dates, numbers, or identifiers mentioned**:  \n   - Notification date: 16/04/",
   "embedding": [
     0.012191039510071278,
     -0.0028118696063756943,

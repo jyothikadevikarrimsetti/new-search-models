@@ -12,7 +12,7 @@
     "considerations"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17228225689476992,
+  "intent_confidence": 0.3378761181536818,
   "entities": [
     " Damocles",
     " G Jayaraman",
@@ -38,7 +38,7 @@
       "score": 0.9989033937454224
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical rules of limitation.\n\n2. **Key Points:**  \n   - Rules of limitation are grounded in public policy and equity, ensuring that litigants are not indefinitely subjected to legal uncertainty due to delays caused by the opposing party.  \n   - Courts adopt a liberal approach to condonation of delay, provided the delay is not due to deliberate misconduct or lack of bona fides by the applicant.  \n   - The focus is on the attitude and explanation of the party causing the delay, rather than the number of days delayed, and monetary compensation may be considered to mitigate prejudice caused to the opposing party.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - CMP No. 3003 of 2008  \n   - Case reference: G Jayaraman vs Devarajan, 2007 (2) CTC 643  \n   - URL: http://www.judis.nic.in",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical limitations.\n\n2. **Key Points:**  \n   - Rules of limitation are grounded in public policy and equity, ensuring that litigants are not indefinitely subjected to uncertainty due to delays caused by opponents.  \n   - Courts should adopt a liberal approach to condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the applicant.  \n   - The number of days of delay is less important than the attitude and explanation provided by the party seeking condonation, with monetary compensation being a potential remedy for prejudice caused to the opposing side.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - CMP No. 3003 of 2008  \n   - Case reference: G Jayaraman vs Devarajan, 2007 (2) CTC 643  \n   - Page reference: 1139",
   "embedding": [
     0.05026606470346451,
     0.014409095980226994,

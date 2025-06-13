@@ -12,7 +12,7 @@
     "panchanama"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18847338214132311,
+  "intent_confidence": 0.3210817427912546,
   "entities": [
     " Act",
     " Criminal Procedure Code",
@@ -68,7 +68,7 @@
       "score": 0.8023315072059631
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal interpretation of a \"search\" under Section 132 of the Income-tax Act and its implications on the limitation period for completing a block assessment.\n\n---\n\n#### 2. Key Points:\n- **Definition of \"Search\"**: The text clarifies that merely looking into possession for incriminating material does not constitute a \"search\" as defined under Section 132 of the Income-tax Act or the Criminal Procedure Code. Once the search party leaves the premises and draws the Panchanama, the search is considered concluded.\n- **Limitation Period**: The limitation period for completing a block assessment begins once the search concludes, as indicated by the issuance of the Panchanama. Postponing the search or drawing multiple Panchanamas under a single authorization does not extend the limitation period.\n- **Legal Observations**: The mere statement in a Panchanama that \"search continues\" does not affect the conclusion of the search or the commencement of the limitation period.\n\n---\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Dates**: The search was completed on **13-12-2001**.\n- **Numbers**: \n  - **416",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal interpretation of \"search\" under Section 132 of the Income-tax Act and the implications of drawing multiple Panchanamas during a search operation.\n\n#### 2. **Key Points**  \n- A search under Section 132 concludes when the search party leaves the premises and draws the Panchanama, marking the end of the search; subsequent actions like seizure or prohibitory orders do not extend the search period.  \n- The limitation period for completing the block assessment begins once the search is concluded and the Panchanama is issued, even if the Panchanama notes that the search continues.  \n- Legal provisions in the Criminal Procedure Code or Income-tax Act do not allow postponing a search for an extended period, as it would undermine the concept of \"search.\"\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Date:** Search completed on 13/12/2001.  \n- **Numbers/Identifiers:**  \n  - Section 132 of the Income-tax Act.  \n  - Explanation 2 to Section 158BE.  \n  - WP No. 20999 of 2003.  \n  - Panchanama identifiers",
   "embedding": [
     0.05162665247917175,
     0.028838759288191795,

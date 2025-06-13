@@ -12,7 +12,7 @@
     "certiorari"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.23955326402285104,
+  "intent_confidence": 0.4055464380124017,
   "entities": [
     " HIG H COURT OF JUDICATURE",
     " MADRAS",
@@ -40,10 +40,10 @@
     " Kodambakkam High Road Chennai"
   ],
   "entity_types": [
-    "ORG",
+    "MISC",
     "PER",
     "LOC",
-    "MISC"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -167,7 +167,7 @@
       "score": 0.9834045767784119
     }
   ],
-  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe writ petition WP No. 20999 of 2003 was filed in the Madras High Court by Dr. Bharat Mehta (later substituted by his legal representative Mehul Mehta) seeking a writ of certiorari to quash an income tax-related record dated June 30, 2003.\n\n#### 2. **Key Points**  \n- The petitioner, Dr. Bharat Mehta, was a medical practitioner and businessman, as well as an income tax assessee since 1978-79. He passed away during the pendency of the case, and his legal representative, Mehul Mehta, was substituted as per an order dated September 12, 2017.\n- The writ petition was filed under Article 226 of the Constitution of India to challenge a record identified as No. PAGI No. AADPH7768C dated June 30, 2003.\n- The case was reserved for judgment on October 30, 2018, and the judgment was pronounced on December 31, 2019.\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned**  \n- **Case Number**: WP No. 209",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:  \nThe writ petition challenges an income tax-related record issued to Dr. Bharat Mehta, seeking its quashing under Article 226 of the Constitution of India.\n\n#### 2. **Key Points**:  \n- Dr. Bharat Mehta, a medical practitioner and businessman, filed a writ petition under Article 226 to challenge an income tax record (No. PAGI No. AADPH7768C dated 30th June 2003).  \n- During the pendency of the case, Dr. Bharat Mehta passed away, and his legal representative, Mehul Mehta, was substituted as the petitioner as per an order dated 12th September 2017.  \n- The petitioner sought a writ of certiorari to quash the income tax record, with legal representation provided by Mr. M.P. Senthil Kumar for the petitioner and Mr. A.P. Srinivas for the respondents.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:  \n- **Case Numbers**: WP No. 20999 of 2003 and WPMP No. 26089 of 2003.  \n- **Dates**:  \n  - Reserved",
   "embedding": [
     0.026305416598916054,
     -0.013742010109126568,

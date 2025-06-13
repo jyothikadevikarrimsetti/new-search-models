@@ -12,7 +12,7 @@
     "23102001"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2680961959788105,
+  "intent_confidence": 0.38867334868074604,
   "entities": [
     " Income Tax Act"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9986425042152405
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the issuance and service of notices under Sections 143(2) and 142(1) of the Income Tax Act, addressing allegations of procedural lapses and harassment in a legal dispute.\n\n2. **Key Points**:  \n   - A notice under Section 143(2) of the Income Tax Act was issued on 6/6/2003 and served by affixture on 10/6/2003 after multiple unsuccessful attempts to serve it directly.  \n   - The petitioner\u2019s claim that only a notice under Section 142(1) was issued and not under Section 143(2) is refuted, as both notices were issued and served on the same dates.  \n   - Allegations of harassment, lack of valid notice, and inadequate opportunity for representation are denied as baseless and factually incorrect.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - 23/10/2001 (Form 2B return date)  \n     - 6/6/2003 (issuance of notices under Sections 143(2) and 142(1))  \n     -",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the issuance and service of notices under Sections 143(2) and 142(1) of the Income Tax Act, addressing allegations of procedural irregularities and lack of opportunity in a tax assessment case.\n\n2. **Key Points**:  \n   - A notice under Section 143(2) was issued on **6/6/2003** and served by affixture on **10/6/2003** after multiple unsuccessful attempts to serve it directly.  \n   - Allegations that only a notice under Section 142(1) was issued and not under Section 143(2) are denied, as both notices were issued and served on the same dates.  \n   - Claims of harassment and lack of adequate opportunity for the petitioner to present their case are refuted, with the assertion that discussions were held with the petitioner.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - Form 2B on **23/10/2001**  \n     - Notice issued on **6/6/2003**  \n     - Notice served by affixture on **10/6/2003**",
   "embedding": [
     -0.0060810730792582035,
     0.009904623962938786,

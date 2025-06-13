@@ -12,14 +12,14 @@
     "assrno19304"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19481247697768683,
+  "intent_confidence": 0.4086330799645403,
   "entities": [
     " Cuddalore",
     " SMSUBRAMANIAM"
   ],
   "entity_types": [
-    "PER",
-    "LOC"
+    "LOC",
+    "PER"
   ],
   "entity_details": [
     {
@@ -33,7 +33,7 @@
       "score": 0.9750617742538452
     }
   ],
-  "summary": "1. **Main topic/subject:**  \nThe court dismissed a civil miscellaneous petition due to a significant delay in filing the appeal suit.\n\n2. **Key points:**  \n   - A delay of 2,540 days in filing the appeal led to the rejection of the civil miscellaneous petition (CMP No. 6648 of 2018) and the appeal suit (ASSR No. 19304 of 2018) at the SR stage.  \n   - The court issued a speaking order, emphasizing its decision not to consider the petition due to the excessive delay.  \n   - The case was handled by Justice S. Subramaniam, and the judgment was directed to the Principal District Judge, Cuddalore.  \n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - **Delay:** 2,540 days.  \n   - **Case identifiers:** CMP No. 6648 of 2018, ASSR No. 19304 of 2018.  \n   - **Date of judgment:** December 19, 2019 (19/12/2019).  \n   - **URLs:** http://www.judis.nic.in.",
+  "summary": "1. **Main Topic/Subject**: The court dismissed a civil miscellaneous petition due to a significant delay in filing the appeal suit.\n\n2. **Key Points**:\n   - The appeal suit faced a delay of 2,540 days, leading the court to reject the civil miscellaneous petition (CMP No. 6648 of 2018) and the associated appeal (ASSR No. 19304 of 2018) at the SR stage.\n   - The judgment was delivered by Justice S. Subramaniam, with no costs imposed, and it was categorized as a speaking order.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - **Delay**: 2,540 days.\n   - **Case Identifiers**: CMP No. 6648 of 2018, ASSR No. 19304 of 2018.\n   - **Date of Judgment**: December 19, 2019.\n   - **Relevant Links**: http://www.judis.nic.in.",
   "embedding": [
     0.04136616364121437,
     -0.010311583057045937,

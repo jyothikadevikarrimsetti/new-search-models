@@ -12,7 +12,7 @@
     "requisition"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.23170000464210086,
+  "intent_confidence": 0.3664043112703892,
   "entities": [
     " CRamaiah Reddy",
     " ARakesh Kumar Jain",
@@ -39,7 +39,7 @@
       "score": 0.9152345657348633
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the time limitation for completing block assessments under Section 158BE of the Income Tax Act, particularly in cases involving multiple authorizations for searches.\n\n2. **Key Points**:  \n   - The time limit for completing block assessments under Section 158BE depends on the date of the last authorization for search or requisition under Sections 132 or 132A of the Income Tax Act.  \n   - The judgment in the CRamaiah Reddy case, which clarified this position, was accepted by a Division Bench in the case of ARakesh Kumar Jain v. Joint Commissioner of Income Tax (2012).  \n   - Section 158BE specifies different time limits based on whether the search or requisition occurred before or after January 1, 1997.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - June 30, 1995  \n     - January 1, 1997  \n   - **Case References**:  \n     - CRamaiah Reddy case  \n     - ARakesh Kumar Jain v. Joint Commissioner of Income Tax (2012)  \n   - **Judgment",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the time limits for completing block assessments under Section 158BE of the Income Tax Act, with reference to judicial precedents and specific cases.\n\n2. **Key Points**:  \n   - The time limit for completing block assessments depends on the date of the last authorization for search or requisition under Sections 132 or 132A of the Income Tax Act.  \n   - Judicial precedents, such as the CRamaiah Reddy case and ARakesh Kumar Jain v Joint Commissioner of Income Tax (2012), have clarified the interpretation of Section 158BE.  \n   - The section accounts for multiple authorizations for search and provides specific timelines based on whether the search occurred before or after January 1, 1997.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - June 30, 1995  \n     - January 1, 1997  \n   - **Case References**:  \n     - CRamaiah Reddy case  \n     - ARakesh Kumar Jain v Joint Commissioner of Income Tax (2012)  \n   - **Judgment Citation**:  \n     -",
   "embedding": [
     0.04032665118575096,
     0.033339884132146835,

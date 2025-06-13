@@ -12,7 +12,7 @@
     "srinivasan"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17875329152945646,
+  "intent_confidence": 0.3204513312785986,
   "entities": [
     " Nadu Mercantile Bank Ltd Tutic",
     " Appellate Authority",
@@ -21,9 +21,9 @@
     " M Srinivasan"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -52,7 +52,7 @@
       "score": 0.9990903735160828
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the principles of limitation rules in legal proceedings, emphasizing the importance of adhering to prescribed time limits and the consequences of delays.\n\n2. **Key Points**:  \n   - A litigant cannot assume that condoning a delay will not prejudice the other party, as records may have been destroyed due to the lapse of time, and each case must be evaluated based on its specific facts and circumstances.  \n   - The length of the delay is a critical factor in deciding whether it should be condoned, and litigants cannot unilaterally determine their own limitation periods when the law prescribes specific timeframes.  \n   - If a party loses the right to have a matter considered on merits due to prolonged inaction, the delay cannot be presumed to be unintentional, and substantial justice cannot override technical considerations in such cases.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Paragraphs 14 and 17 of the judgment  \n   - Reference to the year 2033 (possibly a typographical error or unrelated context)  \n   - Tamil Nadu",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles of limitation in legal proceedings, particularly focusing on the consequences of delay in filing cases and the importance of adhering to prescribed time limits.\n\n2. **Key Points:**  \n   - Courts cannot presume that condoning delays in legal proceedings will not prejudice the opposing party, as records may have been destroyed due to the assumption that no further action would occur. Each case must be evaluated based on its specific facts and circumstances.  \n   - The length of the delay is a critical factor in deciding whether to condone it, and litigants cannot set their own time limits when the law prescribes specific periods of limitation.  \n   - Deliberate inaction leading to the loss of the right to have a case considered on merits cannot be excused by pleading for substantial justice over technical considerations.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - URL: http://www.judis.nic.in  \n   - Paragraphs referenced: 14 and 17.  \n   - Year mentioned: 2033 (possibly a typographical error).",
   "embedding": [
     0.024523485451936722,
     -0.0035468856804072857,

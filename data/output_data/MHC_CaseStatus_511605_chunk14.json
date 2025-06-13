@@ -12,7 +12,7 @@
     "case"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19153959468936146,
+  "intent_confidence": 0.3915008408062662,
   "entities": [
     " Supreme Court",
     " Supreme Court",
@@ -23,9 +23,9 @@
     " Office of the Chief Postmaster vs Living Media Limited"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -64,7 +64,7 @@
       "score": 0.9393237233161926
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe Supreme Court ruled that condonation of delay in filing legal petitions, such as the 427-day delay in this case, requires reasonable and acceptable justification, and procedural red tape cannot be used as an excuse.\n\n---\n\n#### 2. Key Points:\n- The Supreme Court emphasized that condonation of delay is not an exception and should not be treated as a routine benefit, particularly for government departments.\n- The Court rejected the explanation of procedural red tape as a sufficient cause for delay, citing the lack of a bona fide effort or reasonable justification.\n- The case highlighted the Department's failure to apply for a certified copy of the judgment in a timely manner, with a delay of nearly four months before even initiating the process.\n\n---\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Delay**: 427 days in filing the Special Leave Petition.\n- **Judgment Date**: 11/09/2009 (Division Bench of the High Court in *Office of the Chief Postmaster vs. Living Media Limited*).\n- **Date Certified Copy Applied For**: 08/01/2010 (nearly four months after the judgment).\n- **Paragraphs Referenced**: 25",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The Supreme Court rejected the condonation of a 427-day delay in filing a Special Leave Petition, emphasizing that delays caused by procedural inefficiencies or red tape without reasonable justification cannot be excused.\n\n2. **Key Points**:  \n   - The Supreme Court ruled that condonation of delay is not an exception and should not be treated as a routine benefit for government departments unless there is a reasonable and acceptable explanation for the delay.  \n   - The Court criticized the Department for failing to provide a valid reason for the delay, noting that procedural red tape and negligence, such as delays in applying for a certified copy of a judgment, are not sufficient causes.  \n   - The judgment highlighted that the Department applied for the certified copy of the impugned judgment nearly four months after the High Court's decision, with no explanation for the delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Delay: 427 days.  \n   - High Court judgment date: 11-09-2009.  \n   - Certified copy applied for: 08-01-2010 (nearly four months later).  \n   - Relevant paragraphs in the Supreme Court judgment",
   "embedding": [
     0.03864503651857376,
     0.018201064318418503,

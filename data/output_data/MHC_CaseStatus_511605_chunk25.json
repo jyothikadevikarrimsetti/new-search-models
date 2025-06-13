@@ -12,15 +12,15 @@
     "legislatively"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1936104785987409,
+  "intent_confidence": 0.3224044535302158,
   "entities": [
     " Ramlal",
     " Rewa Coalfields Ltd",
     " Limitation Act"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
+    "ORG",
     "PER"
   ],
   "entity_details": [
@@ -40,7 +40,7 @@
       "score": 0.8699114918708801
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the principles and public policy underlying the law of limitation, emphasizing the need for timely legal remedies and the balance between the rights of litigants and decree holders.\n\n2. **Key Points**:  \n   - The law of limitation is founded on public policy to prevent unending uncertainty and ensure timely redress of legal injuries, discouraging dilatory tactics by litigants.  \n   - Courts must balance the interests of both parties, ensuring that the decree holder's rights are not undermined by delays while also considering the suitor's genuine circumstances.  \n   - Legal remedies are meant to be pursued within a legislatively fixed time frame to maintain order and finality in litigation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Maxim: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period be put to litigation).  \n   - Case: *Ramlal and others vs. Rewa Coalfields Ltd.*, AIR 1962 SC 361.  \n   - Section 5",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the principles and public policy underlying the law of limitation, emphasizing the importance of adhering to prescribed time limits for legal remedies to ensure certainty and avoid misuse of the legal process.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to prevent unending litigation and ensure legal remedies are sought within a legislatively fixed period, avoiding uncertainty and anarchy.  \n   - Courts must balance consideration for the suitor with the rights of the opposite party, ensuring that dilatory tactics are not encouraged and legal rights are not destroyed.  \n   - In *Ramlal and others vs. Rewa Coalfields Ltd (AIR 1962 SC 361)*, the Supreme Court highlighted that the expiration of the limitation period gives the decree holder a legal right to treat the decree as binding, and this right must be respected.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Maxim: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period be put",
   "embedding": [
     0.04272047057747841,
     0.04363274201750755,

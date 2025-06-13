@@ -12,7 +12,7 @@
     "residing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20169069578437143,
+  "intent_confidence": 0.33505429641796824,
   "entities": [
     "Bharat Mehta",
     " Kodambakkam High Road Chennai",
@@ -29,10 +29,10 @@
     " Act"
   ],
   "entity_types": [
+    "MISC",
     "ORG",
     "LOC",
-    "PER",
-    "MISC"
+    "PER"
   ],
   "entity_details": [
     {
@@ -101,7 +101,7 @@
       "score": 0.8978227972984314
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the income tax search and investigation conducted on Dr. Bharat Mehta and his associated premises under Section 132 of the Income Tax Act, 1961.\n\n2. **Key Points**:\n   - Dr. Bharat Mehta, a medical practitioner and businessman, was an income tax assessee since 1978-79 and resided at No. 4181 Kodambakkam High Road, Chennai, which was a joint family property used for family business activities.\n   - On January 25, 2001, his residential and other premises were searched by the Revenue authorities for the block period from April 1, 1990, to January 24, 2001, under a warrant authorization, and a panchanama was recorded.\n   - Subsequent searches and seizure operations occurred on various dates between January and June 2001, with the final search completed on June 12, 2001.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Income tax assessment period: 1978-79 onwards.\n   - Residential address: No. 4181 Kodambakkam High Road, Chennai - 34.\n   - Clinic address: No.",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the income tax search and investigation conducted on Dr. Bharat Mehta, a medical practitioner and businessman, and his family properties under the Income Tax Act, 1961.\n\n2. **Key Points**:  \n   - Dr. Bharat Mehta, an income tax assessee since 1978-79, resided at No. 4181 Kodambakkam High Road, Chennai, which was a joint family property where family business activities were conducted. He also operated a clinic at No. 87 NSC Bose Road, Chennai.  \n   - On January 25, 2001, searches were conducted at Dr. Mehta's residential and other premises under Section 132 of the Income Tax Act, covering the block period from April 1, 1990, to January 24, 2001. A prohibitory order was issued, and multiple search operations continued until June 12, 2001.  \n   - Notices under Section 158BC of the Income Tax Act were issued following the searches and seizures.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - Income tax assessment",
   "embedding": [
     0.022179052233695984,
     -0.000794812454842031,

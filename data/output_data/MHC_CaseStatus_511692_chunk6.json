@@ -12,7 +12,7 @@
     "1323"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21324233072325,
+  "intent_confidence": 0.35404237315187387,
   "entities": [
     " Revenue",
     " Order",
@@ -22,8 +22,8 @@
     "BG"
   ],
   "entity_types": [
-    "ORG",
-    "MISC"
+    "MISC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -57,7 +57,7 @@
       "score": 0.8944580554962158
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal contention surrounding the limitation period for a Block Assessment Order under Section 158BE(1)(b) of the Income Tax Act, and procedural requirements under Sections 158BC, 158BB, and 143.\n\n2. **Key Points**:  \n   - The petitioner argues that the limitation period for a Block Assessment Order should begin from the date of the last authorization and panchanama (25/01/2001), making the order dated 30/06/2003 barred by the two-year limitation under Section 158BE(1)(b).  \n   - The petitioner contends that procedural requirements under Section 158BC, including issuing a notice under Section 143(2), were either not followed or were done beyond the limitation period.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - Authorization and panchanama: 25/01/2001  \n     - End of limitation period: 31/01/2003  \n     - Block Assessment Order: 30/06/2003  \n   - **Sections of the Income Tax Act**:",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal arguments regarding the validity and limitation period of a Block Assessment Order under Section 158BE(1)(b) of the Income Tax Act, in relation to a search conducted on 25/01/2001.\n\n2. **Key Points**:  \n   - The petitioner contends that the search authorization dated 25/01/2001 should be the starting point for computing the two-year limitation period under Section 158BE(1)(b), making the Block Assessment Order dated 30/06/2003 time-barred.  \n   - The petitioner argues that a notice under Section 143(2) of the Income Tax Act, required for determining undisclosed income under Section 158BC, was either not issued or issued beyond the limitation period.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Search Authorization Date**: 25/01/2001  \n   - **Limitation Period End Date**: 31/01/2003  \n   - **Block Assessment Order Date**: 30/06/2003  \n   - **Relevant Sections of Income Tax Act**: 132(3",
   "embedding": [
     0.04281482473015785,
     0.013250449672341347,

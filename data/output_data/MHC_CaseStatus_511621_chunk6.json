@@ -12,7 +12,7 @@
     "interregnum"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19371922357748905,
+  "intent_confidence": 0.3752099731496037,
   "entities": [
     " Kandaswamy",
     " Krishnamandiram Trust Karur"
@@ -33,7 +33,7 @@
       "score": 0.9964476227760315
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal considerations surrounding the condonation of delay in filing or re-presenting petitions, emphasizing the need for courts to evaluate the impact on all parties involved and whether sufficient cause for the delay has been properly explained.\n\n2. **Key Points**:  \n   - Appellate courts must ensure that trial courts have considered all aspects of the matter, including the potential advantages or disadvantages to the opposing party, before condoning delays.  \n   - The issue at hand is whether the delay in filing a petition has been adequately justified, with reference to legal precedents cited by the revision petitioner.  \n   - The conduct of petitioners, including negligence or inactivity, can influence the court's decision on condoning delays, as illustrated in the cited case of *Kandaswamy vs Krishnamandiram Trust*.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Kandaswamy vs Krishnamandiram Trust* (2001 4 CTC 722).  \n   - Delay period: 797 days.  \n   - CMP No. 3003 of 2008.  \n   - URL mentioned:",
+  "summary": "### Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial considerations for condoning delays in filing or re-presenting petitions, emphasizing the need to evaluate the circumstances and the impact on the opposing party.\n\n2. **Key Points**:  \n   - Appellate courts must ensure trial courts consider all aspects, including the potential advantages or disadvantages to the opposing party, before condoning delays.  \n   - The issue at hand is whether the delay in filing a petition has been sufficiently explained and justified, with reference to case precedents.  \n   - A cited case (Kandaswamy vs. Krishnamandiram Trust) highlights that prolonged inaction and negligence in filing petitions can lead to denial of condonation requests.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Kandaswamy and four others vs. Krishnamandiram Trust Karur by its Trustees and 33 others, 2001 (4) CTC 722*.  \n   - Delay period referenced: 797 days.  \n   - Petition reference: CMP No. 3003 of 2008.  \n   - Website: http://www.judis.nic.in.",
   "embedding": [
     0.044965844601392746,
     0.036746006458997726,

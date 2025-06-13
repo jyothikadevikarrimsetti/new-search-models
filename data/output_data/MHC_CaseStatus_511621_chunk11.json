@@ -12,7 +12,7 @@
     "prosecuting"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19328690886323208,
+  "intent_confidence": 0.37173395118258434,
   "entities": [
     " Supreme Court",
     " Limitation Act",
@@ -21,9 +21,9 @@
     " Chokkalingam"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -52,7 +52,7 @@
       "score": 0.9982572793960571
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The Supreme Court's approach to condoning delays under Section 5 of the Limitation Act, emphasizing a balance between liberal consideration and judicial discretion.\n\n2. **Key Points**:  \n   - The Court should adopt a pragmatic and liberal approach to condone delays when the applicant provides a proper explanation and demonstrates no negligence, inaction, or lack of bona fide intent.  \n   - Judicial discretion in condoning delays must not be arbitrary or overly generous, especially when the delay could have been avoided with due care, as it may prejudice the opposing party.  \n   - In the case discussed, the delay was not excused due to the respondent's lack of diligence, and the improper exercise of discretion caused prejudice to the plaintiff pursuing a long-standing money suit.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Section 5 of the Limitation Act.  \n   - CMP No. 3003 of 2008.  \n   - Money suit filed in 1998, pursued for 7\u20138 years.  \n   - Case reference: *Shanmugam vs. Chokkalingam (2009)*.",
+  "summary": "### Analysis and Summary\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the principles and judicial discretion involved in condoning delays under Section 5 of the Limitation Act, emphasizing the need for vigilance and fairness in such decisions.\n\n#### 2. **Key Points**  \n- **Liberal Consideration of Sufficient Cause:** Courts should adopt a pragmatic approach to condone delays if the applicant provides a proper explanation and demonstrates no negligence, inaction, or lack of bona fide intentions. However, condoning delays should not be done arbitrarily or as a matter of judicial generosity.  \n- **Impact on Opposite Party:** Rendering substantial justice should not cause prejudice to the opposing party, especially when the delay could have been avoided with due care and caution.  \n- **Case Example:** In the specific case discussed, the delay was not excused because the applicant failed to meet the test of reasonable diligence, and liberal discretion under Section 5 would unfairly prejudice the plaintiff/decree holder pursuing the matter for years.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Case Identifiers:** CMP No. 3003 of 2008  \n- **Dates:** Money suit filed in 1998; plaintiff pursued the",
   "embedding": [
     0.0439087375998497,
     0.02068353071808815,

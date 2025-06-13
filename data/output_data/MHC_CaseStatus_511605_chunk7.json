@@ -12,7 +12,7 @@
     "law"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17028306093086135,
+  "intent_confidence": 0.33674873084863066,
   "entities": [
     " Damocles"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9123287796974182
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the importance of equity, public policy, and the need to avoid prejudice to the respondent.\n\n2. **Key Points**:  \n   - The length of the delay is a critical factor in deciding whether it should be condoned, and litigants cannot arbitrarily set their own limitation periods when the law prescribes specific timeframes.  \n   - Delay caused by deliberate inaction or lack of bona fides cannot be excused, as rules of limitation are grounded in public policy and equity rather than mere technicalities.  \n   - Courts should adopt a liberal approach to condonation of delay applications, but caution is necessary to avoid indulgence in cases of bad faith or attempts to mislead the court.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Reference to \"733\" (possibly a citation or identifier).  \n   - The year 2018 is mentioned.",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles and considerations involved in the condonation of delay in legal proceedings, emphasizing the importance of equity, public policy, and the need to assess each case based on its specific facts and circumstances.\n\n#### 2. **Key Points**:\n- **Relevance of Delay Length**: The length of the delay is a critical factor in deciding whether it should be condoned, and litigants cannot arbitrarily set their own limitation periods.\n- **Principles of Limitation**: Rules of limitation are grounded in public policy and equity, ensuring that justice is not indefinitely delayed or manipulated by one party.\n- **Liberal vs. Restrictive Approach**: Courts may adopt a liberal approach for condonation of delay, but they must exercise caution and deny indulgence in cases of bad faith or attempts to mislead the court.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case References**: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- **Page Reference**: Page 733 (possibly from a legal document or judgment).",
   "embedding": [
     0.04846153035759926,
     0.02759542502462864,

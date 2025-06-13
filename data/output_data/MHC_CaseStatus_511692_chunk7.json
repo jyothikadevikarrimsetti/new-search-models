@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2446034312950974,
+  "intent_confidence": 0.37066252323464915,
   "entities": [
     " Act",
     " Revenue",
@@ -22,9 +22,9 @@
     " Commissioner of Income tax"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -58,7 +58,7 @@
       "score": 0.9226935505867004
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses procedural irregularities and legal violations in the issuance and approval of a Block Assessment Order under the Income Tax Act, specifically focusing on Sections 143, 158BG, and 132.\n\n#### 2. **Key Points**:\n- **Procedural Errors in Notice Issuance**: A notice under Section 143(2) was either not issued or issued beyond the limitation period, which violates the legal requirements for assessment proceedings.\n- **Approval Requirements Under Section 158BG**: For block assessments after January 1, 1997, approval from the Joint Commissioner or Joint Director is mandatory, but in this case, such approval was not obtained or served to the petitioner.\n- **Violation of Natural Justice**: The petitioner was not given proper opportunities during the assessment proceedings, breaching principles of natural justice.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Date**: After January 1, 1997 (relevant for Section 158BG proviso application).\n- **Case Identifier**: WP No. 20999 of 2003.\n- **Referenced Judgment**: A. Rakesh Kumar Jain v.",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses procedural and legal irregularities in a block assessment order under the Income Tax Act, focusing on violations of statutory provisions, lack of required approvals, and denial of natural justice.\n\n#### 2. Key Points:\n- **Procedural Irregularities:** The notice under Section 143(2) was either not issued or issued beyond the limitation period, which is a violation of the Act's provisions.\n- **Approval Requirements:** For block assessments after January 1, 1997, Section 158BG requires approval from the Joint Commissioner or Joint Director, but such approval was allegedly not obtained or served to the petitioner.\n- **Violation of Natural Justice:** The petitioner argues that proper opportunities for representation, as mandated by the Income Tax Act, were not provided during the assessment proceedings, thereby violating the principles of natural justice.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Sections of the Income Tax Act:** Section 143(2), Section 158BG, Section 132.\n- **Date:** After January 1, 1997 (relevant for Section 158BG proviso b).\n- **Case Reference:** WP No. 20999 of 200",
   "embedding": [
     -0.000515103223733604,
     -0.0019108069827780128,

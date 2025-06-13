@@ -12,7 +12,7 @@
     "petitioner"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.24753269113786858,
+  "intent_confidence": 0.384964399770456,
   "entities": [
     " Revenue",
     " Revenue",
@@ -50,7 +50,7 @@
       "score": 0.8990278244018555
     }
   ],
-  "summary": "### Summary Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal dispute where the petitioner challenges a Block Assessment Order issued by the Revenue Department under the Income Tax Act, citing procedural lapses, including limitation issues and violations of natural justice.\n\n#### 2. **Key Points**:\n- A search operation and seizure under Section 132 of the Income Tax Act were conducted between January and June 2001, culminating in a panchanama on 12/06/2001.\n- The Revenue issued a notice under Section 158BC on 05/10/2001, prompting the petitioner to file a return for the block period 01/04/1990 to 24/01/2001 on 23/10/2001.\n- The Block Assessment Order for the block period was issued on 30/06/2003, computing undisclosed income tax, surcharge, and interest of Rs. 5,23,08,245, along with initiating penalty proceedings.\n- The petitioner filed a writ petition challenging the Block Assessment Order on grounds of limitation under Section 158BE(1)(b), lack of notice under Section 143(2), absence of prior approval from the Joint Commissioner under Section 158BG",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject:**\n   The petitioner challenges a Block Assessment Order issued by the Revenue Department, alleging it is barred by limitation and violates procedural requirements under the Income Tax Act.\n\n2. **Key Points:**\n   - Search operations and seizures were conducted under Section 132 of the Income Tax Act, and a notice under Section 158BC was issued on 05.10.2001. The petitioner filed a return for the block period 01.04.1990 to 24.01.2001 on 23.10.2001.\n   - The Block Assessment Order for the block period was issued on 30.06.2003, computing tax, surcharge, and interest on undisclosed income amounting to Rs. 5,23,08,245. Penalty proceedings were also initiated under Section 158BFA(2).\n   - The petitioner filed a writ petition instead of a regular appeal, claiming the Block Assessment Order was barred by limitation under Section 158BE(1)(b), lacked proper notice under Section 143(2), and did not have prior approval from the Joint Commissioner under Section 158BG, violating principles of natural justice.\n\n3. **Dates, Numbers, and",
   "embedding": [
     0.014336624182760715,
     -0.004274957347661257,

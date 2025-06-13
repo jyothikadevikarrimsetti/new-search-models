@@ -12,11 +12,11 @@
     "issued"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17939521939761802,
+  "intent_confidence": 0.29583001120402347,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject:**\n   The text discusses the legal interpretation of search authorizations and panchnamas under Section 158BE of the Income Tax Act, particularly in relation to the limitation period for searches.\n\n2. **Key Points:**\n   - A single search under Section 158BE can involve multiple authorizations, as each authorization pertains to a specific building, place, vessel, vehicle, or aircraft, which are referred to in the singular sense in the law.\n   - Multiple search authorizations may be issued on different dates or the same date, and the last executed authorization determines the limitation period for the search.\n   - Each search authorization results in a separate panchnama, and ambiguity may arise when determining which panchnama or authorization is considered the \"last\" for limitation purposes.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**\n   - Section 158BE and Section 132(1) of the Income Tax Act.\n   - Form 45 (used for search authorizations).\n   - WP No. 20999 of 2003 (a case reference).\n   - URL: http://www.judis.nic.in (source mentioned in the text).",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject:**  \n   The text discusses the legal framework surrounding search authorizations and panchnamas under Section 158BE, particularly in cases involving multiple locations and authorizations.\n\n2. **Key Points:**  \n   - A search under Section 158BE involves one search and one panchnama for the purpose of limitation, but the law allows for multiple authorizations when searches are conducted at different locations.  \n   - Each search authorization must specify a particular building, place, vessel, vehicle, or aircraft, and separate authorizations are required for different locations or officials conducting the search.  \n   - When multiple authorizations are issued, the last authorization (or panchnama) is considered for determining the limitation period, but ambiguity may arise if multiple authorizations are issued or executed on the same day.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Section 158BE and Section 132(1) of the law are referenced.  \n   - Form 45 is mentioned as part of the search authorization process.  \n   - Case identifier: WP No. 20999 of 2003.  \n   - URL: http://www.judis.nic.in  \n   - Number:",
   "embedding": [
     0.06305012851953506,
     0.04607509449124336,

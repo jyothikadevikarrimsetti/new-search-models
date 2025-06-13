@@ -12,15 +12,15 @@
     "dispensation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19590328101286006,
+  "intent_confidence": 0.314168687649015,
   "entities": [
     "ble Supreme Court",
     " Esha Bhattacharjee",
     "ble Apex Court"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.837235152721405
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the guidelines and principles for handling applications for condonation of delay in legal proceedings, emphasizing the importance of judicial discretion, consistency, and adherence to the law of limitation.\n\n---\n\n#### 2. **Key Points**:\n- Applications for condonation of delay must be carefully drafted and not treated as a mere formality, as courts are not obligated to condone delays without valid reasoning.\n- Judicial discretion should aim for consistency and collegiality, avoiding subjective or routine handling of such applications.\n- The Supreme Court's judgment in the *Esha Bhattacharjee* case provides guiding principles, emphasizing that a liberal approach must be balanced with reasonableness and adherence to the substantial law of limitation.\n\n---\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- Mention of \"2933\" (context unclear, possibly a typographical error or identifier).",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses guidelines and principles for drafting and adjudicating applications for condonation of delay in legal proceedings, emphasizing the need for a balanced and reasoned approach.\n\n#### 2. **Key Points**:\n- Applications for condonation of delay must be drafted with care and should not assume automatic condonation based on the principle of adjudicating cases on merit.\n- Judicial discretion in condoning delays should aim for consistency and collegiality, avoiding subjective or routine handling of such applications.\n- The principles laid down by the Supreme Court in the *Esha Bhattacharjee* case emphasize a balanced approach that incorporates reasonableness and adherence to the law of limitation, rather than an overly liberal or unfettered approach.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- Mention of the Supreme Court case: *Esha Bhattacharjee*.\n- Number: \"2933\" (context unclear).",
   "embedding": [
     0.04600727558135986,
     0.016076046973466873,

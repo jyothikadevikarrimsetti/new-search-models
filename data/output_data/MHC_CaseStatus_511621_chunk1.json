@@ -12,7 +12,7 @@
     "3rajeswari"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2061238155240837,
+  "intent_confidence": 0.4480251706108317,
   "entities": [
     " HIGH COURT OF JUDICATURE",
     " MADRAS",
@@ -43,9 +43,9 @@
     " Chennai"
   ],
   "entity_types": [
-    "ORG",
     "PER",
-    "LOC"
+    "LOC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -184,7 +184,7 @@
       "score": 0.9910934567451477
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses a Civil Miscellaneous Petition (CMP No. 3003 of 2008) filed in the High Court of Madras to condone a delay of 573 days in filing an appeal against a judgment and decree passed in a civil suit (OS No. 2538 of 2012).\n\n---\n\n#### 2. Key Points:\n- The petition seeks to condone a delay of 573 days in filing an appeal against the judgment of the VI Additional Judge, City Civil Court, Chennai, in OS No. 2538 of 2012.\n- The appellants argue that the delay was not willful or intentional but occurred due to the passing away of their trial court counsel during the pendency of the suit.\n- The court notes that the affidavit supporting the petition contains facts on the merits of the case, which are unrelated to the issue of condoning the delay.\n\n---\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Case Numbers:** CMP No. 3003 of 2008, AS No. SR 70907 of 2018, OS No. 2538 of 2012.\n- **Court:** High Court of Judicature",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text pertains to a Civil Miscellaneous Petition (CMP No. 3003 of 2008) filed in the High Court of Madras to condone a delay of 573 days in filing an appeal against a judgment and decree passed in a civil suit (OS No. 2538 of 2012).\n\n---\n\n#### 2. Key Points:\n- **Purpose of the Petition:** The appellants (defendants in the original suit) filed the petition under Order 41 Rule 3A of the Civil Procedure Code (CPC), 1908, seeking condonation of a 573-day delay in filing an appeal against the judgment of the VI Additional Judge, City Civil Court, Chennai.\n- **Reason for Delay:** The appellants claimed the delay was not willful or intentional but occurred due to the death of their trial court counsel during the pendency of the suit.\n- **Legal Representation:** The petitioners were represented by Mr. R. Anand Kumar, while the respondents were represented by Mr. S. Purushothamadoss (for R1) and Mr. A.N. Rajan (for R5 to R9). Some respondents (R2, R3",
   "embedding": [
     0.029661385342478752,
     -0.004858858417719603,

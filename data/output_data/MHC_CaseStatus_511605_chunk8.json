@@ -12,7 +12,7 @@
     "decree"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.16319934390152668,
+  "intent_confidence": 0.32636268547578207,
   "entities": [
     " G Jayaraman",
     " Devarajan"
@@ -32,7 +32,7 @@
       "score": 0.9983730316162109
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial principles and considerations for condoning delays in legal applications, emphasizing the importance of bona fides and the impact on the opposing party.\n\n2. **Key Points**:  \n   - Courts should not condone delays if there is evidence of lack of bona fides or attempts to mislead the court by the applicant.  \n   - The number of days delayed is less significant than the applicant's attitude and reasons for the delay; courts may condone delays if they are satisfied that the delay was not deliberate and compensatory measures are taken to address prejudice to the other party.  \n   - Judicial discretion in condoning delays must be exercised cautiously, avoiding arbitrariness, and considering the rights accrued to the opposing party.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Reference to a previous case: *G. Jayaraman vs. Devarajan*, 2007 (2) CTC 643.  \n   - Delay duration in the referenced case: 553 days.",
+  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the principles and considerations for condoning delays in legal proceedings, emphasizing the need for bona fide reasons and judicial vigilance.\n\n#### 2. **Key Points**  \n- Courts should not condone delays when there is a lack of bona fides or attempts to mislead the court by the party seeking condonation.  \n- The number of days delayed is less important than the reasons and attitude of the party responsible for the delay; monetary compensation may be required to address prejudice caused to the opposing party.  \n- Judicial discretion in condoning delays must be exercised cautiously, as highlighted in the case *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*, where a 553-day delay was scrutinized to ensure fairness and prevent arbitrary decisions.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n- Case reference: *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*.  \n- Delay duration in referenced case: 553",
   "embedding": [
     0.03204810619354248,
     0.019755173474550247,

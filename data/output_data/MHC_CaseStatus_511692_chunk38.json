@@ -12,7 +12,7 @@
     "court"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.176683262338197,
+  "intent_confidence": 0.3335652735817057,
   "entities": [
     " ARakesh Kumar Jain",
     " Jt CIT",
@@ -75,7 +75,7 @@
       "score": 0.9977487921714783
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of search and seizure procedures under Section 132 and Section 158BE of the Income Tax Act, focusing on the timeline for concluding searches and the applicability of prohibitory orders.\n\n2. **Key Points**:  \n   - Panchanamas (records of search) were drawn on multiple dates (27/03/2003, 28/03/2003, 28/08/2003, and 29/08/2003) to document the commencement and conclusion of searches authorized under Section 132 of the Income Tax Act.  \n   - A court decision in Tax Case Appeal No. 1240 of 2006 (dated 25/09/2012) clarified that the limitation period for concluding a search is determined based on the panchanama drawn, not the date of any prohibitory order issued during the search.  \n   - The Karnataka High Court ruling in C. Ramaiah Reddy v. Asst. CIT (2011) was heavily relied upon to define how the timeline for concluding searches should be calculated.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of the limitation period under Section 158BE of the Income Tax Act, particularly in relation to the conclusion of searches and panchanamas.\n\n2. **Key Points**:  \n   - Multiple panchanamas were drawn following authorizations for searches under Section 132 of the Income Tax Act, with specific dates indicating the commencement and conclusion of searches.  \n   - The Karnataka High Court decision in *C. Ramaiah Reddy v. Asst. CIT* established that the limitation period should be calculated based on the date of the panchanama that proves the conclusion of the search, not the prohibitory order.  \n   - A similar question was addressed by the Court in an unreported decision (*Tax Case Appeal No. 1240 of 2006*) dated 25.09.2012, which upheld the precedent set by the Karnataka High Court.\n\n3. **Dates, Numbers, and Identifiers Mentioned**:  \n   - **Dates**:  \n     - Panchanamas drawn: 27.03.2003, 28.03.2003, 28.08.2003, 29.",
   "embedding": [
     0.04842308163642883,
     0.006510160863399506,

@@ -12,7 +12,7 @@
     "authorisation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19607578327563838,
+  "intent_confidence": 0.3475389427307024,
   "entities": [
     " Act",
     " Karnataka High Court",
@@ -25,9 +25,9 @@
     " Karnataka High Court"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -76,7 +76,7 @@
       "score": 0.996495246887207
     }
   ],
-  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal framework and limitations surrounding searches, inspections, and seizures under prohibitory or restraint orders in the context of income tax investigations.\n\n#### 2. **Key Points**:\n- A prohibitory or restraint order authorizes entry into premises for inspection of specific materials related to the order, but actions must be confined to the scope of the order, and repeated searches are not permitted.\n- Any materials seized during such inspections are treated as undisclosed income for block assessment purposes under Section 132(1) of the Income Tax Act, with the Panchanama evidencing the inspection and seizure.\n- The Karnataka High Court clarified that for limitation purposes under Section 158BE, there can only be one search and one Panchanama, and delays or prolonged searches are not permissible under the Criminal Procedure Code or the Income Tax Act.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case References**:\n  - WP No. 20999 of 2003.\n  - Dr. C Balakrishna Nair v CIT, 1999, 237 ITR 70 (Kerala High Court).\n- **Sections of the Income Tax",
+  "summary": "### Summary of the Text\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal procedures and limitations surrounding inspections, searches, and seizures under prohibitory or restraint orders in the context of income tax law and block assessments.\n\n2. **Key Points**:  \n   - A prohibitory or restraint order acts as authorization to inspect materials at a premises, but actions must be confined to the subject matter of the order, and repeated searches are not permitted.  \n   - Seized materials during such inspections are treated as undisclosed income for block assessments under Section 132(1) of the Income Tax Act, and the Panchanama evidencing the inspection is considered the last Panchanama for that premises.  \n   - For limitation purposes under Section 158BE, there can only be one search and one Panchanama, as clarified by the Karnataka High Court, which referenced the Kerala High Court decision in Dr. C. Balakrishna Nair v. CIT (1999, 237 ITR 70).\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Section 132(1) and Section 158BE of the Income Tax Act.  \n   - Case reference: Dr. C. Balakrishna",
   "embedding": [
     0.05060967057943344,
     0.026315007358789444,

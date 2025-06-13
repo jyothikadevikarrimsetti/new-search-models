@@ -1,8 +1,5 @@
 {
-  "policy_info": "The document describes insurance policy rules and information.",
-  "contact_details": "The document contains phone numbers and email addresses.",
-  "user_faq": "This file answers frequently asked questions from users.",
-  "claim_process": "Steps to file or understand an insurance claim.",
+
   "general_info": [
     "What skills are listed in the resume?",
     "Show me the proficiencies in this CV.",
@@ -10,5 +7,32 @@
     "What expertise does the applicant have?",
     "Which competencies are present in the resume?",
     "What qualifications are included in the CV?"
+  ],
+  "case_status": [
+    "What is the current status of the case?",
+    "Show me the progress of case number 511605.",
+    "Has there been any update in the case?",
+    "What is the next hearing date for this case?",
+    "Is the case closed or still pending?"
+  ],
+  "court_details": [
+    "Which court is handling this case?",
+    "Who is the presiding judge for this case?",
+    "What is the court location for the hearing?"
+  ],
+  "party_information": [
+    "Who are the parties involved in this case?",
+    "List the petitioner and respondent for case 511605.",
+    "Who is the advocate representing the petitioner?"
+  ],
+  "hearing_information": [
+    "When was the last hearing held?",
+    "What was the outcome of the previous hearing?",
+    "What is the schedule for upcoming hearings?"
+  ],
+  "document_request": [
+    "Can I get a copy of the case order?",
+    "How do I request the judgment document?",
+    "Where can I download the case status report?"
   ]
 }

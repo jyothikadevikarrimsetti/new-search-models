@@ -12,7 +12,7 @@
     "justice"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17226113844931645,
+  "intent_confidence": 0.34359818076016874,
   "entities": [
     " AEdwin Raj",
     " ARuban David",
@@ -44,7 +44,7 @@
       "score": 0.9966558218002319
     }
   ],
-  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal principles and precedents related to the condonation of delay in court proceedings, emphasizing the importance of providing proper explanations for such delays.\n\n#### 2. **Key Points**  \n- **Legal Principles for Condonation of Delay**: Courts focus on the reasons provided for the delay rather than its length, requiring explanations that are properly pleaded, convincing, and acceptable to advance substantial justice.  \n- **Discretion in Condonation Decisions**: Once a court exercises its discretion to condone a delay, appellate courts should not interfere unless the discretion was exercised arbitrarily or overlooked the interests of the opposing party.  \n- **Precedents Cited**: The text references multiple cases, including *A. Edwin Raj Vs A. Ruban David* and *Zulaiha Syed Mohideen Vs D. Visalakshi Amma & Others*, which provide guidance on the principles governing condonation of delay.\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned**  \n- **Cases and Numbers**:  \n  - *A. Edwin Raj Vs A. Ruban David* in MP No. 1 of 2015 in ASSR No",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles and considerations for condoning delays in court cases, referencing specific judgments and precedents.\n\n2. **Key Points**:  \n   - The court emphasizes that the length of the delay is not as important as the reasons provided for the delay, which must be properly pleaded, convincing, and acceptable.  \n   - Courts have discretionary power to condone delays, and appellate courts should not interfere with such decisions unless the discretion exercised is arbitrary or overlooks the interests of the opposing party.  \n   - Several cases and judgments are cited to illustrate these principles, including *A. Edwin Raj Vs A. Ruban David* and *Zulaiha Syed Mohideen Vs D. Visalakshi Amma & Others*.\n\n3. **Dates, Numbers, and Identifiers Mentioned**:  \n   - Case: *A. Edwin Raj Vs A. Ruban David*  \n     - MP No. 1 of 2015 in ASSR No. 52108 of 2015  \n   - Case: *Zulaiha Syed Mohideen Vs D. Visalakshi Amma & Others*  \n     - Reported in MANU/TN/2222/",
   "embedding": [
     0.06099049001932144,
     0.015141244046390057,

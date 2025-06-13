@@ -12,7 +12,7 @@
     "circumstances"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21059142679530665,
+  "intent_confidence": 0.33022188513276185,
   "entities": [
     " Esha Bhattacharjee",
     " Raghunathpur Nafar Academy",
@@ -39,7 +39,7 @@
       "score": 0.9435178637504578
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal considerations surrounding the condonation of delay in filing appeals, emphasizing the discretionary power of courts and the need for sufficient cause to justify such delays.\n\n2. **Key Points**:  \n   - The expiration of the limitation period for filing an appeal grants the decree holder a legal right to treat the decree as binding, which should not be disturbed lightly.  \n   - Courts have discretionary power to condone delays if sufficient cause is shown, but proving sufficient cause is a prerequisite, and condonation is not a matter of right.  \n   - The diligence and bona fides of the party seeking condonation are critical factors in determining whether the delay can be excused.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Case reference: *Esha Bhattacharjee Vs Managing Committee of Raghunathpur Nafar Academy Others*, reported in MANU/SC/0932/2013",
+  "summary": "### Summary Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal considerations surrounding the condonation of delay in filing appeals, emphasizing the discretionary power of courts and the need for sufficient cause.\n\n#### 2. **Key Points**:\n- The expiration of the limitation period grants the decree holder a legal right to treat the decree as binding, which should not be disturbed without sufficient cause.\n- Courts have discretionary power under Section 5 to condone delays if sufficient cause is proven, but this is not an automatic right for the party seeking condonation.\n- Factors such as diligence, bona fides, and acceptable cause are critical in determining whether the delay should be excused.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case Reference**: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- **Case Citation**: Esha Bhattacharjee Vs Managing Committee of Raghunathpur Nafar Academy & Others, reported in MANU/SC/0932/2013.",
   "embedding": [
     0.05772143229842186,
     0.03354358300566673,

@@ -12,11 +12,11 @@
     "issued"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18725884503682463,
+  "intent_confidence": 0.3984816799111101,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal dispute involving a petitioner attempting to condone a significant delay in filing an application to set aside an ex parte decree, after property belonging to the petitioner was sold in a public auction as part of an execution process.\n\n#### 2. Key Points:\n- The petitioner initially appeared through counsel in earlier proceedings (EP No. 87 of 2005) but failed to represent a petition under Order 9 Rule 13 CPC for over four years and four months.\n- The petitioner evaded service, leading to the closure of the earlier execution petition (EP No. 87 of 2005), and a subsequent execution petition (EP No. 292 of 2006) was filed against the petitioner\u2019s property, which was sold in a public auction to a third-party bidder.\n- The petitioner later filed an application seeking to condone a delay of 1581 days in representing an unnumbered application to set aside the ex parte decree, but the court noted deliberate delay tactics and emphasized substantial justice over the length of the delay.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **EP No. 87 of 2005**: Earlier execution petition",
+  "summary": "### Analysis and Summary\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal proceedings involving a petitioner attempting to condone a significant delay in filing an application to set aside an ex parte decree after property was sold in a public auction due to execution petitions.\n\n#### 2. **Key Points**  \n- The petitioner initially appeared in the suit and earlier Execution Petition (EP No. 87 of 2005) but failed to represent the petition under Order 9 Rule 13 CPC for over four years and four months.  \n- The petitioner's property was sold in a public auction after proper notice and proclamation of sale; the successful bidder paid the full amount, and the decree-holder withdrew the amount, marking full satisfaction of the decree.  \n- The petitioner later filed an application to condone a delay of 1581 days in representing an unnumbered application to set aside the ex parte decree, which was seen as deliberate delay tactics.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **EP No. 87 of 2005**: Earlier Execution Petition where the petitioner evaded service.  \n- **EP No. 292 of 2006**: Current Execution Petition involving the sale of the petition",
   "embedding": [
     0.009624248370528221,
     0.010629115626215935,

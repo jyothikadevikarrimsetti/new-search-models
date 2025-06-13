@@ -12,7 +12,7 @@
     "kodambakkam"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19755896353563113,
+  "intent_confidence": 0.36036037584681074,
   "entities": [
     " Kodambakkam High Road Chennai",
     " Revenue",
@@ -22,9 +22,9 @@
     " Act"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "LOC"
+    "LOC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -58,7 +58,7 @@
       "score": 0.8851121664047241
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the continuation of searches and issuance of prohibitory orders under Section 132 of the Income Tax Act at a specific premises in Chennai, culminating in a final panchanama on June 12, 2001, and the associated legal provisions regarding the time limit for block assessments under Section 158BE.\n\n2. **Key Points**:  \n   - Searches were conducted multiple times between February and June at the premises located at No. 4181, Kodambakkam High Road, Chennai-34, with panchanamas drawn as proof of the searches.  \n   - The final search and panchanama were completed on June 12, 2001, marking the culmination of the search process.  \n   - Section 158BE of the Income Tax Act specifies the time limits for completing block assessments based on the date of the last search authorization or requisition.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Premises: No. 4181, Kodambakkam High Road, Chennai-34.  \n   - Final search date: June 12, 2001 (12/06/2001",
+  "summary": "1. **Main Topic/Subject**: The text discusses the timeline and legal provisions related to searches conducted under the Income Tax Act at a specific premises in Chennai, culminating in the final panchanama drawn on June 12, 2001.\n\n2. **Key Points**:\n   - Searches were conducted at premises No. 4181, Kodambakkam High Road, Chennai-34, over several months from February to June, with panchanamas drawn as proof of the searches.\n   - Prohibitory orders under Section 132(3) of the Income Tax Act were issued during the search process, which continued until June 12, 2001, when the final panchanama was drawn.\n   - Section 158BE of the Income Tax Act outlines the time limits for completing block assessments based on the date of the last authorization for search or requisition.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Premises: No. 4181, Kodambakkam High Road, Chennai-34.\n   - Final search date: June 12, 2001 (12062001).\n   - Relevant sections of the Income Tax Act: Section 132(3), Section 158BE,",
   "embedding": [
     0.05975978076457977,
     0.039252959191799164,

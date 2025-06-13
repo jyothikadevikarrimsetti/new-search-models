@@ -12,7 +12,7 @@
     "case"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18741027039544328,
+  "intent_confidence": 0.39274407400026123,
   "entities": [
     " Shanmugam",
     " Chokkalingam",
@@ -63,7 +63,7 @@
       "score": 0.9976560473442078
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses judicial decisions regarding the condonation of delays in filing petitions to set aside ex parte decrees in various cases.\n\n#### 2. Key Points:\n- Courts have consistently refused to condone delays when the explanations provided are deemed unsatisfactory or the discretion exercised is improper.\n- Specific cases are cited to illustrate the rejection of condonation requests, including delays ranging from 332 days to over 4 years.\n- The decisions emphasize the importance of timely legal action and the consequences of prolonged inaction, particularly in money recovery suits.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **Case References**:\n  - *Shanmugam vs Chokkalingam*: 2009, 5 CTC 48 (332 days delay).\n  - *Oriental Aroma Chemical Industries Limited vs Gujarat Industrial Development Corporation*: 2010 AIR SCW 1788 (4 years delay).\n  - *KM Balasubramaniam vs C Loganathan*: 2011, 2 MWN Civil 741 (1581 days delay).\n- **Other Numbers**:\n  - CMP No. 3003 of 2008.\n  - Delay periods: 332",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial decisions regarding the condonation of delays in filing petitions to set aside ex parte decrees, emphasizing improper discretion and the rejection of applications due to unsatisfactory explanations.\n\n#### 2. **Key Points**:\n- Courts have consistently refused to condone delays in cases where explanations provided were deemed unsatisfactory or where discretion was improperly exercised.\n- Specific cases cited include:\n  - **Shanmugam vs Chokkalingam (2009)**: Delay of 332 days was not condoned due to false averments in the affidavit.\n  - **Oriental Aroma Chemical Industries Limited vs Gujarat Industrial Development Corporation (2010)**: Delay of 4 years was rejected by the Supreme Court due to unsatisfactory explanations.\n  - **KM Balasubramaniam vs C Loganathan (2011)**: Delay of 1581 days in re-presenting an application to set aside an ex parte decree was not condoned, as the decree holder had already executed the decree and obtained a sale certificate.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **2009**: Shanmugam vs Chokkalingam case (332 days",
   "embedding": [
     0.02344575710594654,
     0.012453197501599789,

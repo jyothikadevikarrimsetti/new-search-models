@@ -12,7 +12,7 @@
     "circumstances"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.24382899309653805,
+  "intent_confidence": 0.4214402009656438,
   "entities": [
     " High Court",
     " Office of the Chief Postmaster",
@@ -38,7 +38,7 @@
       "score": 0.9980149865150452
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the delay by a government department in applying for a certified copy of a court judgment and filing a special leave petition, highlighting a lack of diligence and failure to provide adequate explanations for the delay.\n\n---\n\n#### 2. **Key Points**:\n- The Department delayed applying for a certified copy of the judgment from the Division Bench of the High Court, waiting nearly four months (from 11/09/2009 to 08/01/2010) without providing a reasonable explanation.\n- Despite being given additional opportunities to submit a better affidavit, the Department failed to justify the delays at various stages or demonstrate diligence in prosecuting the matter.\n- The affidavit mentions unavoidable circumstances and genuine difficulties as reasons for the delay, but no concrete evidence or explanation was provided to support these claims.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- Judgment date: **11/09/2009**\n- Date certified copy was applied for: **08/01/2010**\n- Delay period: **Nearly four months**\n- Case reference: **Office of the Chief Postmaster vs Living Media Limited**\n- CMP No: **3003 of 2008**\n-",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the delay and lack of diligence by a government department in applying for a certified copy of a High Court judgment and filing a special leave petition within the prescribed limitation period.\n\n2. **Key Points**:  \n   - The department delayed applying for the certified copy of the judgment for nearly four months, despite being aware of the judgment date (11/09/2009). The certified copy was only applied for on 08/01/2010.  \n   - No adequate explanation was provided for the delay at various stages, despite being given opportunities to file a better affidavit.  \n   - The department attributed the delay to unavoidable circumstances but failed to demonstrate diligence or provide sufficient justification.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Judgment date: **11/09/2009**  \n   - Certified copy applied for: **08/01/2010**  \n   - Delay period: **Nearly four months**  \n   - Case reference: **CMP No. 3003 of 2008**  \n   - Website mentioned: **http://www.judis.nic.in**",
   "embedding": [
     0.026264403015375137,
     0.029359621927142143,

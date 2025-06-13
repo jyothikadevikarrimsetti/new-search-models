@@ -12,7 +12,7 @@
     "limitation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.15329663045142963,
+  "intent_confidence": 0.36952930624537533,
   "entities": [
     " High",
     " Pundlik Jalam Patil",
@@ -25,9 +25,9 @@
     " MKrishnamurthy"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -76,7 +76,7 @@
       "score": 0.9977548718452454
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the proper conduct of judges in adjudicating cases, particularly the use of intemperate language, judicial discretion, and the principles governing condonation of delay under the Limitation Act.\n\n2. **Key Points:**  \n   - Judges are expected to exercise discretion systematically, within reasonable legal bounds, avoiding intemperate language, sarcasm, or personal biases.  \n   - The Supreme Court has repeatedly disapproved of the use of strong or extravagant language in judgments, emphasizing the need for judicial reasoning over whims or prejudices.  \n   - In cases of condonation of delay under Section 5 of the Limitation Act, sufficient cause must be established based on events or circumstances before the expiration of the limitation period, as highlighted in precedents like *Ajit Singh Thakur Singh vs State of Gujarat* and *N Balakrishnan vs M Krishnamurthy*.  \n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case references:  \n     - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project* (MANU/SC/4694/2004)  \n     - *Ajit Singh Thakur Singh vs State",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial conduct, the use of discretionary powers, and the principles for condonation of delay under Section 5 of the Limitation Act, referencing specific case law.\n\n#### 2. **Key Points**:\n- Judges must exercise discretion systematically, informed by reason, and avoid intemperate language or sarcasm in judgments, as repeatedly disapproved by higher courts.\n- Discretionary powers, especially judicial ones, must be exercised within reasonable legal bounds and not based on whims, prejudices, or personal inclinations.\n- Sufficient cause for condonation of delay must be established by events or circumstances arising before the expiry of the limitation period, as emphasized in prior judgments.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Cases Referenced**:\n  - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project* (MANU/SC/4694/2004).\n  - *Ajit Singh Thakur Singh and Anr Vs State of Gujarat* (1981 1 SCC 495).\n  - *N Balakrishnan Vs M Krishnamurthy* (",
   "embedding": [
     0.03140909969806671,
     0.038836926221847534,

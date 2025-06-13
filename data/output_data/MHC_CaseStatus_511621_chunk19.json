@@ -12,7 +12,7 @@
     "criterion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1780315781888464,
+  "intent_confidence": 0.32917455637579995,
   "entities": [
     " State of WB",
     " Administrator Howrah Municipality",
@@ -26,8 +26,8 @@
     " High Court"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -81,7 +81,7 @@
       "score": 0.9851441383361816
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial interpretations of \"sufficient cause\" under Section 5 of the Limitation Act, emphasizing a liberal approach to condoning delays in the interest of justice.\n\n#### 2. **Key Points**:\n- Courts have consistently held that \"sufficient cause\" under Section 5 of the Limitation Act should be liberally construed to promote substantial justice, provided there is no gross negligence, deliberate inaction, or lack of bona fides by the party seeking condonation.\n- In cases like *N. Balakrishnan v. M. Krishnamurthy* and *Ram Nath Sao v. Gobardhan Sap*, the Supreme Court emphasized that the acceptability of the explanation for delay is more important than the length of the delay, and condonation should not be routine if it prejudices the other party's accrued rights.\n- The law of limitation is intended to serve justice, not defeat it, and courts should balance the interests of both parties when deciding whether to condone delays.\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned**:\n- Section 5 of the Limitation Act.\n- Case references:\n  - *State of WB",
+  "summary": "### Summary and Analysis\n\n1. **Main Topic/Subject**:  \n   The text discusses judicial interpretations of \"sufficient cause\" under Section 5 of the Limitation Act, emphasizing the need for a liberal approach to condoning delays in the interest of justice.\n\n2. **Key Points**:  \n   - Courts have consistently held that the term \"sufficient cause\" should be liberally construed to promote substantial justice, provided there is no gross negligence, deliberate inaction, or lack of bona fides by the party seeking condonation of delay.  \n   - The acceptability of the explanation for the delay is more important than the duration of the delay, and courts should generally condone delays unless there is evidence of mala fide intent or deliberate delay tactics.  \n   - While condoning delays, courts must balance the interests of justice with the rights of the opposing party, ensuring that accrued rights are not defeated without valid reasons.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - CMP No. 3003 of 2008  \n     - MANU/SC/0135/2002  \n     - 2002 (3) SCC 195  \n     - 2002-3-LW",
   "embedding": [
     0.05521351844072342,
     0.03380679711699486,

@@ -12,7 +12,7 @@
     "negligence"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.16428256856746723,
+  "intent_confidence": 0.30551849833890027,
   "entities": [
     " N Balakrishnan",
     " M Krishnamurthy",
@@ -26,8 +26,8 @@
     " M Krishnamurthy"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
+    "ORG",
     "PER"
   ],
   "entity_details": [
@@ -82,7 +82,7 @@
       "score": 0.9993926286697388
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial observations and principles regarding the condonation of delay under Section 5 of the Limitation Act, emphasizing the importance of substantial justice over procedural technicalities.\n\n#### 2. **Key Points**:\n- Courts should adopt a liberal approach in condoning delays to advance substantial justice, provided the delay is not due to gross negligence, deliberate inaction, or mala fide intentions.\n- The length of the delay is less relevant compared to the acceptability of the explanation, and courts should show consideration to litigants unless there is evidence of deliberate delay to gain time.\n- Judicial precedents cited include *N Balakrishnan v M Krishnamurthy* and *MK Prasad v P Arumugam*, which outline these principles.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case identifiers: **MANUTN21232003**, **MANUSC05731998**, **MANUSC03982001**\n- Judgment citations: **1998 2 CTC 533**, **20016 SCC 176**\n- Section referenced: **Section 5 of the Limitation Act**\n- Case references: *N Balakrish",
+  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses judicial observations and principles regarding the condonation of delays under the Limitation Act, emphasizing the importance of substantial justice over procedural technicalities.\n\n#### 2. Key Points:\n- Courts should consider the explanation for delays with utmost care and lean towards condoning delays unless there is evidence of mala fides, deliberate inaction, or a dilatory strategy by the litigant.\n- The principle of \"sufficient cause\" under Section 5 of the Limitation Act must be interpreted liberally to advance substantial justice, as the law of limitation is intended to serve justice, not defeat it.\n- Length of delay is not as significant as the acceptability of the explanation provided, provided there is no indication of gross negligence or bad faith.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case references:\n  - **MANUTN21232003** (Division Bench observation)\n  - **MANUSC05731998** (1998 2 CTC 533, N. Balakrishnan vs. M. Krishnamurthy)\n  - **MANUSC03982001** (2001 6 SCC 176, M.K. Prasad",
   "embedding": [
     0.025499705225229263,
     0.04566393792629242,

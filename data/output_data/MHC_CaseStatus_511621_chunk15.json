@@ -12,7 +12,7 @@
     "delay"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2142892121686899,
+  "intent_confidence": 0.38753011577962704,
   "entities": [
     " Living Media India Limited",
     " Supreme Court",
@@ -26,9 +26,9 @@
     " Living Media Limited"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -82,7 +82,7 @@
       "score": 0.9988083243370056
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses a court's decision to dismiss a Civil Revision Petition, citing abuse of legal process and referencing a Supreme Court judgment on the importance of sufficient cause in condonation of delay cases.\n\n2. **Key Points**:  \n   - The court dismissed the Civil Revision Petition, emphasizing that allowing it would result in injustice to the second respondent (auction purchaser) and the first respondent (decree holder).  \n   - The Supreme Court judgment in *Postmaster General and Others vs. Living Media India Limited and Another (2012)* was cited, which held that condonation of delay should not be granted without reasonable and bona fide justification, rejecting procedural red tape as an excuse.  \n   - The Supreme Court elaborated on the concept of \"sufficient cause\" in paragraphs 25-29 of its judgment, emphasizing accountability and timely action by government departments.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Supreme Court case: *Postmaster General and Others vs. Living Media India Limited and Another (2012)*  \n   - Judgment date referenced: 11/09/2009  \n   - Delay in filing the Special Leave Petition: 427 days",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a court's decision to dismiss a Civil Revision Petition due to it being considered an abuse of process, with reference to a Supreme Court judgment on the importance of timely legal action and the rejection of delays caused by procedural inefficiencies.\n\n#### 2. **Key Points**:\n- The court dismissed the Civil Revision Petition, emphasizing that granting it would cause injustice to the second respondent (auction purchaser) and the first respondent (decree holder).\n- The Supreme Court judgment in *Postmaster General & Others vs. Living Media India Limited & Another (2012 3 SCC 563)* was cited, which highlighted that delays in filing petitions should not be condoned unless there is a reasonable and acceptable explanation.\n- The Supreme Court criticized procedural red tape and emphasized that \"sufficient cause\" for delays must involve bona fide efforts and not routine excuses.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case referenced: *Postmaster General & Others vs. Living Media India Limited & Another (2012 3 SCC 563)*.\n- Delay discussed in the Supreme Court case: 427 days.\n- Judgment date in the referenced case: 11/09",
   "embedding": [
     0.027133159339427948,
     0.014163767918944359,

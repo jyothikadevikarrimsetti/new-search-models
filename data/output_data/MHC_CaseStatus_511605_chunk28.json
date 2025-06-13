@@ -12,11 +12,11 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.24847965914262915,
+  "intent_confidence": 0.3195345810158366,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "1. **Main Topic/Subject**: The text discusses the principles and guidelines for condoning delays in legal proceedings, emphasizing the distinction between short and inordinate delays and the factors courts must consider.\n\n2. **Key Points**:\n   - Courts differentiate between short delays, which may warrant a liberal approach, and inordinate delays, which require strict scrutiny due to potential prejudice.\n   - The conduct, behavior, and attitude of the party seeking condonation are critical factors, as courts must balance justice for both parties and avoid exposing the opposing side to unnecessary litigation.\n   - Fraud, misrepresentation, or manipulation cannot be excused under technicalities of the law, and judicial discretion should be based on objective reasoning rather than subjective perceptions.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018\n   - Reference to \"2833\" (unclear context)\n   - Mention of \"16\" (possibly a paragraph or section number)",
+  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the principles and considerations for courts when addressing applications for condonation of delay in legal proceedings.\n\n2. **Key Points**:  \n   - A distinction is made between inordinate delays, which require a strict approach, and short delays, which may warrant a more liberal interpretation.  \n   - Courts must consider the conduct, behavior, and attitude of the party seeking condonation, ensuring justice is balanced for both parties and avoiding frivolous or fabricated claims.  \n   - Fraud, misrepresentation, or manipulation of facts cannot be excused under the guise of legal technicalities, and judicial discretion should be exercised based on objective reasoning.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Reference to \"2833\" (context unclear, possibly a page or case number).  \n   - Mention of \"16\" (possibly a paragraph or section number).",
   "embedding": [
     0.033629562705755234,
     0.030562281608581543,

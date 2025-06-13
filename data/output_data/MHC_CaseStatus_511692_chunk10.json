@@ -12,7 +12,7 @@
     "05102001"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19663461921231706,
+  "intent_confidence": 0.3675397127834865,
   "entities": [
     " Kodambakkam High Road Chennai",
     "BC",
@@ -22,9 +22,9 @@
     " Revenue"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "LOC"
+    "LOC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -58,7 +58,7 @@
       "score": 0.9960964322090149
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the timeline and legal proceedings related to searches conducted by the Revenue Department, issuance of notices, and filing of returns under the Income Tax Act.\n\n2. **Key Points**:\n   - Searches were conducted at two premises on January 25, 2001, with one search concluding the same day and the other being deemed inconclusive, leading to prohibitory orders.\n   - Notices under Section 158BC and Section 143(2) of the Income Tax Act were issued to the petitioner, with key dates including October 5, 2001, for the Section 158BC notice and June 6, 2003, for the Section 143(2) notice.\n   - The Revenue Department faced challenges in serving the Section 143(2) notice, ultimately resorting to affixture on June 10, 2003.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - **Dates**: January 25, 2001; October 5, 2001; October 23, 2001; June 6, 2003; June 10, 2003.\n   - **Premises Address**: No. 4181 Kod",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the timeline and procedural details of searches conducted at specific premises, issuance of notices under tax law, and the interpretation of limitations under Section 158BE(1)(b) of the Income Tax Act.\n\n2. **Key Points**:  \n   - Searches were conducted on January 25, 2001, at two premises, one concluding the same day and the other continuing until late evening, leading to prohibitory orders.  \n   - Notices under Section 158BC and Section 143(2) of the Income Tax Act were issued to the petitioner on October 5, 2001, and June 6, 2003, respectively, with the latter served by affixture due to failed delivery attempts.  \n   - The Revenue argued that the limitation period under Section 158BE(1)(b) should commence from July 1, 2001, as the last search was conducted on June 12, 2001.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Dates**:  \n     - January 25, 2001 (searches conducted).  \n     - October 5, 2001",
   "embedding": [
     0.01786705292761326,
     0.004385726526379585,

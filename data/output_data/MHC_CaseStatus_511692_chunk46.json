@@ -12,7 +12,7 @@
     "judgments"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1909000774547194,
+  "intent_confidence": 0.31907599531602143,
   "entities": [
     " Ramaiah Reddy",
     " Rakesh Kumar Jain",
@@ -51,7 +51,7 @@
       "score": 0.8489299416542053
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal interpretation of search operations conducted by the Revenue authorities under Section 132(1)(iib) of the Income Tax Act, focusing on the validity and timeline of searches conducted at the petitioner's premises.\n\n#### 2. **Key Points**:\n- The petitioner argued that the search operations conducted after the panchanama dated 25/01/2001 were unauthorized, claiming that the search had already concluded.\n- The court clarified that under Section 132(1)(iib), the continuous search operations conducted between 25/01/2001 and 12/06/2001 were valid and authorized, even though the provision came into effect on 01/06/2002.\n- The Revenue's actions, including issuing prohibitory orders and drawing separate panchanamas for each search, were found to be in compliance with the law, and the limitation period should not be calculated based on the 25/01/2001 panchanama alone.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Dates**:\n  - 25/01/2001: Date of the first panchanama",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legality and timeline of search operations conducted by the Revenue Department under Section 132(1)(iib) of the Income Tax Act, focusing on whether the searches conducted between January 25, 2001, and June 12, 2001, were authorized and valid.\n\n---\n\n#### 2. **Key Points**:\n- The petitioner argued that the search operations conducted after January 25, 2001, were unauthorized, as the panchanama on that date indicated the conclusion of the search.\n- The court clarified that under Section 132(1)(iib), the search operations conducted at the second premises from January 25, 2001, to June 12, 2001, were valid and authorized, as separate panchanamas were drawn for each search.\n- The Revenue's actions were deemed lawful, and the limitation period under Section 158BE(1)(b) should not be calculated based on the January 25, 2001, panchanama but rather the June 12, 2001, panchanama.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- **",
   "embedding": [
     0.04602617770433426,
     0.003896974725648761,

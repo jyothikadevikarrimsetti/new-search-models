@@ -12,7 +12,7 @@
     "litigant"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17515841485212483,
+  "intent_confidence": 0.3304019731205083,
   "entities": [
     " Damocles",
     " Lanka Venkateswarlu D",
@@ -51,7 +51,7 @@
       "score": 0.997930645942688
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the judicial approach to condonation of delay in legal proceedings, emphasizing principles of equity, public policy, and the intent of the parties involved.\n\n2. **Key Points**:\n   - Courts adopt a liberal approach to condonation of delay applications, provided the delay is not due to deliberate misconduct or lack of bona fides by the applicant.\n   - Delays caused by reasons other than deliberate conduct can be compensated monetarily to mitigate prejudice to the opposing party, but mechanical or routine condonation is impermissible for long delays.\n   - The principle of limitation is rooted in sound public policy and equity, ensuring litigants are not indefinitely subjected to legal uncertainty.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n   - Mention of \"2133\" and \"2233\" (context unclear, possibly typographical errors or identifiers).\n   - Case citation: Lanka Venkateswarlu D by LRs Vs State of AP & others, reported in MANU/SC/0153/2011.",
+  "summary": "1. **Main Topic/Subject**: The text discusses the legal principles and considerations surrounding the condonation of delay in filing appeals, emphasizing equity, public policy, and the conduct of the parties involved.\n\n2. **Key Points**:\n   - Courts adopt a liberal approach when considering applications for condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the party seeking condonation.\n   - The principle of limitation is rooted in sound public policy and equity, ensuring that litigants are not indefinitely burdened by unresolved disputes.\n   - Mechanical or routine condonation of delay is impermissible, especially for delays of significant duration, and must be evaluated based on the intention and conduct of the parties.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n   - Mention of \"2133\" and \"2233\" (unclear context, possibly typographical errors or identifiers).\n   - Case citation: Lanka Venkateswarlu D by LRs Vs State of AP, reported in MANU/SC/0153/2011.",
   "embedding": [
     0.04756597429513931,
     0.012934035621583462,

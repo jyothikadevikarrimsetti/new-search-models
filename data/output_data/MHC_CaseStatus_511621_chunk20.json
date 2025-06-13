@@ -12,15 +12,15 @@
     "criterion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.2152457023012866,
+  "intent_confidence": 0.3203057538258885,
   "entities": [
     " High Court",
     " Subraniam",
     " Tamil Nadu Housing Board"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.9984909296035767
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal principles and considerations surrounding the condonation of delay in court proceedings, emphasizing the discretion of the court and the importance of substantial justice.\n\n#### 2. Key Points:\n- The concept of \"sufficient cause\" for condoning delays should be interpreted liberally to ensure substantial justice, but it is a question of fact based on the circumstances of each case.\n- The court's discretion in condoning delays depends on the acceptability of the explanation provided, not the length of the delay, and such discretion should not be disturbed unless exercised in a wholly untenable or perverse manner.\n- Rules of limitation are designed to prevent dilatory tactics and ensure timely remedies, but they should not destroy the rights of parties unless the delay is deliberate or malicious.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case citation: **MANU/TN/0252/2000**, **2000 (3) CTC 727**, **2000 (3) LW 938**\n- Parties involved: **C. Subraniam versus Tamil Nadu Housing Board** (represented by its Chairman and Managing Director)\n- Paragraph referenced: **Para 31**\n- Case",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles surrounding the condonation of delay in court proceedings, emphasizing the discretion of the court and the importance of substantial justice.\n\n2. **Key Points**:  \n   - Condonation of delay is at the discretion of the court, and sufficient cause for the delay must be liberally construed to ensure substantial justice.  \n   - The length of the delay is less important than the acceptability of the explanation, and courts should avoid penalizing parties unless there is evidence of mala fides or deliberate delay tactics.  \n   - Rules of limitation are designed to prevent dilatory tactics but should not destroy the rights of parties if manifest injustice or hardship would result.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case citation: MANU/TN/0252/2000; 2000 (3) CTC 727; 2000 (3) LW 938.  \n   - Case name: C. Subraniam vs. Tamil Nadu Housing Board.  \n   - Paragraph referenced: Para 31.  \n   - CMP No. 3003 of 2008.",
   "embedding": [
     0.044251639395952225,
     0.03985297307372093,

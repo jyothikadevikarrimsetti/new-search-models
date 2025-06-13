@@ -12,11 +12,11 @@
     "completion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.25573144758125727,
+  "intent_confidence": 0.361929426201401,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the statutory limitations and procedural requirements for search, seizure, and assessment proceedings under Section 132 and Section 158BE of the Income Tax Act, emphasizing that the prescribed timelines must be strictly adhered to.\n\n2. **Key Points**:  \n   - The limitation period for completing block assessment proceedings is explicitly provided under Section 158BE, and it is based on the execution of the last authorization, not the seizure of articles.  \n   - The court cannot rewrite statutory provisions to extend the limitation period, as it would violate the law and undermine the rights of the assessee.  \n   - The procedure under Section 132 for search and seizure is detailed and must be strictly followed, ensuring that searches are concluded once commenced, regardless of whether any seizure occurs.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: WP No. 20999 of 2003.  \n   - Circular No. 772 dated December 23, 1998 (1999 235 ITR St 35).  \n   - Black's Law Dictionary, Fifth Edition, page 509.",
+  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the limitation period for assessment proceedings under tax law, focusing on the interpretation of statutory provisions related to search, seizure, and execution of authorizations.\n\n#### 2. **Key Points**:\n- The limitation period for completing block assessments is explicitly prescribed under Section 158BE of the Act, which considers the execution of the last authorization rather than the seizure of articles.\n- The statutory provisions under Section 132 are detailed and exhaustive, allowing for search and seizure but not postponing the search once commenced.\n- Courts cannot rewrite statutory provisions to include terms like \"seizure\" for determining the limitation period, as it would be impermissible under the law.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case Identifier: WP No. 20999 of 2003\n- Circular No. 772 dated December 23, 1998\n- Reference to 1999 (235 ITR St 35)\n- Definition from Black's Law Dictionary, Fifth Edition, page 509",
   "embedding": [
     0.03849595785140991,
     0.04758971929550171,

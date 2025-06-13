@@ -12,7 +12,7 @@
     "balakrishnan"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1925726622953625,
+  "intent_confidence": 0.3287854127912923,
   "entities": [
     "ri Mohta",
     " N Balakrishnan",
@@ -51,7 +51,7 @@
       "score": 0.9990099668502808
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \n   The text discusses the principles and public policy underlying the law of limitation, emphasizing the importance of timely legal remedies and the criteria for accepting delays in filing appeals.\n\n2. **Key Points:**  \n   - The law of limitation is based on public policy to ensure legal remedies are sought within a fixed timeframe, preventing uncertainty and anarchy in legal proceedings.  \n   - Courts may consider delays in filing appeals if the explanation provided is reasonable, not mala fide, or part of dilatory tactics, but they must also consider the interests of the opposing party.  \n   - The maxim *interest reipublicae up sit finis litium* underscores the importance of finality in litigation for the general welfare.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case reference: *N. Balakrishnan vs. M. Krishnamurthy* (1998) 7 SCC 123  \n   - Case reference: *Ramlal and others vs. Rewa Coalfields Ltd* AIR 1962 SC 361  \n   - Maxim: *interest reipublicae up sit finis litium*  \n   - CMP No. 3003 of 2008  \n   - URL mentioned",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles of the law of limitation, emphasizing the importance of adhering to time limits for legal remedies and the conditions under which delays may be excused.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to ensure timely resolution of disputes and prevent uncertainty and anarchy in legal processes.  \n   - Courts may excuse delays if the explanation provided is reasonable, not mala fide, and not intended as a dilatory tactic, but they must also consider the impact on the opposing party.  \n   - Legal remedies must be pursued within a legislatively fixed period to maintain fairness and efficiency in the legal system.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *N. Balakrishnan vs. M. Krishnamurthy* (1998, 7 SCC 123).  \n   - Case: *Ramlal and others vs. Rewa Coalfields Ltd* (AIR 1962 SC 361).  \n   - Maxim referenced: *Interest reipublicae up sit finis litium* (It is for the general welfare that a period be put to litigation).",
   "embedding": [
     0.046260084956884384,
     0.01504600327461958,

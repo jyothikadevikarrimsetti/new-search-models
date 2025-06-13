@@ -12,7 +12,7 @@
     "decree"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19176537070332964,
+  "intent_confidence": 0.3606435684491028,
   "entities": [
     " Trial Court"
   ],
@@ -26,7 +26,7 @@
       "score": 0.880039393901825
     }
   ],
-  "summary": "### Analysis and Summary of the Text:\n\n#### 1. **Main Topic/Subject (1 sentence):**\nThe text discusses a Miscellaneous Petition seeking condonation of a 573-day delay in filing an appeal suit related to a partition case, with the petitioners attributing the delay to the death of their counsel.\n\n#### 2. **Key Points:**\n- The petitioners claim the delay was caused by the sudden death of their counsel on **14-03-2016**, which left them unaware of developments in the suit.\n- The preliminary decree in the partition case was granted on **20-09-2016**, allotting a 1/7th share to each party, which the petitioners challenged in the appeal suit.\n- The respondent disputes the petitioners' claim, arguing that the delay cannot be attributed to the counsel's death, as the decree was passed six months after the counsel's death.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned:**\n- **573 days**: Length of the delay in filing the appeal.\n- **14-03-2016**: Date of the counsel's death.\n- **20-09-2016**: Date the preliminary decree was passed.\n- **1/7",
+  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses a legal case involving a delay of 573 days in filing an appeal suit, with the petitioners seeking condonation of the delay due to the death of their counsel.\n\n#### 2. Key Points:\n- The petitioners argue that the delay in filing the appeal was caused by the sudden death of their counsel on **14-03-2016**, which left them unaware of the developments in the case.\n- The court must determine whether there is sufficient cause to condone the significant delay, but the opposing counsel disputes the petitioners' claims, noting that the preliminary decree was passed **6 months after the counsel's death** on **20-09-2016**, making the petitioners' reasoning questionable.\n- The suit in question pertains to a partition, with the Trial Court granting a **1/7th share** to each party, which the petitioners found unsatisfactory, prompting them to file an appeal.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **573 days**: Duration of the delay in filing the appeal.\n- **14-03-2016**: Date of the counsel's death.\n- **20-09-2016",
   "embedding": [
     0.03486652299761772,
     0.01490099262446165,

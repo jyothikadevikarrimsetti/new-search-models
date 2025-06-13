@@ -12,7 +12,7 @@
     "issued"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21831451454271597,
+  "intent_confidence": 0.40249086059494554,
   "entities": [
     "BC",
     " Act",
@@ -20,8 +20,8 @@
     " Revenue"
   ],
   "entity_types": [
-    "ORG",
-    "MISC"
+    "MISC",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -45,7 +45,7 @@
       "score": 0.9963992834091187
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal dispute regarding the validity and timeliness of block assessment proceedings under tax law, specifically focusing on whether the assessment order is barred by the limitation period under Section 158BE(1)(b) of the Income Tax Act.\n\n#### 2. **Key Points**:\n- The petitioner alleged that they were not given adequate opportunity before the completion of the block assessment, but the court found this claim factually incorrect, as discussions occurred on six occasions, and written submissions were considered.\n- The petitioner argued that the block assessment proceedings were barred by the limitation period, claiming that the Revenue improperly extended the timeline by conducting unauthorized searches and issuing a prohibitory order under Section 132(3) of the Act.\n- The Revenue contended that the limitation period should be calculated from the date of the last panchanama (June 12, 2001), which would make the assessment order valid.\n\n#### 3. **Dates, Numbers, and Identifiers**:\n- **Dates**: \n  - January 25, 2001: First search conducted, and panchanama drawn.\n  - June 12, 2001: Last panchanama",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legality and procedural validity of block assessment proceedings under the Income Tax Act, specifically focusing on whether the assessment order was barred by the limitation period under Section 158BE(1)(b).\n\n2. **Key Points**:  \n   - The petitioner claimed that they were not given adequate opportunity before the completion of the block assessment, but this was refuted as the case was discussed with the petitioner and their representatives on six occasions, and written submissions were considered.  \n   - The petitioner argued that the block assessment proceedings were barred by limitation, contending that the Revenue's actions, including issuing a prohibitory order and conducting subsequent searches, were unwarranted and extended the limitation period unlawfully.  \n   - The Revenue claimed that the limitation period commenced after the last panchanama was drawn on 12/06/2001, which would make the assessment valid.\n\n3. **Dates, Numbers, and Identifiers**:  \n   - **Dates**:  \n     - First search: 25/01/2001  \n     - Last panchanama: 12/06/2001  \n     - Limitation period end: 30/06/",
   "embedding": [
     0.02989370748400688,
     0.01494685374200344,

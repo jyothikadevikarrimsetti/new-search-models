@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20385011230415348,
+  "intent_confidence": 0.39683152791755366,
   "entities": [
     " Living Media India Limited",
     " Supreme Court",
@@ -38,7 +38,7 @@
       "score": 0.9971789121627808
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The court dismissed a Civil Revision Petition due to an inordinate delay of 1581 days in representing an application, ruling it as an abuse of the legal process.\n\n2. **Key Points**:  \n   - The petitioner failed to satisfactorily explain the 1581-day delay in representing an unnumbered application to set aside an ex parte decree, which the court deemed unjustifiable.  \n   - The court emphasized that condonation of delay should not be treated as a routine exception and referenced a Supreme Court ruling (Postmaster General vs. Living Media India Limited, 2012) to support its decision.  \n   - Allowing the petition would have caused injustice to the second respondent (auction purchaser) and the first respondent (decree holder), leading to the dismissal of the petition as an abuse of the legal process.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Execution Petition: EP No. 87 of 2005  \n   - Delay: 1581 days  \n   - Case Reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Supreme Court Case: Post",
+  "summary": "### Summary:\n\n1. **Main Topic/Subject**:  \n   The court dismissed a petition due to an inordinate delay of 1581 days in representing an application to set aside an ex parte decree, deeming it an abuse of the legal process.\n\n2. **Key Points**:  \n   - The petitioner failed to satisfactorily explain the delay of 1581 days in filing an application under Order 9 Rule 13 CPC and Section 47 CPC, which the court viewed as an abuse of process.  \n   - The court prioritized substantial justice, ruling that allowing the petition would cause injustice to the second respondent (auction purchaser) and the first respondent (decree holder).  \n   - The judgment referenced the Supreme Court's decision in *Postmaster General vs Living Media India Limited (2012)*, which emphasized that condonation of delay should not be treated as a routine exception.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Execution Petition: EP No. 87 of 2005  \n   - Delay: 1581 days  \n   - Case Reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Supreme Court Case: *Postmaster",
   "embedding": [
     0.023190952837467194,
     0.01646912842988968,

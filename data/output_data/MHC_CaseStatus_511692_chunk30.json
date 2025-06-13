@@ -12,15 +12,15 @@
     "requisitioned"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.190375590456025,
+  "intent_confidence": 0.3405407869021657,
   "entities": [
     " Revenue",
     " Karnataka High Court",
     " C Ramaiah Reddy"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.9987252354621887
     }
   ],
-  "summary": "### Analysis and Summary\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of search authorizations, Panchanamas, and prohibitory or restraint orders under Section 132 of the Income Tax Act, particularly in cases involving single or multiple authorizations and their implications.\n\n2. **Key Points**:  \n   - The Explanation in Section 132 addresses cases involving multiple authorizations for searches and extends the deemed conclusion of execution to the last Panchanama related to the person in question. However, its applicability to single authorizations with multiple Panchanamas is debated.  \n   - The Karnataka High Court reasoning in the case of C. Ramaiah Reddy highlights that prohibitory or restraint orders themselves act as authorizations to inspect and seize incriminating materials, without requiring separate search authorizations.  \n   - Actions under prohibitory or restraint orders must be confined to inspecting the materials specified in those orders.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: January 1, 1997 (reference to requisitioning of accounts or assets).  \n   - **Case Reference**: Karnataka High Court case of C. Ramaiah Reddy.  \n   - **Section**: Section",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of search authorizations and Panchanamas under Section 132 of the Income Tax Act, particularly in cases involving single or multiple authorizations and prohibitory or restraint orders.\n\n2. **Key Points**:  \n   - The Explanation under Section 132 addresses cases with multiple authorizations for searches and extends the deemed conclusion of the warrant to the last Panchanama related to the person in question.  \n   - There is debate on whether the Explanation applies to cases with a single authorization but multiple Panchanamas, with the Karnataka High Court reasoning that it does not.  \n   - Prohibitory or restraint orders do not require separate authorization for entering premises; these orders themselves act as authorization for inspection and seizure of incriminating materials.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: On or after January 1, 1997.  \n   - **Section**: Section 132 of the Income Tax Act.  \n   - **Case Reference**: Karnataka High Court case of C Ramaiah Reddy (paragraph 77).  \n   - **Identifier**: WP No. 20999 of",
   "embedding": [
     0.06308834999799728,
     0.043137554079294205,

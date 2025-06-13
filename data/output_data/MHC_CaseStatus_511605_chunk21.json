@@ -12,7 +12,7 @@
     "inaction"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.18762036301540314,
+  "intent_confidence": 0.35216363296459335,
   "entities": [
     " Damocles"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9302166104316711
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical limitations.\n\n2. **Key Points:**  \n   - Rules of limitation are grounded in public policy and equity, ensuring that litigants are not indefinitely burdened by unresolved claims due to the whims of opponents.  \n   - Courts should adopt a liberal approach to condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the party seeking relief.  \n   - The focus should be on the attitude and explanation of the party causing the delay, rather than the number of days delayed, and monetary compensation may be used to address prejudice caused to the opposing party.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - URL reference: http://www.judis.nic.in",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the principles and considerations surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical limitations.\n\n#### 2. **Key Points**:\n- **Rules of Limitation**: Limitation rules are grounded in sound public policy and equity, ensuring fairness and preventing indefinite uncertainty for litigants.\n- **Liberal Approach**: Courts should adopt a liberal approach when considering applications for condonation of delay, provided there is no lack of bona fides or attempt to deceive the court.\n- **Assessment Criteria**: The focus is not on the number of days delayed but on the attitude and explanation of the party seeking condonation. If the delay is not deliberate and prejudice to the opposing party is compensated, condonation may be granted.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- URL mentioned: http://www.judis.nic.in",
   "embedding": [
     0.038764145225286484,
     0.014299950562417507,

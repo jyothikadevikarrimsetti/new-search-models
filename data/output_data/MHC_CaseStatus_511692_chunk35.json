@@ -12,7 +12,7 @@
     "premises"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17456180273543073,
+  "intent_confidence": 0.33364957929868266,
   "entities": [
     " Revenue",
     " Tribunal",
@@ -44,7 +44,7 @@
       "score": 0.9948511719703674
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the legal interpretation of the limitation period for search operations under tax law, focusing on when the limitation period begins and ends in relation to the completion of a search and the drawing of a Panchanama.\n\n#### 2. **Key Points**\n- The court ruled that the limitation period begins from the date the search is completed and the Panchanama is drawn, rejecting the Revenue's argument that it should start from a later date based on subsequent Panchanamas.\n- The court clarified that once a search is completed and the search team leaves the premises, the operation is considered over, and any subsequent re-entry can only be for seizure purposes under a prohibitory order, not for continuing the search.\n- The tax case appeal was allowed, and the Tribunal's order was set aside, with the court favoring the assessee's interpretation of the limitation period.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**\n- Search completion date: **13/12/2001**\n- Last Panchanama date claimed by Revenue: **15/02/2002**\n- Limitation period end date as per the court: **31/12/2002**\n-",
+  "summary": "### Summary of the Text\n\n#### 1. **Main Topic/Subject**  \nThe text discusses the limitation period for tax-related searches and the legal interpretation of when a search is considered concluded under the provisions of the Act.\n\n#### 2. **Key Points**  \n- The search in question was completed on **13.12.2001**, as evidenced by the Panchanama and the departure of the search party from the premises. The mere mention in the Panchanama that the search \"continues\" does not justify extending the search indefinitely.\n- The limitation period for the search ends on **31.12.2002**, as per the assessee's argument, and not on **29.02.2004**, as contended by the Revenue. The court accepted the assessee's interpretation and allowed the appeal.\n- Once a search is concluded, any subsequent entry into the premises by the Revenue team can only be for the purpose of seizing documents/materials under a prohibitory order, not for continuing the search.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**  \n- **Search completion date:** 13.12.2001  \n- **Last Panchanama drawn:** 15.02.2002  \n- **",
   "embedding": [
     0.0628117024898529,
     0.022219950333237648,

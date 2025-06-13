@@ -12,7 +12,7 @@
     "trial"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19281116844773727,
+  "intent_confidence": 0.3868125951204575,
   "entities": [
     " Radhika",
     " Sreekuma ran Nair"
@@ -32,7 +32,7 @@
       "score": 0.9957280158996582
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the rejection of an appeal due to an unconvincing explanation for a significant delay in filing, emphasizing the importance of valid reasons for condoning delays in legal proceedings.\n\n#### 2. Key Points:\n- The petitioners claimed the delay in filing the appeal was due to the death of their trial court counsel, but this contention was deemed incorrect and unsupported by the affidavit.\n- The petitioners filed an application (IA No. 1802 of 2017) to set aside an ex-parte decree in OS No. 2538 of 2012, which was dismissed by the trial court. They then filed the current appeal with a delay of 573 days, which was not condoned due to insufficient and unconvincing reasons.\n- Courts are more lenient with short delays but require candid and convincing reasons for condoning significant delays, avoiding a mechanical approach.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Case Numbers:** IA No. 1802 of 2017, OS No. 2538 of 2012, CMP No. 3003 of 2008, CRP (NPD) (MD) No.",
+  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the dismissal of an appeal due to an insufficient explanation for a delay of 573 days in filing, and the court's stance on condoning delays based on valid reasons.\n\n2. **Key Points:**  \n   - The petitioners filed an application (IA No. 1802 of 2017) to set aside an ex parte decree in OS No. 2538 of 2012, but it was dismissed by the Trial Court.  \n   - The petitioners later filed an appeal with a delay of 573 days, citing insufficient and unconvincing reasons, including the death of their counsel, which the court found invalid.  \n   - The court emphasized that enormous delays in filing appeals cannot be condoned without candid and convincing reasons, rejecting a mechanical approach to condoning delays.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - **OS No. 2538 of 2012**: Original suit in question.  \n   - **IA No. 1802 of 2017**: Interlocutory application filed to set aside the ex parte decree.  \n   - **Date of ex parte decree**: September 20, 2018 (20",
   "embedding": [
     0.015594078227877617,
     0.028145993128418922,

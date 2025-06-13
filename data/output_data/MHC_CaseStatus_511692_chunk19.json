@@ -12,7 +12,7 @@
     "receipt"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.22581443690637398,
+  "intent_confidence": 0.29885293854985207,
   "entities": [
     " Karnataka High Court",
     " CRamaiah Reddy",
@@ -23,9 +23,9 @@
     " Karnataka High Court"
   ],
   "entity_types": [
-    "ORG",
+    "PER",
     "LOC",
-    "PER"
+    "ORG"
   ],
   "entity_details": [
     {
@@ -64,7 +64,7 @@
       "score": 0.9957727193832397
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal provisions and interpretations related to the execution of authorizations for searches and requisitions under Sections 132 and 132A of the Income Tax Act, particularly in relation to Section 158BE and its Explanation 2.\n\n#### 2. **Key Points**:\n- **Execution of Authorizations**: Authorizations for searches under Section 132 are deemed executed upon the conclusion of the search as recorded in the last panchanama, while authorizations for requisitions under Section 132A are deemed executed upon the actual receipt of books, documents, or assets by the authorized officer.\n- **Relevance of Section 158BE**: Section 158BE outlines the limitation period for assessments following searches or requisitions, with Explanation 2 clarifying the point at which authorizations are considered executed for this purpose.\n- **Judicial Interpretation**: The Karnataka High Court's ruling in *CRamaiah Reddy v. Assistant Commissioner of Income Tax* (2011) extensively discusses and interprets Section 158BE and its Explanation 2.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Date**: 1st January",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject (1 sentence):**  \n   The text discusses the execution and interpretation of provisions under Sections 132, 132A, and 158BE of the Income Tax Act, particularly regarding searches, requisitions, and the limitation period for assessments post-January 1, 1997.\n\n2. **Key Points:**  \n   - Section 132 and 132A outline procedures for searches and requisitions, with execution deemed complete based on specific conditions, such as the conclusion of a search (recorded in the last panchanama) or receipt of documents/assets by the authorized officer.  \n   - Section 158BE, along with Explanation 2, establishes the limitation period for assessments under Section 158BC, with the execution date tied to the conclusion of searches or requisitions.  \n   - The Karnataka High Court extensively interpreted Section 158BE and Explanation 2 in the case of *CRamaiah Reddy v. Assistant Commissioner of Income Tax* (2011), providing clarity on its application.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - **Date:** January 1, 1997 (relevant for cases where searches or requisitions are initiated post",
   "embedding": [
     0.024670694023370743,
     0.04517345130443573,

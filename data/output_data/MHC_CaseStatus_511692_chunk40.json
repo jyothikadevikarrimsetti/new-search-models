@@ -12,7 +12,7 @@
     "assessment"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.17894557906347278,
+  "intent_confidence": 0.3539308223560545,
   "entities": [
     " Department",
     " Revenue",
@@ -23,8 +23,8 @@
     " Revenue"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -63,7 +63,7 @@
       "score": 0.994807779788971
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses the legal interpretation of the limitation period for tax assessments under Section 158BE of the Income Tax Act, based on searches conducted on different dates and premises.\n\n2. **Key Points**:  \n   - The search conducted on 27.03.2003 and 28.03.2003 was concluded with a panchanama, but a second search on 27.08.2003 required fresh authorization, and the limitation period for assessment should be calculated from the end of August 2003.  \n   - The court rejected the assessee's plea that the assessment was barred by limitation and allowed the Revenue's appeal, setting aside the earlier judgment by the learned Single Judge.  \n   - The judgment relied on distinctions made in prior cases, including \"Rakesh Sarin's case\" and \"Rakesh Kumar Jain's case,\" emphasizing the facts of this specific case.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Dates: 27.03.2003, 28.03.2003, 27.08.2003, 28.08.2003  \n   - Case references: WP No. 20999",
+  "summary": "1. **Main Topic/Subject**: The text discusses the legal determination of the limitation period for tax assessments under Section 158BE of the Income Tax Act, in the context of multiple searches and fresh authorizations.\n\n2. **Key Points**:\n   - The search conducted on 27/03/2003 and 28/03/2003 was followed by a second search on 27/08/2003, which was based on a fresh authorization, and the limitation period for assessment should be calculated from the end of August 2003, not March 2003.\n   - The court rejected the assessee's plea that the assessment was barred by limitation and allowed the Revenue's appeal, setting aside the earlier judgment by the learned Single Judge.\n   - The judgment referenced prior cases, including \"Rakesh Sarin\" and \"Rakesh Kumar Jain,\" and distinguished the facts of this case from those precedents.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Dates: 27/03/2003, 28/03/2003, 27/08/2003, 28/08/2003.\n   - Section 158BE of the Income Tax Act.\n   - Case references",
   "embedding": [
     0.05438273027539253,
     -0.000603735214099288,

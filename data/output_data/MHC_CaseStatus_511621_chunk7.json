@@ -12,7 +12,7 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19196053877683808,
+  "intent_confidence": 0.3687328095258671,
   "entities": [
     " Supreme Court",
     " MK Prasad",
@@ -34,9 +34,9 @@
     " M Srinivasan"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -130,7 +130,7 @@
       "score": 0.9992262721061707
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject:**\n   The text discusses court rulings on the refusal to condone delays in filing petitions, emphasizing the principles of limitation, bona fides, and exceptions to the liberal approach in such matters.\n\n2. **Key Points:**\n   - A delay of 797 days in filing a petition to set aside an ex-parte decree was deemed gross negligence, and the court refused to condone the delay, citing lack of bona fides.\n   - The court referenced the Supreme Court decision in *MK Prasad vs. P Arumugam (2001 6 SCC 176)* and other cases to highlight that untrue affidavits or lack of bona fides do not warrant a liberal approach to condoning delays.\n   - The Division Bench of the court reiterated the principles of limitation and exceptions to the liberal approach in *Sundar Gnanaolivu vs. Rajendran Gnanavolivu (2003 1 LW 585)* and *Tamil Nadu Mercantile Bank Limited vs. Appellate Authority (1990 1 LLN 457)*.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**\n   - Delay of 797 days in filing",
+  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses judicial decisions regarding the refusal to condone delays in filing petitions, emphasizing the importance of bona fides and the exceptions to the rule of a liberal approach in such matters.\n\n#### 2. **Key Points**:\n- Courts have refused to condone significant delays in filing petitions (e.g., 797 days) when the petitioner demonstrates negligence, irresponsibility, or a lack of bona fides.\n- The decisions reference precedents, including the Supreme Court case *MK Prasad vs. P. Arumugam (2001 6 SCC 176)*, which emphasizes that untrue or insincere affidavits do not warrant a liberal approach to condonation of delay.\n- Division Bench judgments, such as *Sundar Gnanaolivu vs. Rajendran Gnanavolivu (2003 1 LW 585)* and *Tamil Nadu Mercantile Bank Limited vs. Appellate Authority (1990 1 LLN 457)*, reinforce the principle that exceptions to the rule of limitation must be carefully applied.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Delay**: 797 days",
   "embedding": [
     0.03093721717596054,
     0.020273251459002495,

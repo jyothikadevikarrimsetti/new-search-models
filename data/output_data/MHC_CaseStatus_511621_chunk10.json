@@ -12,7 +12,7 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1663029927790193,
+  "intent_confidence": 0.31650444415181883,
   "entities": [
     " G Jayaraman",
     " Devarajan",
@@ -20,8 +20,8 @@
     " Limitation Act"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
+    "ORG",
     "PER"
   ],
   "entity_details": [
@@ -46,7 +46,7 @@
       "score": 0.9319806098937988
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the judicial discretion in condoning delays under the Limitation Act, emphasizing the need for vigilance and fairness while considering such pleas.\n\n2. **Key Points**:\n   - Courts must exercise discretion in condoning delays with vigilance and circumspection, avoiding arbitrary or vague decisions, and considering the prejudice caused to the opposing party.\n   - In the case of *G. Jayaraman vs. Devarajan* (2007), the court ruled against condoning a 553-day delay in filing an application to set aside a decree, highlighting that liberal approaches can unfairly harm the plaintiff/decree holder.\n   - The Supreme Court has consistently held that \"sufficient cause\" under Section 5 of the Limitation Act should be liberally interpreted, but not at the expense of substantial justice or accrued rights.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case: *G. Jayaraman vs. Devarajan* (2007)\n   - Citation: 2007 (2) CTC 643\n   - Delay: 553 days\n   - CMP No. 3003 of 2008\n   - Reference to Section 5 of the Limitation",
+  "summary": "1. **Main Topic/Subject**:  \n   The text discusses judicial discretion in condoning delays in legal proceedings, focusing on a case where a significant delay in filing an application was not condoned due to its impact on the opposing party.\n\n2. **Key Points**:  \n   - Courts must exercise discretion in condoning delays with vigilance and avoid arbitrary decisions, keeping in mind the prejudice caused to the opposing party.  \n   - In the case *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*, the court refused to condone a 553-day delay, emphasizing that judicial generosity should not override the rights accrued to the other party.  \n   - Liberal approaches to delay condonation can harm plaintiffs, as seen in cases where defendants use repeated petitions to stall the execution of decrees.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*  \n   - Delay: 553 days  \n   - URL reference: http://www.judis.nic.in  \n   - CMP No. 3003 of 2008  \n   - Mention of an 8-year delay in decree",
   "embedding": [
     0.05758599936962128,
     0.02540704235434532,

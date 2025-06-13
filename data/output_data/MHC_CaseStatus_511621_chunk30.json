@@ -12,15 +12,15 @@
     "discretion"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.21375660286824993,
+  "intent_confidence": 0.30873886282530316,
   "entities": [
     "ble Supreme Court",
     " Esha Bhattacharjee",
     "ble Apex Court"
   ],
   "entity_types": [
-    "ORG",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -39,7 +39,7 @@
       "score": 0.830348014831543
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \n   The text discusses judicial discretion and the principles for condoning delays in legal proceedings, emphasizing objectivity, consistency, and reasonableness.\n\n2. **Key Points**:  \n   - Judicial discretion should be guided by objective reasoning rather than subjective perceptions, with public entities given some latitude within acceptable limits.  \n   - Applications for condonation of delay must be carefully drafted and not treated casually, with courts striving for consistency and collegiality in their decisions.  \n   - The increasing tendency to treat delays as trivial must be curbed, as emphasized in the Supreme Court's judgment in *Esha Bhattacharjee*, which provides guiding principles for addressing such petitions.  \n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *CMP No. 3003 of 2008*.  \n   - Principles cited in the judgment of the Supreme Court in *Esha Bhattacharjee*.  \n   - Numbers: 3539, 3639 (possibly page or paragraph references).  \n   - Website: http://www.judis.nic.in.",
+  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and guidelines for judicial discretion, particularly in the context of applications for condonation of delay, emphasizing objectivity, consistency, and reasonableness.\n\n2. **Key Points**:  \n   - Judicial discretion should be based on objective reasoning rather than subjective individual perception, ensuring fairness and consistency in decision-making.  \n   - Applications for condonation of delay must be carefully drafted and not treated as routine, with a focus on achieving justice while curbing a casual attitude toward delays.  \n   - The Supreme Court's judgment in *Esha Bhattacharjee* highlights guiding principles for deciding petitions related to condonation of delay, advocating a balanced liberal approach grounded in reasonableness.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 3003 of 2008  \n   - Principles referenced from the Supreme Court judgment in *Esha Bhattacharjee*  \n   - Numbers: 3539, 3639 (possibly identifiers or references)  \n   - Website: http://www.judis.nic.in",
   "embedding": [
     0.0628800317645073,
     0.030337778851389885,

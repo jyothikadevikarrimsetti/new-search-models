@@ -12,11 +12,11 @@
     "132a"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.16145153073276455,
+  "intent_confidence": 0.3148878658714737,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the interpretation of the term \"execution of a warrant\" in relation to the completion of proceedings under sections 132, 132A, and 132(3) of the law, and its impact on the computation of limitation periods under section 158BE.\n\n#### 2. **Key Points**:\n- The term \"execution of a warrant\" can either refer to the act of executing the warrant itself or the conclusion of proceedings under sections 132 or 132A, depending on the context.\n- If proceedings under section 132(3) are pending (e.g., due to a restraint order), the limitation period for computation under section 158BE (one or two years) begins only after the conclusion of those proceedings.\n- A contrary interpretation suggests that the execution of the warrant alone should trigger the limitation period, aligning with the intent of expeditious disposal of search cases.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Sections of Law**: 132, 132A, 132(3), 158BE(1)\n- **Limitation Period**: One or two years (under section 158BE)",
+  "summary": "### Summary Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the interpretation of the term \"execution of a warrant\" in relation to proceedings under sections 132, 132A, and 132(3) of the Income Tax Act, particularly its impact on the computation of limitation periods under section 158BE.\n\n#### 2. **Key Points**:\n- The term \"execution of a warrant\" can either refer to the conclusion of proceedings under sections 132 or 132A or merely the execution of the warrant itself, even if proceedings are still pending.\n- If proceedings under section 132(3) are pending (e.g., due to a restraint order), the computation of the one-year limitation period under section 158BE should begin only after the conclusion of those proceedings.\n- A contrary interpretation could lead to delays and absurd results, as the limitation period could be extended indefinitely if proceedings under section 132(3) remain unresolved for years.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Sections Referenced**: 132, 132A, 132(3), 158BE(1)\n- **Limitation Periods**: One or two years under section 158BE",
   "embedding": [
     0.026492152363061905,
     0.042254600673913956,

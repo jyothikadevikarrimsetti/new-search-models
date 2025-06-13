@@ -12,7 +12,7 @@
     "investigation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19859025094169805,
+  "intent_confidence": 0.2707850444326662,
   "entities": [
     " Income Tax Act",
     " Income Tax Act",
@@ -44,7 +44,7 @@
       "score": 0.9661654829978943
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal provisions and limitations related to searches, seizures, and prohibitory orders under Section 132 of the Income Tax Act.\n\n2. **Key Points**:  \n   - Prohibitory orders under Section 132(3) of the Income Tax Act can be issued for a period of 60 days when practical difficulties prevent the seizure of items liable to be seized.  \n   - The powers under Section 132(1)(iii) cannot be used to bypass the provisions of Section 132(1)(iii) read with Section 132(1)(v).  \n   - Investigations into materials already secured under a prohibitory or restraint order do not constitute a \"search\" under Section 132 of the Act.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - 60 days (validity of prohibitory order).  \n   - Case reference: WP No. 20999 of 2003.  \n   - URLs: http://www.judis.nic.in.  \n   - Numbers: 4060, 4160 (context unclear).",
+  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal provisions and limitations related to search, seizure, and prohibitory orders under Section 132 of the Income Tax Act.\n\n#### 2. Key Points:\n- Prohibitory orders under Section 132(3) of the Income Tax Act can be issued when there is practical difficulty in seizing items, and such orders remain in force for 60 days after securing possession of materials.\n- The power under Section 132(1)(iii) cannot be used to circumvent other provisions of the Act, such as Section 132(1)(v), and searches must adhere to specific legal procedures.\n- Investigations of materials already secured under a prohibitory order do not constitute a \"search\" under Section 132, as the materials are already known and in deemed possession.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- **60 days**: Duration for which a prohibitory order remains in force.\n- **Section 132, Section 132(1)(iii), Section 132(1)(v), Section 132(3)**: Legal provisions of the Income Tax Act referenced.\n- **4060** and **4160**: Numbers mentioned, though",
   "embedding": [
     0.039795927703380585,
     0.04301325976848602,

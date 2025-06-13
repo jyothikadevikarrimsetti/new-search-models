@@ -12,7 +12,7 @@
     "law"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.15774458040081857,
+  "intent_confidence": 0.3359492598171818,
   "entities": [
     " Central Board of Direct Taxes"
   ],
@@ -26,7 +26,7 @@
       "score": 0.9994401931762695
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the computation of the limitation period for executing authorisations under tax law, particularly when multiple authorisations are issued and executed.\n\n2. **Key Points**:  \n   - The limitation period for executing authorisations is calculated as one year (or two years, depending on the context) from the end of the month in which the last authorisation was executed, as evidenced by the panchnama.  \n   - If multiple authorisations are issued on the same day, the limitation period is determined based on the last panchnama drawn in relation to the warrant of authorisation.  \n   - Provisions allow authorised officers to inspect premises even after a search, but such actions must be conducted expeditiously to avoid defeating the purpose of the limitation rules.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: Circular No. 772 dated 23rd December 1998.  \n   - **Section**: Section 158BE of the tax law.  \n   - **Numbers**: Limitation period of 1 year or 2 years; Circular reference \"1999 235 ITR St 35\".  \n   -",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the computation of limitation periods for executing authorisations under tax law, particularly when multiple authorisations are issued and executed on different dates.\n\n2. **Key Points**:  \n   - The limitation period is calculated as one year (or two years, depending on the provision) from the end of the month in which the last authorisation is executed, as evidenced by the panchnama.  \n   - If multiple authorisations are issued on the same day, the limitation period starts from the date of the last panchnama drawn in relation to the warrant of authorisation.  \n   - Circular No. 772 (dated 23rd December 1998) issued by the Central Board of Direct Taxes clarifies this position, ensuring that the process is conducted expeditiously to avoid defeating the purpose of the provisions.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Date**: 23rd December 1998 (Circular No. 772 issued).  \n   - **Section**: Section 158BE (related to the limitation period).  \n   - **Numbers**: Limitation period of 1 year or 2 years, depending",
   "embedding": [
     0.04864967241883278,
     0.05635889619588852,

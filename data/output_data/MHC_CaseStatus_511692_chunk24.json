@@ -12,11 +12,11 @@
     "obtaining"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.20550429934283748,
+  "intent_confidence": 0.29198331687310963,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal interpretation of a \"panchnama\" in the context of search and seizure operations, its role in concluding a search, and its implications for the computation of the limitation period under Section 158BE.\n\n#### 2. **Key Points**:\n- A panchnama is a document that records the conclusion of a search operation authorized by law, and it marks the end of the search process.\n- If an authorized officer revisits the premises for further investigation or inspection, any panchnama drawn during such a revisit does not extend the statutory limitation period for initiating proceedings.\n- The limitation period is strictly governed by the statute, and failure to initiate proceedings within the prescribed time results in the loss of the legal remedy, granting the assessee a valuable right.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Section 158BE (legal provision under discussion).\n- Case reference: WP No. 20999 of 2003.\n- Numbers mentioned: 80, 2960, 3060 (context unclear, possibly formatting or citation errors).",
+  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal interpretation of a \"panchnama\" in the context of search operations under Section 158BE, emphasizing its role in concluding a search and its implications for the limitation period in assessment proceedings.\n\n#### 2. **Key Points**:\n- A panchnama is a document that marks the conclusion of a search operation, and it is essential for computing the limitation period under the law.\n- Once a search is concluded and a panchnama is drawn, the authorized officer cannot revisit the premises under the same authorization; a fresh authorization is required for any further searches.\n- Revisits to the premises for investigation or inspection do not extend the limitation period, even if a new panchnama is written during such revisits.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- Section 158BE (legal provision referenced).\n- Case reference: WP No. 20999 of 2003.\n- Numbers mentioned: 80, 2960, 3060 (context unclear but possibly identifiers or placeholders).",
   "embedding": [
     0.050389569252729416,
     0.04569642245769501,

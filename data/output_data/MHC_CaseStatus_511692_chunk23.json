@@ -12,7 +12,7 @@
     "limitation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.16675512397869938,
+  "intent_confidence": 0.34994581626874016,
   "entities": [
     " Finance No 2 Act"
   ],
@@ -26,7 +26,7 @@
       "score": 0.8337359428405762
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the interpretation and clarification of the limitation period for executing authorizations under Section 158BE of the Income Tax Act, with specific reference to the insertion of Explanation 2 by the Finance (No. 2) Act of 1998.\n\n2. **Key Points**:  \n   - The term \"authorizations\" implies the possibility of multiple authorizations being issued, and the limitation period should be calculated based on the execution of the last authorization, even if executed earlier than others.  \n   - Explanation 2, inserted into Section 158BE effective July 1, 1995, clarifies that the limitation period is tied to the conclusion of the search as recorded in the last panchnama or the receipt of requisitioned documents/assets.  \n   - The panchnama must record the conclusion of the search, but there is no legal requirement for the authorized officer to explicitly state that the search is \"finally concluded.\"\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - July 1, 1995: Effective date of Explanation 2 under Section 158BE.  \n   - Finance (No. 2) Act,",
+  "summary": "1. **Main topic/subject**: The text discusses the interpretation and clarification of the limitation period for executing authorizations under Section 158BE of the Income Tax Act, as amended by the Finance No. 2 Act of 1998.\n\n2. **Key points**:\n   - The limitation period for executing authorizations is clarified to be counted from the execution of the last authorization, even if it was issued later but executed earlier.\n   - Explanation 2, inserted into Section 158BE with effect from July 1, 1995, specifies that the limitation is based on the conclusion of the search as recorded in the last panchnama or the receipt of requisitioned documents/assets.\n   - The panchnama must record the conclusion of the search, but the law does not require the authorized officer to explicitly state that the search is \"finally concluded\" in the panchnama.\n\n3. **Dates, numbers, or identifiers mentioned**:\n   - July 1, 1995: Effective date of the amendment (Explanation 2) under the Finance No. 2 Act of 1998.\n   - Finance No. 2 Act of 1998: Legislation introducing the amendment.\n   - Section 158BE: Relevant section of",
   "embedding": [
     0.02819991298019886,
     0.04458615928888321,

@@ -12,7 +12,7 @@
     "delay"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.1918883596820748,
+  "intent_confidence": 0.3757746789234901,
   "entities": [
     " Kandaswamy",
     " Krishnamandiram Trust Karur",
@@ -93,7 +93,7 @@
       "score": 0.8983808755874634
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject:**\nThe text discusses the legal issue of whether a delay in filing a petition has been adequately explained and whether sufficient cause has been shown to justify condonation of the delay.\n\n#### 2. **Key Points:**\n- The court emphasized that each case must be evaluated based on its specific facts and circumstances, particularly regarding delays in filing petitions.\n- Reference was made to prior judgments where delays were not condoned due to lack of bona fides or gross negligence, such as:\n  - *Kandaswamy and others vs Krishnamandiram Trust* (2001), where a delay of 797 days was deemed unjustifiable.\n  - *Sundar Gnanaolivu vs Rajendran Gnanaolivu* (2003), where untrue averments in affidavits led to the rejection of a liberal approach to condonation.\n- The court highlighted the importance of demonstrating bona fides and sufficient cause in petitions seeking condonation of delays.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned:**\n- Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- Delay mentioned:",
+  "summary": "### Summary:\n\n1. **Main Topic/Subject:**  \n   The text discusses a legal case concerning the condonation of delay in filing a petition and examines whether sufficient cause has been shown for the delay, referencing prior judgments for context.\n\n2. **Key Points:**  \n   - The primary issue is whether the delay in filing the petition has been adequately explained and whether sufficient cause has been demonstrated.  \n   - The court referenced prior judgments, including *Kandaswamy vs. Krishnamandiram Trust* (2001) and *MK Prasad vs. P Arumugam* (2001), to highlight the importance of bona fide conduct and the consequences of negligence in legal proceedings.  \n   - The Division Bench in *Sundar Gnanaolivu vs. Rajendran Gnanavolivu* (2003) emphasized that cases lacking bona fides or containing untrue averments do not warrant a liberal approach for condonation of delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Prior judgments cited:  \n     - *Kandaswamy vs. Kr",
   "embedding": [
     0.03478720784187317,
     0.039649657905101776,

@@ -12,7 +12,7 @@
     "nadu"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.19839682199557448,
+  "intent_confidence": 0.3254631419202876,
   "entities": [
     " LLN",
     " Tamil Nadu Mercantile Bank Ltd Tuticorin",
@@ -21,9 +21,9 @@
     " M Srinivasan"
   ],
   "entity_types": [
-    "ORG",
     "MISC",
-    "PER"
+    "PER",
+    "ORG"
   ],
   "entity_details": [
     {
@@ -52,7 +52,7 @@
       "score": 0.9991167783737183
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal principles regarding the condonation of delays in court proceedings, emphasizing the importance of assessing explanations for delays and the potential prejudice to the opposing party.\n\n2. **Key Points**:  \n   - Courts must carefully evaluate whether a delay is due to mala fides or a dilatory strategy, and lean against condoning delays that are deliberately caused to gain time.  \n   - The opposing party's interests must be considered when condoning delays, as they may have destroyed records or assumed the matter was closed.  \n   - Each case should be assessed based on its specific facts and circumstances, with the length of the delay being a critical factor.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case citation: *1990 (1) LLN 457* (Tamil Nadu Mercantile Bank Ltd. Tuticorin vs. Appellate Authority Under The Tamil Nadu Shops And Establishments Act, Madurai, and Another).  \n   - Paragraph references: 14 and 17.  \n   - URL reference: http://www.judis.nic.in.  \n   - Case identifier: CMP No. 3003 of 2008.",
+  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses legal principles related to the condonation of delay in court proceedings, emphasizing the need for careful consideration of explanations and the impact on the opposing party.\n\n2. **Key Points**:  \n   - Courts should show consideration to litigants unless the delay is caused by mala fides or a deliberate dilatory strategy; in such cases, courts should lean against accepting the explanation.  \n   - Condonation of delay should account for the potential prejudice to the opposing party, as they may have destroyed relevant records due to the lapse in time.  \n   - Each case must be assessed based on its specific facts and circumstances, including the length of the delay, and litigants cannot arbitrarily set their own timelines.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **1990 1 LLN 457**: Citation for a Division Bench Judgment.  \n   - **CMP No. 3003 of 2008**: Case identifier.  \n   - Reference to paragraphs **14** and **17** from a judgment by Justice M. Srinivasan.  \n   - Location identifiers: **Tamil Nadu Mercantile Bank Ltd Tuticorin**,",
   "embedding": [
     0.035142045468091965,
     0.017723042517900467,
