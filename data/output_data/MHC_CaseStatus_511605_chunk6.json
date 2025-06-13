@@ -12,16 +12,16 @@
     "justice"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3658944224895282,
+  "intent_confidence": 0.36589442248952825,
   "entities": [
-    " Supreme Court",
-    " MK Prasad",
-    " P Arumugam",
-    " Supreme Court",
-    " LLN",
-    " Tamil Nadu Mercantile Bank Limited Tuticorin",
-    " Appellate Authority",
-    " M Srinivasan"
+    "supreme court",
+    "mk prasad",
+    "p arumugam",
+    "supreme court",
+    "lln",
+    "tamil nadu mercantile bank limited tuticorin",
+    "appellate authority",
+    "m srinivasan"
   ],
   "entity_types": [
     "PER",
@@ -29,47 +29,47 @@
   ],
   "entity_details": [
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9974666833877563
+      "score": 0.9974665641784668
     },
     {
-      "text": " MK Prasad",
+      "text": "mk prasad",
       "type": "PER",
       "score": 0.9988455772399902
     },
     {
-      "text": " P Arumugam",
+      "text": "p arumugam",
       "type": "PER",
       "score": 0.9991806745529175
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9745839834213257
+      "score": 0.9745844006538391
     },
     {
-      "text": " LLN",
+      "text": "lln",
       "type": "ORG",
-      "score": 0.9934448599815369
+      "score": 0.9934449791908264
     },
     {
-      "text": " Tamil Nadu Mercantile Bank Limited Tuticorin",
+      "text": "tamil nadu mercantile bank limited tuticorin",
       "type": "ORG",
       "score": 0.9963403344154358
     },
     {
-      "text": " Appellate Authority",
+      "text": "appellate authority",
       "type": "ORG",
-      "score": 0.8120440244674683
+      "score": 0.8120428323745728
     },
     {
-      "text": " M Srinivasan",
+      "text": "m srinivasan",
       "type": "PER",
       "score": 0.9990540742874146
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the legal principles surrounding the condonation of delay in court cases, emphasizing exceptions to the liberal approach when affidavits lack bona fides or are untrue.\n\n#### 2. Key Points:\n- The case highlights that when an affidavit's averments are untrue and lack bona fides, the liberal approach to condonation of delay does not apply, as stated in CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- The Division Bench of the Court relied on the Supreme Court's decision in *M.K. Prasad vs. P. Arumugam* (2001 6 SCC 176) to reinforce this principle.\n- The text references another judgment (*Tamil Nadu Mercantile Bank Limited, Tuticorin vs. Appellate Authority under the Tamil Nadu Shops and Establishments Act, Madurai and another*, 1990 1 LLN 457), which discusses the importance of adhering to limitation rules and the potential prejudice caused to respondents when delays are condoned.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- CMP No. 6648 of 2018 in ASS",
+  "summary": "The court held that untrue and non-bona fide affidavits fall outside the scope of a liberal approach for condonation of delay, emphasizing that each case must be assessed based on its specific facts and circumstances.",
   "embedding": [
     0.02488158643245697,
     0.009950106032192707,

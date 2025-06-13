@@ -14,33 +14,33 @@
   "intent": "general_info",
   "intent_confidence": 0.3224044535302158,
   "entities": [
-    " Ramlal",
-    " Rewa Coalfields Ltd",
-    " Limitation Act"
+    "ramlal",
+    "rewa coalfields ltd",
+    "limitation act"
   ],
   "entity_types": [
-    "MISC",
     "PER",
+    "MISC",
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " Ramlal",
+      "text": "ramlal",
       "type": "PER",
       "score": 0.9986452460289001
     },
     {
-      "text": " Rewa Coalfields Ltd",
+      "text": "rewa coalfields ltd",
       "type": "ORG",
       "score": 0.9990487694740295
     },
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.8699128031730652
+      "score": 0.8699114918708801
     }
   ],
-  "summary": "1. **Main Topic/Subject**:  \nThe text discusses the principles and public policy underlying the law of limitation, emphasizing the importance of adhering to legislatively fixed time limits for legal remedies.\n\n2. **Key Points**:  \n   - The law of limitation is based on public policy to prevent unending uncertainty and ensure timely resolution of disputes, discouraging dilatory tactics.  \n   - Courts must balance consideration for the suitor with the rights of the opposing party, ensuring that remedies are sought promptly and within the legislatively fixed period.  \n   - The expiration of a limitation period grants the decree holder a legal right to treat the decree as binding, as highlighted in the case of *Ramlal and others vs Rewa Coalfields Ltd (AIR 1962 SC 361)*.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case reference: *Ramlal and others vs Rewa Coalfields Ltd (AIR 1962 SC 361)*.  \n   - Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Legal maxim: *Interest reipublicae up sit finis litium* (It is for the general welfare",
+  "summary": "The law of limitation, rooted in public policy, ensures legal remedies are sought within a fixed timeframe to prevent uncertainty and anarchy, emphasizing prompt action while balancing the rights of both parties.",
   "embedding": [
     0.04272047057747841,
     0.04363274201750755,

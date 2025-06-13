@@ -12,35 +12,35 @@
     "3rajeswari"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4480251706108316,
+  "intent_confidence": 0.4480251706108317,
   "entities": [
-    " HIGH COURT OF JUDICATURE",
-    " MADRAS",
-    " SMSUBRAMANIAM",
-    "MArjunan",
-    "Savithri",
-    "Kamalanathan",
-    "Suresh",
-    "Dillibabu",
-    "Vijayakumari",
-    "Logammal",
-    "HKrishnaveni Vanibai",
-    "Kavitha",
-    "Rajeswari",
-    "Sounarapandian",
-    "SKamalakannan",
-    "TMadhumathi",
-    "GNamatha Thilagam",
-    "PVLakshmi Narasimhan",
-    "VGowri Shankar",
-    "PHariharan",
-    " City Civil Court",
-    " Chennai",
-    " MrRAnand Kumar",
-    " MrSPurushothamadoss",
-    " MrANRajan",
-    " City Civil Court",
-    " Chennai"
+    "high court of judicature",
+    "madras",
+    "smsubramaniam",
+    "marjunan",
+    "savithri",
+    "kamalanathan",
+    "suresh",
+    "dillibabu",
+    "vijayakumari",
+    "logammal",
+    "hkrishnaveni vanibai",
+    "kavitha",
+    "rajeswari",
+    "sounarapandian",
+    "skamalakannan",
+    "tmadhumathi",
+    "gnamatha thilagam",
+    "pvlakshmi narasimhan",
+    "vgowri shankar",
+    "phariharan",
+    "city civil court",
+    "chennai",
+    "mrranand kumar",
+    "mrspurushothamadoss",
+    "mranrajan",
+    "city civil court",
+    "chennai"
   ],
   "entity_types": [
     "PER",
@@ -49,142 +49,142 @@
   ],
   "entity_details": [
     {
-      "text": " HIGH COURT OF JUDICATURE",
+      "text": "high court of judicature",
       "type": "ORG",
-      "score": 0.9724880456924438
+      "score": 0.9724878072738647
     },
     {
-      "text": " MADRAS",
+      "text": "madras",
       "type": "LOC",
       "score": 0.9975812435150146
     },
     {
-      "text": " SMSUBRAMANIAM",
+      "text": "smsubramaniam",
       "type": "ORG",
-      "score": 0.8585796356201172
+      "score": 0.8585809469223022
     },
     {
-      "text": "MArjunan",
+      "text": "marjunan",
       "type": "PER",
       "score": 0.9986486434936523
     },
     {
-      "text": "Savithri",
+      "text": "savithri",
       "type": "PER",
       "score": 0.9993749260902405
     },
     {
-      "text": "Kamalanathan",
+      "text": "kamalanathan",
       "type": "PER",
       "score": 0.9993113279342651
     },
     {
-      "text": "Suresh",
+      "text": "suresh",
       "type": "PER",
       "score": 0.9985987544059753
     },
     {
-      "text": "Dillibabu",
+      "text": "dillibabu",
       "type": "PER",
       "score": 0.9985821843147278
     },
     {
-      "text": "Vijayakumari",
+      "text": "vijayakumari",
       "type": "PER",
       "score": 0.9986898303031921
     },
     {
-      "text": "Logammal",
+      "text": "logammal",
       "type": "PER",
       "score": 0.9986777305603027
     },
     {
-      "text": "HKrishnaveni Vanibai",
+      "text": "hkrishnaveni vanibai",
       "type": "PER",
-      "score": 0.9985342025756836
+      "score": 0.9985342621803284
     },
     {
-      "text": "Kavitha",
+      "text": "kavitha",
       "type": "PER",
       "score": 0.9982807040214539
     },
     {
-      "text": "Rajeswari",
+      "text": "rajeswari",
       "type": "PER",
       "score": 0.998609721660614
     },
     {
-      "text": "Sounarapandian",
+      "text": "sounarapandian",
       "type": "PER",
       "score": 0.9990538954734802
     },
     {
-      "text": "SKamalakannan",
+      "text": "skamalakannan",
       "type": "PER",
       "score": 0.9988368153572083
     },
     {
-      "text": "TMadhumathi",
+      "text": "tmadhumathi",
       "type": "PER",
       "score": 0.9976717233657837
     },
     {
-      "text": "GNamatha Thilagam",
+      "text": "gnamatha thilagam",
       "type": "PER",
       "score": 0.998103678226471
     },
     {
-      "text": "PVLakshmi Narasimhan",
+      "text": "pvlakshmi narasimhan",
       "type": "PER",
       "score": 0.9987325668334961
     },
     {
-      "text": "VGowri Shankar",
+      "text": "vgowri shankar",
       "type": "PER",
       "score": 0.9977525472640991
     },
     {
-      "text": "PHariharan",
+      "text": "phariharan",
       "type": "PER",
       "score": 0.9968191981315613
     },
     {
-      "text": " City Civil Court",
+      "text": "city civil court",
       "type": "ORG",
-      "score": 0.8766055107116699
+      "score": 0.8766048550605774
     },
     {
-      "text": " Chennai",
+      "text": "chennai",
       "type": "LOC",
       "score": 0.9885835647583008
     },
     {
-      "text": " MrRAnand Kumar",
+      "text": "mrranand kumar",
       "type": "PER",
-      "score": 0.9529336094856262
+      "score": 0.9529339671134949
     },
     {
-      "text": " MrSPurushothamadoss",
+      "text": "mrspurushothamadoss",
       "type": "PER",
-      "score": 0.9390566945075989
+      "score": 0.9390568733215332
     },
     {
-      "text": " MrANRajan",
+      "text": "mranrajan",
       "type": "PER",
-      "score": 0.9552937746047974
+      "score": 0.9552940130233765
     },
     {
-      "text": " City Civil Court",
+      "text": "city civil court",
       "type": "ORG",
-      "score": 0.8786909580230713
+      "score": 0.8786904811859131
     },
     {
-      "text": " Chennai",
+      "text": "chennai",
       "type": "LOC",
       "score": 0.9910934567451477
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject (1 sentence):**  \nThe text discusses a Civil Miscellaneous Petition (CMP No. 3003 of 2008) filed in the High Court of Madras to condone a delay of 573 days in filing an appeal against a judgment and decree in a civil suit (OS No. 2538 of 2012).\n\n---\n\n#### 2. **Key Points:**  \n- The petition seeks condonation of a 573-day delay in filing an Appeal Suit against a judgment passed by the VI Additional Judge, City Civil Court, Chennai.  \n- The appellants argue that the delay was due to the death of their Trial Court counsel during the pendency of the suit, and claim the delay was neither willful nor wanton.  \n- The petitioners include multiple defendants from the original suit, while the respondents include individuals represented by various counsels, with some respondents not appearing in court.\n\n---\n\n#### 3. **Dates, Numbers, and Identifiers Mentioned:**  \n- **Case Numbers:** CMP No. 3003 of 2008, AS No. SR70907 of 2018, OS No. 2538 of 2012.  \n- **Date:**",
+  "summary": "The petition seeks to condone a 573-day delay in filing an appeal against a judgment from the VI Additional Judge, City Civil Court, Chennai, citing the death of the trial court counsel as the primary reason for the delay.",
   "embedding": [
     0.029661385342478752,
     -0.004858858417719603,

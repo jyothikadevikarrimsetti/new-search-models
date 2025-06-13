@@ -12,15 +12,15 @@
     "case"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3915008408062661,
+  "intent_confidence": 0.3915008408062662,
   "entities": [
-    " Supreme Court",
-    " Supreme Court",
-    " Aparajeet Pattanayak",
-    " SSRM Air Mail Sorting Division",
-    " New Delhi",
-    " High Court",
-    " Office of the Chief Postmaster vs Living Media Limited"
+    "supreme court",
+    "supreme court",
+    "aparajeet pattanayak",
+    "ssrm air mail sorting division",
+    "new delhi",
+    "high court",
+    "office of the chief postmaster vs living media limited"
   ],
   "entity_types": [
     "PER",
@@ -29,42 +29,42 @@
   ],
   "entity_details": [
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9913411140441895
+      "score": 0.9913409948348999
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9906461238861084
+      "score": 0.9906458258628845
     },
     {
-      "text": " Aparajeet Pattanayak",
+      "text": "aparajeet pattanayak",
       "type": "PER",
       "score": 0.9994122982025146
     },
     {
-      "text": " SSRM Air Mail Sorting Division",
+      "text": "ssrm air mail sorting division",
       "type": "ORG",
       "score": 0.9961733222007751
     },
     {
-      "text": " New Delhi",
+      "text": "new delhi",
       "type": "LOC",
-      "score": 0.8819959163665771
+      "score": 0.8819975852966309
     },
     {
-      "text": " High Court",
+      "text": "high court",
       "type": "ORG",
-      "score": 0.9900594353675842
+      "score": 0.9900590777397156
     },
     {
-      "text": " Office of the Chief Postmaster vs Living Media Limited",
+      "text": "office of the chief postmaster vs living media limited",
       "type": "ORG",
-      "score": 0.9393229484558105
+      "score": 0.9393237233161926
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe Supreme Court addressed the issue of condonation of a 427-day delay in filing a Special Leave Petition, emphasizing that delays caused by procedural inefficiencies without reasonable justification cannot be excused.\n\n#### 2. Key Points:\n- The Supreme Court ruled that condonation of delay is not an exception to be routinely granted, especially for government departments, unless there is a reasonable, acceptable, and bona fide explanation for the delay.\n- The Court criticized the Department for procedural inefficiencies, such as taking nearly four months to apply for a certified copy of the judgment, despite being aware of the judgment date.\n- The Court highlighted the scope of \"sufficient cause\" and rejected the usual explanation of bureaucratic red tape as inadequate.\n\n#### 3. Dates, Numbers, and Identifiers:\n- **Delay period:** 427 days.\n- **Judgment date of the Division Bench of the High Court:** 11-09-2009.\n- **Date certified copy was applied for:** 08-01-2010 (nearly four months after the judgment).\n- **Case referenced:** *Office of the Chief Postmaster vs Living Media Limited*.\n- **Paragraphs discussed in the judgment:** 25",
+  "summary": "The Supreme Court emphasized that condonation of delay is not a right but an exception requiring reasonable and bona fide justification, rejecting procedural red tape as a valid excuse for government departments' delays.",
   "embedding": [
     0.03864503651857376,
     0.018201064318418503,

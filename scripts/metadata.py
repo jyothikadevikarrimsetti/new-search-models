@@ -57,7 +57,7 @@ def extract_metadata(text):
     for ent in ner_pipeline(text[:5000]):  # Limit text length for NER
         if ent['score'] > 0.8:  # Only keep high confidence entities
             entities.append({
-                'text': ent['word'],
+                'text': ent['word'].strip().lower(),  # Normalize entity text
                 'type': ent['entity_group'],
                 'score': float(ent['score'])
             })
@@ -79,7 +79,7 @@ def extract_metadata(text):
         "keywords": keywords,
         "intent": detected_intent,
         "intent_confidence": intent_confidence,
-        "entities": [e['text'] for e in entities],
+        "entities": [e['text'] for e in entities],  # Already normalized
         "entity_types": list(set(e['type'] for e in entities)),
         "entity_details": entities,
         "summary": summary,

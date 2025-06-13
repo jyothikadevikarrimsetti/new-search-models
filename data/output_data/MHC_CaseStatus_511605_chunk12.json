@@ -12,11 +12,11 @@
     "issued"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.39848167991111,
+  "intent_confidence": 0.3984816799111101,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses a legal dispute involving a petitioner attempting to condone an inordinate delay in filing an application to set aside an ex parte decree after a property was sold in a public auction due to execution proceedings.\n\n2. **Key Points**:  \n   - The petitioner appeared in earlier legal proceedings (EP No. 87 of 2005) through counsel but failed to represent a petition under Order 9 Rule 13 CPC for over four years and four months.  \n   - A subsequent Execution Petition (EP No. 292 of 2006) led to the sale of the petitioner's property in a public auction, with the successful bidder paying the full amount, and the decree-holder withdrawing the deposited amount after the sale was confirmed.  \n   - The petitioner sought to condone a delay of 1581 days in filing an application to set aside the ex parte decree, but the court noted deliberate delay tactics and emphasized substantial justice over the length of the delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - EP No. 87 of 2005 (earlier execution petition).  \n   - EP No. 292 of 2006",
+  "summary": "The petitioner, having deliberately delayed proceedings and evaded service in earlier execution petitions, is not entitled to seek condonation of a 1581-day delay in representing an application to set aside an ex parte decree, as the sale of the property has been completed, confirmed, and satisfied through public auction.",
   "embedding": [
     0.009624248370528221,
     0.010629115626215935,

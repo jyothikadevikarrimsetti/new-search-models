@@ -14,75 +14,75 @@
   "intent": "general_info",
   "intent_confidence": 0.30551849833890027,
   "entities": [
-    " N Balakrishnan",
-    " M Krishnamurthy",
-    " MK Prasad",
-    " P Arumugam",
-    " State of WB",
-    "rah Municipality",
-    " G Ramegowda Major",
-    " Limitation Act",
-    " N Balakrishnan",
-    " M Krishnamurthy"
+    "n balakrishnan",
+    "m krishnamurthy",
+    "mk prasad",
+    "p arumugam",
+    "state of wb",
+    "rah municipality",
+    "g ramegowda major",
+    "limitation act",
+    "n balakrishnan",
+    "m krishnamurthy"
   ],
   "entity_types": [
-    "MISC",
     "PER",
+    "MISC",
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " N Balakrishnan",
+      "text": "n balakrishnan",
       "type": "PER",
       "score": 0.9995840787887573
     },
     {
-      "text": " M Krishnamurthy",
+      "text": "m krishnamurthy",
       "type": "PER",
       "score": 0.9993689656257629
     },
     {
-      "text": " MK Prasad",
+      "text": "mk prasad",
       "type": "PER",
-      "score": 0.9993400573730469
+      "score": 0.9993401169776917
     },
     {
-      "text": " P Arumugam",
+      "text": "p arumugam",
       "type": "PER",
       "score": 0.9993711709976196
     },
     {
-      "text": " State of WB",
+      "text": "state of wb",
       "type": "ORG",
-      "score": 0.9327345490455627
+      "score": 0.932732880115509
     },
     {
-      "text": "rah Municipality",
+      "text": "rah municipality",
       "type": "ORG",
-      "score": 0.8910682201385498
+      "score": 0.8910651206970215
     },
     {
-      "text": " G Ramegowda Major",
+      "text": "g ramegowda major",
       "type": "PER",
-      "score": 0.9939665198326111
+      "score": 0.9939666390419006
     },
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.8724921345710754
+      "score": 0.8724918365478516
     },
     {
-      "text": " N Balakrishnan",
+      "text": "n balakrishnan",
       "type": "PER",
       "score": 0.9995306730270386
     },
     {
-      "text": " M Krishnamurthy",
+      "text": "m krishnamurthy",
       "type": "PER",
       "score": 0.9993926286697388
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. Main Topic/Subject:\nThe text discusses judicial principles regarding the condonation of delays in legal cases under the Limitation Act, emphasizing the importance of substantial justice over procedural technicalities.\n\n#### 2. Key Points:\n- Courts should consider the explanation for delays with utmost care, focusing on whether the delay was caused by mala fides, deliberate inaction, or a dilatory strategy. If no such factors are present, delays should generally be condoned to ensure justice.\n- The length of the delay is less important than the acceptability of the explanation provided, as the Limitation Act aims to serve justice rather than defeat it.\n- Several judgments, including *N. Balakrishnan v. M. Krishnamurthy* and *M.K. Prasad v. P. Arumugam*, have reinforced the principle that \"sufficient cause\" for delay must be liberally construed to advance substantial justice.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case identifiers: \n  - MANUTN21232003\n  - MANUSC05731998 (1998 2 CTC 533)\n  - MANUSC03982001 (2001 6 SCC",
+  "summary": "Courts have emphasized that delays should generally be condoned in the interest of justice if there is no evidence of mala fides, deliberate inaction, or negligence, with the explanation for the delay being the key consideration rather than its length.",
   "embedding": [
     0.025499705225229263,
     0.04566393792629242,

@@ -12,10 +12,10 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3665175825664622,
+  "intent_confidence": 0.3665175825664623,
   "entities": [
-    " Supreme Court",
-    " Limitation Act"
+    "supreme court",
+    "limitation act"
   ],
   "entity_types": [
     "MISC",
@@ -23,17 +23,17 @@
   ],
   "entity_details": [
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
       "score": 0.9977220296859741
     },
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.9521181583404541
+      "score": 0.9521174430847168
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial approach to condoning delays under Section 5 of the Limitation Act, balancing the need for substantial justice with the avoidance of prejudice to the opposing party.\n\n2. **Key Points**:  \n   - Courts should adopt a liberal and pragmatic approach to condone delays when sufficient cause is properly explained, provided there is no negligence, inaction, or lack of bona fide on the part of the applicant.  \n   - Judicial discretion to condone delays must be exercised with vigilance and circumspection, avoiding arbitrary or overly generous decisions, especially when delays could have been avoided with due care.  \n   - In the referenced case, the decree holder was unable to enjoy the decree's benefits for 8 years due to repeated petitions by the defendants, leading the court to reject the trial court's decision to condone a 553-day delay.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Delay of **553 days** in the case under discussion.  \n   - The decree holder was prevented from enjoying the decree's benefits for **8 years**.  \n   - Case reference: **CMP No. 6648 of 2018",
+  "summary": "The court emphasized that while delays under Section 5 of the Limitation Act can be condoned with a pragmatic and liberal approach, such discretion must be exercised judiciously and not arbitrarily, especially when delays could have been avoided with due care.",
   "embedding": [
     0.048029880970716476,
     0.03227520361542702,

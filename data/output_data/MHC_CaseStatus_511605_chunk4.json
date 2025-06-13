@@ -12,11 +12,11 @@
     "interfere"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.38615779692382035,
+  "intent_confidence": 0.38615779692382046,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles and considerations surrounding the condonation of delay in filing or representing petitions in court cases, specifically referencing ASSR No. 19304 of 2018.\n\n2. **Key Points**:  \n   - The length of the delay is not as important as the reasons provided for the delay, which must be properly explained, convincing, and acceptable for the court to condone it.  \n   - Appellate courts should not interfere with a trial court's decision to condone delay unless the discretion exercised is arbitrary or overlooks the interests of the opposing party.  \n   - Each case must be evaluated based on its specific facts and circumstances, and the impact of the delay on the opposing party must be considered.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case identifier: ASSR No. 19304 of 2018.  \n   - CMP No. 6648 of 2018.  \n   - Reference to sections \"6 to 11\" and \"12\".  \n   - URL mentioned: http://www.judis.nic.in.",
+  "summary": "The text discusses the principles governing the condonation of delay in legal cases, emphasizing that the reasons for the delay must be convincing and properly explained, and that appellate courts should not interfere with a trial court's discretion unless it is arbitrary or overlooks vested rights. It also highlights that each case depends on its specific facts and circumstances.",
   "embedding": [
     0.03914398327469826,
     0.030988987535238266,

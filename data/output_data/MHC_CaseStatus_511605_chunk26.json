@@ -12,11 +12,11 @@
     "circumstances"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3302218851327619,
+  "intent_confidence": 0.33022188513276185,
   "entities": [
-    " Esha Bhattacharjee",
-    " Raghunathpur Nafar Academy",
-    "ble Apex Court of India"
+    "esha bhattacharjee",
+    "raghunathpur nafar academy",
+    "ble apex court of india"
   ],
   "entity_types": [
     "PER",
@@ -24,22 +24,22 @@
   ],
   "entity_details": [
     {
-      "text": " Esha Bhattacharjee",
+      "text": "esha bhattacharjee",
       "type": "PER",
       "score": 0.9979114532470703
     },
     {
-      "text": " Raghunathpur Nafar Academy",
+      "text": "raghunathpur nafar academy",
       "type": "ORG",
-      "score": 0.9947700500488281
+      "score": 0.9947699308395386
     },
     {
-      "text": "ble Apex Court of India",
+      "text": "ble apex court of india",
       "type": "ORG",
-      "score": 0.9435176849365234
+      "score": 0.9435178637504578
     }
   ],
-  "summary": "### Analysis and Summary:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses the legal principles surrounding the condonation of delay in filing appeals, emphasizing the discretionary power of the court and the necessity of proving sufficient cause.\n\n#### 2. **Key Points**:\n- Once the limitation period for filing an appeal expires, the decree becomes binding, and this legal right of the decree holder should not be easily disturbed.\n- Courts can condone delays if sufficient cause is shown, but proving sufficient cause is a prerequisite for exercising the court's discretion under Section 5.\n- The diligence and bona fides of the party seeking condonation are critical factors, and the court must consider all relevant facts before granting relief.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:\n- **Case Reference**: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n- **Judgment Citation**: Esha Bhattacharjee Vs Managing Committee of Raghunathpur Nafar Academy & Others (MANU/SC/0932/2013).",
+  "summary": "The expiration of the limitation period grants the decree holder a binding legal right, which should not be easily disturbed, and while courts may condone delays if sufficient cause is shown, such discretion is not automatic and depends on diligence and bona fides, which were found lacking in this case.",
   "embedding": [
     0.05772143229842186,
     0.03354358300566673,

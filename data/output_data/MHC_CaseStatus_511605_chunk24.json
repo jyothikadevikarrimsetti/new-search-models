@@ -14,64 +14,64 @@
   "intent": "general_info",
   "intent_confidence": 0.33460986526298925,
   "entities": [
-    " Limitation Act",
-    " Pundlik Jalam Patil",
-    " ExeEngJalgaon Medium Project",
-    "ble Supreme Court",
-    " Ajit Singh Thakur Singh",
-    " Gujarat",
-    " N Balakrishnan",
-    " MKrishnamurthy"
+    "limitation act",
+    "pundlik jalam patil",
+    "exeengjalgaon medium project",
+    "ble supreme court",
+    "ajit singh thakur singh",
+    "gujarat",
+    "n balakrishnan",
+    "mkrishnamurthy"
   ],
   "entity_types": [
-    "MISC",
     "PER",
-    "ORG",
-    "LOC"
+    "LOC",
+    "MISC",
+    "ORG"
   ],
   "entity_details": [
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.8697684407234192
+      "score": 0.869766891002655
     },
     {
-      "text": " Pundlik Jalam Patil",
+      "text": "pundlik jalam patil",
       "type": "PER",
       "score": 0.9982013702392578
     },
     {
-      "text": " ExeEngJalgaon Medium Project",
+      "text": "exeengjalgaon medium project",
       "type": "ORG",
-      "score": 0.9718155264854431
+      "score": 0.9718157649040222
     },
     {
-      "text": "ble Supreme Court",
+      "text": "ble supreme court",
       "type": "ORG",
-      "score": 0.8629360795021057
+      "score": 0.8629348874092102
     },
     {
-      "text": " Ajit Singh Thakur Singh",
+      "text": "ajit singh thakur singh",
       "type": "PER",
       "score": 0.9981594085693359
     },
     {
-      "text": " Gujarat",
+      "text": "gujarat",
       "type": "LOC",
-      "score": 0.968562126159668
+      "score": 0.9685624241828918
     },
     {
-      "text": " N Balakrishnan",
+      "text": "n balakrishnan",
       "type": "PER",
       "score": 0.9991495013237
     },
     {
-      "text": " MKrishnamurthy",
+      "text": "mkrishnamurthy",
       "type": "PER",
       "score": 0.9973242878913879
     }
   ],
-  "summary": "1. **Main topic/subject:**  \n   The text discusses the judicial exercise of discretionary powers under Section 5 of the Limitation Act, emphasizing the need for reasoned and systematic application within legal bounds.\n\n2. **Key points:**  \n   - Judicial discretionary powers must be exercised systematically, based on reason, and not influenced by whims, prejudices, or personal preferences.  \n   - Courts have ruled that sufficient cause for delays in filing appeals must arise before the expiration of the limitation period, as events occurring after the limitation period cannot justify delays.  \n   - The acceptability of an explanation for delay depends on its genuineness and absence of mala fides, rather than the length of the delay itself.\n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - Case references:  \n     - *Pundlik Jalam Patil D by Lrs Vs ExeEngJalgaon Medium Project & others* (MANU/SC/4694/2004)  \n     - *Ajit Singh Thakur Singh and anr vs State of Gujarat* (1981 1 SCC 495)  \n     - *N Balakrishnan vs M Krishnamurthy* (1998 7 SCC 123)  \n   -",
+  "summary": "Judicial discretionary powers under Section 5 of the Limitation Act must be exercised reasonably, based on systematic reasoning rather than whims, and sufficient cause for delay in filing appeals must arise before the limitation period expires.",
   "embedding": [
     0.04859592393040657,
     0.03989843279123306,

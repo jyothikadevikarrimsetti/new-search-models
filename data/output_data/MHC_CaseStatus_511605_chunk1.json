@@ -12,144 +12,144 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4173045280102154,
+  "intent_confidence": 0.41730452801021534,
   "entities": [
-    " HIGH COURT OF JUDICATURE",
-    " MADRAS",
-    " SMSUBRAMANIAM",
-    "Palanisami",
-    "Kumar",
-    "Thavamalligai",
-    "Arumpayal",
-    "Anandaraj",
-    "Arunachalam",
-    "Balasubramanian",
-    " Code of Civil Procedure",
-    " Civil Procedure Code r",
-    " CPC",
-    " Cuddalore",
-    "PSatheesh Kumar",
-    "RMeenal",
-    " Aadhar Card",
-    " SriArumbayal",
-    " Ramasamy",
-    " Aadhar Card",
-    " Aadhar Card"
+    "high court of judicature",
+    "madras",
+    "smsubramaniam",
+    "palanisami",
+    "kumar",
+    "thavamalligai",
+    "arumpayal",
+    "anandaraj",
+    "arunachalam",
+    "balasubramanian",
+    "code of civil procedure",
+    "civil procedure code r",
+    "cpc",
+    "cuddalore",
+    "psatheesh kumar",
+    "rmeenal",
+    "aadhar card",
+    "sriarumbayal",
+    "ramasamy",
+    "aadhar card",
+    "aadhar card"
   ],
   "entity_types": [
-    "MISC",
     "PER",
     "LOC",
+    "MISC",
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " HIGH COURT OF JUDICATURE",
+      "text": "high court of judicature",
       "type": "ORG",
-      "score": 0.9858868718147278
+      "score": 0.9858867526054382
     },
     {
-      "text": " MADRAS",
+      "text": "madras",
       "type": "LOC",
       "score": 0.996953010559082
     },
     {
-      "text": " SMSUBRAMANIAM",
+      "text": "smsubramaniam",
       "type": "ORG",
-      "score": 0.8306668400764465
+      "score": 0.8306680917739868
     },
     {
-      "text": "Palanisami",
+      "text": "palanisami",
       "type": "PER",
       "score": 0.999516487121582
     },
     {
-      "text": "Kumar",
+      "text": "kumar",
       "type": "PER",
       "score": 0.9983556270599365
     },
     {
-      "text": "Thavamalligai",
+      "text": "thavamalligai",
       "type": "PER",
       "score": 0.9983198046684265
     },
     {
-      "text": "Arumpayal",
+      "text": "arumpayal",
       "type": "PER",
       "score": 0.9992319345474243
     },
     {
-      "text": "Anandaraj",
+      "text": "anandaraj",
       "type": "PER",
       "score": 0.9991341829299927
     },
     {
-      "text": "Arunachalam",
+      "text": "arunachalam",
       "type": "PER",
       "score": 0.9989460706710815
     },
     {
-      "text": "Balasubramanian",
+      "text": "balasubramanian",
       "type": "PER",
       "score": 0.9984555244445801
     },
     {
-      "text": " Code of Civil Procedure",
+      "text": "code of civil procedure",
       "type": "MISC",
-      "score": 0.9773163795471191
+      "score": 0.9773163199424744
     },
     {
-      "text": " Civil Procedure Code r",
+      "text": "civil procedure code r",
       "type": "MISC",
-      "score": 0.9521954655647278
+      "score": 0.952196478843689
     },
     {
-      "text": " CPC",
+      "text": "cpc",
       "type": "MISC",
-      "score": 0.9323532581329346
+      "score": 0.932353675365448
     },
     {
-      "text": " Cuddalore",
+      "text": "cuddalore",
       "type": "LOC",
       "score": 0.9855853915214539
     },
     {
-      "text": "PSatheesh Kumar",
+      "text": "psatheesh kumar",
       "type": "PER",
       "score": 0.9990234971046448
     },
     {
-      "text": "RMeenal",
+      "text": "rmeenal",
       "type": "PER",
       "score": 0.998299241065979
     },
     {
-      "text": " Aadhar Card",
+      "text": "aadhar card",
       "type": "MISC",
       "score": 0.9907019138336182
     },
     {
-      "text": " SriArumbayal",
+      "text": "sriarumbayal",
       "type": "PER",
       "score": 0.9994889497756958
     },
     {
-      "text": " Ramasamy",
+      "text": "ramasamy",
       "type": "PER",
       "score": 0.9988740086555481
     },
     {
-      "text": " Aadhar Card",
+      "text": "aadhar card",
       "type": "MISC",
-      "score": 0.9859285950660706
+      "score": 0.9859287142753601
     },
     {
-      "text": " Aadhar Card",
+      "text": "aadhar card",
       "type": "MISC",
       "score": 0.9903019070625305
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text pertains to a Civil Miscellaneous Petition (CMP No. 6648 of 2018) filed in the High Court of Judicature at Madras to condone a delay of 2,540 days (over 6 years) in filing a first appeal against a judgment and decree dated 30.11.2010.\n\n2. **Key Points**:\n   - The petitioners (Palanisami and Kumar) sought to condone the delay in filing the appeal, citing the time taken to obtain Aadhar Card and Voter ID as proof for their case.\n   - The court found no valid reason to condone such a significant delay, stating that the explanation provided was not acceptable.\n   - The appeal was related to a judgment and decree in OS No. 15 of 2007 from the Principal District Judge, Cuddalore.\n\n3. **Dates, Numbers, or Identifiers**:\n   - Case identifiers: CMP No. 6648 of 2018, ASSR No. 19304 of 2018, OS No. 15 of 2007.\n   - Judgment date: 30.11.2010.",
+  "summary": "The High Court of Madras dismissed a petition to condone a 2540-day delay in filing an appeal, ruling that the appellants' justification of waiting for Aadhar and Voter ID documents was insufficient and lacked valid reasoning.",
   "embedding": [
     0.04772104322910309,
     -0.001782245235517621,

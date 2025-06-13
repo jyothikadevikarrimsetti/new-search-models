@@ -65,8 +65,8 @@ def load_intent_examples():
 def extract_query_metadata(query: str) -> Dict[str, Any]:
     """Extract metadata fields from a query for filtering."""
     doc = nlp(query)
-    # Extract entities
-    entities = [ent.text for ent in doc.ents]
+    # Extract entities (normalize: strip, lowercase)
+    entities = [ent.text.strip().lower() for ent in doc.ents]
     # Load intent examples
     intent_examples = load_intent_examples()
     # Encode query
@@ -110,10 +110,15 @@ def generate_filter(query: str) -> Optional[Dict[str, Any]]:
     if metadata["intent"]:
         filter_dict["intent"] = {"$eq": metadata["intent"]}
     # Add entity filters if found
-    if metadata["entities"]:
-        import re
-        entity_pattern = "|".join(re.escape(e) for e in metadata["entities"])
-        filter_dict["entities"] = {"$contains": entity_pattern}
+    norm_entities = [e.strip().lower() for e in metadata["entities"]]
+    if norm_entities:
+        filter_dict["entities"] = {"$in": norm_entities}
+    # Fallback: if no intent/entities, but keywords exist, use keywords as entity filter
+    if not filter_dict and metadata["keywords"]:
+        norm_keywords = [k.strip().lower() for k in metadata["keywords"]]
+        if norm_keywords:
+            filter_dict["entities"] = {"$in": norm_keywords}
+            print(f"[FilterUtils] Fallback: using keywords as entity filter.")
     print(f"[FilterUtils] Final generated filter: {filter_dict if filter_dict else None}")
     return filter_dict if filter_dict else None
 

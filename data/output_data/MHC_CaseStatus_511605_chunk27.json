@@ -12,27 +12,27 @@
     "pedantic"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.33164488361783623,
+  "intent_confidence": 0.33164488361783634,
   "entities": [
-    " Raghunathpur Nafar Academy",
-    " Apex Court of India"
+    "raghunathpur nafar academy",
+    "apex court of india"
   ],
   "entity_types": [
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " Raghunathpur Nafar Academy",
+      "text": "raghunathpur nafar academy",
       "type": "ORG",
       "score": 0.9964148998260498
     },
     {
-      "text": " Apex Court of India",
+      "text": "apex court of india",
       "type": "ORG",
       "score": 0.9989575147628784
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles outlined by the Supreme Court of India regarding the condonation of delay in legal cases, emphasizing a justice-oriented and pragmatic approach.\n\n2. **Key Points**:  \n   - Courts should adopt a liberal, justice-oriented approach to condonation of delay, avoiding pedantic or overly technical considerations to prevent injustice.  \n   - The term \"sufficient cause\" should be interpreted flexibly and contextually, with a focus on substantial justice over technicalities.  \n   - Factors such as gross negligence, lack of bona fides, and the distinction between inordinate and short delays should be carefully considered to ensure fairness and prevent failure of justice.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case identifier: **MANUSC09322013**  \n   - Case reference: **CMP No. 6648 of 2018 in ASSR No. 19304 of 2018**  \n   - Number: **2733**  \n   - Observation point: **15**",
+  "summary": "The Hon'ble Apex Court of India emphasized a justice-oriented, pragmatic approach to condonation of delay, balancing substantial justice with reasonableness while avoiding undue technicalities or negligence that could lead to injustice.",
   "embedding": [
     0.027258416637778282,
     0.04246073588728905,

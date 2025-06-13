@@ -12,47 +12,47 @@
     "srinivasan"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3204513312785985,
+  "intent_confidence": 0.3204513312785986,
   "entities": [
-    " Nadu Mercantile Bank Ltd Tutic",
-    " Appellate Authority",
-    " Tamil Nadu",
-    " Act Madurai",
-    " M Srinivasan"
+    "nadu mercantile bank ltd tutic",
+    "appellate authority",
+    "tamil nadu",
+    "act madurai",
+    "m srinivasan"
   ],
   "entity_types": [
-    "MISC",
     "PER",
+    "MISC",
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " Nadu Mercantile Bank Ltd Tutic",
+      "text": "nadu mercantile bank ltd tutic",
       "type": "ORG",
-      "score": 0.9493311047554016
+      "score": 0.94933021068573
     },
     {
-      "text": " Appellate Authority",
+      "text": "appellate authority",
       "type": "ORG",
-      "score": 0.815968930721283
+      "score": 0.8159642815589905
     },
     {
-      "text": " Tamil Nadu",
+      "text": "tamil nadu",
       "type": "MISC",
-      "score": 0.8286465406417847
+      "score": 0.8286460638046265
     },
     {
-      "text": " Act Madurai",
+      "text": "act madurai",
       "type": "MISC",
-      "score": 0.8664073348045349
+      "score": 0.866406261920929
     },
     {
-      "text": " M Srinivasan",
+      "text": "m srinivasan",
       "type": "PER",
       "score": 0.9990903735160828
     }
   ],
-  "summary": "1. **Main topic/subject:**  \nThe text discusses the principles and legal position regarding the rule of limitation in court proceedings, specifically addressing the condonation of delays in filing cases.\n\n2. **Key points:**  \n   - A litigant cannot assume that no prejudice will be caused to the opposing party by condoning delays, as the other party may have destroyed relevant records due to the lapse of time. Each case must be evaluated based on its specific facts and circumstances.  \n   - The length of the delay is a critical factor in deciding whether to condone it, and litigants cannot arbitrarily set their own limitation periods when the law prescribes specific timeframes.  \n   - If a party loses the right to have their case considered due to prolonged inaction, they cannot argue for substantial justice over technical considerations, as the delay is presumed to be deliberate.\n\n3. **Dates, numbers, or identifiers mentioned:**  \n   - Case identifiers: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Paragraph references: Paragraphs 14 and 17.  \n   - URL mentioned: http://www.judis.nic.in  \n   - Year: 2033 (possibly a typo or future reference",
+  "summary": "The case emphasizes that delays in legal proceedings must be justified based on the specific facts and circumstances, as litigants cannot set their own timelines contrary to prescribed limitations, and substantial justice cannot override deliberate inaction.",
   "embedding": [
     0.024523485451936722,
     -0.0035468856804072857,

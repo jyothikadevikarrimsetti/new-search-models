@@ -60,6 +60,8 @@ with col2:
         st.markdown("**Active Filter:**")
         st.json(filter_dict)
 
+MIN_RERANK_SCORE = 0.5  # Minimum reranking score for a result to be considered relevant
+
 if st.button("Search") and query:
     with st.spinner("Searching..."):
         # If no manual filter, generate automatically
@@ -67,9 +69,17 @@ if st.button("Search") and query:
         if search_type == "Dense":
             st.write("### Dense Search Results")
             result = search_query(query, top_k=top_k, filter=auto_filter)
-            if result:
+            # Check for no results or low reranking score
+            no_results = not result or not result.get('results')
+            low_score = (
+                result and result.get('reranking_score') is not None and
+                result.get('reranking_score') < MIN_RERANK_SCORE
+            )
+            if no_results or low_score:
+                st.info("No results found.")
+            else:
                 st.markdown(f"**LLM Answer:**\n{result['answer']}")
-                st.markdown(f"_Search Time: {result['search_time']:.2f} seconds_")
+                st.markdown(f"_Search Time: {result.get('search_time', 0.0):.2f} seconds_")
                 st.write("---")
                 for doc in result['results']:
                     st.markdown(f"**Document:** {doc.get('document_name','')}")
@@ -89,12 +99,17 @@ if st.button("Search") and query:
                         st.markdown(f"Cosine Score: {doc['cosine_score']:.6f}")
                     st.markdown(f"Summary: {doc.get('summary','')[:500]}")
                     st.write("---")
-            else:
-                st.info("No results found.")
         else:
             st.write("### Hybrid Search Results")
             result = hybrid_search(query, top_k=top_k, filter=auto_filter)
-            if result:
+            no_results = not result or not result.get('results')
+            low_score = (
+                result and result.get('reranking_score') is not None and
+                result.get('reranking_score') < MIN_RERANK_SCORE
+            )
+            if no_results or low_score:
+                st.info("No results found.")
+            else:
                 st.markdown(f"**LLM Answer (Top Result):**\n{result.get('answer', '')}")
                 st.markdown(f"**Time Taken:** {result.get('time_complexity', '')}")
                 st.write("---")
@@ -108,8 +123,6 @@ if st.button("Search") and query:
                         st.markdown(f"Sparse Score: {doc.get('sparse_score', ''):.6f}" if doc.get('sparse_score') is not None else "")
                         st.markdown(f"Summary: {doc.get('summary', '')[:500]}")
                         st.write("---")
-            else:
-                st.info("No results found.")
 
 st.markdown("---")
 st.caption("Built with Streamlit, Pinecone, and Azure OpenAI.")

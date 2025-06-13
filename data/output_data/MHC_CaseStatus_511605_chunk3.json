@@ -14,32 +14,32 @@
   "intent": "general_info",
   "intent_confidence": 0.31526178478008243,
   "entities": [
-    " Limitation Act",
-    " Zulaiha Syed Mohideen",
-    " DVisalakshi Ammal Others"
+    "limitation act",
+    "zulaiha syed mohideen",
+    "dvisalakshi ammal others"
   ],
   "entity_types": [
-    "MISC",
-    "PER"
+    "PER",
+    "MISC"
   ],
   "entity_details": [
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.8792349696159363
+      "score": 0.8792333602905273
     },
     {
-      "text": " Zulaiha Syed Mohideen",
+      "text": "zulaiha syed mohideen",
       "type": "PER",
       "score": 0.9986218214035034
     },
     {
-      "text": " DVisalakshi Ammal Others",
+      "text": "dvisalakshi ammal others",
       "type": "PER",
-      "score": 0.9927705526351929
+      "score": 0.9927706718444824
     }
   ],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles and considerations for condoning delays in court proceedings, emphasizing the cautious exercise of discretionary power by courts.\n\n2. **Key Points**:  \n   - Courts must exercise discretionary power cautiously and only when genuine reasons for delay are established; unexplained delays are deemed uncondonable.  \n   - The Limitation Act's purpose and object would be defeated if delays are routinely condoned without proper justification.  \n   - Legal principles for condoning delays are well-settled, and courts must avoid a mechanical or routine approach to delay condonation.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - CMP Nos. 8358 and 8359 of 2018 in ASSR No. 32087 of 2018, dated 09.12.2019.  \n   - Case reference: Zulaiha Syed Mohideen Vs. D. Visalakshi Ammal & Others, reported in MANU/TN/2222/2013.",
+  "summary": "Courts must exercise discretion cautiously when condoning delays, ensuring genuine reasons are provided, as unexplained delays undermine the purpose of the Limitation Act and cannot be condoned.",
   "embedding": [
     0.06346984207630157,
     0.04159814491868019,

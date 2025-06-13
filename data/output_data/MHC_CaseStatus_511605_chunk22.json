@@ -14,11 +14,11 @@
   "intent": "general_info",
   "intent_confidence": 0.3304019731205083,
   "entities": [
-    " Damocles",
-    " Lanka Venkateswarlu D",
-    " LRs",
-    "ble Supreme Court",
-    " M Balakrishnan"
+    "damocles",
+    "lanka venkateswarlu d",
+    "lrs",
+    "ble supreme court",
+    "m balakrishnan"
   ],
   "entity_types": [
     "PER",
@@ -26,32 +26,32 @@
   ],
   "entity_details": [
     {
-      "text": " Damocles",
+      "text": "damocles",
       "type": "PER",
-      "score": 0.8300876021385193
+      "score": 0.8300862908363342
     },
     {
-      "text": " Lanka Venkateswarlu D",
+      "text": "lanka venkateswarlu d",
       "type": "PER",
-      "score": 0.948792040348053
+      "score": 0.9487905502319336
     },
     {
-      "text": " LRs",
+      "text": "lrs",
       "type": "ORG",
-      "score": 0.8584421277046204
+      "score": 0.8584423661231995
     },
     {
-      "text": "ble Supreme Court",
+      "text": "ble supreme court",
       "type": "ORG",
-      "score": 0.8785710334777832
+      "score": 0.8785699009895325
     },
     {
-      "text": " M Balakrishnan",
+      "text": "m balakrishnan",
       "type": "PER",
       "score": 0.997930645942688
     }
   ],
-  "summary": "1. **Main Topic/Subject:**  \nThe text discusses the legal principles and considerations surrounding the condonation of delays in filing appeals, emphasizing the need for equity, public policy, and a case-by-case approach.\n\n2. **Key Points:**  \n   - Courts adopt a liberal approach when considering applications for condonation of delay, provided the delay is not caused by deliberate misconduct or lack of bona fides by the applicant.  \n   - Delays that cause prejudice to the opposing party or are filed without genuine intent cannot be condoned, as the principle of limitation is rooted in public policy and equity.  \n   - A mechanical or routine approach is impermissible, especially for delays of longer durations, and each case must be assessed on its merits.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Case references: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - Mention of \"2133\" and \"2233\" (context unclear, possibly typographical errors or placeholders).  \n   - Case citation: Lanka Venkateswarlu D by LRs Vs State of AP (MANU/SC/0153/2011).  \n   - Reference to M",
+  "summary": "Courts emphasize a liberal approach in condoning delays unless there is a lack of bona fides or an attempt to mislead the court, balancing public policy and equity while avoiding a mechanical approach, especially for significant delays.",
   "embedding": [
     0.04756597429513931,
     0.012934035621583462,

@@ -12,33 +12,33 @@
     "filing"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3968315279175537,
+  "intent_confidence": 0.39683152791755366,
   "entities": [
-    " Living Media India Limited",
-    " Supreme Court",
-    " Supreme Court"
+    "living media india limited",
+    "supreme court",
+    "supreme court"
   ],
   "entity_types": [
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " Living Media India Limited",
+      "text": "living media india limited",
       "type": "ORG",
       "score": 0.9984496235847473
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9972267150878906
+      "score": 0.9972266554832458
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9971790313720703
+      "score": 0.9971789121627808
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The court dismissed a petition to condone a delay of 1581 days in representing an application to set aside an ex parte decree, citing abuse of process of law and lack of satisfactory explanation for the delay.\n\n2. **Key Points**:  \n   - The petitioner failed to justify the inordinate delay of 1581 days in representing an unnumbered application under Order 9 Rule 13 CPC, leading the court to dismiss the petition as an abuse of process.  \n   - The court emphasized the principle of substantial justice, ruling that allowing the petition would cause injustice to the second respondent (auction purchaser) and the first respondent (decree holder).  \n   - Reference was made to the Supreme Court's decision in *Postmaster General vs. Living Media India Limited (2012 3 SCC 563)*, which held that condonation of delay should not be treated as an anticipated benefit and must be supported by reasonable and acceptable explanations.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Execution Petition: EP No. 87 of 2005.  \n   - Delay in representing the application: 1581 days.  \n   - Case reference:",
+  "summary": "The court dismissed the petitioner's request to condone a 1581-day delay in representing an application to set aside an ex parte decree, citing insufficient explanation for the delay and deeming the petition an abuse of legal process that would unjustly affect the respondents.",
   "embedding": [
     0.023190952837467194,
     0.01646912842988968,

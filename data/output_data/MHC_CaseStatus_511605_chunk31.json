@@ -12,10 +12,10 @@
     "assrno19304"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4086330799645401,
+  "intent_confidence": 0.4086330799645403,
   "entities": [
-    " Cuddalore",
-    " SMSUBRAMANIAM"
+    "cuddalore",
+    "smsubramaniam"
   ],
   "entity_types": [
     "PER",
@@ -23,17 +23,17 @@
   ],
   "entity_details": [
     {
-      "text": " Cuddalore",
+      "text": "cuddalore",
       "type": "LOC",
       "score": 0.9877274632453918
     },
     {
-      "text": " SMSUBRAMANIAM",
+      "text": "smsubramaniam",
       "type": "PER",
-      "score": 0.9750609397888184
+      "score": 0.9750617742538452
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The court dismissed a civil miscellaneous petition due to a significant delay in filing the appeal suit.\n\n2. **Key Points**:\n   - The appeal suit faced a delay of 2,540 days in filing, leading the court to reject the petition at the SR stage.\n   - The civil miscellaneous petition (CMP No. 6648 of 2018) and the associated appeal suit (ASSR No. 19304 of 2018) were dismissed without costs.\n   - The court issued a speaking order and directed communication to the Principal District Judge in Cuddalore.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - **Delay**: 2,540 days.\n   - **Case Numbers**: CMP No. 6648 of 2018, ASSR No. 19304 of 2018.\n   - **Date**: December 19, 2019.\n   - **Judge**: S. Subramaniam J.\n   - **Website Reference**: http://www.judis.nic.in.",
+  "summary": "The court dismissed CMP No. 6648 of 2018 and rejected ASSR No. 19304 of 2018 due to a 2,540-day delay in filing the appeal.",
   "embedding": [
     0.04136616364121437,
     -0.010311583057045937,

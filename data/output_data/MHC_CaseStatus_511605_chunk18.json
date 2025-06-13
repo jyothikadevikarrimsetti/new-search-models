@@ -14,15 +14,15 @@
   "intent": "general_info",
   "intent_confidence": 0.3444510649170291,
   "entities": [
-    " N Balakrishnan",
-    " M Krishnamurthy",
-    " Supreme Court",
-    " Ram Nath Sao Ram Sahu",
-    " Gobardhan Sap",
-    " High Court",
-    " CTC",
-    " C Subraniam",
-    " Tamil Nadu Housing Board"
+    "n balakrishnan",
+    "m krishnamurthy",
+    "supreme court",
+    "ram nath sao ram sahu",
+    "gobardhan sap",
+    "high court",
+    "ctc",
+    "c subraniam",
+    "tamil nadu housing board"
   ],
   "entity_types": [
     "PER",
@@ -30,52 +30,52 @@
   ],
   "entity_details": [
     {
-      "text": " N Balakrishnan",
+      "text": "n balakrishnan",
       "type": "PER",
       "score": 0.9996636509895325
     },
     {
-      "text": " M Krishnamurthy",
+      "text": "m krishnamurthy",
       "type": "PER",
       "score": 0.9994975924491882
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
-      "score": 0.9973810911178589
+      "score": 0.9973810315132141
     },
     {
-      "text": " Ram Nath Sao Ram Sahu",
+      "text": "ram nath sao ram sahu",
       "type": "PER",
-      "score": 0.9603549838066101
+      "score": 0.9603546261787415
     },
     {
-      "text": " Gobardhan Sap",
+      "text": "gobardhan sap",
       "type": "PER",
-      "score": 0.992673397064209
+      "score": 0.9926735162734985
     },
     {
-      "text": " High Court",
+      "text": "high court",
       "type": "ORG",
-      "score": 0.9331626296043396
+      "score": 0.9331637620925903
     },
     {
-      "text": " CTC",
+      "text": "ctc",
       "type": "ORG",
-      "score": 0.8834244012832642
+      "score": 0.8834265470504761
     },
     {
-      "text": " C Subraniam",
+      "text": "c subraniam",
       "type": "PER",
-      "score": 0.9244322776794434
+      "score": 0.9244345426559448
     },
     {
-      "text": " Tamil Nadu Housing Board",
+      "text": "tamil nadu housing board",
       "type": "ORG",
       "score": 0.9984091520309448
     }
   ],
-  "summary": "### Summary of Text Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the legal principles surrounding the condonation of delay in judicial proceedings, emphasizing the importance of justice over procedural technicalities.\n\n2. **Key Points**:  \n   - Courts should prioritize the acceptability of the explanation for the delay rather than the length of the delay, unless there is evidence of mala fide intent or deliberate delay tactics.  \n   - Acceptance of the explanation for delay should generally be the rule, and refusal should be an exception, especially when negligence, inaction, or lack of bona fides cannot be attributed to the defaulting party.  \n   - While condoning delays, courts must consider that a valuable right may have accrued to the opposing party due to the delay, which should not be defeated lightly or routinely.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case references:  \n     - **N Balakrishnan v M Krishnamurthy**  \n     - **Ram Nath Sao Ram Sahu & Others v Gobardhan Sap & Others** (MANUSC01352002, 2002-3 SCC 195, 2002-3-LW417)  \n     - **C Subr",
+  "summary": "Courts should prioritize justice by liberally construing \"sufficient cause\" for condoning delays, focusing on the acceptability of explanations rather than the length of delay, unless mala fide intent or negligence is evident.",
   "embedding": [
     0.026706917211413383,
     0.04192781448364258,

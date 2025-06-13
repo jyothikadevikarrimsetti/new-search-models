@@ -12,21 +12,21 @@
     "inaction"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.35216363296459324,
+  "intent_confidence": 0.35216363296459335,
   "entities": [
-    " Damocles"
+    "damocles"
   ],
   "entity_types": [
     "PER"
   ],
   "entity_details": [
     {
-      "text": " Damocles",
+      "text": "damocles",
       "type": "PER",
-      "score": 0.9302165508270264
+      "score": 0.9302166104316711
     }
   ],
-  "summary": "### Summary of the Text:\n\n#### 1. **Main Topic/Subject**:  \nThe text discusses the principles surrounding the condonation of delay in legal proceedings, emphasizing the balance between substantial justice and technical considerations.\n\n#### 2. **Key Points**:  \n- Rules of limitation are rooted in public policy and equity, and delays should not be condoned if caused by deliberate inaction or lack of bona fides.  \n- Courts should adopt a liberal approach when considering applications for condonation of delay, provided the delay is not due to deliberate conduct and the party offers a reasonable explanation.  \n- Monetary compensation can be used to mitigate prejudice caused to the opposing party when condoning delays.\n\n#### 3. **Dates, Numbers, or Identifiers Mentioned**:  \n- CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n- Reference to \"2133\" (context unclear, possibly a typographical error or identifier).  \n- URL: http://www.judis.nic.in",
+  "summary": "The court emphasized that limitation rules are grounded in public policy and equity, and while a liberal approach may be taken for condoning delays, no leniency should be shown if the delay results from a lack of bona fides or deliberate misconduct by the party seeking condonation.",
   "embedding": [
     0.038764145225286484,
     0.014299950562417507,

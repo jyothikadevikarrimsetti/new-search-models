@@ -12,11 +12,11 @@
     "occasioned"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.32971440715678924,
+  "intent_confidence": 0.3297144071567893,
   "entities": [
-    " LLN",
-    " Tamil Nadu Mercantile Bank Ltd Tuticorin",
-    " M Srinivasan"
+    "lln",
+    "tamil nadu mercantile bank ltd tuticorin",
+    "m srinivasan"
   ],
   "entity_types": [
     "PER",
@@ -24,22 +24,22 @@
   ],
   "entity_details": [
     {
-      "text": " LLN",
+      "text": "lln",
       "type": "ORG",
-      "score": 0.9908900856971741
+      "score": 0.9908901453018188
     },
     {
-      "text": " Tamil Nadu Mercantile Bank Ltd Tuticorin",
+      "text": "tamil nadu mercantile bank ltd tuticorin",
       "type": "ORG",
-      "score": 0.9956521987915039
+      "score": 0.9956523776054382
     },
     {
-      "text": " M Srinivasan",
+      "text": "m srinivasan",
       "type": "PER",
       "score": 0.9991048574447632
     }
   ],
-  "summary": "### Analysis and Summary:\n\n1. **Main Topic/Subject**:  \n   The text discusses the principles and judicial discretion involved in condoning delays under rules of limitation in legal cases.\n\n2. **Key Points**:  \n   - **Judicial Discretion**: The condonation of delay is at the discretion of the court, and the length of the delay is less important than the acceptability of the explanation provided. Courts should exercise discretion positively unless it is wholly untenable or perverse.  \n   - **Purpose of Limitation Rules**: Limitation rules are designed to ensure parties seek remedies promptly and avoid dilatory tactics, rather than to destroy their rights.  \n   - **Considerations for Delay**: Courts should show consideration to parties if the delay does not appear to be malicious or part of a dilatory strategy. However, if the delay is deliberate to gain time, courts should lean against accepting the explanation and must also consider the impact on the opposing party.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - **Case Reference**: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.  \n   - **Year**: 1933 (mentioned in relation",
+  "summary": "The determination of \"sufficient cause\" for condoning delays is a matter of judicial discretion based on the acceptability of the explanation, not the length of the delay, and such discretion should not be disturbed unless exercised perversely, with the aim of ensuring justice without enabling dilatory tactics.",
   "embedding": [
     0.02463664300739765,
     0.022297142073512077,

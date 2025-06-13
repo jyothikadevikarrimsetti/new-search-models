@@ -12,11 +12,11 @@
     "dispensation"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3141686876490149,
+  "intent_confidence": 0.314168687649015,
   "entities": [
-    "ble Supreme Court",
-    " Esha Bhattacharjee",
-    "ble Apex Court"
+    "ble supreme court",
+    "esha bhattacharjee",
+    "ble apex court"
   ],
   "entity_types": [
     "PER",
@@ -24,22 +24,22 @@
   ],
   "entity_details": [
     {
-      "text": "ble Supreme Court",
+      "text": "ble supreme court",
       "type": "ORG",
-      "score": 0.8900741934776306
+      "score": 0.8900737762451172
     },
     {
-      "text": " Esha Bhattacharjee",
+      "text": "esha bhattacharjee",
       "type": "PER",
       "score": 0.9959009289741516
     },
     {
-      "text": "ble Apex Court",
+      "text": "ble apex court",
       "type": "ORG",
-      "score": 0.8372352123260498
+      "score": 0.837235152721405
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. Main Topic/Subject:\nThe text discusses the guidelines and principles for drafting and adjudicating applications for condonation of delay in legal cases, emphasizing the importance of judicial discretion, consistency, and adherence to the law of limitation.\n\n#### 2. Key Points:\n- Applications for condonation of delay must be carefully drafted and not treated as a routine matter, as courts are not obligated to condone delays without valid reasoning.\n- Judicial discretion should aim for consistency and collegiality, avoiding subjective or casual approaches to delay condonation.\n- The Supreme Court's judgment in the case of *Esha Bhattacharjee* provides guiding principles, emphasizing a balance between a liberal approach and the substantial law of limitation, which must be strictly followed.\n\n#### 3. Dates, Numbers, or Identifiers Mentioned:\n- Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018\n- Judgment cited: *Esha Bhattacharjee* case\n- Number: 2933 (context unclear but mentioned in the text)",
+  "summary": "Applications for condonation of delay must be carefully drafted and evaluated with consistency, avoiding a casual approach, as guided by the Supreme Court in *Esha Bhattacharjee*, which emphasizes balancing liberal and reasonable approaches within the framework of limitation laws.",
   "embedding": [
     0.04600727558135986,
     0.016076046973466873,

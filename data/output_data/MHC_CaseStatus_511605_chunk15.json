@@ -12,11 +12,11 @@
     "negligence"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.4200471740024598,
+  "intent_confidence": 0.42004717400245983,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "### Summary of the Text:\n\n1. **Main Topic/Subject:**  \n   The text discusses the issue of delay in filing a certified copy and subsequent legal proceedings, highlighting the lack of diligence and plausible explanation by the concerned department or individuals.\n\n2. **Key Points:**  \n   - A certified copy was applied for only on January 8, 2010, nearly four months after the prescribed period, with no adequate explanation provided for the delay.  \n   - The affidavit and other dates reveal consistent delays at every stage, with no justification for the lack of timely action by the department or its personnel.  \n   - The court questions why delays should be condoned automatically for government entities, especially when competent individuals familiar with legal procedures were involved.\n\n3. **Dates, Numbers, or Identifiers Mentioned:**  \n   - Date: January 8, 2010 (08012010)  \n   - Case Identifier: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018  \n   - Timeframe: Nearly four months delay",
+  "summary": "The court criticized the lack of diligence and plausible explanation for delays in filing a special leave petition, emphasizing that the government cannot expect automatic condonation of delay without demonstrating genuine effort or unavoidable circumstances.",
   "embedding": [
     0.05173252522945404,
     0.031319547444581985,

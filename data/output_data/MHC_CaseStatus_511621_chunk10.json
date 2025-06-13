@@ -14,39 +14,39 @@
   "intent": "general_info",
   "intent_confidence": 0.31650444415181883,
   "entities": [
-    " G Jayaraman",
-    " Devarajan",
-    " Supreme Court",
-    " Limitation Act"
+    "g jayaraman",
+    "devarajan",
+    "supreme court",
+    "limitation act"
   ],
   "entity_types": [
-    "MISC",
     "PER",
+    "MISC",
     "ORG"
   ],
   "entity_details": [
     {
-      "text": " G Jayaraman",
+      "text": "g jayaraman",
       "type": "PER",
       "score": 0.9923523664474487
     },
     {
-      "text": " Devarajan",
+      "text": "devarajan",
       "type": "PER",
       "score": 0.9990372061729431
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
       "score": 0.9972394704818726
     },
     {
-      "text": " Limitation Act",
+      "text": "limitation act",
       "type": "MISC",
-      "score": 0.931980550289154
+      "score": 0.9319806098937988
     }
   ],
-  "summary": "### Summary and Analysis:\n\n1. **Main Topic/Subject**:  \n   The text discusses the judicial principles surrounding the condonation of delays in legal proceedings, emphasizing the need for vigilance and fairness in exercising discretion.\n\n2. **Key Points**:  \n   - Courts must exercise discretion in condoning delays with vigilance and not arbitrarily, ensuring that the rights of the opposing party are not prejudiced.  \n   - In the case *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*, a delay of 553 days in filing an application to set aside a decree was deemed unjustifiable, as it caused significant prejudice to the decree holder.  \n   - While courts generally adopt a liberal approach to \"sufficient cause\" under Section 5 of the Limitation Act, this should not be misused to indefinitely delay justice or harm the rights of the other party.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:  \n   - Case: *G. Jayaraman vs. Devarajan (2007 2 CTC 643)*  \n   - Delay: 553 days  \n   - URL reference: \"http://www.judis.nic.in CMPNo3003 of 2008\"",
+  "summary": "The court emphasized that delay in legal proceedings should not be condoned arbitrarily or as a matter of judicial generosity, especially when it prejudices the opposing party, and highlighted the need for vigilance and fairness in exercising discretion under the Limitation Act.",
   "embedding": [
     0.05758599936962128,
     0.02540704235434532,

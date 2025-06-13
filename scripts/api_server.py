@@ -37,6 +37,8 @@ class Result():
         self.search_time = search_time
         self.reranking_score = reranking_score
 
+MIN_RERANK_SCORE = 0.5  # Minimum score for a result to be considered relevant
+
 @app.post("/search/dense", tags=["search"])
 def dense_search(request: DenseSearchRequest):
     try:
@@ -48,8 +50,13 @@ def dense_search(request: DenseSearchRequest):
             top_k=request.top_k,
             metadata_filter=filter_dict
         )
-        # If no results, show 'Document not found'
-        if not results.get('results'):
+        # If no results, or low reranking score, show 'Document not found'
+        no_results = not results.get('results')
+        low_score = (
+            results.get('reranking_score') is not None and
+            results.get('reranking_score') < MIN_RERANK_SCORE
+        )
+        if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
         result = Result(
             DocumentName=results.get('document_name', 'Unknown'),
@@ -74,8 +81,12 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             alpha=request.alpha,
             metadata_filter=filter_dict
         )
-        # If no results, show 'Document not found'
-        if not results.get('results'):
+        no_results = not results.get('results')
+        low_score = (
+            results.get('reranking_score') is not None and
+            results.get('reranking_score') < MIN_RERANK_SCORE
+        )
+        if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
         result = Result(
             DocumentName=results.get('document_name', 'Unknown'),

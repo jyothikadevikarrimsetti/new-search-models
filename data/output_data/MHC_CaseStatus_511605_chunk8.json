@@ -14,25 +14,25 @@
   "intent": "general_info",
   "intent_confidence": 0.32636268547578207,
   "entities": [
-    " G Jayaraman",
-    " Devarajan"
+    "g jayaraman",
+    "devarajan"
   ],
   "entity_types": [
     "PER"
   ],
   "entity_details": [
     {
-      "text": " G Jayaraman",
+      "text": "g jayaraman",
       "type": "PER",
       "score": 0.9915077686309814
     },
     {
-      "text": " Devarajan",
+      "text": "devarajan",
       "type": "PER",
       "score": 0.9983730316162109
     }
   ],
-  "summary": "1. **Main Topic/Subject**: The text discusses the principles and considerations for condoning delays in legal applications, emphasizing the need for bona fide reasons and judicial discretion.\n\n2. **Key Points**:\n   - Courts should not condone delays if there is a lack of bona fides or an attempt to mislead the Court by the party applying for condonation.\n   - The number of days of delay is less significant than the attitude and explanation provided by the party; delays caused by genuine reasons may be condoned with adequate compensation to the opposing party.\n   - Judicial discretion in condoning delays should be exercised cautiously, keeping in mind the rights of the opposing party and avoiding arbitrary or vague decisions.\n\n3. **Dates, Numbers, or Identifiers Mentioned**:\n   - Case reference: CMP No. 6648 of 2018 in ASSR No. 19304 of 2018.\n   - Decision cited: G. Jayaraman vs. Devarajan, 2007 (2) CTC 643.\n   - Mention of a delay period: 553 days in filing an application to set aside a decree.",
+  "summary": "Courts should condone delays only when the party demonstrates genuine reasons for the delay, ensuring no deliberate misconduct, and must balance this with compensating any prejudice caused to the opposing party, exercising discretion cautiously and not arbitrarily.",
   "embedding": [
     0.03204810619354248,
     0.019755173474550247,

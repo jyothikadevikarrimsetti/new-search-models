@@ -12,20 +12,20 @@
     "delay"
   ],
   "intent": "general_info",
-  "intent_confidence": 0.3757746789234899,
+  "intent_confidence": 0.3757746789234901,
   "entities": [
-    " Kandaswamy",
-    " Krishnamandiram Trust Karur",
-    "TC",
-    " Supreme Court",
-    " MK Prasad",
-    " P Arumugam",
-    " Supreme Court Cases",
-    " Sundar Gnanaolivu",
-    " Mr Rukmini",
-    " Rajendran Gnanavolivu",
-    " Veina Gnanavalivu",
-    " Law Weekly"
+    "kandaswamy",
+    "krishnamandiram trust karur",
+    "tc",
+    "supreme court",
+    "mk prasad",
+    "p arumugam",
+    "supreme court cases",
+    "sundar gnanaolivu",
+    "mr rukmini",
+    "rajendran gnanavolivu",
+    "veina gnanavalivu",
+    "law weekly"
   ],
   "entity_types": [
     "PER",
@@ -33,67 +33,67 @@
   ],
   "entity_details": [
     {
-      "text": " Kandaswamy",
+      "text": "kandaswamy",
       "type": "PER",
       "score": 0.9985544085502625
     },
     {
-      "text": " Krishnamandiram Trust Karur",
+      "text": "krishnamandiram trust karur",
       "type": "ORG",
-      "score": 0.9964300990104675
+      "score": 0.9964300394058228
     },
     {
-      "text": "TC",
+      "text": "tc",
       "type": "ORG",
-      "score": 0.8197200298309326
+      "score": 0.8197205066680908
     },
     {
-      "text": " Supreme Court",
+      "text": "supreme court",
       "type": "ORG",
       "score": 0.9981772303581238
     },
     {
-      "text": " MK Prasad",
+      "text": "mk prasad",
       "type": "PER",
       "score": 0.9991172552108765
     },
     {
-      "text": " P Arumugam",
+      "text": "p arumugam",
       "type": "PER",
       "score": 0.9987359046936035
     },
     {
-      "text": " Supreme Court Cases",
+      "text": "supreme court cases",
       "type": "ORG",
-      "score": 0.8995275497436523
+      "score": 0.8995268940925598
     },
     {
-      "text": " Sundar Gnanaolivu",
+      "text": "sundar gnanaolivu",
       "type": "PER",
       "score": 0.9991675019264221
     },
     {
-      "text": " Mr Rukmini",
+      "text": "mr rukmini",
       "type": "PER",
-      "score": 0.869784414768219
+      "score": 0.8697845339775085
     },
     {
-      "text": " Rajendran Gnanavolivu",
+      "text": "rajendran gnanavolivu",
       "type": "PER",
       "score": 0.9988394975662231
     },
     {
-      "text": " Veina Gnanavalivu",
+      "text": "veina gnanavalivu",
       "type": "PER",
-      "score": 0.8111532330513
+      "score": 0.8111623525619507
     },
     {
-      "text": " Law Weekly",
+      "text": "law weekly",
       "type": "ORG",
-      "score": 0.89838045835495
+      "score": 0.8983808755874634
     }
   ],
-  "summary": "### Summary and Analysis:\n\n#### 1. **Main Topic/Subject**:\nThe text discusses a legal case (CMP No. 6648 of 2018 in ASSR No. 19304 of 2018) focusing on whether the delay in filing a petition has been adequately explained and if sufficient cause has been shown to condone the delay.\n\n---\n\n#### 2. **Key Points**:\n- The court emphasizes that each case must be judged based on its specific facts and circumstances, particularly regarding delays in filing petitions.\n- The revision petitioner cited prior legal precedents to support their argument, including:\n  - *Kandaswamy vs. Krishnamandiram Trust (2001 4 CTC 722)*, where the court refused to condone a 797-day delay due to gross negligence and lack of bona fides.\n  - *Sundar Gnanaolivu vs. Rajendran Gnanavolivu (2003 1 Law Weekly 585)*, where the court held that untrue and non-bona fide affidavits do not warrant a liberal approach to condonation of delay.\n- The court referred to the principle that exceptions to the \"Rule of Liberal Approach\" apply when the petitioner\u2019s conduct lacks bona f",
+  "summary": "The case examines whether the delay in filing a petition has been adequately explained and supported by sufficient cause, referencing precedents where courts denied condonation due to lack of bona fides and gross negligence.",
   "embedding": [
     0.03478720784187317,
     0.039649657905101776,
