@@ -129,3 +129,12 @@ def combine_filters(filters: list[Dict[str, Any]]) -> Dict[str, Any]:
     if len(filters) == 1:
         return filters[0]
     return {"$and": filters}
+
+def is_entity_lookup_query(metadata):
+    # Entity lookup: no intent, but entities or keywords present
+    return (
+        not metadata.get("intent") and (
+            (metadata.get("entities") and len(metadata["entities"]) > 0) or
+            (metadata.get("keywords") and len(metadata["keywords"]) > 0)
+        )
+    )

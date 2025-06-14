@@ -9,7 +9,7 @@ from pinecone_text.sparse import SpladeEncoder
 from openai import AzureOpenAI
 import logging
 import concurrent.futures
-
+from scripts.filter_utils import extract_query_metadata, is_entity_lookup_query
 
 # Load environment variables
 load_dotenv("config/.env")
@@ -64,18 +64,16 @@ def safe_pinecone_query(**kwargs):
         logging.error(f"Pinecone query failed: {e}")
         raise
 
-def search_query(query_text, top_k=10, metadata_filter=None):
+def search_query(query_text, top_k=10, metadata_filter=None, return_count_for_intent=False):
     print("[Dense Search Pipeline]")
     logging.info(f"[Dense Search Pipeline] Query: {query_text}")
-    # Generate automatic filter from query unless manual filter provided
-    query_filter = generate_filter(query_text) if not metadata_filter else None
     
-    # Combine manual and automatic filters if both present
+    query_metadata = extract_query_metadata(query_text)
+    query_filter = generate_filter(query_text) if not metadata_filter else None
     if metadata_filter and query_filter:
         combined_filter = combine_filters([metadata_filter, query_filter])
     else:
         combined_filter = metadata_filter or query_filter
-        
     print(f"[Dense Search Pipeline] Using filter: {combined_filter}")
     logging.info(f"[Dense Search Pipeline] Using filter: {combined_filter}")
     start_time = time.time()
@@ -99,7 +97,6 @@ def search_query(query_text, top_k=10, metadata_filter=None):
     summaries = [match.metadata.get("summary", "") for match in pinecone_result.matches]
     filenames = [match.id for match in pinecone_result.matches]
     relevance_scores = [match.score for match in pinecone_result.matches]
-    # Use both summary and text for reranking
     rerank_texts = [
         (match.metadata.get("summary", "") + "\n" + match.metadata.get("text", ""))
         for match in pinecone_result.matches
@@ -113,16 +110,30 @@ def search_query(query_text, top_k=10, metadata_filter=None):
             cosine_scores = [0.0 for _ in rerank_texts]
     else:
         cosine_scores = []
-    # Sort by rerank score
     reranked = sorted(
         zip(filenames, summaries, relevance_scores, cosine_scores),
         key=lambda x: x[3], reverse=True
     )
     elapsed = time.time() - start_time
-    # Print all results for debugging
     print("[DEBUG] All Pinecone matches:")
     for fname, summary, rel_score, rerank_score in reranked:
         print(f"  - {fname} | rerank_score: {rerank_score}")
+    # --- ENTITY LOOKUP LOGIC ---
+    if is_entity_lookup_query(query_metadata):
+        return entity_lookup_output(reranked, query_metadata, start_time)
+    # --- INTENT COUNT LOGIC ---
+    if return_count_for_intent:
+        count = len(reranked)
+        search_time = time.time() - start_time
+        return {
+            "answer": f"{count} document(s) reference this query.",
+            "count": count,
+            "search_time": search_time,
+            "results": [
+                {"document_name": fname, "summary": summary, "reranking_score": rerank_score}
+                for fname, summary, rel_score, rerank_score in reranked
+            ]
+        }
     # RAG-style LLM answer using top reranked chunk(s)
     if reranked:
         context = "\n\n".join([r[1] for r in reranked[:min(3, len(reranked))]])
@@ -152,12 +163,12 @@ def search_query(query_text, top_k=10, metadata_filter=None):
             "entities": match.metadata.get("entities", "[not present]"),
             "keywords": match.metadata.get("keywords", "[not present]")
         })
-    # Return only the top result's doc name, answer, time, and reranking score
     top_doc = results[0] if results else {}
+    search_time = time.time() - start_time
     return {
-        "document_name": top_doc.get("document_name"),
+        "document_names": top_doc.get("document_name"),
         "answer": answer,
-        "time_taken": elapsed,
+        "search_time": search_time,
         "reranking_score": top_doc.get("reranking_score"),
         "results": results
     }
@@ -282,12 +293,93 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
             "entities": match.metadata.get("entities", "[not present]"),
             "keywords": match.metadata.get("keywords", "[not present]")
         })
+    # --- ENTITY LOOKUP LOGIC ---
+    query_metadata = extract_query_metadata(query)
+    if is_entity_lookup_query(query_metadata):
+        count = len(reranked)
+        entity = (query_metadata["entities"] or query_metadata["keywords"])[0]
+        doc_names = [fname for fname, *_ in reranked]
+        doc_list_str = "\n".join(f"- {name}" for name in doc_names)
+        # Always use Azure OpenAI to generate the answer
+        if count > 0:
+            prompt = (
+                f"You are an expert assistant. The user searched for the entity or keyword '{entity}'. "
+                f"Here is a list of all document names that reference this entity or keyword:\n{doc_list_str}\n\n"
+                f"Generate a concise, direct answer listing all the document names that reference '{entity}'. "
+                # f"Do not add any extra explanation."
+            )
+            try:
+                ai_answer = client.chat.completions.create(
+                    model=deployment,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.2,
+                    max_tokens=128,
+                    timeout=20
+                ).choices[0].message.content.strip()
+            except Exception as e:
+                logging.error(f"OpenAI completion error (entity lookup): {e}")
+                ai_answer = f"{count} document(s) reference '{entity}':\n" + doc_list_str
+        else:
+            ai_answer = f"No documents reference '{entity}'."
+        search_time = time.time() - start_time
+        return {
+            "answer": ai_answer,
+            "count": count,
+            "document_names": doc_names,
+            "search_time": search_time,
+            "reranking_score": reranked[0][5] if reranked else None,
+            "results": [
+                {"document_name": fname, "summary": summary, "reranking_score": hybrid_score}
+                for fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score in reranked
+            ]
+        }
     # Return only the top result's doc name, answer, time, and reranking score
     top_doc = results[0] if results else {}
     return {
-        "document_name": top_doc.get("document_name"),
+        "document_names": top_doc.get("document_name"),
         "answer": answer,
         "time_taken": elapsed,
         "reranking_score": top_doc.get("reranking_score"),
         "results": results
+    }
+
+
+def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: float) -> Dict[str, Any]:
+    """Handle entity lookup output for the search pipeline."""
+    count = len(reranked)
+    entity = (query_metadata["entities"] or query_metadata["keywords"])[0]
+    doc_names = [fname for fname, *_ in reranked]
+    doc_list_str = "\n".join(f"- {name}" for name in doc_names)
+    # Always use Azure OpenAI to generate the answer
+    if count > 0:
+        prompt = (
+            f"You are an expert assistant. The user searched for the entity or keyword '{entity}'. "
+            f"Here is a list of all document names that reference this entity or keyword:\n{doc_list_str}\n\n"
+            f"Generate a concise, direct answer listing all the document names that reference '{entity}'. "
+            # f"Do not add any extra explanation."
+        )
+        try:
+            ai_answer = client.chat.completions.create(
+                model=deployment,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=128,
+                timeout=20
+            ).choices[0].message.content.strip()
+        except Exception as e:
+            logging.error(f"OpenAI completion error (entity lookup): {e}")
+            ai_answer = f"{count} document(s) reference '{entity}':\n" + doc_list_str
+    else:
+        ai_answer = f"No documents reference '{entity}'."
+    search_time = time.time() - start_time
+    return {
+        "answer": ai_answer,
+        "count": count,
+        "document_names": doc_names,
+        "search_time": search_time,
+        "reranking_score": reranked[0][3] if reranked else None,
+        "results": [
+            {"document_name": fname, "summary": summary, "reranking_score": rerank_score}
+            for fname, summary, rel_score, rerank_score in reranked
+        ]
     }

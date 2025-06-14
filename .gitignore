@@ -7,4 +7,4 @@ data/chunks/**.txt
 data/processed_data/**.txt
 
 data/input_pdf_data/**.pdf 
-__pycache__
+__pycache__/

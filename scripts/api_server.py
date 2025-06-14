@@ -22,6 +22,11 @@ class HybridSearchRequest(BaseModel):
     top_k: Optional[int] = 5
     namespace: Optional[str] = "__default__"
     alpha: Optional[float] = 0.5
+
+class IntentCountRequest(BaseModel):
+    query: str
+    top_k: Optional[int] = 50
+
 class Result():
     DocumentName: str
     answer: str
@@ -57,13 +62,14 @@ def dense_search(request: DenseSearchRequest):
         )
         if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
-        result = Result(
-            DocumentName=results.get('document_name', 'Unknown'),
-            answer=results.get('answer', 'No answer found'),
-            search_time=results.get('time_taken', 0.0),
-            reranking_score=results.get('reranking_score', None)
-        )
-        return result
+        # Pass through all fields from backend, including LLM answer and all document names/results
+        return {
+            "answer": results.get('answer', 'No answer found'),
+            "document_names": results.get('document_names', []),
+            "results": results.get('results', []),
+            "search_time": results.get('search_time', 0.0),
+            "reranking_score": results.get('reranking_score', None)
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -87,12 +93,29 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
         )
         if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
-        result = Result(
-            DocumentName=results.get('document_name', 'Unknown'),
-            answer=results.get('answer', 'No answer found'),
-            search_time=results.get('time_taken', 0.0),
-            reranking_score=results.get('reranking_score', None)
+        # Pass through all fields from backend, including LLM answer and all document names/results
+        return {
+            "answer": results.get('answer', 'No answer found'),
+            "document_names": results.get('document_names', []),
+            "results": results.get('results', []),
+            "search_time": results.get('search_time', 0.0),
+            "reranking_score": results.get('reranking_score', None)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/search/intent_count", tags=["search"])
+def intent_count_search(request: IntentCountRequest):
+    try:
+        filter_dict = generate_filter(request.query)
+        print(f"[API] Intent Count - Generated metadata filter: {filter_dict}")
+        from search_pipeline import search_query
+        results = search_query(
+            query_text=request.query,
+            top_k=request.top_k,
+            metadata_filter=filter_dict,
+            return_count_for_intent=True
         )
-        return result
+        return results
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
