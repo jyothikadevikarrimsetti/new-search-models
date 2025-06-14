@@ -90,7 +90,12 @@ for txt_file in Path(CHUNKS).glob("*.txt"):
     json_path = Path(OUTPUT) / f"{stem}.json"
     if not json_path.exists():
         text = txt_file.read_text(encoding="utf-8").strip()
-        metadata = extract_metadata(text) | {"filename": txt_file.name}
+        # metadata = extract_metadata(text) | {"filename": txt_file.name}
+        # Add original PDF filename as document_name
+        # Assumes chunk name is like 'MyPDF_chunk1.txt' and original PDF is 'MyPDF.pdf'
+        pdf_stem = txt_file.stem.rsplit('_chunk', 1)[0]
+        pdf_name = f"{pdf_stem}.pdf"
+        metadata = extract_metadata(text, document_name=pdf_name) | {"filename": txt_file.name}
         json_path.parent.mkdir(parents=True, exist_ok=True)
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)
@@ -120,8 +125,9 @@ for stem in list(need_upsert):  # copy—it may shrink
             continue
 
         text = txt_path.read_text(encoding="utf-8").strip()
-        metadata = extract_metadata(text) | {"filename": txt_path.name}
-
+        pdf_stem = stem.rsplit('_chunk', 1)[0]
+        pdf_name = f"{pdf_stem}.pdf"
+        metadata = extract_metadata(text, document_name=pdf_name) | {"filename": txt_path.name}
         json_path.parent.mkdir(parents=True, exist_ok=True)
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)

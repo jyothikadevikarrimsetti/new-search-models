@@ -66,7 +66,7 @@ def extract_names_regex(text):
                     parts.add(substr)
     return list(found | parts)
 
-def extract_metadata(text):
+def extract_metadata(text, document_name=None):
     doc_emb = get_openai_embedding(text)
     # Compute cosine similarity with all intent embeddings
     def cosine_sim(a, b):
@@ -122,14 +122,14 @@ def extract_metadata(text):
     "Summarize the following text in 1-2 sentences. "
     "Be extremely concise and do not include bullets or extra details. "
     "Text: {text}"
-)
+    )
     summary = client.chat.completions.create(
         model=deployment,
         messages=[{"role": "user", "content": summary_prompt.format(text=text[:2000])}],
         temperature=0.3,
         max_tokens=256
     ).choices[0].message.content.strip()
-    return {
+    metadata = {
         "keywords": keywords,
         "intent": detected_intent,
         "intent_confidence": intent_confidence,
@@ -138,5 +138,8 @@ def extract_metadata(text):
         "entity_details": entities,
         "summary": summary,
         "embedding": doc_emb,
-        "text": text  # <-- Store full text for BM25/hybrid search
+        "text": text
     }
+    if document_name:
+        metadata["document_name"] = document_name
+    return metadata

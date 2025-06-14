@@ -120,7 +120,7 @@ def search_query(query_text, top_k=10, metadata_filter=None, return_count_for_in
         print(f"  - {fname} | rerank_score: {rerank_score}")
     # --- ENTITY LOOKUP LOGIC ---
     if is_entity_lookup_query(query_metadata):
-        return entity_lookup_output(reranked, query_metadata, start_time)
+        return entity_lookup_output(reranked, query_metadata, start_time, pinecone_matches=pinecone_result.matches)
     # --- INTENT COUNT LOGIC ---
     if return_count_for_intent:
         count = len(reranked)
@@ -296,24 +296,29 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     # --- ENTITY LOOKUP LOGIC ---
     query_metadata = extract_query_metadata(query)
     if is_entity_lookup_query(query_metadata):
-        count = len(reranked)
+        # Use document_name from metadata, not chunk name
+        doc_names = []
+        for match in pinecone_result.matches:
+            doc_name = match.metadata.get("document_name")
+            if doc_name and doc_name not in doc_names:
+                doc_names.append(doc_name)
+        count = len(doc_names)
         entity = (query_metadata["entities"] or query_metadata["keywords"])[0]
-        doc_names = [fname for fname, *_ in reranked]
         doc_list_str = "\n".join(f"- {name}" for name in doc_names)
         # Always use Azure OpenAI to generate the answer
         if count > 0:
             prompt = (
                 f"You are an expert assistant. The user searched for the entity or keyword '{entity}'. "
                 f"Here is a list of all document names that reference this entity or keyword:\n{doc_list_str}\n\n"
-                f"Generate a concise, direct answer listing all the document names that reference '{entity}'. "
-                # f"Do not add any extra explanation."
+                f"For each document, explain in 1-2 sentences why it is relevant to the entity or keyword '{entity}', using the document's summary if available. "
+                f"List all document names and provide a brief explanation for each."
             )
             try:
                 ai_answer = client.chat.completions.create(
                     model=deployment,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.2,
-                    max_tokens=128,
+                    max_tokens=256,
                     timeout=20
                 ).choices[0].message.content.strip()
             except Exception as e:
@@ -322,16 +327,24 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
         else:
             ai_answer = f"No documents reference '{entity}'."
         search_time = time.time() - start_time
+        # Build results with summary and reranking_score for each unique document_name
+        hybrid_results = []
+        for doc_name in doc_names:
+            for match in pinecone_result.matches:
+                if match.metadata.get("document_name") == doc_name:
+                    hybrid_results.append({
+                        "document_name": doc_name,
+                        "summary": match.metadata.get("summary", ""),
+                        "reranking_score": match.score
+                    })
+                    break
         return {
             "answer": ai_answer,
             "count": count,
             "document_names": doc_names,
             "search_time": search_time,
-            "reranking_score": reranked[0][5] if reranked else None,
-            "results": [
-                {"document_name": fname, "summary": summary, "reranking_score": hybrid_score}
-                for fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score in reranked
-            ]
+            "reranking_score": hybrid_results[0]["reranking_score"] if hybrid_results else None,
+            "results": hybrid_results
         }
     # Return only the top result's doc name, answer, time, and reranking score
     top_doc = results[0] if results else {}
@@ -344,26 +357,43 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     }
 
 
-def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: float) -> Dict[str, Any]:
+def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: float, pinecone_matches=None) -> Dict[str, Any]:
     """Handle entity lookup output for the search pipeline."""
     count = len(reranked)
     entity = (query_metadata["entities"] or query_metadata["keywords"])[0]
-    doc_names = [fname for fname, *_ in reranked]
+    # Use document_name from metadata, not chunk name
+    doc_names = []
+    if pinecone_matches is not None:
+        for match in pinecone_matches:
+            doc_name = match.metadata.get("document_name")
+            if doc_name and doc_name not in doc_names:
+                doc_names.append(doc_name)
+    else:
+        # fallback: try to get from reranked if pinecone_matches not passed
+        for row in reranked:
+            if isinstance(row, dict) and "document_name" in row:
+                doc_name = row["document_name"]
+                if doc_name and doc_name not in doc_names:
+                    doc_names.append(doc_name)
+            elif isinstance(row, (list, tuple)) and len(row) > 0:
+                doc_name = row[0]
+                if doc_name and doc_name not in doc_names:
+                    doc_names.append(doc_name)
     doc_list_str = "\n".join(f"- {name}" for name in doc_names)
     # Always use Azure OpenAI to generate the answer
     if count > 0:
         prompt = (
             f"You are an expert assistant. The user searched for the entity or keyword '{entity}'. "
             f"Here is a list of all document names that reference this entity or keyword:\n{doc_list_str}\n\n"
-            f"Generate a concise, direct answer listing all the document names that reference '{entity}'. "
-            # f"Do not add any extra explanation."
+            f"For each document, explain in 1-2 sentences why it is relevant to the entity or keyword '{entity}', using the document's summary if available. "
+            f"List all document names and provide a brief explanation for each."
         )
         try:
             ai_answer = client.chat.completions.create(
                 model=deployment,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
-                max_tokens=128,
+                max_tokens=256,
                 timeout=20
             ).choices[0].message.content.strip()
         except Exception as e:
@@ -372,14 +402,23 @@ def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: f
     else:
         ai_answer = f"No documents reference '{entity}'."
     search_time = time.time() - start_time
+    # Build results with summary and reranking_score for each unique document_name
+    hybrid_results = []
+    pinecone_matches = pinecone_matches if pinecone_matches is not None else []
+    for doc_name in doc_names:
+        for match in pinecone_matches:
+            if match.metadata.get("document_name") == doc_name:
+                hybrid_results.append({
+                    "document_name": doc_name,
+                    "summary": match.metadata.get("summary", ""),
+                    "reranking_score": match.score
+                })
+                break
     return {
         "answer": ai_answer,
         "count": count,
         "document_names": doc_names,
         "search_time": search_time,
-        "reranking_score": reranked[0][3] if reranked else None,
-        "results": [
-            {"document_name": fname, "summary": summary, "reranking_score": rerank_score}
-            for fname, summary, rel_score, rerank_score in reranked
-        ]
+        "reranking_score": hybrid_results[0]["reranking_score"] if hybrid_results else None,
+        "results": hybrid_results
     }
