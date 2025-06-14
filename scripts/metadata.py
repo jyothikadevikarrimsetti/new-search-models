@@ -76,7 +76,9 @@ def extract_metadata(text):
     intent_scores = [cosine_sim(doc_emb, emb) for emb in intent_embs]
     best_idx = int(np.argmax(intent_scores))
     intent_confidence = float(intent_scores[best_idx])
-    detected_intent = intent_labels[best_idx] if intent_confidence > 0.5 else "general_info"
+    # Lowered threshold for more permissive intent detection
+    detected_intent = intent_labels[best_idx] if intent_confidence > 0.3 else "general_info"
+    print(f"[Intent Detection] intent_confidence={intent_confidence:.3f}, detected_intent={detected_intent}")
 
     # Extract keywords
     keywords_with_scores = keyword_model.extract_keywords(text, top_n=10)

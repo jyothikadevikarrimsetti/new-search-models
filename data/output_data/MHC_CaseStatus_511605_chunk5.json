@@ -11,7 +11,7 @@
     "counsel",
     "delay"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.3757746789234901,
   "entities": [
     "kandaswamy",
@@ -26,173 +26,173 @@
     "rajendran gnanavolivu",
     "veina gnanavalivu",
     "law weekly",
-    "p arumu",
-    "gnanao",
-    "sun",
-    "sundar gna",
-    "rajendr",
+    "pras",
+    "gnan",
+    "rajendran g",
+    "arumugam",
+    "kandas",
+    "sundar gnanao",
+    "gnanaoli",
+    "gnanavoli",
+    "prasa",
+    "raje",
+    "rajendran gnanavo",
+    "mk p",
+    "kan",
+    "gnanaol",
+    "rajendra",
+    "veina ",
     "gnanaval",
+    "veina gnanaval",
+    "veina",
+    "veina gnanavaliv",
+    "arum",
+    "rajen",
+    "gnanavaliv",
+    "mr ruk",
+    "mr rukmin",
+    "rukmini",
+    "rajendran",
+    "sundar gnanaol",
+    "rajendr",
+    "sundar g",
+    "p arumuga",
+    "vei",
+    "p arumug",
+    "mr r",
+    "rajendran ",
+    "gna",
+    "sundar gnana",
+    "sundar gnanaoliv",
+    "rukm",
+    "rukmi",
+    "mr rukm",
+    "prasad",
+    "arumuga",
+    "rajendran gnan",
+    "kandasw",
     "gnanava",
     "p a",
-    "rajen",
-    "gnanavoli",
-    "prasad",
-    "rajendran gn",
-    "veina gnanavaliv",
-    "arumugam",
-    "arumu",
-    "gnanavali",
-    "kandas",
-    "gnana",
-    "raj",
-    "veina gnanava",
-    "veina gn",
-    "rajendran gnanavol",
-    "gnanaoliv",
-    "prasa",
-    "sundar gnan",
-    "rukmi",
-    "arumug",
-    "gnanavolivu",
-    "rajendran gnana",
-    "p aru",
-    "rajendran gnanav",
-    "aru",
-    "kandasw",
-    "gnanaolivu",
-    "sundar gnana",
-    "kand",
-    "gnanaol",
-    "gnanaoli",
-    "veina gnanaval",
-    "gnanavalivu",
-    "kan",
-    "sundar gn",
-    "mk p",
-    "mk ",
-    "pra",
-    "ruk",
-    "sundar gnanao",
-    "vein",
-    "sunda",
-    "rajendran g",
-    "gnanav",
-    "mk",
     "mk pra",
-    "mk pr",
-    "kandaswa",
-    "veina gnana",
-    "p ar",
-    "rukmini",
-    "sundar",
-    "rajendran",
-    "raje",
-    "veina g",
-    "vei",
-    "sundar ",
-    "gnanavaliv",
-    "rajendra",
-    "mr r",
-    "gnan",
-    "rajendran gnanavoliv",
-    "mr rukmi",
-    "arumuga",
-    "veina ",
-    "pras",
-    "gna",
-    "rajendran gna",
-    "arum",
-    "sundar gnanaoliv",
-    "veina gna",
-    "sundar gnanaoli",
-    "veina gnanav",
-    "p",
     "mk pras",
-    "gnanavol",
-    "p arum",
-    "sund",
-    "rajendran gnanavoli",
-    "veina gnan",
-    "mr rukmin",
-    "gnanavoliv",
-    "rajendran gnanavo",
-    "mr ru",
-    "p arumuga",
-    "rukm",
-    "kandaswam",
-    "rajendran ",
-    "rajend",
-    "veina",
-    "p arumug",
-    "mr",
-    "sundar gnanaol",
-    "mr ruk",
-    "gnanavo",
-    "mr ",
-    "rukmin",
-    "veina gnanavali",
-    "mk prasa",
-    "sundar g",
     "kanda",
-    "rajendran gnan",
-    "mr rukm",
-    "krishnama",
-    "weekl",
-    "karu",
-    "honourable supreme court",
-    "supreme",
-    "hono",
-    "sup",
-    "law",
-    "cases",
-    "court",
-    "supre",
-    "ben",
-    "div",
-    "honour",
+    "mk pr",
+    "p",
+    "veina gn",
+    "sundar gnanaoli",
+    "sund",
+    "rajendran gnanav",
+    "mk",
+    "veina gnan",
+    "arumug",
+    "sun",
+    "gnanaolivu",
+    "p aru",
+    "mr ru",
+    "gnanao",
+    "p arum",
+    "rajendran gna",
+    "gnanavalivu",
+    "veina gnanav",
+    "raj",
+    "ruk",
+    "gnanavoliv",
+    "sundar gna",
+    "rajendran gnanavoli",
+    "sundar gnan",
+    "rukmin",
+    "aru",
+    "arumu",
+    "p arumu",
+    "kandaswa",
+    "kandaswam",
+    "gnanavolivu",
+    "rajendran gnanavol",
+    "mr",
+    "veina gnana",
+    "mr ",
+    "veina gnanavali",
+    "gnanaoliv",
+    "kand",
+    "rajendran gnanavoliv",
+    "vein",
+    "mr rukmi",
+    "veina gna",
+    "mk prasa",
+    "veina gnanava",
+    "mk ",
+    "veina g",
+    "sundar ",
+    "pra",
+    "rajendran gnana",
+    "sundar gn",
+    "gnanavol",
+    "p ar",
+    "gnanavali",
+    "sunda",
+    "rajendran gn",
+    "gnanav",
+    "gnanavo",
+    "gnana",
+    "rajend",
+    "sundar",
     "honoura",
-    "supr",
-    "division bench",
-    "honourab",
-    "hon",
-    "krishnamandi",
-    "honourable",
-    "wee",
-    "kris",
-    "honourabl",
-    "divisio",
-    "cour",
-    "trus",
-    "case",
-    "divisi",
-    "kri",
-    "divi",
-    "bench",
-    "division",
-    "cas",
-    "suprem",
-    "krishnamandir",
-    "krishnaman",
-    "in",
-    "divis",
-    "honou",
-    "trust",
-    "in sundar gnanaolivu",
-    "karur",
-    "krishna",
     "cou",
+    "division",
     "krishnamandiram",
-    "tru",
-    "weekly",
-    "kar",
-    "krishnamand",
-    "krish",
-    "krishnam",
-    "in kandaswamy",
-    "krishn",
-    "krishnamandira",
+    "krishnamandi",
     "week",
-    "benc"
+    "supreme",
+    "trus",
+    "tru",
+    "honourab",
+    "in",
+    "kris",
+    "krishna",
+    "krishnama",
+    "cas",
+    "supr",
+    "honou",
+    "wee",
+    "case",
+    "division bench",
+    "divis",
+    "supre",
+    "krishn",
+    "krish",
+    "karu",
+    "divisio",
+    "divisi",
+    "hon",
+    "in sundar gnanaolivu",
+    "honourable",
+    "in kandaswamy",
+    "div",
+    "kri",
+    "suprem",
+    "law",
+    "karur",
+    "divi",
+    "court",
+    "kar",
+    "krishnaman",
+    "trust",
+    "krishnamand",
+    "krishnam",
+    "sup",
+    "cases",
+    "honourable supreme court",
+    "krishnamandir",
+    "honourabl",
+    "ben",
+    "cour",
+    "weekl",
+    "benc",
+    "hono",
+    "krishnamandira",
+    "honour",
+    "weekly",
+    "bench"
   ],
   "entity_types": [
     "ORG",
@@ -260,22 +260,142 @@
       "score": 0.8983808755874634
     },
     {
-      "text": "p arumu",
+      "text": "pras",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "gnanao",
+      "text": "gnan",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "sun",
+      "text": "rajendran g",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "sundar gna",
+      "text": "arumugam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kandas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanao",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaoli",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavoli",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "raje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanavo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaol",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaval",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina gnanaval",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina gnanavaliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajen",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavaliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr ruk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr rukmin",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rukmini",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaol",
       "type": "PER",
       "score": 1.0
     },
@@ -285,7 +405,82 @@
       "score": 1.0
     },
     {
-      "text": "gnanaval",
+      "text": "sundar g",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumuga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "vei",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumug",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr r",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rukm",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rukmi",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr rukm",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasad",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumuga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kandasw",
       "type": "PER",
       "score": 1.0
     },
@@ -300,367 +495,7 @@
       "score": 1.0
     },
     {
-      "text": "rajen",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "prasad",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gnanavaliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumugam",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavali",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kandas",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "raj",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gnanava",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanavol",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaoliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "prasa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rukmi",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumug",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavolivu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p aru",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanav",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aru",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kandasw",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaolivu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kand",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaol",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gnanaval",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavalivu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk p",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ruk",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanao",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "vein",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sunda",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran g",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanav",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "mk pra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk pr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kandaswa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p ar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rukmini",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "raje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina g",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "vei",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavaliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mr r",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanavoliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mr rukmi",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumuga",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pras",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arum",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanaoliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanaoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "veina gnanav",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p",
       "type": "PER",
       "score": 1.0
     },
@@ -670,12 +505,27 @@
       "score": 1.0
     },
     {
-      "text": "gnanavol",
+      "text": "kanda",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "p arum",
+      "text": "mk pr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina gn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaoli",
       "type": "PER",
       "score": 1.0
     },
@@ -685,7 +535,12 @@
       "score": 1.0
     },
     {
-      "text": "rajendran gnanavoli",
+      "text": "rajendran gnanav",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk",
       "type": "PER",
       "score": 1.0
     },
@@ -695,17 +550,22 @@
       "score": 1.0
     },
     {
-      "text": "mr rukmin",
+      "text": "arumug",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "gnanavoliv",
+      "text": "sun",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajendran gnanavo",
+      "text": "gnanaolivu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p aru",
       "type": "PER",
       "score": 1.0
     },
@@ -715,62 +575,57 @@
       "score": 1.0
     },
     {
-      "text": "p arumuga",
+      "text": "gnanao",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rukm",
+      "text": "p arum",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "kandaswam",
+      "text": "rajendran gna",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajendran ",
+      "text": "gnanavalivu",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajend",
+      "text": "veina gnanav",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "veina",
+      "text": "raj",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "p arumug",
+      "text": "ruk",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "mr",
+      "text": "gnanavoliv",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "sundar gnanaol",
+      "text": "sundar gna",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "mr ruk",
+      "text": "rajendran gnanavoli",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "gnanavo",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mr ",
+      "text": "sundar gnan",
       "type": "PER",
       "score": 1.0
     },
@@ -780,7 +635,87 @@
       "score": 1.0
     },
     {
+      "text": "aru",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kandaswa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kandaswam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavolivu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanavol",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina gnana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "veina gnanavali",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kand",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanavoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "vein",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mr rukmi",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "veina gna",
       "type": "PER",
       "score": 1.0
     },
@@ -790,242 +725,92 @@
       "score": 1.0
     },
     {
-      "text": "sundar g",
+      "text": "veina gnanava",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "kanda",
+      "text": "mk ",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajendran gnan",
+      "text": "veina g",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "mr rukm",
+      "text": "sundar ",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "krishnama",
+      "text": "pra",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "weekl",
+      "text": "rajendran gnana",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "karu",
+      "text": "sundar gn",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "honourable supreme court",
+      "text": "gnanavol",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "supreme",
+      "text": "p ar",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "hono",
+      "text": "gnanavali",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "sup",
+      "text": "sunda",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "law",
+      "text": "rajendran gn",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "cases",
+      "text": "gnanav",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "court",
+      "text": "gnanavo",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "supre",
+      "text": "gnana",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "ben",
+      "text": "rajend",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "div",
+      "text": "sundar",
       "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honour",
-      "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
       "text": "honoura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnamandi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourable",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "wee",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kris",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourabl",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divisio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "trus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "case",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divisi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kri",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cas",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnamandir",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnaman",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "trust",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in sundar gnanaolivu",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "karur",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishna",
       "type": "PER",
       "score": 0.95
     },
@@ -1035,52 +820,17 @@
       "score": 0.95
     },
     {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "krishnamandiram",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "tru",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "weekly",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnamand",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krish",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnam",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in kandaswamy",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishn",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "krishnamandira",
+      "text": "krishnamandi",
       "type": "PER",
       "score": 0.95
     },
@@ -1090,12 +840,262 @@
       "score": 0.95
     },
     {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "trus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tru",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kris",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishna",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnama",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cas",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "wee",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "case",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishn",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krish",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "karu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in sundar gnanaolivu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in kandaswamy",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kri",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "law",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "karur",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnaman",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "trust",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnamand",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnam",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cases",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnamandir",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "weekl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "benc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "krishnamandira",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "weekly",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The case examines whether the delay in filing a petition was adequately explained and supported by sufficient cause, referencing prior rulings that emphasize the importance of bona fides and active conduct in seeking condonation of delays.",
+  "summary": "The case examines whether the delay in filing a petition has been adequately explained, referencing prior rulings that emphasize the need for bona fides and reject condonation of delays caused by negligence or lack of credible justification.",
   "embedding": [
     0.03478720784187317,
     0.039649657905101776,

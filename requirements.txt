@@ -14,3 +14,4 @@ pydantic
 numpy
 uvicorn[standard]
 spacy
+python-multipart

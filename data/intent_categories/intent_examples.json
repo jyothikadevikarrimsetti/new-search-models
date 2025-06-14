@@ -1,6 +1,12 @@
 {
-
   "general_info": [
+    "What is the purpose of this document?",
+    "Give me a summary of the file.",
+    "Provide general information about this case.",
+    "Tell me about this document.",
+    "What is this about?"
+  ],
+  "resume_info": [
     "What skills are listed in the resume?",
     "Show me the proficiencies in this CV.",
     "List the abilities mentioned in the candidate's resume.",

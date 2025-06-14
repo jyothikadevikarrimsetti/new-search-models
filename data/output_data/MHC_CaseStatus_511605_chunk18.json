@@ -11,7 +11,7 @@
     "underlining",
     "circumstances"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.3444510649170291,
   "entities": [
     "n balakrishnan",
@@ -23,176 +23,176 @@
     "ctc",
     "c subraniam",
     "tamil nadu housing board",
-    "sap",
-    "n b",
-    "ram nath sao ram sa",
-    "c subra",
-    "n bala",
-    "krishnamurthy",
-    "gobardhan sa",
-    "krishnamur",
-    "c subrania",
-    "ram n",
-    "balak",
-    "m krishna",
-    "balakrishna",
-    "ram na",
-    "subrani",
-    "subr",
-    "n balakrishna",
-    "ram nath sao ",
-    "subrania",
-    "c sub",
-    "n balakrish",
-    "krishnamurt",
-    "gobardh",
-    "c subrani",
-    "n balak",
-    "subra",
-    "m krish",
-    "sah",
-    "ram nath sao ram ",
-    "c",
-    "subran",
-    "m krishnamurth",
-    "sub",
-    "nat",
-    "kri",
-    "krishnamu",
-    "ram nath sao ram sah",
-    "gobardha",
-    "nath",
-    "ram nath sao",
-    "ram nath",
-    "gobar",
-    "ram nath sao ram",
-    "gob",
-    "m k",
-    "m krishnam",
-    "krishna",
-    "n ba",
-    "m krishn",
-    "gobardhan ",
-    "balakrish",
-    "ram nath ",
     "balakris",
-    "krishnamurth",
-    "sao",
-    "n",
-    "ram nath s",
-    "balakrishn",
-    "balakri",
-    "gobard",
-    "m kri",
-    "n bal",
-    "m kris",
-    "ram nat",
-    "c subr",
-    "n balakris",
-    "gobardhan s",
-    "gobardhan",
-    "bala",
-    "c s",
-    "m",
+    "krishnamur",
+    "subraniam",
     "goba",
-    "ram ",
-    "m krishnamu",
-    "n balakri",
+    "subrania",
+    "n balak",
+    "balakrishna",
+    "n ba",
+    "m k",
+    "ram nath sao ram sa",
+    "sap",
+    "n balakris",
+    "m kris",
+    "ram nath sao",
     "kris",
-    "ram nath sao r",
-    "ram nath sa",
-    "c su",
-    "n balakrishn",
-    "ram nath sao ram s",
+    "m krish",
+    "krishna",
+    "subra",
+    "c subrania",
+    "sao",
+    "ram nath sao ram",
     "balakrishnan",
-    "m krishnamur",
+    "sub",
+    "krish",
+    "sah",
+    "subrani",
+    "ram nath sao ram ",
+    "gob",
+    "ram na",
+    "ram nath s",
+    "n",
+    "kri",
+    "ram nat",
+    "bal",
+    "balakrishn",
+    "m krishnam",
+    "nat",
+    "gobardhan ",
+    "balakri",
+    "c subran",
+    "c subrani",
+    "gobardhan sa",
+    "ram ",
+    "c subr",
+    "n balakri",
+    "c su",
+    "c subra",
+    "n balakrishn",
+    "ram n",
+    "n balakr",
+    "subran",
+    "m",
+    "ram nath ",
+    "balak",
+    "ram nath sao ra",
+    "m kri",
+    "n balakrishna",
+    "ram nath sao r",
+    "c s",
+    "ram nath sa",
+    "krishnamurthy",
+    "c",
+    "balakrish",
+    "n b",
+    "c sub",
+    "gobardha",
+    "krishn",
+    "subr",
+    "n bal",
+    "bala",
+    "gobardhan",
     "sahu",
     "m krishnamurt",
+    "m krishnamu",
+    "gobard",
+    "m krishnamurth",
+    "m krishnamur",
+    "n bala",
     "m kr",
-    "c subran",
-    "ram nath sao ra",
-    "krish",
-    "balakr",
+    "gobar",
+    "ram nath sao ",
+    "gobardh",
+    "n balakrish",
+    "ram nath sao ram sah",
+    "krishnamu",
     "krishnam",
-    "bal",
+    "m krishn",
+    "ram nath sao ram s",
     "ram",
-    "subraniam",
-    "n balakr",
-    "krishn",
-    "nadu",
-    "supreme",
-    "honourable supreme court",
-    "managing",
-    "hono",
-    "sup",
-    "nad",
-    "chai",
-    "court",
+    "ram nath",
+    "gobardhan s",
+    "nath",
+    "krishnamurt",
+    "m krishna",
+    "krishnamurth",
+    "balakr",
+    "honoura",
+    "cou",
+    "division",
+    "tam",
+    "judgme",
+    "hous",
+    "hou",
+    "judg",
+    "manag",
     "direct",
-    "ben",
+    "man",
+    "housin",
+    "division bench judgment",
+    "directo",
+    "supreme",
+    "high",
+    "gobardhan sap others",
+    "managi",
+    "chairman",
+    "judgment",
+    "honourab",
+    "managin",
+    "housi",
+    "director",
+    "chairman and managing director",
+    "direc",
+    "chairm",
+    "tami",
+    "hig",
+    "dire",
+    "ram nath sao ram sahu others",
+    "supr",
+    "honou",
+    "othe",
+    "boar",
+    "mana",
+    "divis",
     "supre",
     "chair",
-    "division bench judgment",
-    "div",
-    "managin",
-    "honour",
-    "honoura",
-    "judgme",
-    "mana",
-    "supr",
-    "chairman",
-    "directo",
-    "honourab",
-    "hon",
-    "other",
-    "tam",
-    "honourable",
-    "man",
-    "others",
-    "managi",
-    "ram nath sao ram sahu others",
-    "judgmen",
-    "judgm",
-    "high",
-    "othe",
-    "honourabl",
-    "manag",
-    "director",
-    "housin",
     "divisio",
-    "oth",
-    "cour",
-    "gobardhan sap others",
     "divisi",
-    "hous",
-    "dire",
-    "judg",
     "board",
-    "divi",
-    "bench",
-    "division",
-    "direc",
-    "suprem",
-    "boar",
-    "chairman and managing director",
-    "tami",
-    "divis",
-    "honou",
-    "chairma",
-    "and",
-    "cou",
-    "hig",
-    "chairm",
-    "jud",
-    "tamil",
-    "housi",
-    "boa",
-    "hou",
-    "judgment",
     "housing",
+    "hon",
+    "honourable",
+    "managing",
+    "chai",
+    "div",
+    "chairma",
+    "judgm",
+    "suprem",
+    "divi",
     "dir",
+    "court",
+    "cha",
+    "nadu",
+    "tamil",
+    "sup",
+    "oth",
+    "other",
+    "honourable supreme court",
+    "others",
+    "jud",
+    "boa",
+    "nad",
+    "and",
+    "honourabl",
+    "ben",
+    "cour",
+    "judgmen",
+    "hono",
+    "honour",
     "benc",
-    "cha"
+    "bench"
   ],
   "entity_types": [
     "ORG",
@@ -245,37 +245,7 @@
       "score": 0.9984091520309448
     },
     {
-      "text": "sap",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n b",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao ram sa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c subra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n bala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurthy",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardhan sa",
+      "text": "balakris",
       "type": "PER",
       "score": 1.0
     },
@@ -285,317 +255,7 @@
       "score": 1.0
     },
     {
-      "text": "c subrania",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram n",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram na",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "subrani",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "subr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakrishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "subrania",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c sub",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakrish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardh",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c subrani",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "subra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sah",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao ram ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "subran",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishnamurth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sub",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "nat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao ram sah",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardha",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "nath",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath sao ram",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gob",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m k",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishnam",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n ba",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardhan ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sao",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nath s",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobard",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m kri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n bal",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m kris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ram nat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c subr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardhan s",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gobardhan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "c s",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m",
+      "text": "subraniam",
       "type": "PER",
       "score": 1.0
     },
@@ -605,17 +265,52 @@
       "score": 1.0
     },
     {
-      "text": "ram ",
+      "text": "subrania",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m krishnamu",
+      "text": "n balak",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "n balakri",
+      "text": "balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n ba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m k",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ram sa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sap",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao",
       "type": "PER",
       "score": 1.0
     },
@@ -625,27 +320,32 @@
       "score": 1.0
     },
     {
-      "text": "ram nath sao r",
+      "text": "m krish",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "ram nath sa",
+      "text": "krishna",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "c su",
+      "text": "subra",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "n balakrishn",
+      "text": "c subrania",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "ram nath sao ram s",
+      "text": "sao",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ram",
       "type": "PER",
       "score": 1.0
     },
@@ -655,7 +355,247 @@
       "score": 1.0
     },
     {
-      "text": "m krishnamur",
+      "text": "sub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sah",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "subrani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ram ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gob",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram na",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath s",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "nat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gobardhan ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c subran",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c subrani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gobardhan sa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c subr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c su",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c subra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram n",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "subran",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao r",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c s",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurthy",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "c sub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gobardha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "subr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gobardhan",
       "type": "PER",
       "score": 1.0
     },
@@ -670,27 +610,62 @@
       "score": 1.0
     },
     {
+      "text": "m krishnamu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gobard",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamur",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "m kr",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "c subran",
+      "text": "gobar",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "ram nath sao ra",
+      "text": "ram nath sao ",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "krish",
+      "text": "gobardh",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "balakr",
+      "text": "n balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ram sah",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamu",
       "type": "PER",
       "score": 1.0
     },
@@ -700,7 +675,12 @@
       "score": 1.0
     },
     {
-      "text": "bal",
+      "text": "m krishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ram nath sao ram s",
       "type": "PER",
       "score": 1.0
     },
@@ -710,62 +690,82 @@
       "score": 1.0
     },
     {
-      "text": "subraniam",
+      "text": "ram nath",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "n balakr",
+      "text": "gobardhan s",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "krishn",
+      "text": "nath",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "nadu",
+      "text": "krishnamurt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "honoura",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "supreme",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "honourable supreme court",
+      "text": "division",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "managing",
+      "text": "tam",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "hono",
+      "text": "judgme",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "sup",
+      "text": "hous",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "nad",
+      "text": "hou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "chai",
+      "text": "judg",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "court",
+      "text": "manag",
       "type": "PER",
       "score": 0.95
     },
@@ -775,7 +775,137 @@
       "score": 0.95
     },
     {
-      "text": "ben",
+      "text": "man",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "housin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "directo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "high",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "gobardhan sap others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "managi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chairman",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "managin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "housi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "director",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chairman and managing director",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "direc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chairm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tami",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hig",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dire",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ram nath sao ram sahu others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "othe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "boar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mana",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
       "type": "PER",
       "score": 0.95
     },
@@ -790,157 +920,7 @@
       "score": 0.95
     },
     {
-      "text": "division bench judgment",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "div",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "managin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honoura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mana",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chairman",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "directo",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "other",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tam",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourable",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "man",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "managi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ram nath sao ram sahu others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgmen",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgm",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "high",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "othe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourabl",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "manag",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "director",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "housin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "divisio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "oth",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "gobardhan sap others",
       "type": "PER",
       "score": 0.95
     },
@@ -950,127 +930,7 @@
       "score": 0.95
     },
     {
-      "text": "hous",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "dire",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judg",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "board",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "direc",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "boar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chairman and managing director",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tami",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chairma",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "and",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hig",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chairm",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "jud",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tamil",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "housi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "boa",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgment",
       "type": "PER",
       "score": 0.95
     },
@@ -1080,7 +940,147 @@
       "score": 0.95
     },
     {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "managing",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chai",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chairma",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "dir",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cha",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nadu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tamil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "oth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "other",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "boa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "and",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
       "type": "PER",
       "score": 0.95
     },
@@ -1090,12 +1090,12 @@
       "score": 0.95
     },
     {
-      "text": "cha",
+      "text": "bench",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "Courts should prioritize justice by liberally accepting explanations for delays unless bad faith or negligence is evident, while balancing this with the accrued rights of the opposing party to avoid routine condonation of delays.",
+  "summary": "Courts should prioritize justice by liberally accepting explanations for delays unless bad faith or deliberate tactics are evident, while balancing this with the accrued rights of the opposing party to avoid routine condonation.",
   "embedding": [
     0.026706917211413383,
     0.04192781448364258,

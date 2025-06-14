@@ -11,62 +11,62 @@
     "rejected",
     "assrno19304"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.4086330799645403,
   "entities": [
     "cuddalore",
     "smsubramaniam",
-    "smsubr",
-    "smsubramani",
-    "smsubra",
-    "smsubram",
     "smsu",
-    "smsub",
-    "sms",
-    "smsubrama",
-    "smsubramania",
     "smsubraman",
-    "cuddalo",
-    "speaki",
+    "smsubrama",
+    "sms",
+    "smsubramani",
+    "smsubramania",
+    "smsubram",
+    "smsub",
+    "smsubra",
+    "smsubr",
+    "indexyes",
+    "speaking",
     "to",
-    "spea",
-    "distr",
-    "cuddal",
-    "principal",
+    "kak index",
     "judg",
-    "prin",
-    "the",
-    "speakin",
-    "speak",
-    "princip",
-    "kak",
-    "princ",
-    "cud",
+    "dist",
+    "pri",
+    "cudd",
     "indexy",
-    "cuddalor",
     "princi",
+    "spea",
+    "yes speaking",
+    "speaki",
+    "indexye",
+    "to the principal district judge cuddalore",
+    "prin",
+    "princ",
+    "cuddalo",
+    "distri",
+    "cuddalor",
+    "principa",
+    "cuddal",
     "inde",
-    "district",
+    "speak",
+    "ind",
+    "speakin",
     "distric",
     "jud",
-    "yes",
-    "pri",
-    "kak index",
-    "dist",
-    "judge",
-    "principa",
-    "indexye",
-    "dis",
-    "ind",
-    "spe",
-    "distri",
-    "cudda",
-    "to the principal district judge cuddalore",
-    "cudd",
+    "cud",
+    "the",
     "index",
-    "yes speaking",
-    "indexyes",
-    "speaking"
+    "spe",
+    "judge",
+    "dis",
+    "distr",
+    "district",
+    "cudda",
+    "kak",
+    "principal",
+    "yes",
+    "princip"
   ],
   "entity_types": [
     "LOC",
@@ -84,47 +84,7 @@
       "score": 0.9750617742538452
     },
     {
-      "text": "smsubr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsubramani",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsubra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsubram",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "smsu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsub",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sms",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsubrama",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "smsubramania",
       "type": "PER",
       "score": 1.0
     },
@@ -134,12 +94,52 @@
       "score": 1.0
     },
     {
-      "text": "cuddalo",
+      "text": "smsubrama",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sms",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsubramani",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsubramania",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsubram",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsub",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsubra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "smsubr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "indexyes",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "speaki",
+      "text": "speaking",
       "type": "PER",
       "score": 0.95
     },
@@ -149,22 +149,7 @@
       "score": 0.95
     },
     {
-      "text": "spea",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "distr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cuddal",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "principal",
+      "text": "kak index",
       "type": "PER",
       "score": 0.95
     },
@@ -174,42 +159,17 @@
       "score": 0.95
     },
     {
-      "text": "prin",
+      "text": "dist",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "the",
+      "text": "pri",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "speakin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "speak",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "princip",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kak",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "princ",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cud",
+      "text": "cudd",
       "type": "PER",
       "score": 0.95
     },
@@ -219,12 +179,67 @@
       "score": 0.95
     },
     {
+      "text": "princi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spea",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes speaking",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speaki",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexye",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "to the principal district judge cuddalore",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "prin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "princ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cuddalo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "distri",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "cuddalor",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "princi",
+      "text": "principa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cuddal",
       "type": "PER",
       "score": 0.95
     },
@@ -234,7 +249,17 @@
       "score": 0.95
     },
     {
-      "text": "district",
+      "text": "speak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ind",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speakin",
       "type": "PER",
       "score": 0.95
     },
@@ -249,72 +274,12 @@
       "score": 0.95
     },
     {
-      "text": "yes",
+      "text": "cud",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "pri",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kak index",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "dist",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judge",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "principa",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indexye",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "dis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ind",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "spe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "distri",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cudda",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "to the principal district judge cuddalore",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cudd",
+      "text": "the",
       "type": "PER",
       "score": 0.95
     },
@@ -324,22 +289,57 @@
       "score": 0.95
     },
     {
-      "text": "yes speaking",
+      "text": "spe",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "indexyes",
+      "text": "judge",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "speaking",
+      "text": "dis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "distr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "district",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cudda",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "principal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "princip",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The court dismissed CMP No. 6648 of 2018 and rejected ASSR No. 19304 of 2018 at the SR stage due to a 2540-day delay in filing the appeal.",
+  "summary": "The court dismissed CMP No. 6648 of 2018 and rejected ASSR No. 19304 of 2018 due to a 2,540-day delay in filing the appeal.",
   "embedding": [
     0.04136616364121437,
     -0.010311583057045937,

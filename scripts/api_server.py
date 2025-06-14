@@ -1,11 +1,19 @@
 # Minimal FastAPI server to expose dense and hybrid search endpoints
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from pydantic import BaseModel
 from typing import Optional
 import sys
 sys.path.append('./scripts')
 from search_pipeline import search_query, hybrid_search
 from filter_utils import generate_filter
+from scripts.extract_text import save_processed_text
+from scripts.metadata import extract_metadata
+from scripts.vector_store import upsert_to_pinecone, delete_from_pinecone, pinecone_vector_exists
+import shutil
+import os
+from pathlib import Path
+from scripts.pinecone_utils import index
+from scripts.filter_utils import extract_query_metadata, is_entity_lookup_query
 
 app = FastAPI()
 
@@ -56,9 +64,14 @@ def dense_search(request: DenseSearchRequest):
         )
         # If no results, or low reranking score, show 'Document not found'
         no_results = not results.get('results')
+        query_metadata = extract_query_metadata(request.query)
+        if is_entity_lookup_query(query_metadata):
+            min_score = 0.05  # Lower threshold for entity lookup
+        else:
+            min_score = MIN_RERANK_SCORE
         low_score = (
             results.get('reranking_score') is not None and
-            results.get('reranking_score') < MIN_RERANK_SCORE
+            results.get('reranking_score') < min_score
         )
         if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
@@ -87,9 +100,14 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             metadata_filter=filter_dict
         )
         no_results = not results.get('results')
+        query_metadata = extract_query_metadata(request.query)
+        if is_entity_lookup_query(query_metadata):
+            min_score = 0.05  # Lower threshold for entity lookup
+        else:
+            min_score = MIN_RERANK_SCORE
         low_score = (
             results.get('reranking_score') is not None and
-            results.get('reranking_score') < MIN_RERANK_SCORE
+            results.get('reranking_score') < min_score
         )
         if no_results or low_score:
             return {"answer": "Document not found.", "results": []}
@@ -117,5 +135,67 @@ def intent_count_search(request: IntentCountRequest):
             return_count_for_intent=True
         )
         return results
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/ingest/pdf", tags=["ingest"])
+def ingest_pdf(pdf: UploadFile = File(...), chunk_size: int = Form(300), overlap: int = Form(50), chunk_dir: str = Form("data/chunks"), output_dir: str = Form("data/output_data")):
+    """Upload/process a PDF, chunk, extract metadata, upsert to Pinecone."""
+    try:
+        # Save uploaded PDF to disk
+        input_dir = "data/input_pdf_data"
+        Path(input_dir).mkdir(parents=True, exist_ok=True)
+        pdf_path = Path(input_dir) / pdf.filename
+        with open(pdf_path, "wb") as buffer:
+            shutil.copyfileobj(pdf.file, buffer)
+        # Process and chunk PDF
+        chunk_files = save_processed_text(input_dir, output_dir, specific_pdf=pdf_path, chunk_size=chunk_size, overlap=overlap, chunk_dir=chunk_dir)
+        # Extract metadata and upsert each chunk
+        for chunk_file in chunk_files:
+            text = chunk_file.read_text(encoding="utf-8")
+            metadata = extract_metadata(text)
+            # Save metadata JSON for upsert
+            json_path = Path(output_dir) / f"{chunk_file.stem}.json"
+            with open(json_path, "w", encoding="utf-8") as f:
+                import json
+                json.dump(metadata, f, ensure_ascii=False, indent=2)
+        # Upsert all new metadata JSONs
+        upsert_to_pinecone(output_dir)
+        return {"message": f"PDF '{pdf.filename}' processed, chunked, and upserted."}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class VectorDeleteRequest(BaseModel):
+    vector_id: str
+    namespace: Optional[str] = "__default__"
+
+@app.post("/vector/delete", tags=["vector"])
+def delete_vector(request: VectorDeleteRequest):
+    try:
+        delete_from_pinecone(request.vector_id, namespace=request.namespace)
+        return {"message": f"Vector '{request.vector_id}' deleted from namespace '{request.namespace}'."}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/vector/exists", tags=["vector"])
+def vector_exists(vector_id: str, namespace: str = "__default__"):
+    try:
+        exists = pinecone_vector_exists(vector_id, namespace=namespace)
+        return {"vector_id": vector_id, "namespace": namespace, "exists": exists}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class NamespaceDeleteRequest(BaseModel):
+    namespace: str
+
+@app.post("/namespace/delete", tags=["vector"])
+def delete_namespace(request: NamespaceDeleteRequest):
+    try:
+        # Pinecone does not have a direct delete_namespace, so we delete all vectors in the namespace
+        if not request.namespace or not isinstance(request.namespace, str):
+            raise ValueError("A valid namespace string must be provided.")
+        # Remove all vectors in the namespace
+        index.delete(delete_all=True, namespace=request.namespace)
+        return {"message": f"Namespace '{request.namespace}' deleted (all vectors removed)."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

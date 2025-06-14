@@ -11,7 +11,7 @@
     "circumstances",
     "filing"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.3706120505846106,
   "entities": [
     "shanmugam",
@@ -19,105 +19,105 @@
     "oriental aroma chemical industries limited",
     "gujarat industrial development corporation",
     "supreme court",
-    "chokkalinga",
-    "chokkal",
-    "chok",
     "shan",
-    "cho",
-    "chokkali",
-    "chokk",
-    "shanmuga",
-    "sha",
     "shanmu",
-    "chokka",
+    "shanmuga",
     "shanm",
     "chokkaling",
+    "chokkali",
+    "chokk",
+    "sha",
+    "chokkal",
+    "cho",
+    "chokkalinga",
     "chokkalin",
+    "chok",
+    "chokka",
     "shanmug",
-    "industri",
-    "corporati",
-    "honourable supreme court",
-    "supreme",
-    "hono",
-    "defendant",
-    "industries",
-    "chem",
-    "sup",
-    "limit",
-    "deve",
-    "court",
-    "developmen",
-    "the",
-    "supre",
-    "limi",
-    "limite",
-    "defen",
-    "honour",
     "honoura",
+    "arom",
+    "cou",
+    "indust",
     "orienta",
-    "orie",
-    "gujar",
-    "scw",
-    "guj",
-    "corpor",
-    "devel",
-    "supr",
-    "industria",
-    "corporatio",
-    "defendan",
-    "honourab",
-    "hon",
-    "corpo",
-    "gujarat",
-    "def",
     "aroma",
-    "ind",
-    "honourable",
-    "chemic",
-    "develo",
-    "aro",
-    "indu",
-    "honourabl",
-    "defenda",
+    "corporatio",
     "cor",
     "che",
-    "cour",
-    "developm",
-    "chemi",
-    "air",
-    "orient",
-    "guja",
-    "in oriental aroma chemical industries limited",
-    "corpora",
-    "defe",
-    "orien",
-    "developme",
-    "chemical",
-    "indust",
-    "defendant the",
-    "suprem",
-    "corp",
-    "in",
-    "limited",
-    "industr",
-    "honou",
-    "dev",
-    "chemica",
-    "air scw",
-    "development",
-    "cou",
+    "def",
+    "aro",
     "gujara",
-    "develop",
-    "defend",
-    "industrie",
-    "ori",
-    "industrial",
-    "indus",
+    "gujarat",
+    "chemica",
+    "chem",
+    "developme",
+    "air",
     "lim",
-    "arom",
-    "oriental",
+    "corpo",
+    "supreme",
+    "chemical",
+    "orie",
+    "honourab",
+    "in",
+    "industries",
+    "develo",
+    "deve",
+    "indu",
+    "limi",
     "in shanmugam",
+    "indus",
+    "supr",
+    "development",
+    "honou",
+    "the",
+    "defend",
+    "oriental",
+    "guj",
+    "industr",
+    "defe",
+    "corpor",
+    "supre",
+    "chemi",
+    "industrie",
+    "devel",
+    "corporati",
+    "industria",
+    "industrial",
+    "hon",
+    "honourable",
+    "defendant the",
+    "gujar",
+    "industri",
+    "developm",
+    "limited",
+    "limit",
+    "suprem",
+    "corpora",
+    "guja",
+    "scw",
+    "court",
+    "developmen",
+    "orien",
+    "defenda",
     "corporation",
+    "ind",
+    "sup",
+    "develop",
+    "honourable supreme court",
+    "defendan",
+    "in oriental aroma chemical industries limited",
+    "honourabl",
+    "cour",
+    "air scw",
+    "defen",
+    "corp",
+    "limite",
+    "orient",
+    "defendant",
+    "chemic",
+    "hono",
+    "dev",
+    "honour",
+    "ori",
     "corporat"
   ],
   "entity_types": [
@@ -151,47 +151,7 @@
       "score": 0.9971007108688354
     },
     {
-      "text": "chokkalinga",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "chokkal",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "chok",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "shan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "cho",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "chokkali",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "chokk",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "shanmuga",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sha",
       "type": "PER",
       "score": 1.0
     },
@@ -201,7 +161,7 @@
       "score": 1.0
     },
     {
-      "text": "chokka",
+      "text": "shanmuga",
       "type": "PER",
       "score": 1.0
     },
@@ -216,7 +176,47 @@
       "score": 1.0
     },
     {
+      "text": "chokkali",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "chokk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "chokkal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "cho",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "chokkalinga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "chokkalin",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "chok",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "chokka",
       "type": "PER",
       "score": 1.0
     },
@@ -226,102 +226,22 @@
       "score": 1.0
     },
     {
-      "text": "industri",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corporati",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourable supreme court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supreme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hono",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defendant",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "industries",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sup",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "deve",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "developmen",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "the",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supre",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limite",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defen",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "honoura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "arom",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indust",
       "type": "PER",
       "score": 0.95
     },
@@ -331,122 +251,12 @@
       "score": 0.95
     },
     {
-      "text": "orie",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "gujar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "scw",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "guj",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corpor",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "devel",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "industria",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corporatio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defendan",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corpo",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "gujarat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "def",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "aroma",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "ind",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourable",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chemic",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "develo",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aro",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indu",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourabl",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defenda",
+      "text": "corporatio",
       "type": "PER",
       "score": 0.95
     },
@@ -461,127 +271,12 @@
       "score": 0.95
     },
     {
-      "text": "cour",
+      "text": "def",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "developm",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chemi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "air",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "orient",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "guja",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in oriental aroma chemical industries limited",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corpora",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "orien",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "developme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chemical",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indust",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "defendant the",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "corp",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limited",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "industr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "dev",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chemica",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "air scw",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "development",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cou",
+      "text": "aro",
       "type": "PER",
       "score": 0.95
     },
@@ -591,32 +286,27 @@
       "score": 0.95
     },
     {
-      "text": "develop",
+      "text": "gujarat",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "defend",
+      "text": "chemica",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "industrie",
+      "text": "chem",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "ori",
+      "text": "developme",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "industrial",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indus",
+      "text": "air",
       "type": "PER",
       "score": 0.95
     },
@@ -626,12 +316,57 @@
       "score": 0.95
     },
     {
-      "text": "arom",
+      "text": "corpo",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "oriental",
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chemical",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "orie",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industries",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "develo",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "deve",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
       "type": "PER",
       "score": 0.95
     },
@@ -641,7 +376,272 @@
       "score": 0.95
     },
     {
+      "text": "indus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "development",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defend",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "oriental",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "guj",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "corpor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chemi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industrie",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "devel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "corporati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industria",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industrial",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defendant the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "gujar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "industri",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "developm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "corpora",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "guja",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "scw",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "developmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "orien",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defenda",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "corporation",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ind",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "develop",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defendan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in oriental aroma chemical industries limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "air scw",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "corp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limite",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "orient",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "defendant",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chemic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "dev",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ori",
       "type": "PER",
       "score": 0.95
     },
@@ -651,7 +651,7 @@
       "score": 0.95
     }
   ],
-  "summary": "Delay in legal proceedings cannot be excused without reasonable diligence, as condoning delays without valid justification prejudices the opposing party; improper exercise of discretion in such cases is unsustainable.",
+  "summary": "The court emphasized that delays caused by a lack of due diligence cannot be condoned as a matter of judicial generosity, as doing so would prejudice the opposing party, particularly in cases where one party has been pursuing the matter diligently over an extended period.",
   "embedding": [
     0.03254052251577377,
     0.02163076587021351,

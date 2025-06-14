@@ -11,117 +11,117 @@
     "assrno19304",
     "cmpno6648"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.338965513182547,
   "entities": [
     "sundar gnanaolivu",
     "rajendran gnanavolivu",
     "n balakrishnan",
     "m krishnamurthy",
-    "gnanao",
-    "n b",
-    "sun",
-    "sundar gna",
-    "rajendr",
-    "n bala",
-    "rajen",
-    "gnanavoli",
-    "krishnamurthy",
-    "krishnamur",
-    "rajendran gn",
-    "balak",
-    "m krishna",
-    "balakrishna",
-    "raj",
-    "gnana",
-    "n balakrishna",
-    "rajendran gnanavol",
-    "gnanaoliv",
-    "sundar gnan",
-    "rajendran gnana",
-    "gnanavolivu",
-    "rajendran gnanav",
-    "n balakrish",
-    "krishnamurt",
-    "gnanaolivu",
-    "n balak",
-    "sundar gnana",
-    "m krish",
-    "gnanaol",
-    "gnanaoli",
-    "m krishnamurth",
-    "kri",
-    "sundar gn",
-    "krishnamu",
-    "sundar gnanao",
-    "sunda",
-    "rajendran g",
-    "gnanav",
-    "m k",
-    "m krishnam",
-    "krishna",
-    "n ba",
-    "m krishn",
-    "balakrish",
     "balakris",
-    "krishnamurth",
-    "sundar",
-    "n",
-    "rajendran",
-    "raje",
-    "sundar ",
-    "balakrishn",
-    "balakri",
-    "m kri",
-    "rajendra",
-    "n bal",
-    "m kris",
+    "krishnamur",
     "gnan",
-    "rajendran gnanavoliv",
+    "rajendran g",
+    "n balak",
+    "balakrishna",
+    "n ba",
+    "m k",
+    "sundar gnanao",
+    "gnanaoli",
     "n balakris",
-    "bala",
-    "m",
-    "gna",
-    "rajendran gna",
-    "m krishnamu",
-    "n balakri",
-    "sundar gnanaoliv",
-    "kris",
-    "sundar gnanaoli",
-    "gnanavol",
-    "n balakrishn",
-    "sund",
-    "rajendran gnanavoli",
-    "balakrishnan",
-    "gnanavoliv",
+    "gnanavoli",
+    "m kris",
     "rajendran gnanavo",
-    "m krishnamur",
-    "m krishnamurt",
-    "rajendran ",
-    "rajend",
-    "m kr",
-    "sundar gnanaol",
-    "gnanavo",
+    "raje",
+    "kris",
+    "m krish",
+    "krishna",
+    "gnanaol",
+    "rajendra",
+    "rajen",
+    "balakrishnan",
     "krish",
-    "balakr",
-    "krishnam",
+    "rajendran",
+    "sundar gnanaol",
+    "rajendr",
     "sundar g",
+    "rajendran ",
+    "n",
+    "kri",
+    "gna",
+    "sundar gnana",
+    "sundar gnanaoliv",
     "bal",
+    "balakrishn",
+    "m krishnam",
     "rajendran gnan",
+    "balakri",
+    "sundar gnanaoli",
+    "sund",
+    "rajendran gnanav",
+    "n balakri",
+    "n balakrishn",
+    "sun",
+    "gnanaolivu",
     "n balakr",
+    "m",
+    "gnanao",
+    "balak",
+    "m kri",
+    "n balakrishna",
+    "rajendran gna",
+    "krishnamurthy",
+    "raj",
+    "gnanavoliv",
+    "sundar gna",
+    "balakrish",
+    "rajendran gnanavoli",
+    "n b",
+    "sundar gnan",
     "krishn",
-    "divisi",
-    "ben",
-    "divi",
-    "bench",
-    "div",
-    "division",
-    "divis",
+    "n bal",
+    "bala",
+    "m krishnamurt",
+    "m krishnamu",
+    "rajendran gnanavol",
+    "gnanavolivu",
+    "m krishnamurth",
+    "m krishnamur",
+    "gnanaoliv",
+    "n bala",
+    "m kr",
+    "rajendran gnanavoliv",
+    "n balakrish",
+    "krishnamu",
+    "krishnam",
+    "m krishn",
+    "sundar ",
+    "rajendran gnana",
+    "sundar gn",
+    "gnanavol",
+    "sunda",
+    "rajendran gn",
+    "krishnamurt",
+    "gnanav",
+    "m krishna",
+    "gnanavo",
+    "gnana",
+    "krishnamurth",
+    "rajend",
+    "balakr",
+    "sundar",
     "sundar gnanaolivu vs rajendran gnanavolivu",
-    "division bench",
-    "vs",
+    "division",
+    "divisi",
     "divisio",
-    "benc"
+    "div",
+    "vs",
+    "divi",
+    "ben",
+    "division bench",
+    "divis",
+    "benc",
+    "bench"
   ],
   "entity_types": [
     "PER"
@@ -148,47 +148,7 @@
       "score": 0.9994494318962097
     },
     {
-      "text": "gnanao",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n b",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sun",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n bala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajen",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurthy",
+      "text": "balakris",
       "type": "PER",
       "score": 1.0
     },
@@ -198,137 +158,7 @@
       "score": 1.0
     },
     {
-      "text": "rajendran gn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "raj",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakrishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanavol",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaoliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavolivu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanav",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakrish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaolivu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaol",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanaoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishnamurth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanao",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sunda",
+      "text": "gnan",
       "type": "PER",
       "score": 1.0
     },
@@ -338,22 +168,12 @@
       "score": 1.0
     },
     {
-      "text": "gnanav",
+      "text": "n balak",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m k",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishnam",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishna",
+      "text": "balakrishna",
       "type": "PER",
       "score": 1.0
     },
@@ -363,87 +183,17 @@
       "score": 1.0
     },
     {
-      "text": "m krishn",
+      "text": "m k",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "balakrish",
+      "text": "sundar gnanao",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "balakris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "krishnamurth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "raje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m kri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n bal",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m kris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanavoliv",
+      "text": "gnanaoli",
       "type": "PER",
       "score": 1.0
     },
@@ -453,77 +203,12 @@
       "score": 1.0
     },
     {
-      "text": "bala",
+      "text": "gnanavoli",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m krishnamu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanaoliv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "kris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sundar gnanaoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavol",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "n balakrishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sund",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "rajendran gnanavoli",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "gnanavoliv",
+      "text": "m kris",
       "type": "PER",
       "score": 1.0
     },
@@ -533,37 +218,42 @@
       "score": 1.0
     },
     {
-      "text": "m krishnamur",
+      "text": "raje",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m krishnamurt",
+      "text": "kris",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajendran ",
+      "text": "m krish",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "rajend",
+      "text": "krishna",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m kr",
+      "text": "gnanaol",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "sundar gnanaol",
+      "text": "rajendra",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "gnanavo",
+      "text": "rajen",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishnan",
       "type": "PER",
       "score": 1.0
     },
@@ -573,12 +263,17 @@
       "score": 1.0
     },
     {
-      "text": "balakr",
+      "text": "rajendran",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "krishnam",
+      "text": "sundar gnanaol",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendr",
       "type": "PER",
       "score": 1.0
     },
@@ -588,7 +283,47 @@
       "score": 1.0
     },
     {
+      "text": "rajendran ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnam",
       "type": "PER",
       "score": 1.0
     },
@@ -598,7 +333,117 @@
       "score": 1.0
     },
     {
+      "text": "balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaoli",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sund",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanav",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sun",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaolivu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "n balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanao",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurthy",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "raj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanavoli",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnan",
       "type": "PER",
       "score": 1.0
     },
@@ -608,27 +453,162 @@
       "score": 1.0
     },
     {
-      "text": "divisi",
+      "text": "n bal",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "ben",
+      "text": "bala",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "divi",
+      "text": "m krishnamurt",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "bench",
+      "text": "m krishnamu",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "div",
+      "text": "rajendran gnanavol",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavolivu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishnamur",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanaoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m kr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnanavoliv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "n balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gnana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavol",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sunda",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajendran gn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanav",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m krishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnanavo",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "gnana",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "krishnamurth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "rajend",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sundar gnanaolivu vs rajendran gnanavolivu",
       "type": "PER",
       "score": 0.95
     },
@@ -638,22 +618,7 @@
       "score": 0.95
     },
     {
-      "text": "divis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sundar gnanaolivu vs rajendran gnanavolivu",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "vs",
+      "text": "divisi",
       "type": "PER",
       "score": 0.95
     },
@@ -663,12 +628,47 @@
       "score": 0.95
     },
     {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "benc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The court emphasized that government departments must provide reasonable and bona fide explanations for delays, as procedural red tape cannot justify condonation, and the law of limitation applies equally to all parties without exception.",
+  "summary": "The court emphasized that government departments must provide reasonable and bona fide explanations for delays, as the law of limitation applies equally to all, and procedural red tape cannot justify condonation of delay.",
   "embedding": [
     0.03643469512462616,
     0.023577731102705002,

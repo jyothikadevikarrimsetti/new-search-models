@@ -11,26 +11,26 @@
     "compensating",
     "inaction"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.35216363296459335,
   "entities": [
     "damocles",
-    "damoc",
     "dam",
+    "damoc",
     "damocle",
-    "damocl",
     "damo",
-    "ben",
-    "divi",
-    "the division bench",
-    "bench",
-    "the",
-    "div",
+    "damocl",
     "division",
-    "divisi",
+    "the division bench",
     "divisio",
+    "divisi",
+    "divi",
+    "divis",
+    "the",
     "benc",
-    "divis"
+    "div",
+    "ben",
+    "bench"
   ],
   "entity_types": [
     "PER"
@@ -42,12 +42,12 @@
       "score": 0.9302166104316711
     },
     {
-      "text": "damoc",
+      "text": "dam",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dam",
+      "text": "damoc",
       "type": "PER",
       "score": 1.0
     },
@@ -57,22 +57,17 @@
       "score": 1.0
     },
     {
-      "text": "damocl",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "damo",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "ben",
+      "text": "damocl",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "divi",
+      "text": "division",
       "type": "PER",
       "score": 0.95
     },
@@ -82,22 +77,7 @@
       "score": 0.95
     },
     {
-      "text": "bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "the",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "div",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division",
+      "text": "divisio",
       "type": "PER",
       "score": 0.95
     },
@@ -107,7 +87,17 @@
       "score": 0.95
     },
     {
-      "text": "divisio",
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
       "type": "PER",
       "score": 0.95
     },
@@ -117,12 +107,22 @@
       "score": 0.95
     },
     {
-      "text": "divis",
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The text emphasizes that rules of limitation are rooted in public policy and equity, and courts should adopt a liberal approach to condonation of delay unless there is evidence of bad faith or deliberate misconduct by the party seeking relief.",
+  "summary": "The court emphasized that rules of limitation are grounded in public policy and equity, and while a liberal approach to condonation of delay is appropriate, delays caused by lack of bona fides or deliberate conduct should not be excused.",
   "embedding": [
     0.038764145225286484,
     0.014299950562417507,

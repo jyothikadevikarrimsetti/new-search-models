@@ -11,99 +11,99 @@
     "statute",
     "condonation"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.31526178478008243,
   "entities": [
     "limitation act",
     "zulaiha syed mohideen",
     "dvisalakshi ammal others",
-    "zul",
-    "oth",
-    "zulai",
-    "dvisalakshi ammal ",
-    "zulaiha sye",
-    "dvisalakshi ammal oth",
-    "dvisalakshi",
-    "zulaiha sy",
-    "dvisalakshi am",
-    "dvi",
-    "sye",
-    "mohid",
-    "zulaiha ",
-    "ammal",
-    "dvisalakshi amm",
-    "moh",
-    "dvisalaksh",
-    "mohidee",
-    "dvisalakshi a",
-    "zulaiha syed mohide",
-    "zulaiha syed mo",
-    "zulaiha syed moh",
-    "syed",
-    "dvisalakshi ammal other",
-    "dvisalakshi ammal",
-    "dvisalaks",
-    "zula",
-    "dvisal",
     "dvisalakshi ammal othe",
-    "zulaiha syed m",
-    "zulaiha",
+    "amma",
+    "zulaiha ",
     "dvisala",
+    "zulaiha syed mohi",
+    "zul",
+    "zulaiha syed mohide",
+    "zulaiha syed mohidee",
+    "zulaih",
+    "zulaiha syed mohid",
+    "ammal",
+    "dvisalakshi a",
+    "dvisalak",
+    "moh",
+    "zulaiha sy",
+    "zulaiha syed ",
+    "dvisalakshi amm",
+    "dvisal",
     "dvisalakshi ",
-    "other",
+    "dvisalaksh",
+    "dvisalakshi ammal ot",
+    "syed",
+    "dvisalakshi",
+    "zulaiha s",
+    "dvisalakshi ammal",
+    "dvi",
+    "dvisalaks",
     "dvisalakshi amma",
     "mohide",
-    "mohideen",
-    "zulaiha syed mohid",
-    "zulaiha s",
-    "dvisalakshi ammal ot",
+    "zula",
+    "zulaiha syed m",
+    "oth",
+    "other",
+    "mohidee",
     "others",
-    "dvisa",
-    "amm",
-    "zulaiha syed mohidee",
-    "othe",
-    "amma",
-    "zulaiha syed",
-    "dvisalak",
-    "dvis",
-    "zulaih",
+    "zulaiha syed mo",
     "dvisalakshi ammal o",
-    "zulaiha syed ",
+    "mohid",
+    "zulaiha syed moh",
+    "dvisa",
+    "dvisalakshi ammal oth",
+    "othe",
+    "dvisalakshi ammal other",
+    "amm",
+    "zulaiha",
+    "dvisalakshi ammal ",
+    "sye",
+    "mohideen",
+    "dvis",
+    "dvisalakshi am",
     "mohi",
-    "zulaiha syed mohi",
-    "cour",
-    "visalaks",
-    "law",
-    "limit",
-    "limitation",
-    "court",
-    "limi",
-    "limitati",
-    "zulaiha syed mohideen vs",
-    "law thus",
-    "courts thus",
-    "courts",
+    "zulaiha sye",
+    "zulai",
+    "zulaiha syed",
+    "cou",
     "limita",
-    "vis",
     "act",
     "limitatio",
-    "cou",
-    "visala",
-    "thu",
-    "thus",
-    "limitat",
-    "lim",
-    "visa",
-    "visalak",
-    "vs",
-    "visalaksh",
     "visalakshi ammal others",
+    "vis",
+    "law thus",
+    "thus",
+    "courts thus",
+    "limitation",
+    "lim",
+    "limit",
+    "visal",
+    "law",
+    "limitat",
+    "visala",
+    "court",
+    "limitati",
+    "visalaks",
+    "limi",
+    "thu",
+    "visalak",
+    "visa",
+    "cour",
+    "visalaksh",
+    "courts",
     "visalakshi",
-    "visal"
+    "vs",
+    "zulaiha syed mohideen vs"
   ],
   "entity_types": [
-    "PER",
-    "MISC"
+    "MISC",
+    "PER"
   ],
   "entity_details": [
     {
@@ -122,62 +122,12 @@
       "score": 0.9927706718444824
     },
     {
-      "text": "zul",
+      "text": "dvisalakshi ammal othe",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "oth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulai",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalakshi ammal ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha sye",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalakshi ammal oth",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalakshi",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha sy",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalakshi am",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvi",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sye",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mohid",
+      "text": "amma",
       "type": "PER",
       "score": 1.0
     },
@@ -187,32 +137,17 @@
       "score": 1.0
     },
     {
-      "text": "ammal",
+      "text": "dvisala",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dvisalakshi amm",
+      "text": "zulaiha syed mohi",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "moh",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalaksh",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mohidee",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalakshi a",
+      "text": "zul",
       "type": "PER",
       "score": 1.0
     },
@@ -222,37 +157,52 @@
       "score": 1.0
     },
     {
-      "text": "zulaiha syed mo",
+      "text": "zulaiha syed mohidee",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "zulaiha syed moh",
+      "text": "zulaih",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "syed",
+      "text": "zulaiha syed mohid",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dvisalakshi ammal other",
+      "text": "ammal",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dvisalakshi ammal",
+      "text": "dvisalakshi a",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dvisalaks",
+      "text": "dvisalak",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "zula",
+      "text": "moh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "zulaiha sy",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "zulaiha syed ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi amm",
       "type": "PER",
       "score": 1.0
     },
@@ -262,32 +212,47 @@
       "score": 1.0
     },
     {
-      "text": "dvisalakshi ammal othe",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha syed m",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "dvisalakshi ",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "other",
+      "text": "dvisalaksh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi ammal ot",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "syed",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "zulaiha s",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi ammal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvi",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalaks",
       "type": "PER",
       "score": 1.0
     },
@@ -302,22 +267,27 @@
       "score": 1.0
     },
     {
-      "text": "mohideen",
+      "text": "zula",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "zulaiha syed mohid",
+      "text": "zulaiha syed m",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "zulaiha s",
+      "text": "oth",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dvisalakshi ammal ot",
+      "text": "other",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mohidee",
       "type": "PER",
       "score": 1.0
     },
@@ -327,47 +297,7 @@
       "score": 1.0
     },
     {
-      "text": "dvisa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "amm",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha syed mohidee",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "othe",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "amma",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaiha syed",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvisalak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "dvis",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "zulaih",
+      "text": "zulaiha syed mo",
       "type": "PER",
       "score": 1.0
     },
@@ -377,7 +307,67 @@
       "score": 1.0
     },
     {
-      "text": "zulaiha syed ",
+      "text": "mohid",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "zulaiha syed moh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi ammal oth",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "othe",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi ammal other",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "amm",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "zulaiha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi ammal ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sye",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mohideen",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvis",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "dvisalakshi am",
       "type": "PER",
       "score": 1.0
     },
@@ -387,77 +377,27 @@
       "score": 1.0
     },
     {
-      "text": "zulaiha syed mohi",
+      "text": "zulaiha sye",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "cour",
+      "text": "zulai",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "visalaks",
+      "text": "zulaiha syed",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "law",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limitation",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limitati",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "zulaiha syed mohideen vs",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "law thus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "courts thus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "courts",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
       "text": "limita",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "vis",
       "type": "PER",
       "score": 0.95
     },
@@ -472,17 +412,17 @@
       "score": 0.95
     },
     {
-      "text": "cou",
+      "text": "visalakshi ammal others",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "visala",
+      "text": "vis",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "thu",
+      "text": "law thus",
       "type": "PER",
       "score": 0.95
     },
@@ -492,7 +432,12 @@
       "score": 0.95
     },
     {
-      "text": "limitat",
+      "text": "courts thus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitation",
       "type": "PER",
       "score": 0.95
     },
@@ -502,7 +447,52 @@
       "score": 0.95
     },
     {
-      "text": "visa",
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "visal",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "law",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "visala",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "visalaks",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "thu",
       "type": "PER",
       "score": 0.95
     },
@@ -512,7 +502,12 @@
       "score": 0.95
     },
     {
-      "text": "vs",
+      "text": "visa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
       "type": "PER",
       "score": 0.95
     },
@@ -522,7 +517,7 @@
       "score": 0.95
     },
     {
-      "text": "visalakshi ammal others",
+      "text": "courts",
       "type": "PER",
       "score": 0.95
     },
@@ -532,12 +527,17 @@
       "score": 0.95
     },
     {
-      "text": "visal",
+      "text": "vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "zulaiha syed mohideen vs",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "Courts must exercise discretion cautiously when condoning delays, ensuring genuine reasons are provided, as unexplained delays undermine the purpose of the Limitation Act and cannot be condoned.",
+  "summary": "Courts must exercise discretion cautiously when condoning delays, requiring genuine reasons for such condonation, as unexplained delays undermine the purpose of the Limitation Act and cannot be permitted.",
   "embedding": [
     0.06346984207630157,
     0.04159814491868019,

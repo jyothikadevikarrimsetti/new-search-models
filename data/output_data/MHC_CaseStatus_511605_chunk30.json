@@ -11,77 +11,32 @@
     "justice",
     "substantial"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.4079670421344415,
   "entities": [
-    "speaki",
-    "indexy",
     "inde",
-    "spea",
-    "yes",
-    "kak index",
-    "indexye",
-    "ind",
-    "spe",
-    "speakin",
     "speak",
-    "kak",
-    "index",
-    "yes speaking",
+    "ind",
+    "speakin",
     "indexyes",
-    "speaking"
+    "speaking",
+    "kak index",
+    "index",
+    "indexy",
+    "spea",
+    "spe",
+    "yes speaking",
+    "speaki",
+    "indexye",
+    "kak",
+    "yes"
   ],
   "entity_types": [
     "PER"
   ],
   "entity_details": [
     {
-      "text": "speaki",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indexy",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "inde",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "spea",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "yes",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "kak index",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "indexye",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ind",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "spe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "speakin",
       "type": "PER",
       "score": 0.95
     },
@@ -91,17 +46,12 @@
       "score": 0.95
     },
     {
-      "text": "kak",
+      "text": "ind",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "index",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "yes speaking",
+      "text": "speakin",
       "type": "PER",
       "score": 0.95
     },
@@ -114,9 +64,59 @@
       "text": "speaking",
       "type": "PER",
       "score": 0.95
+    },
+    {
+      "text": "kak index",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "index",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexy",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spea",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes speaking",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speaki",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "indexye",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "kak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "yes",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The court dismissed the petition due to an unexplained delay of 2,540 days, emphasizing that discretionary powers must be exercised cautiously and with valid, convincing reasons, especially in matters governed by the substantial law of limitation.",
+  "summary": "The court dismissed the petition due to an unexplained delay of 2,540 days, emphasizing that discretionary powers must be exercised cautiously and with valid, well-reasoned justification, especially in matters governed by the substantial law of limitation.",
   "embedding": [
     0.01742391288280487,
     0.019716894254088402,

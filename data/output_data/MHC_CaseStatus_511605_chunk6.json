@@ -11,7 +11,7 @@
     "judgment",
     "justice"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.36589442248952825,
   "entities": [
     "supreme court",
@@ -22,170 +22,170 @@
     "tamil nadu mercantile bank limited tuticorin",
     "appellate authority",
     "m srinivasan",
-    "p arumu",
-    "mk pras",
-    "srin",
-    "srini",
     "m sriniva",
-    "p arum",
-    "m s",
-    "sriniv",
-    "m srini",
-    "sri",
-    "mk p",
-    "p a",
-    "mk ",
-    "sriniva",
-    "prasad",
-    "pra",
-    "m sriniv",
-    "arumugam",
-    "arumu",
-    "srinivasa",
-    "p arumuga",
     "mk",
-    "arumuga",
-    "mk pra",
-    "mk pr",
-    "m sr",
-    "srinivasan",
-    "m",
-    "pras",
-    "prasa",
-    "m srinivasa",
-    "p ar",
-    "srinivas",
+    "arumu",
     "arumug",
-    "m sri",
+    "p arumu",
+    "pras",
+    "p arumuga",
     "p aru",
+    "m",
     "p arumug",
-    "aru",
+    "arumugam",
+    "sri",
     "m srin",
-    "m srinivas",
-    "arum",
+    "m srini",
+    "m srinivasa",
+    "p arum",
+    "sriniv",
+    "prasad",
+    "arumuga",
+    "m s",
+    "prasa",
+    "p a",
     "mk prasa",
+    "mk ",
+    "mk pra",
+    "mk p",
+    "mk pras",
+    "pra",
+    "sriniva",
+    "srinivas",
+    "srinivasa",
+    "mk pr",
+    "m sriniv",
+    "m sr",
     "p",
-    "appella",
-    "nadu",
-    "supreme",
-    "honourable supreme court",
-    "hono",
-    "ban",
-    "madu",
-    "establishme",
-    "sup",
-    "lordsh",
-    "nad",
-    "limit",
-    "cases",
-    "court",
-    "shops",
-    "tut",
-    "ben",
-    "appellat",
-    "supre",
-    "lordshi",
-    "division bench judgment",
-    "div",
-    "limi",
-    "limite",
-    "jus",
-    "honour",
+    "arum",
+    "p ar",
+    "m sri",
+    "m srinivas",
+    "srin",
+    "aru",
+    "srinivasan",
+    "srini",
     "honoura",
-    "judgme",
-    "mer",
-    "his lordship mr justice",
-    "appell",
-    "merc",
-    "tuti",
-    "tuticori",
-    "supr",
-    "act",
-    "shop",
-    "division bench",
-    "esta",
-    "honourab",
-    "hon",
-    "lord",
     "tam",
-    "para",
-    "app",
-    "honourable",
-    "authority",
-    "merca",
-    "authorit",
-    "justi",
-    "judgmen",
-    "judgm",
-    "mercant",
-    "sho",
-    "bank",
-    "mad",
-    "honourabl",
+    "division",
+    "lordshi",
+    "cou",
+    "judgme",
+    "act",
+    "his lordship mr justice",
+    "judg",
+    "establishm",
+    "lim",
+    "division bench judgment",
+    "establishments act madurai",
     "madur",
+    "supreme",
+    "bench",
+    "mercantile",
+    "esta",
+    "supreme court cases",
+    "establishme",
+    "par",
+    "judgment",
+    "honourab",
+    "in",
+    "tuticori",
     "mercanti",
+    "tami",
+    "limi",
+    "tuticor",
+    "cas",
+    "supr",
+    "honou",
+    "mer",
+    "nos",
+    "authori",
+    "case",
+    "tuti",
+    "madurai",
+    "division bench",
+    "establishment",
+    "in para nos",
+    "aut",
+    "app",
+    "lordsh",
+    "divis",
+    "appella",
+    "supre",
+    "mercant",
+    "tuticorin",
+    "establishmen",
+    "authority",
+    "his",
+    "appellat",
     "divisio",
+    "divisi",
+    "para",
+    "shops",
+    "justic",
+    "mercantil",
+    "justi",
+    "hon",
+    "mr",
+    "honourable",
+    "mercan",
+    "madura",
+    "lor",
+    "ban",
+    "div",
+    "tamil nadu shops",
+    "limited",
+    "est",
+    "limit",
+    "mad",
+    "judgm",
+    "estab",
+    "establi",
+    "author",
+    "lords",
+    "suprem",
+    "jus",
+    "divi",
+    "lordship",
+    "tutic",
+    "shop",
+    "sho",
+    "court",
+    "just",
+    "nadu",
+    "tamil",
+    "auth",
+    "sup",
+    "cases",
+    "appe",
+    "authorit",
+    "merc",
+    "honourable supreme court",
+    "jud",
+    "autho",
+    "nad",
+    "lord",
+    "merca",
+    "honourabl",
+    "ben",
     "cour",
     "establ",
-    "establis",
-    "in para nos",
-    "madurai",
-    "auth",
-    "mercantile",
-    "case",
-    "divisi",
-    "establishments",
-    "his",
-    "establi",
-    "tamil nadu shops",
-    "lordship",
-    "judg",
-    "divi",
-    "bench",
-    "division",
-    "tuticorin",
-    "justic",
-    "tutic",
-    "cas",
-    "suprem",
-    "lor",
-    "lords",
-    "establishment",
-    "justice",
-    "in",
-    "tutico",
-    "tami",
-    "establishm",
-    "limited",
-    "divis",
-    "mercan",
-    "honou",
-    "mercantil",
-    "estab",
-    "appe",
-    "cou",
-    "jud",
-    "tamil",
-    "par",
-    "nos",
-    "supreme court cases",
-    "author",
-    "authori",
-    "establishments act madurai",
-    "mr",
-    "lim",
-    "establish",
-    "madura",
-    "appel",
-    "autho",
-    "establishmen",
-    "judgment",
-    "just",
-    "est",
-    "tuticor",
-    "aut",
+    "judgmen",
+    "madu",
     "appellate",
-    "benc"
+    "appel",
+    "tutico",
+    "establis",
+    "limite",
+    "justice",
+    "establish",
+    "bank",
+    "establishments",
+    "hono",
+    "honour",
+    "benc",
+    "appell",
+    "tut"
   ],
   "entity_types": [
     "ORG",
@@ -233,107 +233,7 @@
       "score": 0.9990540742874146
     },
     {
-      "text": "p arumu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk pras",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srin",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srini",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "m sriniva",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p arum",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m s",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sriniv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m srini",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk p",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p a",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sriniva",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "prasad",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m sriniv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumugam",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "arumu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srinivasa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p arumuga",
       "type": "PER",
       "score": 1.0
     },
@@ -343,57 +243,7 @@
       "score": 1.0
     },
     {
-      "text": "arumuga",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk pra",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "mk pr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m sr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srinivasan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pras",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "prasa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m srinivasa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "p ar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srinivas",
+      "text": "arumu",
       "type": "PER",
       "score": 1.0
     },
@@ -403,7 +253,17 @@
       "score": 1.0
     },
     {
-      "text": "m sri",
+      "text": "p arumu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pras",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arumuga",
       "type": "PER",
       "score": 1.0
     },
@@ -413,12 +273,22 @@
       "score": 1.0
     },
     {
+      "text": "m",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "p arumug",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "aru",
+      "text": "arumugam",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sri",
       "type": "PER",
       "score": 1.0
     },
@@ -428,12 +298,47 @@
       "score": 1.0
     },
     {
-      "text": "m srinivas",
+      "text": "m srini",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "arum",
+      "text": "m srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p arum",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriniv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasad",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "arumuga",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m s",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "prasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "p a",
       "type": "PER",
       "score": 1.0
     },
@@ -443,217 +348,107 @@
       "score": 1.0
     },
     {
+      "text": "mk ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pras",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pra",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriniva",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "mk pr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sriniv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m sr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "p",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "appella",
+      "text": "arum",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "nadu",
+      "text": "p ar",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "supreme",
+      "text": "m sri",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "honourable supreme court",
+      "text": "m srinivas",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "hono",
+      "text": "srin",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "ban",
+      "text": "aru",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "madu",
+      "text": "srinivasan",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "establishme",
+      "text": "srini",
       "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sup",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lordsh",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nad",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cases",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "shops",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tut",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ben",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appellat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supre",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lordshi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division bench judgment",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "div",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limite",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "jus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honour",
-      "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
       "text": "honoura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mer",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "his lordship mr justice",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appell",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "merc",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuti",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuticori",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "act",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "shop",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "esta",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lord",
       "type": "PER",
       "score": 0.95
     },
@@ -663,72 +458,57 @@
       "score": 0.95
     },
     {
-      "text": "para",
+      "text": "division",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "app",
+      "text": "lordshi",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "honourable",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "authority",
+      "text": "judgme",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "merca",
+      "text": "act",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "authorit",
+      "text": "his lordship mr justice",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "justi",
+      "text": "judg",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "judgmen",
+      "text": "establishm",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "judgm",
+      "text": "lim",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "mercant",
+      "text": "division bench judgment",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "sho",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bank",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mad",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourabl",
+      "text": "establishments act madurai",
       "type": "PER",
       "score": 0.95
     },
@@ -738,12 +518,447 @@
       "score": 0.95
     },
     {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantile",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "esta",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme court cases",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "par",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "mercanti",
       "type": "PER",
       "score": 0.95
     },
     {
+      "text": "tami",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cas",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "case",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madurai",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishment",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in para nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aut",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "app",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordsh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appella",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercant",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticorin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authority",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "his",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "para",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shops",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ban",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tamil nadu shops",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "est",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "judgm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "estab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "author",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lords",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordship",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shop",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "just",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nadu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tamil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "auth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cases",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authorit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jud",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "autho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lord",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merca",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
       "type": "PER",
       "score": 0.95
     },
@@ -758,287 +973,12 @@
       "score": 0.95
     },
     {
-      "text": "establis",
+      "text": "judgmen",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "in para nos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "madurai",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "auth",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercantile",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "case",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divisi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishments",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "his",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tamil nadu shops",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lordship",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judg",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuticorin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "justic",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tutic",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cas",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lor",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lords",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishment",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "justice",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tutico",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tami",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishm",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limited",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercan",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercantil",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "estab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "jud",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tamil",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "par",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supreme court cases",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "author",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "authori",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishments act madurai",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lim",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establish",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "madura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appel",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "autho",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishmen",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "judgment",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "just",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "est",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuticor",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aut",
+      "text": "madu",
       "type": "PER",
       "score": 0.95
     },
@@ -1048,12 +988,72 @@
       "score": 0.95
     },
     {
+      "text": "appel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutico",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limite",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justice",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establish",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bank",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishments",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "benc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appell",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tut",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The court held that untrue and non-bona fide affidavits fall outside the liberal approach for condonation of delay, emphasizing that each case must be assessed based on its specific facts and circumstances, as supported by precedents.",
+  "summary": "The court held that untrue and non-bona fide affidavits fall outside the liberal approach for condonation of delay, emphasizing that each case must be assessed based on its specific facts and circumstances.",
   "embedding": [
     0.02488158643245697,
     0.009950106032192707,

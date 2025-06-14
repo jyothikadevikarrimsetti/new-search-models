@@ -11,15 +11,15 @@
     "cases",
     "law"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.33674873084863066,
   "entities": [
     "damocles",
-    "damoc",
     "dam",
+    "damoc",
     "damocle",
-    "damocl",
-    "damo"
+    "damo",
+    "damocl"
   ],
   "entity_types": [
     "PER"
@@ -31,12 +31,12 @@
       "score": 0.9123287796974182
     },
     {
-      "text": "damoc",
+      "text": "dam",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "dam",
+      "text": "damoc",
       "type": "PER",
       "score": 1.0
     },
@@ -46,17 +46,17 @@
       "score": 1.0
     },
     {
-      "text": "damocl",
+      "text": "damo",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "damo",
+      "text": "damocl",
       "type": "PER",
       "score": 1.0
     }
   ],
-  "summary": "The condonation of delay must be assessed based on the specific facts and circumstances of each case, considering the length of the delay and the litigant's bona fides, as rules of limitation are grounded in public policy and equity, not to be overridden by subjective preferences or inaction.",
+  "summary": "The condonation of delay must be assessed based on the specific facts and circumstances of each case, considering the length of delay and the litigant's bona fides, as limitation rules are grounded in public policy and equity, not to be overridden by subjective preferences.",
   "embedding": [
     0.04846153035759926,
     0.02759542502462864,

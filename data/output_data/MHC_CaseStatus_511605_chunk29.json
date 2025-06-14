@@ -11,54 +11,54 @@
     "propensity",
     "dispensation"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.314168687649015,
   "entities": [
     "ble supreme court",
     "esha bhattacharjee",
     "ble apex court",
-    "bhattachar",
-    "bhattach",
-    "bhatt",
-    "esha bhatt",
-    "esha bhattacha",
-    "bhattacharj",
-    "bhattacharje",
-    "esha ",
-    "esha bhatta",
-    "esha b",
-    "bhattacharjee",
-    "bhattacha",
-    "esha bhat",
-    "esha bhattacharje",
-    "esha bhattac",
-    "bhattac",
-    "esha bhattacharj",
-    "bhat",
-    "esh",
-    "esha",
-    "esha bhattach",
-    "esha bh",
-    "bhatta",
-    "esha bhattachar",
     "esha bha",
+    "esha bhat",
+    "esha b",
+    "bhat",
+    "esha",
+    "bhattacharje",
+    "esha bhatta",
+    "esha bhattacharje",
+    "esha bh",
+    "esha bhattacha",
+    "bhattach",
+    "bhattacharjee",
+    "bhatta",
+    "esha bhattach",
+    "esh",
+    "esha bhattac",
+    "esha bhatt",
+    "bhattacha",
+    "bhattacharj",
+    "esha ",
+    "bhattac",
     "bha",
-    "cour",
-    "supr",
-    "apex",
-    "supreme",
-    "honble",
+    "bhattachar",
+    "esha bhattachar",
+    "esha bhattacharj",
+    "bhatt",
+    "honble apex court",
     "cou",
     "sup",
-    "hon",
-    "ape",
-    "court",
+    "apex",
     "honble supreme court",
-    "supre",
-    "honble apex court",
-    "suprem",
+    "ape",
     "honbl",
-    "honb"
+    "hon",
+    "supr",
+    "honble",
+    "cour",
+    "supreme",
+    "suprem",
+    "honb",
+    "court",
+    "supre"
   ],
   "entity_types": [
     "ORG",
@@ -81,62 +81,7 @@
       "score": 0.837235152721405
     },
     {
-      "text": "bhattachar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattach",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhatt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhatt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattacha",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharj",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhatta",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha b",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharjee",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacha",
+      "text": "esha bha",
       "type": "PER",
       "score": 1.0
     },
@@ -146,22 +91,7 @@
       "score": 1.0
     },
     {
-      "text": "esha bhattacharje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattac",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattac",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattacharj",
+      "text": "esha b",
       "type": "PER",
       "score": 1.0
     },
@@ -171,17 +101,22 @@
       "score": 1.0
     },
     {
-      "text": "esh",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "esha",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bhattach",
+      "text": "bhattacharje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatta",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacharje",
       "type": "PER",
       "score": 1.0
     },
@@ -191,17 +126,62 @@
       "score": 1.0
     },
     {
+      "text": "esha bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattach",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharjee",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "bhatta",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bhattachar",
+      "text": "esha bhattach",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bha",
+      "text": "esh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattac",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattac",
       "type": "PER",
       "score": 1.0
     },
@@ -211,27 +191,27 @@
       "score": 1.0
     },
     {
-      "text": "cour",
+      "text": "bhattachar",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "supr",
+      "text": "esha bhattachar",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "apex",
+      "text": "esha bhattacharj",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "supreme",
+      "text": "bhatt",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "honble",
+      "text": "honble apex court",
       "type": "PER",
       "score": 0.95
     },
@@ -246,17 +226,7 @@
       "score": 0.95
     },
     {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ape",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
+      "text": "apex",
       "type": "PER",
       "score": 0.95
     },
@@ -266,17 +236,7 @@
       "score": 0.95
     },
     {
-      "text": "supre",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honble apex court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
+      "text": "ape",
       "type": "PER",
       "score": 0.95
     },
@@ -286,12 +246,52 @@
       "score": 0.95
     },
     {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "honb",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "Applications for condonation of delay must be carefully drafted and not treated casually, balancing a liberal, justice-oriented approach with adherence to the substantive law of limitation as emphasized by the Supreme Court in Esha Bhattacharjee.",
+  "summary": "Applications for condonation of delay must be carefully drafted and assessed with judicial discretion, balancing a liberal approach with the principles of reasonableness and adherence to the substantive law of limitation, as emphasized by the Supreme Court in Esha Bhattacharjee.",
   "embedding": [
     0.04600727558135986,
     0.016076046973466873,

@@ -11,44 +11,44 @@
     "reasonableness",
     "pedantic"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.33164488361783634,
   "entities": [
     "raghunathpur nafar academy",
     "apex court of india",
-    "raghunathpu",
-    "cour",
-    "oth",
-    "rag",
-    "academ",
-    "raghu",
-    "ape",
-    "raghuna",
-    "court",
-    "aca",
-    "nafa",
-    "raghun",
-    "academy",
-    "raghunath",
-    "raghunathp",
-    "honb",
+    "honble apex court",
+    "cou",
     "apex",
+    "raghu",
+    "raghunathpu",
+    "hon",
     "raghunathpur",
     "honble",
-    "cou",
-    "nafar",
-    "hon",
     "ragh",
+    "raghunath",
+    "honb",
+    "court",
+    "aca",
+    "acad",
+    "oth",
+    "ape",
     "other",
-    "raghunat",
-    "acade",
-    "raghunathpur nafar academy others",
-    "honble apex court",
     "others",
-    "othe",
     "honbl",
+    "nafa",
+    "raghunathpur nafar academy others",
+    "raghuna",
+    "cour",
+    "raghunathp",
     "naf",
-    "acad"
+    "othe",
+    "academy",
+    "raghun",
+    "acade",
+    "rag",
+    "academ",
+    "nafar",
+    "raghunat"
   ],
   "entity_types": [
     "ORG",
@@ -66,27 +66,17 @@
       "score": 0.9989575147628784
     },
     {
-      "text": "raghunathpu",
+      "text": "honble apex court",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "cour",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "oth",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "rag",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "academ",
+      "text": "apex",
       "type": "PER",
       "score": 0.95
     },
@@ -96,57 +86,12 @@
       "score": 0.95
     },
     {
-      "text": "ape",
+      "text": "raghunathpu",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "raghuna",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aca",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nafa",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghun",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "academy",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunath",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunathp",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honb",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "apex",
+      "text": "hon",
       "type": "PER",
       "score": 0.95
     },
@@ -161,22 +106,42 @@
       "score": 0.95
     },
     {
-      "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nafar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "ragh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunath",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honb",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aca",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "oth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ape",
       "type": "PER",
       "score": 0.95
     },
@@ -186,32 +151,7 @@
       "score": 0.95
     },
     {
-      "text": "raghunat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "acade",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunathpur nafar academy others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honble apex court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "othe",
       "type": "PER",
       "score": 0.95
     },
@@ -221,17 +161,77 @@
       "score": 0.95
     },
     {
+      "text": "nafa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunathpur nafar academy others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghuna",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunathp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "naf",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "acad",
+      "text": "othe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "academy",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghun",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acade",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rag",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "academ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nafar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunat",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The Hon'ble Apex Court of India emphasized a liberal, justice-oriented approach to condonation of delay, balancing substantial justice with reasonableness while avoiding undue technicalities or presumption of deliberate delay.",
+  "summary": "The Hon'ble Apex Court of India emphasized a justice-oriented, pragmatic approach to condonation of delay, stressing substantial justice over technicalities, while considering factors like sufficient cause, reasonableness, and the nature of the delay.",
   "embedding": [
     0.027258416637778282,
     0.04246073588728905,

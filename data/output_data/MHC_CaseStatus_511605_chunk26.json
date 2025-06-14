@@ -11,83 +11,83 @@
     "court",
     "circumstances"
   ],
-  "intent": "general_info",
+  "intent": "hearing_information",
   "intent_confidence": 0.33022188513276185,
   "entities": [
     "esha bhattacharjee",
     "raghunathpur nafar academy",
     "ble apex court of india",
-    "bhattachar",
-    "bhattach",
-    "bhatt",
-    "esha bhatt",
-    "esha bhattacha",
-    "bhattacharj",
-    "bhattacharje",
-    "esha ",
-    "esha bhatta",
-    "esha b",
-    "bhattacharjee",
-    "bhattacha",
-    "esha bhat",
-    "esha bhattacharje",
-    "esha bhattac",
-    "bhattac",
-    "esha bhattacharj",
-    "bhat",
-    "esh",
-    "esha",
-    "esha bhattach",
-    "esha bh",
-    "bhatta",
-    "esha bhattachar",
     "esha bha",
+    "esha bhat",
+    "esha b",
+    "bhat",
+    "esha",
+    "bhattacharje",
+    "esha bhatta",
+    "esha bhattacharje",
+    "esha bh",
+    "esha bhattacha",
+    "bhattach",
+    "bhattacharjee",
+    "bhatta",
+    "esha bhattach",
+    "esh",
+    "esha bhattac",
+    "esha bhatt",
+    "bhattacha",
+    "bhattacharj",
+    "esha ",
+    "bhattac",
     "bha",
-    "raghunathpu",
-    "cour",
-    "oth",
-    "managing",
-    "esha bhattacharjee vs managing commit",
-    "rag",
-    "comm",
-    "raghu",
-    "academ",
-    "ape",
-    "commi",
-    "raghuna",
-    "court",
-    "aca",
-    "nafa",
-    "raghun",
-    "academy",
-    "com",
-    "managin",
-    "commit",
-    "raghunath",
-    "raghunathp",
-    "honb",
-    "mana",
+    "bhattachar",
+    "esha bhattachar",
+    "esha bhattacharj",
+    "bhatt",
+    "honble apex court",
+    "cou",
     "apex",
+    "raghu",
+    "raghunathpu",
+    "hon",
     "raghunathpur",
     "honble",
-    "cou",
-    "nafar",
-    "hon",
-    "ragh",
-    "other",
-    "raghunat",
-    "acade",
-    "raghunathpur nafar academy others",
-    "honble apex court",
-    "man",
-    "managi",
-    "others",
-    "othe",
-    "vs",
-    "honbl",
+    "managing",
     "manag",
+    "man",
+    "ragh",
+    "raghunath",
+    "honb",
+    "comm",
+    "court",
+    "aca",
+    "managi",
+    "acad",
+    "managin",
+    "esha bhattacharjee vs managing commit",
+    "oth",
+    "ape",
+    "other",
+    "others",
+    "honbl",
+    "nafa",
+    "raghunathpur nafar academy others",
+    "raghuna",
+    "cour",
+    "commit",
+    "raghunathp",
     "naf",
-    "acad"
+    "othe",
+    "academy",
+    "raghun",
+    "mana",
+    "acade",
+    "rag",
+    "academ",
+    "nafar",
+    "com",
+    "vs",
+    "commi",
+    "raghunat"
   ],
   "entity_types": [
     "ORG",
@@ -110,62 +110,7 @@
       "score": 0.9435178637504578
     },
     {
-      "text": "bhattachar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattach",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhatt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhatt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattacha",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharj",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhatta",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha b",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacharjee",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattacha",
+      "text": "esha bha",
       "type": "PER",
       "score": 1.0
     },
@@ -175,22 +120,7 @@
       "score": 1.0
     },
     {
-      "text": "esha bhattacharje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattac",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bhattac",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "esha bhattacharj",
+      "text": "esha b",
       "type": "PER",
       "score": 1.0
     },
@@ -200,17 +130,22 @@
       "score": 1.0
     },
     {
-      "text": "esh",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "esha",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bhattach",
+      "text": "bhattacharje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatta",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacharje",
       "type": "PER",
       "score": 1.0
     },
@@ -220,17 +155,62 @@
       "score": 1.0
     },
     {
+      "text": "esha bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattach",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharjee",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "bhatta",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bhattachar",
+      "text": "esha bhattach",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "esha bha",
+      "text": "esh",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattac",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhatt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacha",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattacharj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhattac",
       "type": "PER",
       "score": 1.0
     },
@@ -240,37 +220,37 @@
       "score": 1.0
     },
     {
-      "text": "raghunathpu",
+      "text": "bhattachar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattachar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "esha bhattacharj",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bhatt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "honble apex court",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "cour",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "oth",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "managing",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "esha bhattacharjee vs managing commit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "rag",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "comm",
+      "text": "apex",
       "type": "PER",
       "score": 0.95
     },
@@ -280,87 +260,12 @@
       "score": 0.95
     },
     {
-      "text": "academ",
+      "text": "raghunathpu",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "ape",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "commi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghuna",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aca",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nafa",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghun",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "academy",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "com",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "managin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "commit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunath",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunathp",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honb",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mana",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "apex",
+      "text": "hon",
       "type": "PER",
       "score": 0.95
     },
@@ -375,77 +280,7 @@
       "score": 0.95
     },
     {
-      "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nafar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ragh",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "other",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "acade",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "raghunathpur nafar academy others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honble apex court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "man",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "managi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "others",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "othe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "vs",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honbl",
+      "text": "managing",
       "type": "PER",
       "score": 0.95
     },
@@ -455,7 +290,42 @@
       "score": 0.95
     },
     {
-      "text": "naf",
+      "text": "man",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ragh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunath",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honb",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "comm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aca",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "managi",
       "type": "PER",
       "score": 0.95
     },
@@ -463,9 +333,139 @@
       "text": "acad",
       "type": "PER",
       "score": 0.95
+    },
+    {
+      "text": "managin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "esha bhattacharjee vs managing commit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "oth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ape",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "other",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honbl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nafa",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunathpur nafar academy others",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghuna",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "commit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunathp",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "naf",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "othe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "academy",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghun",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mana",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "acade",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rag",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "academ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nafar",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "com",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "vs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "commi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "raghunat",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The lapse of the limitation period grants the decree holder a binding legal right, which should not be easily disturbed, and while courts may condone delays if sufficient cause is proven, such discretion is not automatic and requires diligence and bona fides from the appealing party.",
+  "summary": "The court emphasized that the decree holder's legal right from the expiration of the appeal period should not be disturbed lightly, and condonation of delay requires proof of sufficient cause, with diligence and bona fides being crucial factors; in this case, the respondent failed to show acceptable or sufficient cause.",
   "embedding": [
     0.05772143229842186,
     0.03354358300566673,

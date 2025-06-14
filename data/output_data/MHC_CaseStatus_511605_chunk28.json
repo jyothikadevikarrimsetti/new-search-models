@@ -11,21 +11,21 @@
     "negligence",
     "discretion"
   ],
-  "intent": "general_info",
+  "intent": "party_information",
   "intent_confidence": 0.3195345810158366,
   "entities": [
-    "stat",
-    "sta",
-    "state",
     "the state",
-    "the"
+    "sta",
+    "the",
+    "stat",
+    "state"
   ],
   "entity_types": [
     "PER"
   ],
   "entity_details": [
     {
-      "text": "stat",
+      "text": "the state",
       "type": "PER",
       "score": 0.95
     },
@@ -35,22 +35,22 @@
       "score": 0.95
     },
     {
-      "text": "state",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "the state",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "stat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "state",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "Courts must differentiate between inordinate and short delays, applying strict scrutiny to the former and a liberal approach to the latter, while ensuring explanations are genuine and weighing justice for both parties without tolerating fraud or negligence. Judicial discretion should be objective, and entities representing collective causes may be granted reasonable latitude.",
+  "summary": "Courts must distinguish between inordinate and short delays, applying strict scrutiny to the former and a liberal approach to the latter, while considering the conduct and reasoning of parties to ensure justice and prevent misuse of legal processes.",
   "embedding": [
     0.033629562705755234,
     0.030562281608581543,

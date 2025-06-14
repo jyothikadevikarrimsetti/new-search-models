@@ -11,12 +11,12 @@
     "interregnum",
     "interfere"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.38615779692382046,
   "entities": [],
   "entity_types": [],
   "entity_details": [],
-  "summary": "The text discusses the principles governing the condonation of delay, emphasizing that reasons for delay must be convincing and properly explained, and highlights that appellate courts should not interfere with trial court decisions on condonation unless discretion was exercised arbitrarily or overlooked vested rights.",
+  "summary": "The text discusses the principles governing the condonation of delay in legal cases, emphasizing that the reasons for the delay must be convincing and properly explained, and that appellate courts should not interfere with a trial court's discretionary decision unless it is arbitrary or overlooks the opposing party's interests.",
   "embedding": [
     0.03914398327469826,
     0.030988987535238266,

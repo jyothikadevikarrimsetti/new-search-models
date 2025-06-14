@@ -11,7 +11,7 @@
     "circumstances",
     "srinivasan"
   ],
-  "intent": "general_info",
+  "intent": "hearing_information",
   "intent_confidence": 0.3204513312785986,
   "entities": [
     "nadu mercantile bank ltd tutic",
@@ -19,113 +19,113 @@
     "tamil nadu",
     "act madurai",
     "m srinivasan",
-    "srin",
-    "srinivasan",
-    "srini",
-    "m srin",
     "m sriniva",
-    "m srinivas",
-    "m",
-    "m s",
-    "m srinivasa",
-    "m sriniv",
-    "sriniv",
-    "srinivas",
     "sri",
-    "srinivasa",
+    "m srin",
     "m sri",
     "m srini",
+    "m srinivasa",
     "sriniva",
+    "srinivas",
+    "m srinivas",
+    "sriniv",
+    "srinivasa",
+    "m",
     "m sr",
-    "appella",
-    "anothe",
-    "nadu",
-    "ban",
-    "anoth",
-    "madu",
-    "establishme",
-    "lordsh",
-    "nad",
-    "shops",
-    "the",
-    "tut",
-    "appellat",
-    "lordshi",
-    "jus",
-    "mer",
-    "his lordship mr justice",
-    "appell",
-    "merc",
-    "tuti",
-    "tuticori",
-    "act",
-    "shop",
-    "esta",
-    "nadu mercantile bank ltd tuticorin",
-    "lord",
+    "m sriniv",
+    "srin",
+    "m s",
+    "srinivasan",
+    "srini",
     "tam",
-    "app",
+    "lordshi",
+    "act",
+    "his lordship mr justice",
     "under",
-    "authority",
-    "merca",
-    "authorit",
-    "justi",
-    "mercant",
-    "und",
-    "sho",
-    "bank",
-    "unde",
-    "mad",
-    "madur",
-    "mercanti",
-    "establ",
-    "establis",
-    "appellate authority under the tamil nadu shops and establishments act madurai and another",
-    "madurai",
-    "auth",
-    "mercantile",
-    "establishments",
-    "his",
-    "ano",
-    "establi",
-    "anot",
-    "lordship",
-    "tuticorin",
-    "justic",
-    "tutic",
-    "establishment",
-    "lor",
-    "lords",
-    "justice",
+    "anothe",
     "establishm",
+    "madur",
+    "mercantile",
+    "esta",
+    "establishme",
+    "tuticori",
+    "mercanti",
     "tami",
-    "tutico",
-    "mercan",
-    "and",
-    "mercantil",
-    "estab",
-    "appe",
-    "tamil",
-    "author",
-    "authori",
-    "mr",
+    "nadu mercantile bank ltd tuticorin",
     "another",
-    "establish",
-    "madura",
-    "ltd",
-    "appel",
-    "autho",
-    "establishmen",
-    "just",
-    "est",
     "tuticor",
+    "the",
+    "mer",
+    "authori",
+    "anoth",
+    "ano",
+    "tuti",
+    "madurai",
+    "establishment",
     "aut",
-    "appellate"
+    "app",
+    "appella",
+    "lordsh",
+    "appellate authority under the tamil nadu shops and establishments act madurai and another",
+    "mercant",
+    "tuticorin",
+    "establishmen",
+    "authority",
+    "his",
+    "appellat",
+    "shops",
+    "mercantil",
+    "justic",
+    "justi",
+    "mr",
+    "mercan",
+    "ltd",
+    "madura",
+    "lor",
+    "ban",
+    "est",
+    "estab",
+    "author",
+    "establi",
+    "lords",
+    "jus",
+    "anot",
+    "tutic",
+    "lordship",
+    "shop",
+    "sho",
+    "just",
+    "nadu",
+    "tamil",
+    "auth",
+    "appe",
+    "authorit",
+    "merc",
+    "autho",
+    "nad",
+    "and",
+    "lord",
+    "merca",
+    "establ",
+    "madu",
+    "appel",
+    "appellate",
+    "tutico",
+    "establis",
+    "justice",
+    "establish",
+    "bank",
+    "establishments",
+    "mad",
+    "unde",
+    "und",
+    "appell",
+    "tut"
   ],
   "entity_types": [
+    "MISC",
     "ORG",
-    "PER",
-    "MISC"
+    "PER"
   ],
   "entity_details": [
     {
@@ -154,62 +154,7 @@
       "score": 0.9990903735160828
     },
     {
-      "text": "srin",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srinivasan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srini",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m srin",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "m sriniva",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m srinivas",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m s",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m srinivasa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m sriniv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "sriniv",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "srinivas",
       "type": "PER",
       "score": 1.0
     },
@@ -219,7 +164,7 @@
       "score": 1.0
     },
     {
-      "text": "srinivasa",
+      "text": "m srin",
       "type": "PER",
       "score": 1.0
     },
@@ -234,7 +179,37 @@
       "score": 1.0
     },
     {
+      "text": "m srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "sriniva",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m srinivas",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "sriniv",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "srinivasa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m",
       "type": "PER",
       "score": 1.0
     },
@@ -244,67 +219,32 @@
       "score": 1.0
     },
     {
-      "text": "appella",
+      "text": "m sriniv",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "anothe",
+      "text": "srin",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "nadu",
+      "text": "m s",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "ban",
+      "text": "srinivasan",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "anoth",
+      "text": "srini",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "madu",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lordsh",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nad",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "shops",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "the",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tut",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appellat",
+      "text": "tam",
       "type": "PER",
       "score": 0.95
     },
@@ -314,12 +254,7 @@
       "score": 0.95
     },
     {
-      "text": "jus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mer",
+      "text": "act",
       "type": "PER",
       "score": 0.95
     },
@@ -329,217 +264,12 @@
       "score": 0.95
     },
     {
-      "text": "appell",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "merc",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuti",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuticori",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "act",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "shop",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "esta",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nadu mercantile bank ltd tuticorin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lord",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tam",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "app",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "under",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "authority",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "merca",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "authorit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "justi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercant",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "und",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sho",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bank",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "unde",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mad",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "madur",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercanti",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establ",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appellate authority under the tamil nadu shops and establishments act madurai and another",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "madurai",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "auth",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercantile",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishments",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "his",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ano",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "anot",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lordship",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tuticorin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "justic",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tutic",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishment",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lor",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lords",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "justice",
+      "text": "anothe",
       "type": "PER",
       "score": 0.95
     },
@@ -549,57 +279,42 @@
       "score": 0.95
     },
     {
+      "text": "madur",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantile",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "esta",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercanti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "tami",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "tutico",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercan",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "and",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mercantil",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "estab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "tamil",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "author",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "authori",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mr",
+      "text": "nadu mercantile bank ltd tuticorin",
       "type": "PER",
       "score": 0.95
     },
@@ -609,47 +324,47 @@
       "score": 0.95
     },
     {
-      "text": "establish",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "madura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ltd",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "appel",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "autho",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "establishmen",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "just",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "est",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "tuticor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "the",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mer",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authori",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "anoth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ano",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madurai",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishment",
       "type": "PER",
       "score": 0.95
     },
@@ -659,12 +374,297 @@
       "score": 0.95
     },
     {
+      "text": "app",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appella",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordsh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellate authority under the tamil nadu shops and establishments act madurai and another",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercant",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tuticorin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishmen",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authority",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "his",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appellat",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shops",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercantil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mercan",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ltd",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madura",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lor",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ban",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "est",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "estab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "author",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lords",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "jus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "anot",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutic",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lordship",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "shop",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "just",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nadu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tamil",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "auth",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "authorit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "autho",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "and",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lord",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "merca",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establ",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "madu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appel",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "appellate",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tutico",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "justice",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establish",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bank",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "establishments",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mad",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "unde",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "und",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "appell",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "tut",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The case emphasizes that delays in legal proceedings cannot be condoned without considering their length and impact, as litigants must adhere to prescribed limitation periods, and substantial justice cannot override deliberate inaction.",
+  "summary": "The case emphasizes that delays in legal proceedings should not be condoned lightly, as they can prejudice the opposing party, and each case must be assessed on its specific circumstances, with adherence to prescribed limitation periods being crucial.",
   "embedding": [
     0.024523485451936722,
     -0.0035468856804072857,

@@ -11,7 +11,7 @@
     "judgment",
     "judge"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.34281989944290675,
   "entities": [
     "lanka venkateswarlu d",
@@ -20,95 +20,95 @@
     "supreme court",
     "m balakrishnan",
     "limitation act",
+    "balakris",
+    "venkateswarl",
     "venk",
-    "lanka venkate",
-    "lanka",
-    "lanka venkateswarlu ",
-    "balakrishn",
-    "balakri",
-    "m b",
-    "m balakr",
-    "balakrishnan",
-    "m balakri",
-    "lanka venk",
-    "m balakris",
-    "m bal",
-    "ven",
-    "lanka venkateswar",
-    "balak",
-    "m ba",
-    "m balakrishn",
-    "venkat",
-    "lanka ven",
-    "lan",
-    "venkateswar",
-    "balakrishna",
-    "m bala",
-    "lanka venka",
-    "lanka venkateswarl",
-    "lanka venkat",
-    "venkatesw",
     "venkate",
-    "m balak",
-    "m balakrish",
-    "bala",
-    "lanka venkateswarlu",
+    "m bala",
+    "lanka venkat",
     "m",
     "lanka venkates",
-    "venkateswa",
-    "d",
-    "venkateswarlu",
-    "lanka venkatesw",
-    "balakrish",
-    "lanka v",
-    "lanka venkateswa",
-    "venkateswarl",
-    "balakris",
-    "venkates",
-    "lank",
     "balakr",
-    "lanka ve",
-    "bal",
-    "venka",
-    "m balakrishna",
+    "balak",
     "lanka ",
-    "cour",
-    "supreme",
-    "sup",
-    "limit",
+    "m b",
+    "m balakri",
+    "m balakrishna",
+    "venkat",
+    "venkatesw",
+    "balakrishna",
+    "lank",
+    "bal",
+    "lanka v",
+    "balakrishn",
+    "m balakrish",
+    "lanka ve",
+    "lanka venkate",
+    "lanka venkateswar",
+    "m balak",
+    "venka",
+    "lanka venkatesw",
+    "m balakrishn",
+    "d",
+    "balakri",
+    "m bal",
+    "m ba",
+    "venkateswa",
+    "lanka venk",
+    "m balakris",
+    "venkateswar",
+    "lanka venkateswarlu ",
+    "lanka venkateswa",
+    "balakrish",
+    "lanka venkateswarlu",
+    "venkates",
+    "lanka",
+    "balakrishnan",
+    "m balakr",
+    "lanka venkateswarl",
+    "ven",
+    "venkateswarlu",
+    "bala",
+    "lanka venka",
+    "lanka ven",
+    "lan",
+    "cou",
+    "limita",
+    "act",
+    "limitatio",
+    "honble supreme court",
+    "hon",
+    "honble",
     "limitation",
-    "court",
-    "supre",
-    "limi",
+    "lim",
+    "rs vs state",
+    "limit",
+    "vs",
     "high court",
-    "limitati",
+    "state",
+    "supreme",
     "suprem",
     "honb",
-    "limita",
-    "supr",
-    "stat",
-    "act",
-    "honble",
-    "limitatio",
-    "cou",
-    "hig",
-    "hon",
-    "honble supreme court",
     "limitat",
-    "rs vs state",
-    "lim",
     "high",
-    "vs",
-    "rs",
+    "court",
+    "limitati",
+    "limi",
+    "hig",
+    "sup",
     "honbl",
+    "supr",
+    "cour",
+    "rs",
+    "supre",
     "sta",
-    "state"
+    "stat"
   ],
   "entity_types": [
-    "ORG",
-    "PER",
     "MISC",
-    "LOC"
+    "LOC",
+    "ORG",
+    "PER"
   ],
   "entity_details": [
     {
@@ -142,142 +142,17 @@
       "score": 0.8281740546226501
     },
     {
+      "text": "balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswarl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "venk",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkate",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkateswarlu ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m b",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m balakr",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishnan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m balakri",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venk",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m balakris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m bal",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "ven",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkateswar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balak",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m ba",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m balakrishn",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka ven",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lan",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkateswar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrishna",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m bala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venka",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkateswarl",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkatesw",
       "type": "PER",
       "score": 1.0
     },
@@ -287,22 +162,12 @@
       "score": 1.0
     },
     {
-      "text": "m balak",
+      "text": "m bala",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "m balakrish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bala",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkateswarlu",
+      "text": "lanka venkat",
       "type": "PER",
       "score": 1.0
     },
@@ -317,82 +182,12 @@
       "score": 1.0
     },
     {
-      "text": "venkateswa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "d",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkateswarlu",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkatesw",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakrish",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka v",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lanka venkateswa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkateswarl",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "balakris",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venkates",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "lank",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
       "text": "balakr",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "lanka ve",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "bal",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "venka",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "m balakrishna",
+      "text": "balak",
       "type": "PER",
       "score": 1.0
     },
@@ -402,22 +197,242 @@
       "score": 1.0
     },
     {
-      "text": "cour",
+      "text": "m b",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkatesw",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishna",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lank",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka v",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka ve",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkate",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkatesw",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakrishn",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "d",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakri",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m bal",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m ba",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venk",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakris",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswar",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarlu ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswa",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrish",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarlu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkates",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "balakrishnan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "m balakr",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venkateswarl",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "ven",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "venkateswarlu",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "bala",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka venka",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lanka ven",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "lan",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "supreme",
+      "text": "limita",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "sup",
+      "text": "act",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limit",
+      "text": "limitatio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honble",
       "type": "PER",
       "score": 0.95
     },
@@ -427,17 +442,22 @@
       "score": 0.95
     },
     {
-      "text": "court",
+      "text": "lim",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "supre",
+      "text": "rs vs state",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limi",
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "vs",
       "type": "PER",
       "score": 0.95
     },
@@ -447,7 +467,12 @@
       "score": 0.95
     },
     {
-      "text": "limitati",
+      "text": "state",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
       "type": "PER",
       "score": 0.95
     },
@@ -462,67 +487,7 @@
       "score": 0.95
     },
     {
-      "text": "limita",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "stat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "act",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honble",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limitatio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hig",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honble supreme court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "limitat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "rs vs state",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lim",
       "type": "PER",
       "score": 0.95
     },
@@ -532,12 +497,27 @@
       "score": 0.95
     },
     {
-      "text": "vs",
+      "text": "court",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "rs",
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hig",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
       "type": "PER",
       "score": 0.95
     },
@@ -547,17 +527,37 @@
       "score": 0.95
     },
     {
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "rs",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "sta",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "state",
+      "text": "stat",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The Supreme Court criticized the High Court for condoning unjustifiable delays in violation of limitation laws, emphasizing the need for judicial restraint, reasoned discretion, and avoidance of intemperate language in judgments.",
+  "summary": "The Supreme Court criticized the High Court for condoning unjustifiable delays in violation of the Limitation Act, emphasizing that judicial discretion must be exercised reasonably and without intemperate language or sarcasm.",
   "embedding": [
     0.03591817989945412,
     0.04059717804193497,

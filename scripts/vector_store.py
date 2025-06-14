@@ -49,7 +49,7 @@ def upsert_to_pinecone(
                         "entities": data.get("entities", []),  # store as list
                         "intent": data.get("intent", ""),
                         "summary": data.get("summary", ""),
-                        "text": data.get("text", ""),
+                        # 'text' removed from metadata
                     },
                 }
             ]

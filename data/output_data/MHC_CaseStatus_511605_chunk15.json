@@ -11,27 +11,22 @@
     "circumstances",
     "negligence"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.42004717400245983,
   "entities": [
-    "cour",
-    "they",
+    "cou",
     "court they",
     "court",
-    "cou",
-    "the"
+    "they",
+    "the",
+    "cour"
   ],
   "entity_types": [
     "PER"
   ],
   "entity_details": [
     {
-      "text": "cour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "they",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
@@ -46,7 +41,7 @@
       "score": 0.95
     },
     {
-      "text": "cou",
+      "text": "they",
       "type": "PER",
       "score": 0.95
     },
@@ -54,9 +49,14 @@
       "text": "the",
       "type": "PER",
       "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
     }
   ],
-  "summary": "The court criticized the Department for its lack of diligence and failure to provide a plausible explanation for delays in filing a special leave petition, emphasizing that the delay cannot be condoned solely because the government is involved.",
+  "summary": "The court criticized the Department for repeated delays and lack of diligence in filing a special leave petition, noting the absence of plausible explanations and questioning the automatic condonation of such delays simply because the government is involved.",
   "embedding": [
     0.05173252522945404,
     0.031319547444581985,

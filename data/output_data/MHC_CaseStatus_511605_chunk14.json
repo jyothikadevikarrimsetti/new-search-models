@@ -11,7 +11,7 @@
     "pending",
     "case"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.3915008408062662,
   "entities": [
     "supreme court",
@@ -22,125 +22,125 @@
     "high court",
     "office of the chief postmaster vs living media limited",
     "aparajeet pattanaya",
-    "aparajeet pat",
-    "apara",
-    "apar",
-    "pattanaya",
-    "apa",
-    "patt",
-    "aparajeet patt",
-    "aparajeet pattana",
-    "aparajeet ",
-    "aparajeet p",
-    "aparaje",
-    "pattanay",
-    "pattana",
-    "aparajeet pattan",
-    "aparajeet patta",
-    "patta",
-    "aparajeet pattanay",
-    "aparajeet pa",
-    "pat",
-    "aparajee",
     "pattan",
+    "aparajeet pattan",
+    "apa",
+    "pattanay",
     "aparaj",
+    "apara",
+    "aparajeet ",
+    "pat",
+    "aparajeet pattanay",
     "pattanayak",
+    "aparaje",
+    "pattanaya",
+    "aparajeet pat",
+    "patt",
+    "aparajeet p",
+    "apar",
     "aparajeet",
-    "supreme",
-    "honourable supreme court",
-    "chie",
-    "hono",
-    "peti",
-    "sup",
-    "limit",
-    "court",
-    "living media limited",
-    "liv",
-    "supre",
-    "ben",
-    "div",
-    "limi",
-    "limite",
-    "lea",
-    "honour",
+    "aparajee",
+    "aparajeet patt",
+    "aparajeet patta",
+    "pattana",
+    "aparajeet pattana",
+    "patta",
+    "aparajeet pa",
     "honoura",
-    "postmast",
-    "mail",
-    "air mail sorting division new delhi it",
-    "sorti",
-    "supr",
-    "division bench",
-    "honourab",
-    "hon",
-    "postmaste",
-    "chi",
-    "para",
-    "chief",
-    "honourable",
-    "special",
-    "petiti",
-    "high",
-    "honourabl",
-    "postm",
-    "petition",
-    "divisio",
-    "cour",
-    "delh",
-    "del",
-    "air",
-    "in para nos",
-    "living",
-    "delhi",
-    "divisi",
-    "new",
-    "leav",
-    "specia",
-    "divi",
-    "bench",
-    "division",
-    "petit",
-    "suprem",
-    "mr aparajeet pattanayak",
-    "speci",
-    "pos",
-    "pet",
-    "in",
-    "sortin",
-    "media",
-    "divis",
-    "sorting",
-    "honou",
-    "postmas",
     "cou",
+    "division",
+    "mail",
+    "postm",
     "mai",
-    "hig",
-    "petitio",
-    "postmaster",
-    "par",
-    "nos",
-    "med",
-    "spec",
-    "mr",
-    "sort",
-    "leave",
-    "spe",
-    "special leave petition",
-    "lim",
-    "it",
-    "chief postmaster",
-    "postma",
-    "livi",
     "medi",
-    "post",
+    "petition",
+    "sort",
+    "chi",
+    "living",
+    "del",
+    "lim",
+    "air",
+    "liv",
+    "supreme",
+    "high",
+    "par",
+    "honourab",
+    "in",
+    "limi",
+    "special",
+    "hig",
+    "leave",
+    "speci",
+    "supr",
     "livin",
-    "limited",
+    "honou",
+    "new",
+    "spe",
+    "nos",
+    "postmaste",
+    "sorti",
+    "division bench",
+    "air mail sorting division new delhi it",
+    "post",
     "sor",
-    "benc"
+    "in para nos",
+    "chie",
+    "divis",
+    "supre",
+    "lea",
+    "postma",
+    "media",
+    "leav",
+    "med",
+    "divisio",
+    "divisi",
+    "delh",
+    "para",
+    "postmast",
+    "delhi",
+    "mr",
+    "living media limited",
+    "petitio",
+    "pet",
+    "hon",
+    "honourable",
+    "sortin",
+    "div",
+    "postmas",
+    "it",
+    "limited",
+    "limit",
+    "livi",
+    "mr aparajeet pattanayak",
+    "suprem",
+    "divi",
+    "court",
+    "pos",
+    "spec",
+    "special leave petition",
+    "sorting",
+    "peti",
+    "specia",
+    "chief postmaster",
+    "sup",
+    "chief",
+    "honourable supreme court",
+    "petiti",
+    "honourabl",
+    "ben",
+    "cour",
+    "postmaster",
+    "petit",
+    "limite",
+    "hono",
+    "honour",
+    "benc",
+    "bench"
   ],
   "entity_types": [
+    "LOC",
     "ORG",
-    "PER",
-    "LOC"
+    "PER"
   ],
   "entity_details": [
     {
@@ -184,67 +184,7 @@
       "score": 1.0
     },
     {
-      "text": "aparajeet pat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "apara",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "apar",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pattanaya",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "apa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "patt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet patt",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet pattana",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet ",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet p",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparaje",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pattanay",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pattana",
+      "text": "pattan",
       "type": "PER",
       "score": 1.0
     },
@@ -254,37 +194,12 @@
       "score": 1.0
     },
     {
-      "text": "aparajeet patta",
+      "text": "apa",
       "type": "PER",
       "score": 1.0
     },
     {
-      "text": "patta",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet pattanay",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajeet pa",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pat",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "aparajee",
-      "type": "PER",
-      "score": 1.0
-    },
-    {
-      "text": "pattan",
+      "text": "pattanay",
       "type": "PER",
       "score": 1.0
     },
@@ -294,7 +209,57 @@
       "score": 1.0
     },
     {
+      "text": "apara",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aparajeet ",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aparajeet pattanay",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
       "text": "pattanayak",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aparaje",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "pattanaya",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aparajeet pat",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "patt",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "aparajeet p",
+      "type": "PER",
+      "score": 1.0
+    },
+    {
+      "text": "apar",
       "type": "PER",
       "score": 1.0
     },
@@ -304,327 +269,42 @@
       "score": 1.0
     },
     {
-      "text": "supreme",
+      "text": "aparajee",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "honourable supreme court",
+      "text": "aparajeet patt",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "chie",
+      "text": "aparajeet patta",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "hono",
+      "text": "pattana",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "peti",
+      "text": "aparajeet pattana",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "sup",
+      "text": "patta",
       "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
-      "text": "limit",
+      "text": "aparajeet pa",
       "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "living media limited",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "liv",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supre",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "ben",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "div",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limite",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lea",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honour",
-      "type": "PER",
-      "score": 0.95
+      "score": 1.0
     },
     {
       "text": "honoura",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postmast",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mail",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "air mail sorting division new delhi it",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sorti",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourab",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hon",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postmaste",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "para",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chief",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourable",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "special",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "petiti",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "high",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honourabl",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postm",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "petition",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divisio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "delh",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "del",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "air",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in para nos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "living",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "delhi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divisi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "new",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "leav",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "specia",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divi",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "bench",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "division",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "petit",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "suprem",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mr aparajeet pattanayak",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "speci",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "pos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "pet",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "in",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sortin",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "media",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "divis",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sorting",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "honou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postmas",
       "type": "PER",
       "score": 0.95
     },
@@ -634,92 +314,22 @@
       "score": 0.95
     },
     {
+      "text": "division",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mail",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postm",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "mai",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "hig",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "petitio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postmaster",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "par",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "nos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "med",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "spec",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "mr",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "sort",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "leave",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "spe",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "special leave petition",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "lim",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "it",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "chief postmaster",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "postma",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "livi",
       "type": "PER",
       "score": 0.95
     },
@@ -729,7 +339,97 @@
       "score": 0.95
     },
     {
-      "text": "post",
+      "text": "petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sort",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "living",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "del",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lim",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "air",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "liv",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supreme",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "high",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "par",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourab",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "special",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hig",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "leave",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "speci",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supr",
       "type": "PER",
       "score": 0.95
     },
@@ -739,7 +439,47 @@
       "score": 0.95
     },
     {
-      "text": "limited",
+      "text": "honou",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "new",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmaste",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sorti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "division bench",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "air mail sorting division new delhi it",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "post",
       "type": "PER",
       "score": 0.95
     },
@@ -749,12 +489,272 @@
       "score": 0.95
     },
     {
+      "text": "in para nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chie",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divis",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "lea",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postma",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "media",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "leav",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "med",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divisi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "delh",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "para",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmast",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "delhi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "living media limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petitio",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pet",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hon",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sortin",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "div",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmas",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "it",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limited",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "livi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "mr aparajeet pattanayak",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "suprem",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "divi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "pos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "spec",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "special leave petition",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sorting",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "peti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "specia",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chief postmaster",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "sup",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "chief",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourable supreme court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petiti",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honourabl",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "ben",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "postmaster",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "petit",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limite",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "hono",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "honour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "benc",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "bench",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The Supreme Court emphasized that condonation of delay is not a right but an exception, requiring reasonable, acceptable, and bona fide justification, rejecting routine explanations like procedural red tape for significant delays in filing appeals.",
+  "summary": "The Supreme Court emphasized that condonation of delay is not a default benefit for government departments and requires reasonable, acceptable reasons and bona fide efforts, rejecting procedural red tape as a sufficient cause for delays.",
   "embedding": [
     0.03864503651857376,
     0.018201064318418503,

@@ -11,38 +11,38 @@
     "limitation",
     "filing"
   ],
-  "intent": "general_info",
+  "intent": "court_details",
   "intent_confidence": 0.3665175825664623,
   "entities": [
     "supreme court",
     "limitation act",
-    "cour",
-    "supr",
-    "act",
-    "in para nos",
-    "supreme",
-    "limitatio",
     "cou",
+    "limi",
+    "limita",
+    "act",
+    "limitatio",
     "sup",
-    "par",
-    "limit",
+    "para",
+    "supr",
+    "cour",
     "nos",
     "limitation",
-    "court",
-    "para",
-    "supre",
-    "limitat",
     "lim",
-    "limi",
-    "limitati",
+    "limit",
+    "supreme",
     "suprem",
-    "in",
-    "limita"
+    "limitat",
+    "limitati",
+    "in para nos",
+    "supre",
+    "court",
+    "par",
+    "in"
   ],
   "entity_types": [
+    "MISC",
     "ORG",
-    "PER",
-    "MISC"
+    "PER"
   ],
   "entity_details": [
     {
@@ -56,12 +56,17 @@
       "score": 0.9521174430847168
     },
     {
-      "text": "cour",
+      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "supr",
+      "text": "limi",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "limita",
       "type": "PER",
       "score": 0.95
     },
@@ -71,22 +76,7 @@
       "score": 0.95
     },
     {
-      "text": "in para nos",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supreme",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "limitatio",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "cou",
       "type": "PER",
       "score": 0.95
     },
@@ -96,12 +86,17 @@
       "score": 0.95
     },
     {
-      "text": "par",
+      "text": "para",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limit",
+      "text": "supr",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
       "type": "PER",
       "score": 0.95
     },
@@ -116,37 +111,17 @@
       "score": 0.95
     },
     {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "para",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "supre",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "limitat",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "lim",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limi",
+      "text": "limit",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limitati",
+      "text": "supreme",
       "type": "PER",
       "score": 0.95
     },
@@ -156,17 +131,42 @@
       "score": 0.95
     },
     {
-      "text": "in",
+      "text": "limitat",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "limita",
+      "text": "limitati",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in para nos",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "supre",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "par",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "in",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The court emphasized that while delays under Section 5 of the Limitation Act should be liberally considered to ensure justice, discretion must be exercised judiciously, and delays caused by negligence or lack of bona fide cannot be condoned.",
+  "summary": "The court emphasized that while delays under Section 5 of the Limitation Act can be condoned with a liberal approach if justified, discretion must be exercised judiciously to avoid prejudice to the decree holder, especially when delays result from negligence or lack of bona fides.",
   "embedding": [
     0.048029880970716476,
     0.03227520361542702,

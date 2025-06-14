@@ -11,32 +11,32 @@
     "filed",
     "court"
   ],
-  "intent": "general_info",
+  "intent": "case_status",
   "intent_confidence": 0.3594170475773171,
   "entities": [
     "aadhar card",
     "voter id",
-    "cour",
-    "aadhar",
     "cou",
-    "thu",
-    "aadha",
-    "court power",
-    "thus",
-    "court",
-    "power",
-    "card",
     "car",
-    "aad",
-    "courts thus",
-    "pow",
-    "powe",
+    "power",
+    "aadhar",
+    "court power",
+    "thu",
+    "card",
     "aadh",
-    "courts"
+    "pow",
+    "cour",
+    "thus",
+    "courts thus",
+    "courts",
+    "aadha",
+    "court",
+    "powe",
+    "aad"
   ],
   "entity_types": [
-    "PER",
-    "MISC"
+    "MISC",
+    "PER"
   ],
   "entity_details": [
     {
@@ -50,52 +50,7 @@
       "score": 0.9522957801818848
     },
     {
-      "text": "cour",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aadhar",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
       "text": "cou",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "thu",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "aadha",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court power",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "thus",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "court",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "power",
-      "type": "PER",
-      "score": 0.95
-    },
-    {
-      "text": "card",
       "type": "PER",
       "score": 0.95
     },
@@ -105,22 +60,27 @@
       "score": 0.95
     },
     {
-      "text": "aad",
+      "text": "power",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "courts thus",
+      "text": "aadhar",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "pow",
+      "text": "court power",
       "type": "PER",
       "score": 0.95
     },
     {
-      "text": "powe",
+      "text": "thu",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "card",
       "type": "PER",
       "score": 0.95
     },
@@ -130,12 +90,52 @@
       "score": 0.95
     },
     {
+      "text": "pow",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "cour",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "thus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "courts thus",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
       "text": "courts",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aadha",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "court",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "powe",
+      "type": "PER",
+      "score": 0.95
+    },
+    {
+      "text": "aad",
       "type": "PER",
       "score": 0.95
     }
   ],
-  "summary": "The court rejected the petition to condone a delay of over 6 years in filing an appeal, citing the absence of valid reasons and emphasizing that discretionary power to condone delays must be exercised judiciously and only for genuine cases.",
+  "summary": "The court rejected the petition to condone a delay of 2,540 days in filing an appeal, citing the absence of valid reasons and emphasizing that discretionary power to condone delays must be exercised judiciously and only for genuine cases.",
   "embedding": [
     0.06951102614402771,
     0.028904583305120468,
