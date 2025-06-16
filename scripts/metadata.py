@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import os
 import numpy as np
 import re
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
@@ -93,48 +94,41 @@ def extract_metadata(text, document_name=None):
                 'type': ent['entity_group'],
                 'score': float(ent['score'])
             })
-    # --- Expanded substring/variant generation for all entities ---
+    # --- Hybrid entity extraction: NER + regex, using standard stopwords ---
+    # Use sklearn's English stopwords and optionally add custom domain stopwords
+    custom_stopwords = set([
+        'pdf', 'doc', 'file', 'info', 'data', 'case', 'user', 'test', 'testcase', 'docx', 'page', 'form', 'type', 'role', 'team', 'work', 'year', 'date', 'time', 'list', 'desc', 'desc.', 'desc:', 'desc;'
+    ])
+    stopwords = set(ENGLISH_STOP_WORDS) | custom_stopwords
     extra_entities = set()
     for ent in entities:
         ent_text = ent['text']
-        # Split on space, underscore, dot, and camel case
+        ent_type = ent.get('type', '')
+        if ent_type not in ('PER', 'ORG'):
+            continue
+        ent_text = ent_text.lower().strip()
+        if not ent_text or ent_text in stopwords:
+            continue
+        # Add full name
+        extra_entities.add(ent_text)
+        # Add first and last name if multi-part
         parts = re.split(r'[ _\.]', ent_text)
-        camel_parts = re.findall(r'[A-Za-z][^A-Z]*', ent_text)
-        all_parts = set(parts + camel_parts)
-        for part in all_parts:
-            part = part.lower().strip()
-            if part and len(part) > 1:
-                extra_entities.add(part)
-            # Add all substrings (prefixes of length >= 3) for each part
-            for i in range(3, len(part)+1):
-                substr = part[:i]
-                if len(substr) >= 3:
-                    extra_entities.add(substr)
-        # Add sliding substrings for the full entity (length >= 3)
-        for i in range(len(ent_text)):
-            for j in range(i+3, len(ent_text)+1):
-                substr = ent_text[i:j].lower().strip()
-                if substr and len(substr) >= 3:
-                    extra_entities.add(substr)
-    # Add split name parts and substrings for PERSON entities (legacy logic)
-    for ent in entities:
-        if ent['type'] == 'PER':
-            parts = re.split(r'[ _\.]', ent['text'])
-            camel_parts = re.findall(r'[A-Za-z][^A-Z]*', ent['text'])
-            for part in parts + camel_parts:
-                part = part.lower()
-                if part:
-                    extra_entities.add(part)
-                for i in range(3, len(part)+1):
-                    substr = part[:i]
-                    if len(substr) >= 3:
-                        extra_entities.add(substr)
-    # --- Hybrid: Regex-based name extraction ---
+        if len(parts) > 1:
+            extra_entities.add(parts[0])  # first name
+            extra_entities.add(parts[-1]) # last name
+        # Add initials (if multi-part)
+        if len(parts) > 1:
+            initials = ''.join([p[0] for p in parts if p])
+            if len(initials) > 1:
+                extra_entities.add(initials)
+    # Add regex-based names (full matches only, no substrings)
     regex_names = extract_names_regex(text)
     for name in regex_names:
-        extra_entities.add(name.lower().strip())
-    # Normalize and deduplicate all entities
-    all_entities = set([e['text'].lower().strip() for e in entities]) | set([e for e in extra_entities if len(e) > 1])
+        name = name.lower().strip()
+        if name and name not in stopwords:
+            extra_entities.add(name)
+    # Only keep normalized, deduplicated entities
+    all_entities = set([e['text'].lower().strip() for e in entities if len(e['text']) >= 4 and e['text'] not in stopwords]) | extra_entities
     # Remove overly generic substrings (e.g., length < 3 or common stopwords)
     stopwords = set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'but', 'not', 'all', 'any', 'can', 'has', 'have', 'had', 'you', 'her', 'his', 'she', 'him', 'who', 'how', 'why', 'use', 'our', 'out', 'get', 'got', 'let', 'may', 'one', 'two', 'job', 'dev', 'rat', 'man', 'son', 'jan', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'])
     all_entities = set([e for e in all_entities if len(e) >= 3 and e not in stopwords])

@@ -105,8 +105,22 @@ def extract_query_metadata(query: str) -> Dict[str, Any]:
         "keywords": keywords
     }
 
+def get_all_entities_from_metadata():
+    """Scan all output_data/*.json files and return a set of all unique entities."""
+    import glob, json
+    entity_set = set()
+    for file in glob.glob("data/output_data/*.json"):
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                for ent in data.get("entities", []):
+                    entity_set.add(ent.strip().lower())
+        except Exception:
+            continue
+    return entity_set
+
 def generate_filter(query: str) -> Optional[Dict[str, Any]]:
-    """Generate a Pinecone metadata filter based on query analysis."""
+    """Generate a Pinecone metadata filter based on query analysis, with query-time entity expansion."""
     metadata = extract_query_metadata(query)
     filter_dict = {}
     # Add intent filter if detected
@@ -114,14 +128,30 @@ def generate_filter(query: str) -> Optional[Dict[str, Any]]:
         filter_dict["intent"] = {"$eq": metadata["intent"]}
     # Add entity filters if found
     norm_entities = [e.strip().lower() for e in metadata["entities"]]
+    # Query-time entity expansion for single-word entity/keyword queries
     if norm_entities:
-        filter_dict["entities"] = {"$in": norm_entities}
+        # If only one entity and it's a single word, expand
+        if len(norm_entities) == 1 and len(norm_entities[0].split()) == 1:
+            all_entities = get_all_entities_from_metadata()
+            expanded = [e for e in all_entities if norm_entities[0] in e]
+            if expanded:
+                filter_dict["entities"] = {"$in": expanded}
+            else:
+                filter_dict["entities"] = {"$in": norm_entities}
+        else:
+            filter_dict["entities"] = {"$in": norm_entities}
     # Fallback: if no intent/entities, but keywords exist, use keywords as entity filter
     if not filter_dict and metadata["keywords"]:
         norm_keywords = [k.strip().lower() for k in metadata["keywords"]]
-        if norm_keywords:
+        if len(norm_keywords) == 1 and len(norm_keywords[0].split()) == 1:
+            all_entities = get_all_entities_from_metadata()
+            expanded = [e for e in all_entities if norm_keywords[0] in e]
+            if expanded:
+                filter_dict["entities"] = {"$in": expanded}
+            else:
+                filter_dict["entities"] = {"$in": norm_keywords}
+        else:
             filter_dict["entities"] = {"$in": norm_keywords}
-            print(f"[FilterUtils] Fallback: using keywords as entity filter.")
     print(f"[FilterUtils] Final generated filter: {filter_dict if filter_dict else None}")
     return filter_dict if filter_dict else None
 
