@@ -382,11 +382,22 @@ def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: f
     doc_list_str = "\n".join(f"- {name}" for name in doc_names)
     # Always use Azure OpenAI to generate the answer
     if count > 0:
+        # Build a detailed answer that always includes document names and their summaries
+        doc_summaries = []
+        for doc_name in doc_names:
+            summary = None
+            for match in pinecone_matches:
+                if match.metadata.get("document_name") == doc_name:
+                    summary = match.metadata.get("summary", "")
+                    break
+            if summary:
+                doc_summaries.append(f"- {doc_name}: {summary}")
+            else:
+                doc_summaries.append(f"- {doc_name}")
+        doc_list_str = "\n".join(doc_summaries)
         prompt = (
-            f"You are an expert assistant. The user searched for the entity or keyword '{entity}'. "
-            f"Here is a list of all document names that reference this entity or keyword:\n{doc_list_str}\n\n"
-            f"For each document, explain in 1-2 sentences why it is relevant to the entity or keyword '{entity}', using the document's summary if available. "
-            f"List all document names and provide a brief explanation for each."
+            f"The following documents reference the entity or keyword '{entity}':\n{doc_list_str}\n\n"
+            f"List all document names and provide a brief explanation for each, using the summary if available."
         )
         try:
             ai_answer = client.chat.completions.create(

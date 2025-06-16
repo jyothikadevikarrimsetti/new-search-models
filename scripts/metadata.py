@@ -93,30 +93,51 @@ def extract_metadata(text, document_name=None):
                 'type': ent['entity_group'],
                 'score': float(ent['score'])
             })
-    # Add split name parts for PERSON entities (space, underscore, dot, camel case)
+    # --- Expanded substring/variant generation for all entities ---
     extra_entities = set()
+    for ent in entities:
+        ent_text = ent['text']
+        # Split on space, underscore, dot, and camel case
+        parts = re.split(r'[ _\.]', ent_text)
+        camel_parts = re.findall(r'[A-Za-z][^A-Z]*', ent_text)
+        all_parts = set(parts + camel_parts)
+        for part in all_parts:
+            part = part.lower().strip()
+            if part and len(part) > 1:
+                extra_entities.add(part)
+            # Add all substrings (prefixes of length >= 3) for each part
+            for i in range(3, len(part)+1):
+                substr = part[:i]
+                if len(substr) >= 3:
+                    extra_entities.add(substr)
+        # Add sliding substrings for the full entity (length >= 3)
+        for i in range(len(ent_text)):
+            for j in range(i+3, len(ent_text)+1):
+                substr = ent_text[i:j].lower().strip()
+                if substr and len(substr) >= 3:
+                    extra_entities.add(substr)
+    # Add split name parts and substrings for PERSON entities (legacy logic)
     for ent in entities:
         if ent['type'] == 'PER':
             parts = re.split(r'[ _\.]', ent['text'])
             camel_parts = re.findall(r'[A-Za-z][^A-Z]*', ent['text'])
             for part in parts + camel_parts:
                 part = part.lower()
-                if part and part not in [e['text'] for e in entities]:
+                if part:
                     extra_entities.add(part)
-                # Add all substrings (prefixes of length >= 3) for each part
-                for i in range(3, len(part)):
+                for i in range(3, len(part)+1):
                     substr = part[:i]
-                    if len(substr) >= 3 and substr not in [e['text'] for e in entities]:
+                    if len(substr) >= 3:
                         extra_entities.add(substr)
-    for part in extra_entities:
-        entities.append({'text': part, 'type': 'PER', 'score': 1.0})
-
     # --- Hybrid: Regex-based name extraction ---
     regex_names = extract_names_regex(text)
     for name in regex_names:
-        if name not in [e['text'] for e in entities]:
-            entities.append({'text': name, 'type': 'PER', 'score': 0.95})
-
+        extra_entities.add(name.lower().strip())
+    # Normalize and deduplicate all entities
+    all_entities = set([e['text'].lower().strip() for e in entities]) | set([e for e in extra_entities if len(e) > 1])
+    # Remove overly generic substrings (e.g., length < 3 or common stopwords)
+    stopwords = set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'but', 'not', 'all', 'any', 'can', 'has', 'have', 'had', 'you', 'her', 'his', 'she', 'him', 'who', 'how', 'why', 'use', 'our', 'out', 'get', 'got', 'let', 'may', 'one', 'two', 'job', 'dev', 'rat', 'man', 'son', 'jan', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'])
+    all_entities = set([e for e in all_entities if len(e) >= 3 and e not in stopwords])
     # Generate summary
     summary_prompt = (
     "Summarize the following text in 1-2 sentences. "
@@ -133,7 +154,7 @@ def extract_metadata(text, document_name=None):
         "keywords": keywords,
         "intent": detected_intent,
         "intent_confidence": intent_confidence,
-        "entities": [e['text'] for e in entities],
+        "entities": sorted(list(all_entities)),
         "entity_types": list(set(e['type'] for e in entities)),
         "entity_details": entities,
         "summary": summary,

@@ -73,8 +73,19 @@ def dense_search(request: DenseSearchRequest):
             results.get('reranking_score') is not None and
             results.get('reranking_score') < min_score
         )
+        # --- Always return top result if Pinecone returned any matches, even if low_score or no_results ---
         if no_results or low_score:
-            return {"answer": "Document not found.", "results": []}
+            # Try to get top result from Pinecone matches if available
+            if results.get('results') and len(results['results']) > 0:
+                return {
+                    "answer": results.get('answer', 'No answer found'),
+                    "document_names": results.get('document_names', []),
+                    "results": results.get('results', []),
+                    "search_time": results.get('search_time', 0.0),
+                    "reranking_score": results.get('reranking_score', None)
+                }
+            else:
+                return {"answer": "Document not found.", "results": []}
         # Pass through all fields from backend, including LLM answer and all document names/results
         return {
             "answer": results.get('answer', 'No answer found'),
@@ -109,8 +120,19 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             results.get('reranking_score') is not None and
             results.get('reranking_score') < min_score
         )
+        # --- Always return top result if Pinecone returned any matches, even if low_score or no_results ---
         if no_results or low_score:
-            return {"answer": "Document not found.", "results": []}
+            # Try to get top result from Pinecone matches if available
+            if results.get('results') and len(results['results']) > 0:
+                return {
+                    "answer": results.get('answer', 'No answer found'),
+                    "document_names": results.get('document_names', []),
+                    "results": results.get('results', []),
+                    "search_time": results.get('search_time', 0.0),
+                    "reranking_score": results.get('reranking_score', None)
+                }
+            else:
+                return {"answer": "Document not found.", "results": []}
         # Pass through all fields from backend, including LLM answer and all document names/results
         return {
             "answer": results.get('answer', 'No answer found'),

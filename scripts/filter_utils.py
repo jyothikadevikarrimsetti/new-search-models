@@ -85,6 +85,9 @@ def extract_query_metadata(query: str) -> Dict[str, Any]:
         detected_intent = None
     # Extract potential keywords
     keywords = [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
+    # If the query is a single word and not an intent, treat it as a keyword/entity lookup
+    if not detected_intent and not entities and not keywords and len(query.strip().split()) == 1:
+        keywords = [query.strip().lower()]
     # Keyword-based fallback: if no intent detected, use keyword match
     if not detected_intent and keywords:
         for intent, kw_list in INTENT_KEYWORDS.items():
