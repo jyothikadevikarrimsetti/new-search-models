@@ -78,21 +78,23 @@ def dense_search(request: DenseSearchRequest):
             # Try to get top result from Pinecone matches if available
             if results.get('results') and len(results['results']) > 0:
                 return {
-                    "answer": results.get('answer', 'No answer found'),
                     "document_names": results.get('document_names', []),
-                    "results": results.get('results', []),
+                    "answer": results.get('answer', 'No answer found'),
                     "search_time": results.get('search_time', 0.0),
-                    "reranking_score": results.get('reranking_score', None)
+                    "reranking_score": results.get('reranking_score', None),
+                    "results": results.get('results', [])
+                    
                 }
             else:
                 return {"answer": "Document not found.", "results": []}
         # Pass through all fields from backend, including LLM answer and all document names/results
         return {
-            "answer": results.get('answer', 'No answer found'),
             "document_names": results.get('document_names', []),
-            "results": results.get('results', []),
+            "answer": results.get('answer', 'No answer found'),     
             "search_time": results.get('search_time', 0.0),
-            "reranking_score": results.get('reranking_score', None)
+            "reranking_score": results.get('reranking_score', None),       
+            "results": results.get('results', []),
+           
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -125,21 +127,23 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             # Try to get top result from Pinecone matches if available
             if results.get('results') and len(results['results']) > 0:
                 return {
-                    "answer": results.get('answer', 'No answer found'),
                     "document_names": results.get('document_names', []),
-                    "results": results.get('results', []),
+                    "answer": results.get('answer', 'No answer found'),
                     "search_time": results.get('search_time', 0.0),
-                    "reranking_score": results.get('reranking_score', None)
+                    "reranking_score": results.get('reranking_score', None),
+                    "results": results.get('results', []),
+
                 }
             else:
                 return {"answer": "Document not found.", "results": []}
         # Pass through all fields from backend, including LLM answer and all document names/results
         return {
-            "answer": results.get('answer', 'No answer found'),
             "document_names": results.get('document_names', []),
-            "results": results.get('results', []),
+            "answer": results.get('answer', 'No answer found'),
             "search_time": results.get('search_time', 0.0),
-            "reranking_score": results.get('reranking_score', None)
+            "reranking_score": results.get('reranking_score', None),
+            "results": results.get('results', []),
+            
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

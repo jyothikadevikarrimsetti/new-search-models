@@ -12,7 +12,22 @@
     "List the abilities mentioned in the candidate's resume.",
     "What expertise does the applicant have?",
     "Which competencies are present in the resume?",
-    "What qualifications are included in the CV?"
+    "What qualifications are included in the CV?",
+    "List the work experience of the candidate.",
+    "What is the educational background of the applicant?",
+    "Show me the certifications in this resume.",
+    "What are the technical skills mentioned?",
+    "Summarize the professional experience section.",
+    "What projects has the candidate worked on?",
+    "List the programming languages known by the applicant.",
+    "What are the achievements or awards?",
+    "Show me the contact information in the resume.",
+    "What is the career objective or summary?",
+    "List the tools and technologies used by the candidate.",
+    "What is the total experience in years?",
+    "Show me the roles and responsibilities held.",
+    "What are the soft skills mentioned?",
+    "List the languages spoken by the applicant."
   ],
   "case_status": [
     "What is the current status of the case?",

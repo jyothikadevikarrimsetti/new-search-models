@@ -99,6 +99,11 @@ def extract_query_metadata(query: str) -> Dict[str, Any]:
     print(f"[FilterUtils] Extracted entities: {entities}")
     print(f"[FilterUtils] Detected intent: {detected_intent}")
     print(f"[FilterUtils] Extracted keywords: {keywords}")
+    # Print document name if available in context (for debugging)
+    import inspect
+    frame = inspect.currentframe().f_back
+    if frame and 'document_name' in frame.f_locals:
+        print(f"[FilterUtils] Document name: {frame.f_locals['document_name']}")
     return {
         "entities": entities,
         "intent": detected_intent,

@@ -27,7 +27,7 @@ with open("data/intent_categories/intent_examples.json", "r", encoding="utf-8") 
     intent_examples = json.load(f)
 
 intent_labels = list(intent_examples.keys())
-intent_texts = list(intent_examples.values())
+intent_texts = [item for sublist in intent_examples.values() for item in sublist]
 
 def get_openai_embedding(text):
     response = client.embeddings.create(
@@ -37,6 +37,12 @@ def get_openai_embedding(text):
     return response.data[0].embedding
 
 intent_embs = [get_openai_embedding(t) for t in intent_texts]
+
+# Map each embedding to its label for debug logging
+intent_label_map = []
+for label, examples in intent_examples.items():
+    for _ in examples:
+        intent_label_map.append(label)
 
 def extract_names_regex(text):
     # Regex for names: capitalized words, possibly with middle initials, dots, underscores, etc.
@@ -69,16 +75,24 @@ def extract_names_regex(text):
 
 def extract_metadata(text, document_name=None):
     doc_emb = get_openai_embedding(text)
-    # Compute cosine similarity with all intent embeddings
     def cosine_sim(a, b):
         a, b = np.array(a), np.array(b)
         return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-    
     intent_scores = [cosine_sim(doc_emb, emb) for emb in intent_embs]
-    best_idx = int(np.argmax(intent_scores))
-    intent_confidence = float(intent_scores[best_idx])
+    # Print all intent scores for debug
+    debug_scores = {}
+    for idx, score in enumerate(intent_scores):
+        label = intent_label_map[idx]
+        debug_scores.setdefault(label, []).append(score)
+    print("[Intent Detection] All intent scores:")
+    for label, scores in debug_scores.items():
+        print(f"  {label}: max={max(scores):.3f}, avg={np.mean(scores):.3f}, all={[round(s,3) for s in scores]}")
+    # Use the max score per label for intent assignment
+    label_max_scores = {label: max(scores) for label, scores in debug_scores.items()}
+    best_label = max(label_max_scores, key=label_max_scores.get)
+    intent_confidence = float(label_max_scores[best_label])
     # Lowered threshold for more permissive intent detection
-    detected_intent = intent_labels[best_idx] if intent_confidence > 0.3 else "general_info"
+    detected_intent = best_label if intent_confidence > 0.2 else "general_info"
     print(f"[Intent Detection] intent_confidence={intent_confidence:.3f}, detected_intent={detected_intent}")
 
     # Extract keywords

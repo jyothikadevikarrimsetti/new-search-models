@@ -159,9 +159,9 @@ def search_query(query_text, top_k=10, metadata_filter=None, return_count_for_in
             "document_name": fname,
             "summary": summary,
             "reranking_score": rerank_score,
-            "intent": match.metadata.get("intent", "[not present]"),
-            "entities": match.metadata.get("entities", "[not present]"),
-            "keywords": match.metadata.get("keywords", "[not present]")
+            # "intent": match.metadata.get("intent", "[not present]"),
+            # "entities": match.metadata.get("entities", "[not present]"),
+            # "keywords": match.metadata.get("keywords", "[not present]")
         })
     top_doc = results[0] if results else {}
     search_time = time.time() - start_time
@@ -184,6 +184,17 @@ def get_splade_encoder_for_query():
     splade = SpladeEncoder()
     _splade_encoder_cache = splade
     return splade
+
+
+# Helper to fetch chunk text from local storage using chunk_id (Pinecone vector id).
+def get_chunk_text_by_id(chunk_id, chunk_dir="data/chunks"):
+    """Retrieve chunk text from local storage using chunk_id."""
+    import os
+    chunk_path = os.path.join(chunk_dir, f"{chunk_id}.txt")
+    if os.path.exists(chunk_path):
+        with open(chunk_path, "r", encoding="utf-8") as f:
+            return f.read()
+    return ""
 
 
 # Hybrid search function combining dense and sparse retrieval
@@ -209,12 +220,18 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
         pinecone_query_kwargs["filter"] = combined_filter
     pinecone_result = index.query(**pinecone_query_kwargs)
 
+    # Print all matching chunk names (IDs)
+    chunk_names = [match.id for match in pinecone_result.matches]
+    print(f"[HybridSearch] All matching chunk names: {chunk_names}")
+
     # 2. Locally rerank with SPLADE sparse vectors
     splade = get_splade_encoder_for_query()
     sparse_query_vector = splade.encode_queries([query_lower])[0]
 
-    doc_texts = [match.metadata.get("text", "") for match in pinecone_result.matches]
-    if not doc_texts:
+    filenames = chunk_names
+    # Retrieve chunk text locally using chunk_id (filename)
+    doc_texts = [get_chunk_text_by_id(chunk_id) for chunk_id in filenames]
+    if not doc_texts or all(not t.strip() for t in doc_texts):
         return {
             "document_name": None,
             "answer": "No relevant document found.",
@@ -241,8 +258,8 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     filenames = [match.id for match in pinecone_result.matches]
     relevance_scores = [match.score for match in pinecone_result.matches]
     rerank_texts = [
-        (match.metadata.get("summary", "") + "\n" + match.metadata.get("text", ""))
-        for match in pinecone_result.matches
+        (match.metadata.get("summary", "") + "\n" + doc_texts[i])
+        for i, match in enumerate(pinecone_result.matches)
     ]
     if rerank_texts:
         rerank_embeddings = [get_openai_embedding(text) for text in rerank_texts]
@@ -289,9 +306,9 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
             "reranking_score": hybrid_score,
             "dense_score": dense_score,
             "sparse_score": sparse_score_val,
-            "intent": match.metadata.get("intent", "[not present]"),
-            "entities": match.metadata.get("entities", "[not present]"),
-            "keywords": match.metadata.get("keywords", "[not present]")
+            # "intent": match.metadata.get("intent", "[not present]"),
+            # "entities": match.metadata.get("entities", "[not present]"),
+            # "keywords": match.metadata.get("keywords", "[not present]")
         })
     # --- ENTITY LOOKUP LOGIC ---
     query_metadata = extract_query_metadata(query)
@@ -351,7 +368,7 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     return {
         "document_names": top_doc.get("document_name"),
         "answer": answer,
-        "time_taken": elapsed,
+        "search_time": elapsed,
         "reranking_score": top_doc.get("reranking_score"),
         "results": results
     }
