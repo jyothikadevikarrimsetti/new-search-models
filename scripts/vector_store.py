@@ -10,9 +10,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from scripts.pinecone_utils import index
 from pinecone_text.sparse import SpladeEncoder
 
+_splade_encoder_instance = None
 
 def get_splade_encoder():
-    return SpladeEncoder()
+    global _splade_encoder_instance
+    if _splade_encoder_instance is None:
+        _splade_encoder_instance = SpladeEncoder()
+    return _splade_encoder_instance
 # ------------------------------------------------------------------ #
 # Upsert                                                             #
 # ------------------------------------------------------------------ #

@@ -14,6 +14,7 @@ ner_pipeline = pipeline(
     model=AutoModelForTokenClassification.from_pretrained("Jean-Baptiste/roberta-large-ner-english"),
     tokenizer=AutoTokenizer.from_pretrained("Jean-Baptiste/roberta-large-ner-english"),
     aggregation_strategy="simple",
+    device=-1  # Force CPU to avoid meta tensor error
 )
 load_dotenv("config/.env")
 client = AzureOpenAI(

@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 from scripts.pinecone_utils import index
 from scripts.filter_utils import extract_query_metadata, is_entity_lookup_query
+from fastapi import Query
 
 app = FastAPI()
 
@@ -223,5 +224,54 @@ def delete_namespace(request: NamespaceDeleteRequest):
         # Remove all vectors in the namespace
         index.delete(delete_all=True, namespace=request.namespace)
         return {"message": f"Namespace '{request.namespace}' deleted (all vectors removed)."}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/search/hybrid/match_details", tags=["search"])
+def hybrid_search_match_details(request: HybridSearchRequest):
+    """Return all FilterUtils details and hybrid search chunk names as structured fields, without dense/sparse scores."""
+    try:
+        query_metadata = extract_query_metadata(request.query)
+        filter_dict = generate_filter(request.query)
+        results = hybrid_search(
+            query=request.query,
+            top_k=request.top_k,
+            namespace=request.namespace,
+            alpha=request.alpha,
+            metadata_filter=filter_dict
+        )
+        # Get all matching chunk names (if available)
+        matching_chunk_names = [r.get('document_name') for r in results.get('results', []) if r.get('document_name')]
+        match_details = []
+        for r in results.get('results', []):
+            explanation = []
+            hybrid_score = r.get('hybrid_score', r.get('reranking_score', 0))
+            if hybrid_score > 0.5:
+                explanation.append("High hybrid score: strong semantic and keyword/entity match.")
+            elif r.get('dense_score', 0) > 0.5:
+                explanation.append("High dense (semantic) similarity.")
+            elif r.get('sparse_score', 0) > 0.5:
+                explanation.append("High sparse (keyword/entity) match.")
+            else:
+                explanation.append("Low score: weak match.")
+            match_details.append({
+                "chunk_id": r.get("document_name"),
+                "document_name": r.get("document_name"),
+                "summary": r.get("summary"),
+                "hybrid_score": hybrid_score,
+                "explanation": " ".join(explanation)
+            })
+        return {
+            "query": request.query,
+            "entities": query_metadata.get("entities"),
+            "intent": query_metadata.get("intent"),
+            "keywords": query_metadata.get("keywords"),
+            "generated_filter": filter_dict,
+            "matching_chunk_names": matching_chunk_names,
+            "matches": match_details,
+            "top_k": request.top_k,
+            "namespace": request.namespace,
+            "alpha": request.alpha
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
