@@ -8,6 +8,11 @@ from pdf2image import convert_from_path
 import pytesseract
 import multiprocessing
 import threading
+try:
+    import spacy
+    nlp = spacy.load("en_core_web_sm")
+except Exception:
+    nlp = None
 
 def extract_text_from_pdf(pdf_path):
     # Try pdfplumber first
@@ -46,17 +51,61 @@ def clean_text(text):
     return text.strip()
 
 
-def chunk_text(text, chunk_size=300, overlap=50):
-    words = text.split()
+def recursive_chunk(text, chunk_size=300, overlap=50):
+    # 1. Try to split by section headings (e.g., JUDGMENT, ORDER, PRAYER)
+    section_pattern = re.compile(
+        r"\n\s*(JUDGMENT|ORDER|PRAYER|DECREE|SUMMARY|CONCLUSION|CORAM|PARTIES|APPEAL|PETITION|RESPONDENT|APPELLANT|DATE|FACTS|ARGUMENTS|FINDINGS|REASONING|DISPOSITION|DECISION|HELD|CASE NO|CASE NUMBER|CASE STATUS|BACKGROUND|INTRODUCTION|PROCEEDINGS|SUBMISSIONS|CONTENTIONS|EVIDENCE|ANALYSIS|DISCUSSION|CONCLUSION|RESULT|OUTCOME|RELIEF|RECOMMENDATION|ANNEXURE|APPENDIX|EXHIBIT|REFERENCE|FOOTNOTE|ENDNOTE|INDEX|TABLE OF CONTENTS|LIST OF AUTHORITIES|CITATION|CITATIONS|REFERENCES|NOTES|NOTE|NOTE:|NOTE -)\b.*\n",
+        re.IGNORECASE
+    )
+    sections = section_pattern.split(text)
+    if len(sections) > 1:
+        # Merge section headings with their content
+        merged = []
+        for i in range(0, len(sections)-1, 2):
+            heading = sections[i+1].strip()
+            content = sections[i+2].strip() if i+2 < len(sections) else ''
+            merged.append(f"{heading}\n{content}")
+        sections = merged
+    else:
+        sections = [text]
     chunks = []
-    i = 0
-    while i < len(words):
-        chunk = words[i:i+chunk_size]
-        if len(chunk) < 10:
-            break
-        chunks.append(' '.join(chunk))
-        i += chunk_size - overlap
+    for section in sections:
+        # 2. Split by paragraphs (double newline)
+        paragraphs = [p.strip() for p in section.split('\n\n') if p.strip()]
+        for para in paragraphs:
+            # 3. Split by sentences (spaCy if available, else regex)
+            if nlp:
+                doc = nlp(para)
+                sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
+            else:
+                sentences = re.split(r'(?<=[.!?])\s+', para)
+            # 4. Recursively build chunks
+            current = []
+            for sent in sentences:
+                words = sent.split()
+                if not words:
+                    continue
+                if len(words) > chunk_size:
+                    # If sentence is too long, split by words
+                    for i in range(0, len(words), chunk_size - overlap):
+                        chunk = words[i:i+chunk_size]
+                        if len(chunk) >= 10:
+                            chunks.append(' '.join(chunk))
+                else:
+                    current.extend(words)
+                    if len(current) >= chunk_size:
+                        chunks.append(' '.join(current[:chunk_size]))
+                        # Overlap
+                        current = current[chunk_size - overlap:]
+            # Add any remaining words as a chunk
+            if current and len(current) >= 10:
+                chunks.append(' '.join(current))
     return chunks
+
+
+def chunk_text(text, chunk_size=300, overlap=50):
+    # Use recursive chunking
+    return recursive_chunk(text, chunk_size=chunk_size, overlap=overlap)
 
 
 def process_pdf_chunking(args):
