@@ -74,6 +74,10 @@ def extract_names_regex(text):
                     parts.add(substr)
     return list(found | parts)
 
+def normalize_entity(e):
+    # Lowercase, remove dots, extra spaces, collapse multiple spaces
+    return re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()
+
 def extract_metadata(text, document_name=None):
     doc_emb = get_openai_embedding(text)
     def cosine_sim(a, b):
@@ -110,7 +114,6 @@ def extract_metadata(text, document_name=None):
                 'score': float(ent['score'])
             })
     # --- Hybrid entity extraction: NER + regex, using standard stopwords ---
-    # Use sklearn's English stopwords and optionally add custom domain stopwords
     custom_stopwords = set([
         'pdf', 'doc', 'file', 'info', 'data', 'case', 'user', 'test', 'testcase', 'docx', 'page', 'form', 'type', 'role', 'team', 'work', 'year', 'date', 'time', 'list', 'desc', 'desc.', 'desc:', 'desc;'
     ])
@@ -142,8 +145,21 @@ def extract_metadata(text, document_name=None):
         name = name.lower().strip()
         if name and name not in stopwords:
             extra_entities.add(name)
+    # --- Add legal case number extraction (more flexible) ---
+    case_number_patterns = [
+        r'\b(?:[A-Z]{1,4}\.?\s*)?S\.?\s*No\.?\s*\d+\s*(?:of|/)?\s*\d{4}\b',  # O.S.No.15 of 2007, S No 15/2007
+        r'\b(?:[A-Z]{1,4}\.?\s*)?No\.?\s*\d+\s*(?:of|/)?\s*\d{4}\b',  # No.15 of 2007, No 15/2007
+        r'\b\d+\s*(?:of|/)?\s*\d{4}\b',  # 15 of 2007, 123/2020
+        r'\b[A-Z]{1,4}\.?\s*No\.?\s*\d+\b',  # C.R.P.No.1234
+        r'\b[A-Z]{1,4}\.?\s*\d+\b',  # CRP.1234
+    ]
+    for pat in case_number_patterns:
+        for match in re.findall(pat, text, re.IGNORECASE):
+            cleaned = normalize_entity(match)
+            if cleaned and cleaned not in stopwords:
+                extra_entities.add(cleaned)
     # Only keep normalized, deduplicated entities
-    all_entities = set([e['text'].lower().strip() for e in entities if len(e['text']) >= 4 and e['text'] not in stopwords]) | extra_entities
+    all_entities = set([normalize_entity(e['text']) for e in entities if len(e['text']) >= 4 and e['text'] not in stopwords]) | set([normalize_entity(e) for e in extra_entities])
     # Remove overly generic substrings (e.g., length < 3 or common stopwords)
     stopwords = set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'but', 'not', 'all', 'any', 'can', 'has', 'have', 'had', 'you', 'her', 'his', 'she', 'him', 'who', 'how', 'why', 'use', 'our', 'out', 'get', 'got', 'let', 'may', 'one', 'two', 'job', 'dev', 'rat', 'man', 'son', 'jan', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'])
     all_entities = set([e for e in all_entities if len(e) >= 3 and e not in stopwords])

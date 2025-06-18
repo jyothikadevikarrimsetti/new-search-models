@@ -44,6 +44,19 @@ else:
 
 updated_files: list[str] = []
 
+# --- NEW: Precompute document-level entities for each PDF ---
+doc_entities_map = {}
+for pdf_file in pdf_files:
+    try:
+        # Read full text for the PDF
+        from scripts.extract_text import extract_text_from_pdf, clean_text
+        full_text = clean_text(extract_text_from_pdf(pdf_file))
+        doc_metadata = extract_metadata(full_text, document_name=pdf_file.name)
+        doc_entities_map[pdf_file.stem] = set(doc_metadata.get("entities", []))
+    except Exception as e:
+        print(f"[WARN] Could not extract document-level entities for {pdf_file.name}: {e}")
+        doc_entities_map[pdf_file.stem] = set()
+
 # Compute hashes and check for updates in parallel
 with ThreadPoolExecutor() as executor:
     future_to_pdf = {executor.submit(compute_md5, pdf_file): pdf_file for pdf_file in pdf_iter}
@@ -99,7 +112,14 @@ def process_metadata(txt_file):
         text = txt_file.read_text(encoding="utf-8").strip()
         pdf_stem = txt_file.stem.rsplit('_chunk', 1)[0]
         pdf_name = f"{pdf_stem}.pdf"
+        # --- Extract chunk-level metadata ---
         metadata = extract_metadata(text, document_name=pdf_name) | {"filename": txt_file.name}
+        # --- Merge document-level entities ---
+        doc_entities = doc_entities_map.get(pdf_stem, set())
+        chunk_entities = set(metadata.get("entities", []))
+        merged_entities = sorted(doc_entities | chunk_entities)
+        metadata["entities"] = merged_entities
+        print(f"[DEBUG] Entities for {stem}: {metadata['entities']}")  # <-- Debug print
         json_path.parent.mkdir(parents=True, exist_ok=True)
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)
@@ -137,6 +157,11 @@ for stem in list(need_upsert):
         pdf_stem = stem.rsplit('_chunk', 1)[0]
         pdf_name = f"{pdf_stem}.pdf"
         metadata = extract_metadata(text, document_name=pdf_name) | {"filename": txt_path.name}
+        # --- Merge document-level entities here as well ---
+        doc_entities = doc_entities_map.get(pdf_stem, set())
+        chunk_entities = set(metadata.get("entities", []))
+        merged_entities = sorted(doc_entities | chunk_entities)
+        metadata["entities"] = merged_entities
         json_path.parent.mkdir(parents=True, exist_ok=True)
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(metadata, fh, indent=2)

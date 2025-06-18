@@ -62,11 +62,15 @@ def load_intent_examples():
             "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
         }
 
+def normalize_entity(e):
+    import re
+    return re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()
+
 def extract_query_metadata(query: str) -> Dict[str, Any]:
     """Extract metadata fields from a query for filtering."""
     doc = nlp(query)
-    # Extract entities (normalize: strip, lowercase)
-    entities = [ent.text.strip().lower() for ent in doc.ents]
+    # Extract entities (normalize: strip, lowercase, remove dots)
+    entities = [normalize_entity(ent.text) for ent in doc.ents]
     # Load intent examples
     intent_examples = load_intent_examples()
     # Encode query
@@ -84,10 +88,10 @@ def extract_query_metadata(query: str) -> Dict[str, Any]:
     else:
         detected_intent = None
     # Extract potential keywords
-    keywords = [token.text.lower() for token in doc if token.pos_ in ["NOUN", "PROPN"]]
+    keywords = [normalize_entity(token.text) for token in doc if token.pos_ in ["NOUN", "PROPN"]]
     # If the query is a single word and not an intent, treat it as a keyword/entity lookup
     if not detected_intent and not entities and not keywords and len(query.strip().split()) == 1:
-        keywords = [query.strip().lower()]
+        keywords = [normalize_entity(query.strip())]
     # Keyword-based fallback: if no intent detected, use keyword match
     if not detected_intent and keywords:
         for intent, kw_list in INTENT_KEYWORDS.items():
@@ -132,7 +136,7 @@ def generate_filter(query: str) -> Optional[Dict[str, Any]]:
     if metadata["intent"]:
         filter_dict["intent"] = {"$eq": metadata["intent"]}
     # Add entity filters if found
-    norm_entities = [e.strip().lower() for e in metadata["entities"]]
+    norm_entities = [normalize_entity(e) for e in metadata["entities"]]
     # Query-time entity expansion for single-word entity/keyword queries
     if norm_entities:
         # If only one entity and it's a single word, expand
@@ -147,7 +151,7 @@ def generate_filter(query: str) -> Optional[Dict[str, Any]]:
             filter_dict["entities"] = {"$in": norm_entities}
     # Fallback: if no intent/entities, but keywords exist, use keywords as entity filter
     if not filter_dict and metadata["keywords"]:
-        norm_keywords = [k.strip().lower() for k in metadata["keywords"]]
+        norm_keywords = [normalize_entity(k) for k in metadata["keywords"]]
         if len(norm_keywords) == 1 and len(norm_keywords[0].split()) == 1:
             all_entities = get_all_entities_from_metadata()
             expanded = [e for e in all_entities if norm_keywords[0] in e]
