@@ -2,6 +2,7 @@
 
 import re
 from pathlib import Path
+import pdfplumber
 from PyPDF2 import PdfReader
 from pdf2image import convert_from_path
 import pytesseract
@@ -9,15 +10,22 @@ import multiprocessing
 import threading
 
 def extract_text_from_pdf(pdf_path):
+    # Try pdfplumber first
     try:
-        # Attempt native text extraction
+        with pdfplumber.open(str(pdf_path)) as pdf:
+            text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        if text and text.strip():
+            return text
+    except Exception as e:
+        print(f"[pdfplumber] Extraction failed for {pdf_path.name}: {e}")
+    # Fallback to PyPDF2
+    try:
         reader = PdfReader(str(pdf_path))
         text = "\n".join([page.extract_text() or "" for page in reader.pages])
         if text.strip():
             return text
     except Exception:
         pass
-
     # If native extraction fails, fallback to OCR
     print(f"⚠️ OCR fallback for: {pdf_path.name}")
     ocr_text = ""
