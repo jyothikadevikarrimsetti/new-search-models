@@ -8,6 +8,7 @@ from collections import defaultdict
 from sentence_transformers import SentenceTransformer, util
 import re
 import subprocess
+from scripts.entity_utils import normalize_entity
 
 def initialize_spacy():
     """Initialize spaCy with error handling and automatic model download."""
@@ -29,6 +30,9 @@ try:
 except Exception as e:
     print(f"Failed to initialize spaCy: {e}")
     raise
+
+
+
 
 # Define default intent keywords
 INTENT_KEYWORDS = {
@@ -61,10 +65,6 @@ def load_intent_examples():
             "general_info": ["information", "contact", "hours", "location"],
             "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
         }
-
-def normalize_entity(e):
-    import re
-    return re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()
 
 def extract_query_metadata(query: str) -> Dict[str, Any]:
     """Extract metadata fields from a query for filtering."""

@@ -1,0 +1,142 @@
+# config.yaml for legal PDF ingestion/search pipeline
+
+intent_threshold: 0.2
+
+# Stopwords for entity extraction (add/remove as needed)
+custom_stopwords:
+  - pdf
+  - doc
+  - file
+  - info
+  - data
+  - case
+  - user
+  - test
+  - testcase
+  - docx
+  - page
+  - form
+  - type
+  - role
+  - team
+  - work
+  - year
+  - date
+  - time
+  - list
+  - desc
+  - desc.
+  - desc:
+  - desc;
+  - the
+  - and
+  - for
+  - with
+  - from
+  - that
+  - this
+  - are
+  - was
+  - but
+  - not
+  - all
+  - any
+  - can
+  - has
+  - have
+  - had
+  - you
+  - her
+  - his
+  - she
+  - him
+  - who
+  - how
+  - why
+  - use
+  - our
+  - out
+  - get
+  - got
+  - let
+  - may
+  - one
+  - two
+  - job
+  - dev
+  - rat
+  - man
+  - son
+  - jan
+  - jun
+  - jul
+  - aug
+  - sep
+  - oct
+  - nov
+  - dec
+
+# Regex patterns for legal case numbers
+case_number_patterns:
+  - "\\b(?:[A-Z]{1,4}\\.?\\s*)?S\\.?\\s*No\\.?\\s*\\d+\\s*(?:of|/)?\\s*\\d{4}\\b"
+  - "\\b(?:[A-Z]{1,4}\\.?\\s*)?No\\.?\\s*\\d+\\s*(?:of|/)?\\s*\\d{4}\\b"
+  - "\\b\\d+\\s*(?:of|/)?\\s*\\d{4}\\b"
+  - "\\b[A-Z]{1,4}\\.?\\s*No\\.?\\s*\\d+\\b"
+  - "\\b[A-Z]{1,4}\\.?\\s*\\d+\\b"
+
+# Section headings for recursive chunking
+section_headings:
+  - JUDGMENT
+  - ORDER
+  - PRAYER
+  - DECREE
+  - SUMMARY
+  - CONCLUSION
+  - CORAM
+  - PARTIES
+  - APPEAL
+  - PETITION
+  - RESPONDENT
+  - APPELLANT
+  - DATE
+  - FACTS
+  - ARGUMENTS
+  - FINDINGS
+  - REASONING
+  - DISPOSITION
+  - DECISION
+  - HELD
+  - CASE NO
+  - CASE NUMBER
+  - CASE STATUS
+  - BACKGROUND
+  - INTRODUCTION
+  - PROCEEDINGS
+  - SUBMISSIONS
+  - CONTENTIONS
+  - EVIDENCE
+  - ANALYSIS
+  - DISCUSSION
+  - RESULT
+  - OUTCOME
+  - RELIEF
+  - RECOMMENDATION
+  - ANNEXURE
+  - APPENDIX
+  - EXHIBIT
+  - REFERENCE
+  - FOOTNOTE
+  - ENDNOTE
+  - INDEX
+  - TABLE OF CONTENTS
+  - LIST OF AUTHORITIES
+  - CITATION
+  - CITATIONS
+  - REFERENCES
+  - NOTES
+  - NOTE
+  - NOTE:
+  - NOTE -
+
+
+embedding-model: text-embedding-3-small

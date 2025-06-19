@@ -1,4 +1,5 @@
 import json
+from fastapi import logger
 from transformers import pipeline, AutoTokenizer, AutoModelForTokenClassification
 from keybert import KeyBERT
 from openai import AzureOpenAI
@@ -7,6 +8,11 @@ import os
 import numpy as np
 import re
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+import spacy
+import yaml
+from scripts.entity_utils import normalize_entity, get_spacy_nlp
+from scripts.search_pipeline import get_openai_embedding
+import tiktoken
 
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
@@ -30,20 +36,65 @@ with open("data/intent_categories/intent_examples.json", "r", encoding="utf-8") 
 intent_labels = list(intent_examples.keys())
 intent_texts = [item for sublist in intent_examples.values() for item in sublist]
 
-def get_openai_embedding(text):
-    response = client.embeddings.create(
-        model="text-embedding-3-small",
-        input=text
-    )
-    return response.data[0].embedding
 
-intent_embs = [get_openai_embedding(t) for t in intent_texts]
+CONFIG_PATH = "config.yaml"
 
-# Map each embedding to its label for debug logging
-intent_label_map = []
-for label, examples in intent_examples.items():
-    for _ in examples:
-        intent_label_map.append(label)
+
+
+with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    config = yaml.safe_load(f)
+intent_threshold = float(os.getenv("INTENT_THRESHOLD", config.get("intent_threshold", 0.2)))
+# custom_stopwords = set(config.get("custom_stopwords", []))
+
+case_number_patterns = config.get("case_number_patterns", [])
+
+# Example: intent_keywords can be loaded from config.yaml or defined here
+intent_keywords = {
+    "claim_process": ["claim", "process", "file", "submit", "insurance"],
+    "case_status": ["status", "case", "update", "progress", "judgement", "order", "appeal"],
+    "document_request": ["document", "request", "copies", "forms"],
+    "technical_support": ["error", "issue", "problem", "technical"],
+    "general_info": ["information", "contact", "hours", "location"],
+    "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
+}
+
+def get_intent(text, _doc_emb=None):
+    nlp = get_spacy_nlp()
+    # Lemmatize and lowercase query
+    if nlp:
+        doc = nlp(text.lower())
+        tokens = [token.lemma_ for token in doc]
+    else:
+        tokens = text.lower().split()
+    detected_intent = None
+    max_matches = 0
+    # 1. Rule-based keyword/lemmatized match
+    for intent, keywords in intent_keywords.items():
+        matches = sum(kw in tokens for kw in keywords)
+        if matches > max_matches:
+            max_matches = matches
+            detected_intent = intent
+    # 2. Fallback: embedding similarity if no keyword match
+    intent_confidence = max_matches / max(1, len(intent_keywords.get(detected_intent, []))) if detected_intent else 0.0
+    if not detected_intent or max_matches == 0:
+        from sentence_transformers import SentenceTransformer, util
+        model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+        query_emb = model.encode(text, convert_to_tensor=True)
+        best_intent, best_score = None, 0
+        for intent, examples in intent_examples.items():
+            example_embs = model.encode(examples, convert_to_tensor=True)
+            scores = util.pytorch_cos_sim(query_emb, example_embs)
+            max_score = scores.max().item()
+            if max_score > best_score:
+                best_score = max_score
+                best_intent = intent
+        if best_score > 0.35:
+            detected_intent = best_intent
+            intent_confidence = best_score
+    if not detected_intent:
+        detected_intent = "general_info"
+        intent_confidence = 0.0
+    return detected_intent, intent_confidence, None
 
 def extract_names_regex(text):
     # Regex for names: capitalized words, possibly with middle initials, dots, underscores, etc.
@@ -74,50 +125,23 @@ def extract_names_regex(text):
                     parts.add(substr)
     return list(found | parts)
 
-def normalize_entity(e):
-    # Lowercase, remove dots, extra spaces, collapse multiple spaces
-    return re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()
-
-def extract_metadata(text, document_name=None):
-    doc_emb = get_openai_embedding(text)
-    def cosine_sim(a, b):
-        a, b = np.array(a), np.array(b)
-        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-    intent_scores = [cosine_sim(doc_emb, emb) for emb in intent_embs]
-    # Print all intent scores for debug
-    debug_scores = {}
-    for idx, score in enumerate(intent_scores):
-        label = intent_label_map[idx]
-        debug_scores.setdefault(label, []).append(score)
-    print("[Intent Detection] All intent scores:")
-    for label, scores in debug_scores.items():
-        print(f"  {label}: max={max(scores):.3f}, avg={np.mean(scores):.3f}, all={[round(s,3) for s in scores]}")
-    # Use the max score per label for intent assignment
-    label_max_scores = {label: max(scores) for label, scores in debug_scores.items()}
-    best_label = max(label_max_scores, key=label_max_scores.get)
-    intent_confidence = float(label_max_scores[best_label])
-    # Lowered threshold for more permissive intent detection
-    detected_intent = best_label if intent_confidence > 0.2 else "general_info"
-    print(f"[Intent Detection] intent_confidence={intent_confidence:.3f}, detected_intent={detected_intent}")
-
-    # Extract keywords
+def extract_keywords(text):
     keywords_with_scores = keyword_model.extract_keywords(text, top_n=10)
-    keywords = [kw for kw, _ in keywords_with_scores]
+    return [kw for kw, _ in keywords_with_scores]
 
-    # Get named entities with details (NER)
+def extract_entities(text):
+    stopwords = set(ENGLISH_STOP_WORDS)
     entities = []
-    for ent in ner_pipeline(text[:5000]):  # Limit text length for NER
-        if ent['score'] > 0.8:
-            entities.append({
-                'text': ent['word'].strip().lower(),
-                'type': ent['entity_group'],
-                'score': float(ent['score'])
-            })
-    # --- Hybrid entity extraction: NER + regex, using standard stopwords ---
-    custom_stopwords = set([
-        'pdf', 'doc', 'file', 'info', 'data', 'case', 'user', 'test', 'testcase', 'docx', 'page', 'form', 'type', 'role', 'team', 'work', 'year', 'date', 'time', 'list', 'desc', 'desc.', 'desc:', 'desc;'
-    ])
-    stopwords = set(ENGLISH_STOP_WORDS) | custom_stopwords
+    batch_size = 2000
+    for i in range(0, len(text), batch_size):
+        batch = text[i:i+batch_size]
+        for ent in ner_pipeline(batch):
+            if ent['score'] > 0.8:
+                entities.append({
+                    'text': ent['word'].strip().lower(),
+                    'type': ent['entity_group'],
+                    'score': float(ent['score'])
+                })
     extra_entities = set()
     for ent in entities:
         ent_text = ent['text']
@@ -127,61 +151,57 @@ def extract_metadata(text, document_name=None):
         ent_text = ent_text.lower().strip()
         if not ent_text or ent_text in stopwords:
             continue
-        # Add full name
         extra_entities.add(ent_text)
-        # Add first and last name if multi-part
         parts = re.split(r'[ _\.]', ent_text)
         if len(parts) > 1:
-            extra_entities.add(parts[0])  # first name
-            extra_entities.add(parts[-1]) # last name
-        # Add initials (if multi-part)
-        if len(parts) > 1:
+            extra_entities.add(parts[0])
+            extra_entities.add(parts[-1])
             initials = ''.join([p[0] for p in parts if p])
             if len(initials) > 1:
                 extra_entities.add(initials)
-    # Add regex-based names (full matches only, no substrings)
     regex_names = extract_names_regex(text)
     for name in regex_names:
         name = name.lower().strip()
         if name and name not in stopwords:
             extra_entities.add(name)
-    # --- Add legal case number extraction (more flexible) ---
-    case_number_patterns = [
-        r'\b(?:[A-Z]{1,4}\.?\s*)?S\.?\s*No\.?\s*\d+\s*(?:of|/)?\s*\d{4}\b',  # O.S.No.15 of 2007, S No 15/2007
-        r'\b(?:[A-Z]{1,4}\.?\s*)?No\.?\s*\d+\s*(?:of|/)?\s*\d{4}\b',  # No.15 of 2007, No 15/2007
-        r'\b\d+\s*(?:of|/)?\s*\d{4}\b',  # 15 of 2007, 123/2020
-        r'\b[A-Z]{1,4}\.?\s*No\.?\s*\d+\b',  # C.R.P.No.1234
-        r'\b[A-Z]{1,4}\.?\s*\d+\b',  # CRP.1234
-    ]
     for pat in case_number_patterns:
         for match in re.findall(pat, text, re.IGNORECASE):
             cleaned = normalize_entity(match)
             if cleaned and cleaned not in stopwords:
                 extra_entities.add(cleaned)
-    # Only keep normalized, deduplicated entities
     all_entities = set([normalize_entity(e['text']) for e in entities if len(e['text']) >= 4 and e['text'] not in stopwords]) | set([normalize_entity(e) for e in extra_entities])
-    # Remove overly generic substrings (e.g., length < 3 or common stopwords)
-    stopwords = set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'but', 'not', 'all', 'any', 'can', 'has', 'have', 'had', 'you', 'her', 'his', 'she', 'him', 'who', 'how', 'why', 'use', 'our', 'out', 'get', 'got', 'let', 'may', 'one', 'two', 'job', 'dev', 'rat', 'man', 'son', 'jan', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'])
     all_entities = set([e for e in all_entities if len(e) >= 3 and e not in stopwords])
-    # Generate summary
+    return sorted(list(all_entities)), [e['type'] for e in entities], entities
+
+def summarize_text(text):
+    # Truncate text to fit within LLM context window (e.g., 8000 tokens for GPT-4o)
+    max_tokens = 8000
+    encoding = tiktoken.encoding_for_model("gpt-4o")
+    tokens = encoding.encode(text)
+    if len(tokens) > max_tokens:
+        tokens = tokens[:max_tokens]
+        text = encoding.decode(tokens)
     summary_prompt = (
-    "Summarize the following text in 1-2 sentences. "
-    "Be extremely concise and do not include bullets or extra details. "
-    "Text: {text}"
+        "Summarize the following text in 1-2 sentences. "
+        "Be extremely concise and do not include bullets or extra details. "
+        "Text: {text}"
     )
     summary = client.chat.completions.create(
         model=deployment,
-        messages=[{"role": "user", "content": summary_prompt.format(text=text[:2000])}],
-        temperature=0.3,
-        max_tokens=256
-    ).choices[0].message.content.strip()
+        messages=[{"role": "user", "content": summary_prompt.format(text=text)}],
+        max_tokens=256,
+        temperature=0.2
+    )
+    return summary.choices[0].message.content.strip()
+
+def build_metadata(keywords, detected_intent, intent_confidence, entities, entity_types, entity_details, summary, doc_emb, text, document_name=None):
     metadata = {
         "keywords": keywords,
         "intent": detected_intent,
         "intent_confidence": intent_confidence,
-        "entities": sorted(list(all_entities)),
-        "entity_types": list(set(e['type'] for e in entities)),
-        "entity_details": entities,
+        "entities": entities,
+        "entity_types": list(set(entity_types)),
+        "entity_details": entity_details,
         "summary": summary,
         "embedding": doc_emb,
         "text": text
@@ -189,3 +209,11 @@ def extract_metadata(text, document_name=None):
     if document_name:
         metadata["document_name"] = document_name
     return metadata
+
+def extract_metadata(text, document_name=None):
+    doc_emb = get_openai_embedding(text)
+    detected_intent, intent_confidence, _ = get_intent(text, doc_emb)
+    keywords = extract_keywords(text)
+    entities, entity_types, entity_details = extract_entities(text)
+    summary = summarize_text(text)
+    return build_metadata(keywords, detected_intent, intent_confidence, entities, entity_types, entity_details, summary, doc_emb, text, document_name)

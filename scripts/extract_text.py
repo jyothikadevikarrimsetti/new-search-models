@@ -15,34 +15,76 @@ except Exception:
     nlp = None
 
 def extract_text_from_pdf(pdf_path):
-    # Try pdfplumber first
+    """
+    Improved PDF text extraction:
+    - Tries pdfplumber with better settings (x/y tolerance)
+    - Falls back to PyPDF2
+    - Falls back to OCR (high DPI, better layout config)
+    - Post-processes to remove headers/footers, fix hyphens, normalize whitespace
+    """
+    import pdfplumber
+    from PyPDF2 import PdfReader
+    from pdf2image import convert_from_path
+    import pytesseract
+    import re
+    
+    # 1. Try pdfplumber with better settings
     try:
         with pdfplumber.open(str(pdf_path)) as pdf:
-            text = "\n".join(page.extract_text() or "" for page in pdf.pages)
-        if text and text.strip():
-            return text
+            text = ""
+            for page in pdf.pages:
+                page_text = page.extract_text(x_tolerance=1, y_tolerance=1)
+                if page_text:
+                    text += page_text + "\n"
+            if text and len(text.strip()) > 20:
+                return postprocess_pdf_text(text)
     except Exception as e:
         print(f"[pdfplumber] Extraction failed for {pdf_path.name}: {e}")
-    # Fallback to PyPDF2
+    # 2. Fallback to PyPDF2
     try:
         reader = PdfReader(str(pdf_path))
         text = "\n".join([page.extract_text() or "" for page in reader.pages])
-        if text.strip():
-            return text
+        if text and len(text.strip()) > 20:
+            return postprocess_pdf_text(text)
     except Exception:
         pass
-    # If native extraction fails, fallback to OCR
+    # 3. Fallback to OCR (high DPI, better config)
     print(f"⚠️ OCR fallback for: {pdf_path.name}")
     ocr_text = ""
     try:
-        images = convert_from_path(pdf_path)
+        images = convert_from_path(pdf_path, dpi=300)
         for image in images:
-            ocr_text += pytesseract.image_to_string(image)
+            ocr_text += pytesseract.image_to_string(image, lang='eng', config='--psm 6') + "\n"
+        if ocr_text and len(ocr_text.strip()) > 20:
+            return postprocess_pdf_text(ocr_text)
     except Exception as e:
         print(f"❌ OCR failed: {e}")
         return ""
+    return ""
 
-    return ocr_text
+def postprocess_pdf_text(text):
+    """
+    Post-process extracted PDF text:
+    - Remove repeated headers/footers
+    - Merge hyphenated words
+    - Normalize whitespace
+    - Remove non-UTF8 chars
+    """
+    # Remove repeated lines (headers/footers)
+    lines = text.splitlines()
+    line_counts = {}
+    for line in lines:
+        line_counts[line] = line_counts.get(line, 0) + 1
+    cleaned_lines = [line for line in lines if line_counts[line] < 0.5 * len(lines)]
+    text = "\n".join(cleaned_lines)
+    # Merge hyphenated words at line breaks
+    text = re.sub(r"(\w+)-\n(\w+)", r"\1\2", text)
+    # Normalize whitespace
+    text = re.sub(r"\s+", " ", text)
+    # Remove non-UTF8 chars
+    text = text.encode("utf-8", errors="ignore").decode("utf-8")
+    return text.strip()
+
 
 def clean_text(text):
     text = re.sub(r"\n+", " ", text)
