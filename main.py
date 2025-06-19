@@ -44,15 +44,20 @@ else:
 
 updated_files: list[str] = []
 
-# --- NEW: Precompute document-level entities for each PDF ---
+# --- NEW: Precompute document-level entities for each PDF (from chunks) ---
 doc_entities_map = {}
 for pdf_file in pdf_files:
     try:
-        # Read full text for the PDF
-        from scripts.extract_text import extract_text_from_pdf, clean_text
-        full_text = clean_text(extract_text_from_pdf(pdf_file))
-        doc_metadata = extract_metadata(full_text, document_name=pdf_file.name)
-        doc_entities_map[pdf_file.stem] = set(doc_metadata.get("entities", []))
+        chunk_prefix = f"{pdf_file.stem}_chunk"
+        chunk_files = sorted(Path(CHUNKS).glob(f"{chunk_prefix}*.txt"))
+        all_entities = set()
+        for chunk_file in chunk_files:
+            with open(chunk_file, "r", encoding="utf-8") as f:
+                chunk_text = f.read()
+            chunk_metadata = extract_metadata(chunk_text, document_name=pdf_file.name)
+            chunk_entities = set(chunk_metadata.get("entities", []))
+            all_entities.update(chunk_entities)
+        doc_entities_map[pdf_file.stem] = all_entities
     except Exception as e:
         print(f"[WARN] Could not extract document-level entities for {pdf_file.name}: {e}")
         doc_entities_map[pdf_file.stem] = set()
@@ -104,6 +109,9 @@ with open(HASH_STORE, "w") as fh:
 # ------------------------------------------------------------------ #
 need_upsert: set[str] = set(updated_files)
 chunk_txt_files = list(Path(CHUNKS).glob("*.txt"))
+
+# --- DEBUG: Print after chunking, before metadata extraction ---
+print(f"[DEBUG] Finished chunking. Starting metadata extraction for {len(chunk_txt_files)} chunks...")
 
 def process_metadata(txt_file):
     stem = txt_file.stem

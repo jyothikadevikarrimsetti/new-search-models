@@ -13,6 +13,8 @@ import yaml
 from scripts.entity_utils import normalize_entity, get_spacy_nlp
 from scripts.search_pipeline import get_openai_embedding
 import tiktoken
+from sentence_transformers import SentenceTransformer , util
+import glob
 
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
@@ -58,7 +60,12 @@ intent_keywords = {
     "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
 }
 
+# Load the model ONCE at the module level
+intent_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+
 def get_intent(text, _doc_emb=None):
+    # Use the global model
+    global intent_model
     nlp = get_spacy_nlp()
     # Lemmatize and lowercase query
     if nlp:
@@ -77,12 +84,10 @@ def get_intent(text, _doc_emb=None):
     # 2. Fallback: embedding similarity if no keyword match
     intent_confidence = max_matches / max(1, len(intent_keywords.get(detected_intent, []))) if detected_intent else 0.0
     if not detected_intent or max_matches == 0:
-        from sentence_transformers import SentenceTransformer, util
-        model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
-        query_emb = model.encode(text, convert_to_tensor=True)
+        query_emb = intent_model.encode(text, convert_to_tensor=True)
         best_intent, best_score = None, 0
         for intent, examples in intent_examples.items():
-            example_embs = model.encode(examples, convert_to_tensor=True)
+            example_embs = intent_model.encode(examples, convert_to_tensor=True)
             scores = util.pytorch_cos_sim(query_emb, example_embs)
             max_score = scores.max().item()
             if max_score > best_score:
@@ -217,3 +222,18 @@ def extract_metadata(text, document_name=None):
     entities, entity_types, entity_details = extract_entities(text)
     summary = summarize_text(text)
     return build_metadata(keywords, detected_intent, intent_confidence, entities, entity_types, entity_details, summary, doc_emb, text, document_name)
+
+def extract_document_level_entities(pdf_name, chunk_dir="data/chunks"):
+    """
+    Extract entities for a document by aggregating over all its chunk files.
+    """
+    chunk_pattern = f"{chunk_dir}/{pdf_name.replace('.pdf', '')}_chunk*.txt"
+    chunk_files = sorted(glob.glob(chunk_pattern))
+    all_entities = set()
+    for chunk_file in chunk_files:
+        with open(chunk_file, "r", encoding="utf-8") as f:
+            chunk_text = f.read()
+        # Use your existing entity extraction logic for each chunk
+        entities = extract_entities(chunk_text)
+        all_entities.update(entities)
+    return sorted(all_entities)
