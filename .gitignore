@@ -8,3 +8,4 @@ data/processed_data/**.txt
 
 data/input_pdf_data/**.pdf 
 __pycache__/
+**.yaml
