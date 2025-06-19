@@ -3,6 +3,7 @@
 from typing import Dict, Any
 from scripts.entity_utils import normalize_entity, get_spacy_nlp
 from scripts.intent_utils import get_intent
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 import re
 
 # Only keep what is needed for filter generation and metadata extraction
@@ -20,24 +21,39 @@ def extract_query_metadata(query: str) -> Dict[str, Any]:
         "keywords": keywords
     }
 
+
 def generate_filter(query: str) -> dict:
-    """
-    Hybrid filter generation with robust normalization and relaxed matching:
-    - Always use full, normalized entity strings for matching.
-    - For party/case names, match if any entity OR keyword matches (not strict AND).
-    - Ensure both filter and chunk metadata use the same normalization logic.
-    - Only require intent match if the query is not an entity/party/case lookup (scalable solution).
-    """
     nlp = get_spacy_nlp()
     doc = nlp(query) if nlp else None
-    entities = [normalize_entity(ent.text) for ent in doc.ents] if doc else []
-    keywords = [normalize_entity(token.text) for token in doc if token.pos_ in ["NOUN", "PROPN"]] if doc else []
+    # Only keep meaningful tokens (nouns, proper nouns), not stopwords or auxiliaries
+    keywords = [
+        normalize_entity(token.text)
+        for token in doc
+        if token.pos_ in ["NOUN", "PROPN"]
+        and not token.is_stop
+        and token.lemma_.lower() not in ENGLISH_STOP_WORDS
+        and len(token.text) > 2  # avoid single letters
+    ] if doc else []
+
+    # Entities (from NER)
+    entities = [
+        normalize_entity(ent.text)
+        for ent in doc.ents
+        if not nlp.vocab[ent.text].is_stop
+        and ent.text.lower() not in ENGLISH_STOP_WORDS
+    ] if doc else []
+
+    # Party/case names (regex, as before)
     party_names = []
     party_pattern = re.compile(r'([A-Z]\.[A-Z]\.[A-Za-z]+|[A-Z]\.[A-Za-z]+|[A-Z][a-z]+)', re.IGNORECASE)
     for match in party_pattern.findall(query):
-        party_names.append(normalize_entity(match))
+        norm = normalize_entity(match)
+        if norm not in ENGLISH_STOP_WORDS and len(norm) > 2:
+            party_names.append(norm)
+
     all_names = set(entities + keywords + party_names)
-    all_names = list(set(all_names))
+    all_names = [name for name in all_names if name not in ENGLISH_STOP_WORDS and len(name) > 2]
+
     filter_dict = {}
     if all_names:
         filter_dict["$or"] = [
