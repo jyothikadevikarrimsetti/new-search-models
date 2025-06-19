@@ -33,34 +33,44 @@ except FileNotFoundError:
 # ------------------------------------------------------------------ #
 # 2.  (Re)process PDFs when needed (MULTITHREADED)                  #
 # ------------------------------------------------------------------ #
+CHUNK_FLAG = Path(CHUNKS).exists() and any(Path(CHUNKS).glob("*.txt"))
+
 pdf_files = list(Path(INPUT).glob("*.pdf"))
 if not os.path.exists(TEXTS) or not os.listdir(TEXTS):
     print("⚠️  No processed files found. Reprocessing all PDFs …")
     # Use multithreading for all PDFs
     save_processed_text(INPUT, TEXTS, chunk_size=300, overlap=50, chunk_dir=CHUNKS, use_multithreading=True)
     pdf_iter = pdf_files
+elif not CHUNK_FLAG:
+    print("⚠️  No chunks found. Reprocessing all PDFs …")
+    save_processed_text(INPUT, TEXTS, chunk_size=300, overlap=50, chunk_dir=CHUNKS, use_multithreading=True)
+    pdf_iter = pdf_files
 else:
+    print("✅ Chunks already present. Skipping chunking step.")
     pdf_iter = pdf_files
 
 updated_files: list[str] = []
 
-# --- NEW: Precompute document-level entities for each PDF (from chunks) ---
+# --- DEBUG: Print before document-level entity extraction ---
+print(f"[DEBUG] Starting document-level entity extraction for {len(pdf_files)} PDFs...")
+# --- NEW: Precompute document-level entities for each PDF (from chunk metadata JSONs) ---
+print(f"[DEBUG] Starting document-level entity aggregation for {len(pdf_files)} PDFs...")
 doc_entities_map = {}
 for pdf_file in pdf_files:
     try:
         chunk_prefix = f"{pdf_file.stem}_chunk"
-        chunk_files = sorted(Path(CHUNKS).glob(f"{chunk_prefix}*.txt"))
+        chunk_jsons = sorted(Path(OUTPUT).glob(f"{chunk_prefix}*.json"))
         all_entities = set()
-        for chunk_file in chunk_files:
-            with open(chunk_file, "r", encoding="utf-8") as f:
-                chunk_text = f.read()
-            chunk_metadata = extract_metadata(chunk_text, document_name=pdf_file.name)
+        for chunk_json in chunk_jsons:
+            with open(chunk_json, "r", encoding="utf-8") as f:
+                chunk_metadata = json.load(f)
             chunk_entities = set(chunk_metadata.get("entities", []))
             all_entities.update(chunk_entities)
         doc_entities_map[pdf_file.stem] = all_entities
     except Exception as e:
-        print(f"[WARN] Could not extract document-level entities for {pdf_file.name}: {e}")
+        print(f"[WARN] Could not aggregate entities for {pdf_file.name}: {e}")
         doc_entities_map[pdf_file.stem] = set()
+print(f"[DEBUG] Finished document-level entity aggregation.")
 
 # Compute hashes and check for updates in parallel
 with ThreadPoolExecutor() as executor:
