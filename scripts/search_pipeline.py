@@ -10,6 +10,7 @@ from openai import AzureOpenAI
 import logging
 import concurrent.futures
 from scripts.filter_utils import extract_query_metadata, is_entity_lookup_query
+import tiktoken
 
 # Load environment variables
 load_dotenv("config/.env")
@@ -22,7 +23,14 @@ deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
 # Helper functions for embeddings and similarity
 def get_openai_embedding(text, timeout=15):
-    """Get embeddings using Azure OpenAI's text-embedding model with timeout."""
+    """Get embeddings using Azure OpenAI's text-embedding model with context window truncation and timeout."""
+    # Truncate text to fit within model context window (e.g., 8000 tokens for text-embedding-3-small)
+    max_tokens = 8000
+    encoding = tiktoken.encoding_for_model("text-embedding-3-small")
+    tokens = encoding.encode(text)
+    if len(tokens) > max_tokens:
+        tokens = tokens[:max_tokens]
+        text = encoding.decode(tokens)
     def call():
         return client.embeddings.create(
             model="text-embedding-3-small",
