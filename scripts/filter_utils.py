@@ -8,7 +8,8 @@ from collections import defaultdict
 from sentence_transformers import SentenceTransformer, util
 import re
 import subprocess
-from scripts.entity_utils import normalize_entity
+from scripts.entity_utils import normalize_entity, get_spacy_nlp
+from scripts.intent_utils import get_intent
 
 def initialize_spacy():
     """Initialize spaCy with error handling and automatic model download."""
@@ -128,41 +129,53 @@ def get_all_entities_from_metadata():
             continue
     return entity_set
 
-def generate_filter(query: str) -> Optional[Dict[str, Any]]:
-    """Generate a Pinecone metadata filter based on query analysis, with query-time entity expansion."""
-    metadata = extract_query_metadata(query)
+def generate_filter(query: str) -> dict:
+    """
+    Hybrid filter generation with strict normalization:
+    - Always use full, normalized entity strings for matching.
+    - Ensure both filter and chunk metadata use the same normalization logic.
+    - Combine with keywords and intent as fallback.
+    """
+    from scripts.entity_utils import normalize_entity, get_spacy_nlp
+    import re
+    nlp = get_spacy_nlp()
+    doc = nlp(query) if nlp else None
+    # Extract full, normalized entities
+    entities = [normalize_entity(ent.text) for ent in doc.ents] if doc else []
+    # Also extract full, normalized keywords
+    keywords = [normalize_entity(token.text) for token in doc if token.pos_ in ["NOUN", "PROPN"]] if doc else []
+    # Detect case/section/statute numbers (expand as needed)
+    case_number = None
+    section_number = None
+    statute = None
+    case_match = re.search(r'(O\.S\.No\.\d+ of \d+)', query, re.IGNORECASE)
+    if case_match:
+        case_number = normalize_entity(case_match.group(1))
+        entities.append(case_number)
+    section_match = re.search(r'section\s+(\d+)', query, re.IGNORECASE)
+    if section_match:
+        section_number = normalize_entity(section_match.group(1))
+        keywords.append(section_number)
+    statute_match = re.search(r'\b(CPC|IPC|CrPC|Evidence Act)\b', query, re.IGNORECASE)
+    if statute_match:
+        statute = normalize_entity(statute_match.group(1))
+        entities.append(statute)
+    # Remove duplicates
+    entities = list(set(entities))
+    keywords = list(set(keywords))
+    # Build filter
     filter_dict = {}
-    # Add intent filter if detected
-    if metadata["intent"]:
-        filter_dict["intent"] = {"$eq": metadata["intent"]}
-    # Add entity filters if found
-    norm_entities = [normalize_entity(e) for e in metadata["entities"]]
-    # Query-time entity expansion for single-word entity/keyword queries
-    if norm_entities:
-        # If only one entity and it's a single word, expand
-        if len(norm_entities) == 1 and len(norm_entities[0].split()) == 1:
-            all_entities = get_all_entities_from_metadata()
-            expanded = [e for e in all_entities if norm_entities[0] in e]
-            if expanded:
-                filter_dict["entities"] = {"$in": expanded}
-            else:
-                filter_dict["entities"] = {"$in": norm_entities}
-        else:
-            filter_dict["entities"] = {"$in": norm_entities}
-    # Fallback: if no intent/entities, but keywords exist, use keywords as entity filter
-    if not filter_dict and metadata["keywords"]:
-        norm_keywords = [normalize_entity(k) for k in metadata["keywords"]]
-        if len(norm_keywords) == 1 and len(norm_keywords[0].split()) == 1:
-            all_entities = get_all_entities_from_metadata()
-            expanded = [e for e in all_entities if norm_keywords[0] in e]
-            if expanded:
-                filter_dict["entities"] = {"$in": expanded}
-            else:
-                filter_dict["entities"] = {"$in": norm_keywords}
-        else:
-            filter_dict["entities"] = {"$in": norm_keywords}
-    print(f"[FilterUtils] Final generated filter: {filter_dict if filter_dict else None}")
-    return filter_dict if filter_dict else None
+    if entities:
+        filter_dict["entities"] = {"$in": entities}
+    if keywords:
+        filter_dict["keywords"] = {"$in": keywords}
+    detected_intent, _, _ = get_intent(query)
+    if detected_intent and detected_intent != "general_info":
+        filter_dict["intent"] = {"$eq": detected_intent}
+    # Always return something
+    if not filter_dict:
+        filter_dict["intent"] = {"$eq": "general_info"}
+    return filter_dict
 
 def combine_filters(filters: list[Dict[str, Any]]) -> Dict[str, Any]:
     """Combine multiple filters with AND logic."""

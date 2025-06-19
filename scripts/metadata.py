@@ -12,6 +12,7 @@ import spacy
 import yaml
 from scripts.entity_utils import normalize_entity, get_spacy_nlp
 from scripts.search_pipeline import get_openai_embedding
+from scripts.intent_utils import get_intent
 import tiktoken
 from sentence_transformers import SentenceTransformer , util
 import glob
