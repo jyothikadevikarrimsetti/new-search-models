@@ -61,7 +61,8 @@ def generate_filter(query: str) -> dict:
             {"keywords": {"$in": all_names}}
         ]
     detected_intent, _, _ = get_intent(query)
-    is_entity_query = (not detected_intent or detected_intent == "general_info") and (len(all_names) > 0)
+    # Broadened: if there are any strong entities/party/case names, do not add intent filter
+    is_entity_query = len(all_names) > 0
     if detected_intent and detected_intent != "general_info" and not is_entity_query:
         filter_dict["intent"] = {"$eq": detected_intent}
     if not filter_dict:

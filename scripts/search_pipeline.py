@@ -281,11 +281,22 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
 
     # Hybrid score
     hybrid_scores = [alpha * dense + (1-alpha) * sparse for dense, sparse in zip(cosine_scores, sparse_scores)]
-    # Sort by hybrid score
-    reranked = sorted(
-        zip(filenames, summaries, relevance_scores, cosine_scores, sparse_scores, hybrid_scores),
-        key=lambda x: x[5], reverse=True
-    )[:top_k]
+
+    # --- SOFT INTENT BOOST LOGIC ---
+    from scripts.filter_utils import extract_query_metadata
+    query_metadata = extract_query_metadata(query)
+    query_intent = query_metadata.get("intent")
+    intent_boost = 0.2  # Tune as needed
+    reranked_with_boost = []
+    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score) in enumerate(
+            zip(filenames, summaries, relevance_scores, cosine_scores, sparse_scores, hybrid_scores)):
+        chunk_intent = pinecone_result.matches[i].metadata.get("intent")
+        score = hybrid_score
+        if chunk_intent == query_intent and query_intent is not None:
+            score += intent_boost
+        reranked_with_boost.append((fname, summary, rel_score, dense_score, sparse_score_val, score))
+    # Now sort by the new score
+    reranked = sorted(reranked_with_boost, key=lambda x: x[5], reverse=True)[:top_k]
 
     elapsed = time.time() - start_time
     if reranked:
@@ -306,8 +317,7 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
 
     # Prepare top-k results for UI
     results = []
-    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score, match) in enumerate(
-            zip(filenames, summaries, relevance_scores, cosine_scores, sparse_scores, hybrid_scores, pinecone_result.matches)):
+    for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score) in enumerate(reranked):
         results.append({
             "document_name": fname,
             "summary": summary,
