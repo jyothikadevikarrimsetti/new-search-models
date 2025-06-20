@@ -11,7 +11,15 @@ import logging
 import concurrent.futures
 from scripts.filter_utils import extract_query_metadata, is_entity_lookup_query
 import tiktoken
+import json
 
+import os
+
+intent_examples_path = os.path.join(
+    os.environ.get('PROJECT_ROOT', ''), 'data', 'intent_categories', 'intent_examples.json'
+)
+with open(intent_examples_path, 'r', encoding='utf-8') as f:
+    intent_examples = json.load(f)
 # Load environment variables
 load_dotenv("config/.env")
 client = AzureOpenAI(

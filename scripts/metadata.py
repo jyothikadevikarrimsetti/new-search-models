@@ -16,6 +16,7 @@ from scripts.intent_utils import get_intent
 import tiktoken
 from sentence_transformers import SentenceTransformer , util
 import glob
+from scripts.entity_utils import _spacy_nlp as nlp
 
 keyword_model = KeyBERT()
 ner_pipeline = pipeline(
@@ -33,14 +34,16 @@ client = AzureOpenAI(
 )
 deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
-with open("data/intent_categories/intent_examples.json", "r", encoding="utf-8") as f:
+project_root = os.environ.get('PROJECT_ROOT', os.getcwd())
+intent_examples_path = os.path.join(project_root, 'data', 'intent_categories', 'intent_examples.json')
+with open(intent_examples_path, 'r', encoding='utf-8') as f:
     intent_examples = json.load(f)
 
 intent_labels = list(intent_examples.keys())
 intent_texts = [item for sublist in intent_examples.values() for item in sublist]
 
 
-CONFIG_PATH = "config.yaml"
+CONFIG_PATH = f"{project_root}/config.yaml"
 
 
 
@@ -58,7 +61,14 @@ intent_keywords = {
     "document_request": ["document", "request", "copies", "forms"],
     "technical_support": ["error", "issue", "problem", "technical"],
     "general_info": ["information", "contact", "hours", "location"],
-    "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
+    "resume_info": [
+        "skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications",
+        "experience", "work", "education", "background", "certifications", "projects", "programming", "languages",
+        "achievements", "awards", "contact", "career", "summary", "tools", "technologies", "roles", "responsibilities",
+        "soft skills", "applicant", "candidate", "developer", "engineer", "profile", "professional", "employment", "history",
+        "management", "software", "admin", "implementation", "tracking", "project", "system", "solution", "platform", "application",
+        "team", "lead", "player", "restocking", "inventory", "tournament", "manual", "implemented"
+    ]
 }
 
 # Load the model ONCE at the module level
@@ -216,13 +226,30 @@ def build_metadata(keywords, detected_intent, intent_confidence, entities, entit
         metadata["document_name"] = document_name
     return metadata
 
-def extract_metadata(text, document_name=None):
-    doc_emb = get_openai_embedding(text)
-    detected_intent, intent_confidence, _ = get_intent(text, doc_emb)
-    keywords = extract_keywords(text)
-    entities, entity_types, entity_details = extract_entities(text)
-    summary = summarize_text(text)
-    return build_metadata(keywords, detected_intent, intent_confidence, entities, entity_types, entity_details, summary, doc_emb, text, document_name)
+
+def extract_metadata(text, document_name=None, include_text=False):
+    # --- Simple, notebook-style extraction for consistent intent output ---
+    nlp_instance = get_spacy_nlp()
+    if nlp_instance is None:
+        raise RuntimeError("spaCy model could not be loaded. Please check your spaCy installation.")
+    doc = nlp_instance(text)
+    # Entities
+    entities = [normalize_entity(ent.text) for ent in doc.ents]
+    # Keywords (nouns, proper nouns, not stopwords)
+    keywords = [normalize_entity(token.text) for token in doc if token.pos_ in ["NOUN", "PROPN"] and not token.is_stop and token.lemma_.lower() not in ENGLISH_STOP_WORDS and len(token.text) > 2]
+    # Intent
+    detected_intent, intent_confidence, _ = get_intent(text)
+    metadata = {
+        "entities": entities,
+        "keywords": keywords,
+        "intent": detected_intent,
+        "intent_confidence": intent_confidence
+    }
+    if document_name:
+        metadata["document_name"] = document_name
+    if include_text:
+        metadata["text"] = text
+    return metadata
 
 def extract_document_level_entities(pdf_name, chunk_dir="data/chunks"):
     """

@@ -1,12 +1,21 @@
 # scripts/intent_utils.py
-from scripts.entity_utils import get_spacy_nlp
+import re
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+import spacy
 from sentence_transformers import SentenceTransformer, util
-import json
 import os
+import json
 
-# Load intent examples and keywords (should be imported or passed in real use)
-with open("data/intent_categories/intent_examples.json", "r", encoding="utf-8") as f:
-    intent_examples = json.load(f)
+# Load spaCy model
+try:
+    nlp = spacy.load("en_core_web_trf")
+except Exception:
+    nlp = spacy.load("en_core_web_sm")
+
+def normalize_entity(e):
+    text = re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()
+    doc = nlp(text)
+    return ' '.join([token.lemma_ for token in doc])
 
 intent_keywords = {
     "claim_process": ["claim", "process", "file", "submit", "insurance"],
@@ -14,7 +23,6 @@ intent_keywords = {
     "document_request": ["document", "request", "copies", "forms"],
     "technical_support": ["error", "issue", "problem", "technical"],
     "general_info": ["information", "contact", "hours", "location"],
-    # Further expanded resume_info keywords for better matching
     "resume_info": [
         "skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications",
         "experience", "work", "education", "background", "certifications", "projects", "programming", "languages",
@@ -24,16 +32,15 @@ intent_keywords = {
         "team", "lead", "player", "restocking", "inventory", "tournament", "manual", "implemented"
     ]
 }
-
+project_root = os.environ.get('PROJECT_ROOT', os.getcwd())
+intent_examples_path = os.path.join(project_root, 'data', 'intent_categories', 'intent_examples.json')
+with open(intent_examples_path, 'r', encoding='utf-8') as f:
+    intent_examples = json.load(f)
 intent_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
-def get_intent(text, _doc_emb=None):
-    nlp = get_spacy_nlp()
-    if nlp:
-        doc = nlp(text.lower())
-        tokens = [token.lemma_ for token in doc]
-    else:
-        tokens = text.lower().split()
+def get_intent(text):
+    doc = nlp(text.lower())
+    tokens = [token.lemma_ for token in doc]
     detected_intent = None
     max_matches = 0
     for intent, keywords in intent_keywords.items():
@@ -59,3 +66,4 @@ def get_intent(text, _doc_emb=None):
         detected_intent = "general_info"
         intent_confidence = 0.0
     return detected_intent, intent_confidence, None
+
