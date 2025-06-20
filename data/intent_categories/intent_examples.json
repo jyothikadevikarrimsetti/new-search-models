@@ -6,7 +6,7 @@
     "Tell me about this document.",
     "What is this about?"
   ],
-  "resume_info": [
+   "resume_info": [
     "What skills are listed in the resume?",
     "Show me the proficiencies in this CV.",
     "List the abilities mentioned in the candidate's resume.",
@@ -27,8 +27,28 @@
     "What is the total experience in years?",
     "Show me the roles and responsibilities held.",
     "What are the soft skills mentioned?",
-    "List the languages spoken by the applicant."
-  ],
+    "List the languages spoken by the applicant.",
+    "What is the applicant's job title?",
+    "Describe the applicant's professional profile.",
+    "What companies has the candidate worked for?",
+    "List the frameworks and libraries used.",
+    "What cloud platforms does the candidate have experience with?",
+    "What development methodologies are mentioned?",
+    "List the certifications and licenses.",
+    "What leadership roles has the candidate held?",
+    "Summarize the applicant's employment history.",
+    "What is the candidate's GitHub or portfolio link?",
+    "Describe the candidate's experience in management and software projects.",
+    "What inventory or tracking systems has the applicant implemented?",
+    "List any admin or manual processes managed by the candidate.",
+    "What experience does the candidate have with tournaments or players?",
+    "Describe the candidate's role in restocking or inventory management.",
+    "What solutions or platforms has the applicant developed or led?",
+    "List any applications or systems the candidate has worked on.",
+    "What teams has the candidate led or been a part of?",
+    "Describe the candidate's experience with project implementation."
+  ]
+,
   "case_status": [
     "What is the current status of the case?",
     "Show me the progress of case number 511605.",

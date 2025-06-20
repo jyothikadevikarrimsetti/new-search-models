@@ -14,7 +14,15 @@ intent_keywords = {
     "document_request": ["document", "request", "copies", "forms"],
     "technical_support": ["error", "issue", "problem", "technical"],
     "general_info": ["information", "contact", "hours", "location"],
-    "resume_skills": ["skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications"]
+    # Further expanded resume_info keywords for better matching
+    "resume_info": [
+        "skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications",
+        "experience", "work", "education", "background", "certifications", "projects", "programming", "languages",
+        "achievements", "awards", "contact", "career", "summary", "tools", "technologies", "roles", "responsibilities",
+        "soft skills", "applicant", "candidate", "developer", "engineer", "profile", "professional", "employment", "history",
+        "management", "software", "admin", "implementation", "tracking", "project", "system", "solution", "platform", "application",
+        "team", "lead", "player", "restocking", "inventory", "tournament", "manual", "implemented"
+    ]
 }
 
 intent_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
