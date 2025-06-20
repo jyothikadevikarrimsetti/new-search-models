@@ -227,29 +227,14 @@ def build_metadata(keywords, detected_intent, intent_confidence, entities, entit
     return metadata
 
 
-def extract_metadata(text, document_name=None, include_text=False):
-    # --- Simple, notebook-style extraction for consistent intent output ---
-    nlp_instance = get_spacy_nlp()
-    if nlp_instance is None:
-        raise RuntimeError("spaCy model could not be loaded. Please check your spaCy installation.")
-    doc = nlp_instance(text)
-    # Entities
-    entities = [normalize_entity(ent.text) for ent in doc.ents]
-    # Keywords (nouns, proper nouns, not stopwords)
-    keywords = [normalize_entity(token.text) for token in doc if token.pos_ in ["NOUN", "PROPN"] and not token.is_stop and token.lemma_.lower() not in ENGLISH_STOP_WORDS and len(token.text) > 2]
-    # Intent
-    detected_intent, intent_confidence, _ = get_intent(text)
-    metadata = {
-        "entities": entities,
-        "keywords": keywords,
-        "intent": detected_intent,
-        "intent_confidence": intent_confidence
-    }
-    if document_name:
-        metadata["document_name"] = document_name
-    if include_text:
-        metadata["text"] = text
-    return metadata
+def extract_metadata(text, document_name=None):
+    doc_emb = get_openai_embedding(text)
+    detected_intent, intent_confidence, _ = get_intent(text, doc_emb)
+    keywords = extract_keywords(text)
+    entities, entity_types, entity_details = extract_entities(text)
+    summary = summarize_text(text)
+    return build_metadata(keywords, detected_intent, intent_confidence, entities, entity_types, entity_details, summary, doc_emb, text, document_name)
+
 
 def extract_document_level_entities(pdf_name, chunk_dir="data/chunks"):
     """
