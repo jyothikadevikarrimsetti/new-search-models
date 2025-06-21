@@ -59,7 +59,7 @@ intent_keywords = {
     "claim_process": ["claim", "process", "file", "submit", "insurance"],
     "case_status": ["status", "case", "update", "progress", "judgement", "order", "appeal"],
     "document_request": ["document", "request", "copies", "forms"],
-    "technical_support": ["error", "issue", "problem", "technical"],
+    # "technical_support": ["error", "issue", "problem", "technical"],
     "general_info": ["information", "contact", "hours", "location"],
     "resume_info": [
         "skills", "resume", "cv", "proficiencies", "abilities", "expertise", "competencies", "qualifications",

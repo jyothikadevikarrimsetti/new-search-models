@@ -9,3 +9,5 @@ data/intent_model/
 data/input_pdf_data/**.pdf 
 __pycache__/
 **.jsonl
+notebooks/Cost_free_Solutions.ipynb
+models/
