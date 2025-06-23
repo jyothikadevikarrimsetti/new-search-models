@@ -11,3 +11,4 @@ __pycache__/
 **.jsonl
 notebooks/Cost_free_Solutions.ipynb
 models/
+notebooks/intent_model/
