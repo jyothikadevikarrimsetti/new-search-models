@@ -123,9 +123,19 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             results.get('reranking_score') is not None and
             results.get('reranking_score') < min_score
         )
+        # --- Automatic fallback: retry without filter if no results ---
+        if no_results:
+            print("[API] Hybrid Search - No results with filter, retrying without filter.")
+            results = hybrid_search(
+                query=request.query,
+                top_k=request.top_k,
+                namespace=request.namespace,
+                alpha=request.alpha,
+                metadata_filter=None
+            )
+            no_results = not results.get('results')
         # --- Always return top result if Pinecone returned any matches, even if low_score or no_results ---
         if no_results or low_score:
-            # Try to get top result from Pinecone matches if available
             if results.get('results') and len(results['results']) > 0:
                 return {
                     "document_names": results.get('document_names', []),
@@ -133,7 +143,6 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
                     "search_time": results.get('search_time', 0.0),
                     "reranking_score": results.get('reranking_score', None),
                     "results": results.get('results', []),
-
                 }
             else:
                 return {"answer": "Document not found.", "results": []}
@@ -144,7 +153,6 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             "search_time": results.get('search_time', 0.0),
             "reranking_score": results.get('reranking_score', None),
             "results": results.get('results', []),
-            
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

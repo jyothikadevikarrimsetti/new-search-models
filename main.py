@@ -73,7 +73,7 @@ pdf_iter = pdf_files
 updated_files: list[str] = []
 
 # Shared thread pool for all parallel operations
-MAX_WORKERS = 4  # Adjust as needed for your system
+MAX_WORKERS = 2  # Adjust as needed for your system
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     # 1. Hash computation
     future_to_pdf = {executor.submit(compute_md5, pdf_file): pdf_file for pdf_file in pdf_iter}
