@@ -124,16 +124,22 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             results.get('reranking_score') < min_score
         )
         # --- Always return top result if Pinecone returned any matches, even if low_score or no_results ---
+        # Remove 'entities' and 'keywords' from each result before returning
+        filtered_results = []
+        for res in results.get('results', []):
+            filtered = dict(res)
+            filtered.pop('entities', None)
+            filtered.pop('keywords', None)
+            filtered_results.append(filtered)
         if no_results or low_score:
             # Try to get top result from Pinecone matches if available
-            if results.get('results') and len(results['results']) > 0:
+            if filtered_results:
                 return {
                     "document_names": results.get('document_names', []),
                     "answer": results.get('answer', 'No answer found'),
                     "search_time": results.get('search_time', 0.0),
                     "reranking_score": results.get('reranking_score', None),
-                    "results": results.get('results', []),
-
+                    "results": filtered_results,
                 }
             else:
                 return {"answer": "Document not found.", "results": []}
@@ -143,7 +149,7 @@ def hybrid_search_endpoint(request: HybridSearchRequest):
             "answer": results.get('answer', 'No answer found'),
             "search_time": results.get('search_time', 0.0),
             "reranking_score": results.get('reranking_score', None),
-            "results": results.get('results', []),
+            "results": filtered_results,
             
         }
     except Exception as e:
@@ -229,7 +235,7 @@ def delete_namespace(request: NamespaceDeleteRequest):
 
 @app.post("/search/hybrid/match_details", tags=["search"])
 def hybrid_search_match_details(request: HybridSearchRequest):
-    """Return all FilterUtils details and hybrid search chunk names as structured fields, without dense/sparse scores."""
+    """Return all FilterUtils details and hybrid search chunk names as structured fields, including matched entities, keywords, and intent."""
     try:
         query_metadata = extract_query_metadata(request.query)
         filter_dict = generate_filter(request.query)
@@ -243,23 +249,22 @@ def hybrid_search_match_details(request: HybridSearchRequest):
         # Get all matching chunk names (if available)
         matching_chunk_names = [r.get('document_name') for r in results.get('results', []) if r.get('document_name')]
         match_details = []
+        query_entities = set(query_metadata.get("entities") or [])
+        query_keywords = set(query_metadata.get("keywords") or [])
+        query_intent = query_metadata.get("intent")
         for r in results.get('results', []):
-            explanation = []
-            hybrid_score = r.get('hybrid_score', r.get('reranking_score', 0))
-            if hybrid_score > 0.5:
-                explanation.append("High hybrid score: strong semantic and keyword/entity match.")
-            elif r.get('dense_score', 0) > 0.5:
-                explanation.append("High dense (semantic) similarity.")
-            elif r.get('sparse_score', 0) > 0.5:
-                explanation.append("High sparse (keyword/entity) match.")
-            else:
-                explanation.append("Low score: weak match.")
+            chunk_entities = set(r.get("entities", []))
+            chunk_keywords = set(r.get("keywords", []))
+            chunk_intent = r.get("intent", None)
+            matched_entities = list(chunk_entities & query_entities) if query_entities else []
+            matched_keywords = list(chunk_keywords & query_keywords) if query_keywords else []
+            matched_intent = chunk_intent if chunk_intent == query_intent and chunk_intent is not None else None
             match_details.append({
-                "chunk_id": r.get("document_name"),
                 "document_name": r.get("document_name"),
-                "summary": r.get("summary"),
-                "hybrid_score": hybrid_score,
-                "explanation": " ".join(explanation)
+                "reranking_score": r.get("reranking_score"),
+                "matched_entities": matched_entities,
+                "matched_keywords": matched_keywords,
+                "matched_intent": matched_intent
             })
         return {
             "query": request.query,

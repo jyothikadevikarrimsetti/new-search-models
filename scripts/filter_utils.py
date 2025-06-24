@@ -55,17 +55,19 @@ def generate_filter(query: str) -> dict:
     all_names = [name for name in all_names if name not in ENGLISH_STOP_WORDS and len(name) > 2]
 
     filter_dict = {}
+    detected_intent, _, _ = get_intent(query)
+    # If we have any names, build $or for entities/keywords, and also include intent in $or if it's not general_info
     if all_names:
-        filter_dict["$or"] = [
+        or_clauses = [
             {"entities": {"$in": all_names}},
             {"keywords": {"$in": all_names}}
         ]
-    detected_intent, _, _ = get_intent(query)
-    # Broadened: if there are any strong entities/party/case names, do not add intent filter
-    is_entity_query = len(all_names) > 0
-    if detected_intent and detected_intent != "general_info" and not is_entity_query:
+        if detected_intent and detected_intent != "general_info":
+            or_clauses.append({"intent": detected_intent})
+        filter_dict["$or"] = or_clauses
+    elif detected_intent and detected_intent != "general_info":
         filter_dict["intent"] = {"$eq": detected_intent}
-    if not filter_dict:
+    else:
         filter_dict["intent"] = {"$eq": "general_info"}
     return filter_dict
 
