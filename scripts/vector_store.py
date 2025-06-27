@@ -18,7 +18,7 @@ def get_splade_encoder():
         _splade_encoder_instance = SpladeEncoder()
     return _splade_encoder_instance
 # ------------------------------------------------------------------ #
-# Upsert                                                             #
+# Upsert o                                                            #
 # ------------------------------------------------------------------ #
 
 def upsert_to_pinecone(

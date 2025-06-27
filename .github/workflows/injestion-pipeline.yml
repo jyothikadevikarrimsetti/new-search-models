@@ -1,0 +1,34 @@
+name: Simple Hello World Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Print Hello World
+      run: |
+        echo "Hello World from GitHub Actions!"
+        echo "Pipeline is working successfully! ✅"
+        echo "Current date: $(date)"
+        echo "Current directory: $(pwd)"
+        echo "Repository: ${{ github.repository }}"
+        echo "Branch: ${{ github.ref_name }}"
+    
+    - name: List repository files
+      run: |
+        echo "Files in the repository:"
+        ls -la
+    
+    - name: Simple Python test
+      run: |
+        python3 -c "print('Hello from Python!')"
+        python3 -c "import sys; print(f'Python version: {sys.version}')"
