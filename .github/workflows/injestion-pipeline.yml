@@ -10,6 +10,15 @@ jobs:
   run-ingestion:
     runs-on: ubuntu-latest
     
+    env:
+      AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+      AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+      AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+      PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+      PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
+      PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -23,6 +32,31 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+    
+    - name: Create .env file
+      run: |
+        mkdir -p config
+        cat > config/.env << EOF
+        AZURE_OPENAI_API_KEY=${{ secrets.AZURE_OPENAI_API_KEY }}
+        AZURE_OPENAI_ENDPOINT=${{ secrets.AZURE_OPENAI_ENDPOINT }}
+        AZURE_OPENAI_DEPLOYMENT_NAME=${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+        AZURE_OPENAI_API_VERSION=${{ secrets.AZURE_OPENAI_API_VERSION }}
+        PINECONE_API_KEY=${{ secrets.PINECONE_API_KEY }}
+        PINECONE_ENV=${{ secrets.PINECONE_ENV }}
+        PINECONE_INDEX_NAME=${{ secrets.PINECONE_INDEX_NAME }}
+        EOF
+    
+    - name: Verify environment variables
+      run: |
+        echo "Checking environment variables..."
+        echo "AZURE_OPENAI_ENDPOINT: $AZURE_OPENAI_ENDPOINT"
+        echo "AZURE_OPENAI_DEPLOYMENT_NAME: $AZURE_OPENAI_DEPLOYMENT_NAME"
+        echo "AZURE_OPENAI_API_VERSION: $AZURE_OPENAI_API_VERSION"
+        echo "PINECONE_ENV: $PINECONE_ENV"
+        echo "PINECONE_INDEX_NAME: $PINECONE_INDEX_NAME"
+        echo "API keys are set: $([ -n "$AZURE_OPENAI_API_KEY" ] && echo "✅" || echo "❌")"
+        echo "Pinecone key is set: $([ -n "$PINECONE_API_KEY" ] && echo "✅" || echo "❌")"
+        echo "Checking .env file exists: $([ -f config/.env ] && echo "✅" || echo "❌")"
     
     - name: Run ingestion pipeline
       run: |
