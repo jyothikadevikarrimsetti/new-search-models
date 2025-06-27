@@ -113,7 +113,7 @@ pdf_iter = pdf_files
 #         doc_entities_map[pdf_file.stem] = set()
 
 # ------------------------------------------------------------------ #
-# 4. Check for updates and reprocess if needed                       #
+# 4. Check for updates and reprocess if needed    1                   #
 # ------------------------------------------------------------------ #
 updated_files: list[str] = []
 

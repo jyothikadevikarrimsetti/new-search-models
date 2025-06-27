@@ -2,7 +2,7 @@ name: Simple Hello World Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ classes ]
   pull_request:
     branches: [ main ]
 
