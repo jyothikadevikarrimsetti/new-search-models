@@ -1,4 +1,4 @@
-name: Simple Hello World Pipeline
+name: Ingestion Pipeline
 
 on:
   push:
@@ -7,28 +7,25 @@ on:
     branches: [ main ]
 
 jobs:
-  hello-world:
+  run-ingestion:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
     
-    - name: Print Hello World
-      run: |
-        echo "Hello World from GitHub Actions!"
-        echo "Pipeline is working successfully! ✅"
-        echo "Current date: $(date)"
-        echo "Current directory: $(pwd)"
-        echo "Repository: ${{ github.repository }}"
-        echo "Branch: ${{ github.ref_name }}"
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
     
-    - name: List repository files
+    - name: Install dependencies
       run: |
-        echo "Files in the repository:"
-        ls -la
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     
-    - name: Simple Python test
+    - name: Run ingestion pipeline
       run: |
-        python3 -c "print('Hello from Python!')"
-        python3 -c "import sys; print(f'Python version: {sys.version}')"
+        echo "Starting ingestion pipeline..."
+        python main.py
+        echo "Ingestion pipeline completed successfully! ✅"
