@@ -9,16 +9,16 @@ on:
 jobs:
   run-ingestion:
     runs-on: ubuntu-latest
-    environment: search_env
+    environment: inj_env
     
     env:
-      AZURE_OPENAI_API_KEY: ${{ vars.AZURE_OPENAI_API_KEY }}
-      AZURE_OPENAI_ENDPOINT: ${{ vars.AZURE_OPENAI_ENDPOINT }}
-      AZURE_OPENAI_DEPLOYMENT_NAME: ${{ vars.AZURE_OPENAI_DEPLOYMENT_NAME }}
-      AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION }}
-      PINECONE_API_KEY: ${{ vars.PINECONE_API_KEY }}
-      PINECONE_ENV: ${{ vars.PINECONE_ENV }}
-      PINECONE_INDEX_NAME: ${{ vars.PINECONE_INDEX_NAME }}
+      AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+      AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+      AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+      PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+      PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
+      PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
     
     steps:
     - name: Checkout code
