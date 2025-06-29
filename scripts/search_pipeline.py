@@ -326,15 +326,22 @@ def hybrid_search(query: str, top_k: int = 3, namespace: str = "__default__", al
     # Prepare top-k results for UI
     results = []
     for i, (fname, summary, rel_score, dense_score, sparse_score_val, hybrid_score) in enumerate(reranked):
+        # Find the original Pinecone match for this fname
+        try:
+            match_idx = filenames.index(fname)
+            match = pinecone_result.matches[match_idx]
+            metadata = match.metadata
+        except Exception:
+            metadata = {}
         results.append({
             "document_name": fname,
             "summary": summary,
             "reranking_score": hybrid_score,
             "dense_score": dense_score,
             "sparse_score": sparse_score_val,
-            # "intent": match.metadata.get("intent", "[not present]"),
-            # "entities": match.metadata.get("entities", "[not present]"),
-            # "keywords": match.metadata.get("keywords", "[not present]")
+            "intent": metadata.get("intent"),
+            "entities": metadata.get("entities", []),
+            "keywords": metadata.get("keywords", [])
         })
     # --- ENTITY LOOKUP LOGIC ---
     query_metadata = extract_query_metadata(query)
