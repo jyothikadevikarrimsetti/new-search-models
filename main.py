@@ -161,7 +161,7 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
 # ------------------------------------------------------------------ #
 # 8. Interactive Query                                               #
 # ------------------------------------------------------------------ #
-user_question = input("❓ Enter your question: ")
-user_filter = generate_filter(user_question)
-print(f"[INFO] Auto-generated metadata filter: {user_filter}")
-results = hybrid_search(user_question, top_k=1, filter=user_filter)
+# user_question = input("❓ Enter your question: ")
+# user_filter = generate_filter(user_question)
+# print(f"[INFO] Auto-generated metadata filter: {user_filter}")
+# results = hybrid_search(user_question, top_k=1, filter=user_filter)
