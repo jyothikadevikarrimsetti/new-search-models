@@ -15,3 +15,5 @@ numpy
 uvicorn[standard]
 spacy
 python-multipart
+pdfplumber
+tiktoken
