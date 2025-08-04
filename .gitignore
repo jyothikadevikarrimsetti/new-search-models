@@ -10,9 +10,4 @@ data/input_pdf_data/**.pdf
 __pycache__/
 **.jsonl
 notebooks/Cost_free_Solutions.ipynb
-models/
-<<<<<<< HEAD
 notebooks/intent_model/
-=======
-intent_model/
->>>>>>> classes
