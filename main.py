@@ -18,6 +18,9 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from transformers import AutoModelForSequenceClassification
 import numpy as np
+from scripts.insert_data_model import build_vector_document_from_json
+from scripts.mongo_utils import upsert_vector_document
+
 
 def convert_numpy(obj):
     import numpy as np
@@ -225,17 +228,30 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     list(executor.map(delete_vector_thread, updated_files))
 
     # 4. Upsert vectors to Pinecone
+    # if need_upsert:
+    #     print(f"🚀 Upserting {len(need_upsert)} vector(s) …")
+    #     for stem in need_upsert:
+    #         upsert_to_pinecone(OUTPUT, only_ids=[stem])
+    # else:
+    #     print("✅ Nothing new to upsert—Pinecone already up-to-date.")
+        # 4. Upsert vectors to MongoDB Atlas
     if need_upsert:
-        print(f"🚀 Upserting {len(need_upsert)} vector(s) …")
+        print(f"🚀 Upserting {len(need_upsert)} document(s) to MongoDB Atlas …")
         for stem in need_upsert:
-            upsert_to_pinecone(OUTPUT, only_ids=[stem])
+            json_path = Path(OUTPUT) / f"{stem}.json"
+            if json_path.exists():
+                try:
+                    doc = build_vector_document_from_json(json_path)
+                    upsert_vector_document(doc)
+                except Exception as e:
+                    print(f"❌ Failed: {json_path} → {e}")
     else:
-        print("✅ Nothing new to upsert—Pinecone already up-to-date.")
+        print("✅ Nothing new to upsert—MongoDB Atlas already up-to-date.")
 
 # ------------------------------------------------------------------ #
 # 8. Interactive Query                                               #
 # ------------------------------------------------------------------ #
-user_question = input("❓ Enter your question: ")
-user_filter = generate_filter(user_question)
-print(f"[INFO] Auto-generated metadata filter: {user_filter}")
-results = hybrid_search(user_question, top_k=1, filter=user_filter)
+# user_question = input("❓ Enter your question: ")
+# user_filter = generate_filter(user_question)
+# print(f"[INFO] Auto-generated metadata filter: {user_filter}")
+# results = hybrid_search(user_question, top_k=1, filter=user_filter)
