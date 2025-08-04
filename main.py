@@ -60,7 +60,7 @@ from scripts.intent_classifier import IntentClassifier
 # Load the trained model (assumes model and label mappings are saved in ./intent_model)
 intent_classifier = IntentClassifier(expanded_data=[], project_root=os.getcwd())
 intent_classifier.model = AutoModelForSequenceClassification.from_pretrained(
-    r"notebooks\intent_model\checkpoint-81"
+    "notebooks/intent_model/checkpoint-81"
 )
 intent_classifier.tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 # Load label2id and id2label if you have them saved, or reconstruct from model config
