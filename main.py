@@ -1,5 +1,5 @@
 from scripts.extract_text import save_processed_text
-from scripts.metadata import extract_metadata
+from scripts.metadata import extract_metadata, summarize_text
 from scripts.vector_store import (
     upsert_to_pinecone,
     delete_from_pinecone,
@@ -8,17 +8,65 @@ from scripts.vector_store import (
 from scripts.search_pipeline import hybrid_search  # Removed unused search_query
 from scripts.hash_utils import compute_md5
 from scripts.filter_utils import generate_filter
+from scripts.entity_extractor import EntityExtractor
+from scripts.keyword_extractor import KeywordExtractor
+from scripts.intent_classifier import IntentClassifier
 
 from pathlib import Path
 import json
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from transformers import AutoModelForSequenceClassification
+import numpy as np
+from scripts.insert_data_model import build_vector_document_from_json
+from scripts.mongo_utils import upsert_vector_document
+
+
+def convert_numpy(obj):
+    import numpy as np
+    if isinstance(obj, dict):
+        return {k: convert_numpy(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_numpy(v) for v in obj]
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, np.generic):
+        return obj.item()
+    else:
+        return obj
 
 INPUT       = "data/input_pdf_data"
 TEXTS       = "data/processed_data"
 OUTPUT      = "data/output_data"
 HASH_STORE  = "data/pdf_hashes.json"
 CHUNKS      = "data/chunks"
+
+# Initialize extractors and classifier (do this once at the top-level)
+import spacy
+from transformers import pipeline, AutoTokenizer, AutoModelForTokenClassification
+from sentence_transformers import SentenceTransformer
+
+spacy_nlp = spacy.load("en_core_web_trf") if spacy.util.is_package("en_core_web_trf") else spacy.load("en_core_web_sm")
+ner_pipe = pipeline(
+    "ner",
+    model=AutoModelForTokenClassification.from_pretrained("Jean-Baptiste/roberta-large-ner-english"),
+    tokenizer=AutoTokenizer.from_pretrained("Jean-Baptiste/roberta-large-ner-english"),
+    aggregation_strategy="simple",
+    device=-1
+)
+entity_extractor = EntityExtractor(spacy_nlp, ner_pipe)
+keyword_extractor = KeywordExtractor()
+from scripts.intent_classifier import IntentClassifier
+# Load the trained model (assumes model and label mappings are saved in ./intent_model)
+intent_classifier = IntentClassifier(expanded_data=[], project_root=os.getcwd())
+intent_classifier.model = AutoModelForSequenceClassification.from_pretrained(
+    r"notebooks\intent_model\checkpoint-81"
+)
+intent_classifier.tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+# Load label2id and id2label if you have them saved, or reconstruct from model config
+if hasattr(intent_classifier.model.config, 'id2label') and hasattr(intent_classifier.model.config, 'label2id'):
+    intent_classifier.id2label = intent_classifier.model.config.id2label
+    intent_classifier.label2id = intent_classifier.model.config.label2id
 
 # ------------------------------------------------------------------ #
 # 1. Load stored MD5 hashes                                          #
@@ -124,12 +172,41 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             text = txt_file.read_text(encoding="utf-8").strip()
             pdf_stem = txt_file.stem.rsplit('_chunk', 1)[0]
             pdf_name = f"{pdf_stem}.pdf"
-            metadata = extract_metadata(text, document_name=pdf_name) | {"filename": txt_file.name}
+            # --- Use new classes for extraction ---
+            entity_result = entity_extractor.extract_entities_hybrid(text)
+            keyword_result = keyword_extractor.extract_all(text, top_n=15)
+            intent, intent_conf = intent_classifier.predict_intent(text)
+            metadata = {
+                **entity_result,
+                **keyword_result,
+                "embedding": intent_classifier.get_openai_embedding(text),
+                "intent": intent,
+                "intent_confidence": intent_conf,
+                "document_name": pdf_name,
+                "filename": txt_file.name
+            }
             chunk_entities = set(metadata.get("entities", []))
             metadata["entities"] = sorted(chunk_entities)
+            # Ensure entity_types is JSON serializable
+            if isinstance(metadata.get("entity_types"), set):
+                metadata["entity_types"] = list(metadata["entity_types"])
+            # Add chunk text and summary to metadata
+            metadata["text"] = text
+            metadata["summary"] = summarize_text(text)  # TODO: Replace with actual summary if available
+            # Convert all numpy types to native Python types
+            metadata = convert_numpy(metadata)
             json_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(json_path, "w", encoding="utf-8") as fh:
-                json.dump(metadata, fh, indent=2)
+            try:
+                with open(json_path, "w", encoding="utf-8") as fh:
+                    json.dump(metadata, fh, indent=2)
+                # Post-write verification
+                with open(json_path, "r", encoding="utf-8") as fh:
+                    try:
+                        json.load(fh)
+                    except Exception as e:
+                        print(f"⛔ JSON verification failed for {json_path}: {e}")
+            except Exception as e:
+                print(f"⛔ Error writing JSON for {stem}: {e}")
             print(f"📝 Metadata JSON created for {stem}")
             if not pinecone_vector_exists(stem):
                 return stem
@@ -151,12 +228,25 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     list(executor.map(delete_vector_thread, updated_files))
 
     # 4. Upsert vectors to Pinecone
+    # if need_upsert:
+    #     print(f"🚀 Upserting {len(need_upsert)} vector(s) …")
+    #     for stem in need_upsert:
+    #         upsert_to_pinecone(OUTPUT, only_ids=[stem])
+    # else:
+    #     print("✅ Nothing new to upsert—Pinecone already up-to-date.")
+        # 4. Upsert vectors to MongoDB Atlas
     if need_upsert:
-        print(f"🚀 Upserting {len(need_upsert)} vector(s) …")
+        print(f"🚀 Upserting {len(need_upsert)} document(s) to MongoDB Atlas …")
         for stem in need_upsert:
-            upsert_to_pinecone(OUTPUT, only_ids=[stem])
+            json_path = Path(OUTPUT) / f"{stem}.json"
+            if json_path.exists():
+                try:
+                    doc = build_vector_document_from_json(json_path)
+                    upsert_vector_document(doc)
+                except Exception as e:
+                    print(f"❌ Failed: {json_path} → {e}")
     else:
-        print("✅ Nothing new to upsert—Pinecone already up-to-date.")
+        print("✅ Nothing new to upsert—MongoDB Atlas already up-to-date.")
 
 # ------------------------------------------------------------------ #
 # 8. Interactive Query                                               #

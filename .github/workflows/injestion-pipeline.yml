@@ -16,9 +16,10 @@ jobs:
       AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
       AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
       AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
-      PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
-      PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
-      PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+      # PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+      # PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
+      # PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+      
     
     steps:
     - name: Checkout code
