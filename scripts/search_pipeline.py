@@ -483,3 +483,74 @@ def entity_lookup_output(reranked, query_metadata: Dict[str, Any], start_time: f
         "reranking_score": hybrid_results[0]["reranking_score"] if hybrid_results else None,
         "results": hybrid_results
     }
+
+
+def mongodb_vector_search(query_text: str, top_k: int = 3) -> dict:
+    """Search MongoDB Atlas for top-k documents using vector similarity."""
+    import os
+    from dotenv import load_dotenv
+    from pymongo import MongoClient
+    import logging
+
+    # Load environment variables
+    load_dotenv("config/.env")
+    MONGO_URI = os.getenv("MONGO_URI")
+    mongo_client = MongoClient(MONGO_URI)
+    db = mongo_client["rag_db"]
+    collection = db["dmodel"]
+
+
+    query_vector = get_openai_embedding(query_text)
+
+    pipeline = [
+        {
+            "$vectorSearch": {
+                "queryVector": query_vector,
+                "path": "embedding",
+                "numCandidates": 100,
+                "index": "vector_index",  # Make sure this matches your Atlas Search index name
+                "limit": top_k
+            }
+        }
+    ]
+
+    results = list(collection.aggregate(pipeline))
+    docs = []
+    for doc in results:
+        docs.append({
+            "document_name": doc.get("document_name"),
+            "summary": doc.get("summary", ""),
+            "score": doc.get("score", None),
+            "intent": doc.get("intent", None),
+            "entities": doc.get("entities", []),
+            "keywords": doc.get("keywords", [])
+        })
+        # Prepare context for LLM answer
+    if docs:
+        context = "\n\n".join([doc["summary"] for doc in docs[:min(3, len(docs))]])
+        prompt = f"You are an expert assistant. Use the following context to answer the user's question.\n\nContext:\n{context}\n\nQuestion: {query_text}\n\nAnswer in detail:"
+        try:
+            from openai import AzureOpenAI
+            client = AzureOpenAI(
+                api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+                api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
+                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+            )
+            deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
+            answer = client.chat.completions.create(
+                model=deployment,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=256,
+                timeout=20
+            ).choices[0].message.content.strip()
+        except Exception as e:
+            logging.error(f"OpenAI completion error: {e}")
+            answer = "LLM completion error."
+    else:
+        answer = "No relevant document found."
+    return {
+    "answer": answer,
+    "results": docs,
+    "count": len(docs)
+}

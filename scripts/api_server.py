@@ -294,3 +294,20 @@ def hybrid_search_match_details(request: HybridSearchRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+from search_pipeline import mongodb_vector_search
+
+class MongoVectorSearchRequest(BaseModel):
+    query: str
+    top_k: Optional[int] = 3
+
+@app.post("/search/mongo_vector", tags=["search"])
+def mongo_vector_search_endpoint(request: MongoVectorSearchRequest):
+    """
+    Search MongoDB Atlas for top-k documents using vector similarity.
+    """
+    try:
+        results = mongodb_vector_search(request.query, top_k=request.top_k)
+        return results
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e)) 

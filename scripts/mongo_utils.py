@@ -29,3 +29,4 @@ def upsert_vector_document(doc: VectorDocument):
     except Exception as e:
         print(f"❌ Upsert failed for {doc.id}: {e}")
         return None
+    
