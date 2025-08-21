@@ -19,17 +19,17 @@ def build_vector_document_from_json(json_path):
 
     # Compose metadata
     metadata = {
-        "Key1": raw.get("intent", "unknown"),
-        "Key2": "N/A",
-        "Key3": "N/A"
+        "Keywords": raw.get("keywords", "unknown"),
+        "intent": raw.get("intent", "N/A"),
+        "entities": raw.get("entities", "N/A")
     }
-    for entity in raw.get("entity_details", []):
-        if metadata["Key2"] == "N/A" and entity["type"] == "PERSON":
-            metadata["Key2"] = entity["text"].strip()
-        elif metadata["Key3"] == "N/A" and entity["type"] in ["PRODUCT", "ORG"]:
-            metadata["Key3"] = entity["text"].strip()
-        if metadata["Key2"] != "N/A" and metadata["Key3"] != "N/A":
-            break
+    # for entity in raw.get("entity_details", []):
+    #     if metadata["intent"] == "N/A" and entity["type"] == "PERSON":
+    #         metadata["intent"] = entity["text"].strip()
+    #     elif metadata["entities"] == "N/A" and entity["type"] in ["PRODUCT", "ORG"]:
+    #         metadata["entities"] = entity["text"].strip()
+    #     if metadata["intent"] != "N/A" and metadata["Key3"] != "N/A":
+    #         break
 
     file_id = os.path.basename(json_path).replace(".json", "")
     doc = VectorDocument(

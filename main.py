@@ -1,17 +1,10 @@
 from scripts.extract_text import save_processed_text
 from scripts.metadata import extract_metadata, summarize_text
-from scripts.vector_store import (
-    upsert_to_pinecone,
-    delete_from_pinecone,
-    pinecone_vector_exists
-)
-from scripts.search_pipeline import hybrid_search  # Removed unused search_query
 from scripts.hash_utils import compute_md5
 from scripts.filter_utils import generate_filter
 from scripts.entity_extractor import EntityExtractor
 from scripts.keyword_extractor import KeywordExtractor
 from scripts.intent_classifier import IntentClassifier
-
 from pathlib import Path
 import json
 import os
@@ -57,16 +50,21 @@ ner_pipe = pipeline(
 entity_extractor = EntityExtractor(spacy_nlp, ner_pipe)
 keyword_extractor = KeywordExtractor()
 from scripts.intent_classifier import IntentClassifier
+
 # Load the trained model (assumes model and label mappings are saved in ./intent_model)
 intent_classifier = IntentClassifier(expanded_data=[], project_root=os.getcwd())
 intent_classifier.model = AutoModelForSequenceClassification.from_pretrained(
     "notebooks/intent_model/checkpoint-81"
 )
-intent_classifier.tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+
 # Load label2id and id2label if you have them saved, or reconstruct from model config
+intent_classifier.tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+
+# Load label2id and id2label if available in the model config
 if hasattr(intent_classifier.model.config, 'id2label') and hasattr(intent_classifier.model.config, 'label2id'):
     intent_classifier.id2label = intent_classifier.model.config.id2label
     intent_classifier.label2id = intent_classifier.model.config.label2id
+
 
 # ------------------------------------------------------------------ #
 # 1. Load stored MD5 hashes                                          #
@@ -208,12 +206,11 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             except Exception as e:
                 print(f"⛔ Error writing JSON for {stem}: {e}")
             print(f"📝 Metadata JSON created for {stem}")
-            if not pinecone_vector_exists(stem):
-                return stem
+            return stem
         else:
-            if not pinecone_vector_exists(stem):
-                return stem
+            return stem
         return None
+
     futures = [executor.submit(process_metadata, txt_file) for txt_file in chunk_txt_files]
     for i, future in enumerate(as_completed(futures), 1):
         result = future.result()
@@ -222,19 +219,7 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         if i % 10 == 0 or i == len(chunk_txt_files):
             print(f"[INFO] Processed {i}/{len(chunk_txt_files)} chunks...")
 
-    # 3. Delete old vectors for updated files
-    def delete_vector_thread(stem):
-        delete_from_pinecone(stem)
-    list(executor.map(delete_vector_thread, updated_files))
-
-    # 4. Upsert vectors to Pinecone
-    # if need_upsert:
-    #     print(f"🚀 Upserting {len(need_upsert)} vector(s) …")
-    #     for stem in need_upsert:
-    #         upsert_to_pinecone(OUTPUT, only_ids=[stem])
-    # else:
-    #     print("✅ Nothing new to upsert—Pinecone already up-to-date.")
-        # 4. Upsert vectors to MongoDB Atlas
+    # 3. Upsert documents to MongoDB Atlas
     if need_upsert:
         print(f"🚀 Upserting {len(need_upsert)} document(s) to MongoDB Atlas …")
         for stem in need_upsert:

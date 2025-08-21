@@ -16,7 +16,6 @@ def get_spacy_nlp():
         except Exception:
             _spacy_nlp = None
     return _spacy_nlp
-
 def normalize_entity(e):
     """Lowercase, remove dots, extra spaces, collapse multiple spaces, lemmatize if possible."""
     text = re.sub(r'\s+', ' ', re.sub(r'\.', '', e.lower())).strip()

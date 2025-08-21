@@ -2,9 +2,9 @@ from pydantic import BaseModel, Field
 from typing import List
 
 class MetadataModel(BaseModel):
-    Key1: str
-    Key2: str
-    Key3: str
+    Keywords: List[str]
+    intent: str
+    entities: List[str]
 
 class VectorDocument(BaseModel):
     id: str = Field(..., alias="_id")

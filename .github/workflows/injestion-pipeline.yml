@@ -1,71 +1,71 @@
-name: Ingestion Pipeline
+# name: Ingestion Pipeline
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
 
-jobs:
-  run-ingestion:
-    runs-on: ubuntu-latest
-    environment: inj_env
+# jobs:
+#   run-ingestion:
+#     runs-on: ubuntu-latest
+#     environment: inj_env
     
-    env:
-      AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
-      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
-      AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
-      AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
-      PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
-      PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
-      PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+#     env:
+#       AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+#       AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+#       AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+#       AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+#       PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+#       PINECONE_ENV: ${{ secrets.PINECONE_ENV }}
+#       PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
 
     
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v4
     
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+#     - name: Set up Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.10'
     
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
     
     
-    - name: Create .env file
-      run: |
-        mkdir -p config
-        cat > config/.env << EOF
-        AZURE_OPENAI_API_KEY=${{ vars.AZURE_OPENAI_API_KEY }}
-        AZURE_OPENAI_ENDPOINT=${{ vars.AZURE_OPENAI_ENDPOINT }}
-        AZURE_OPENAI_DEPLOYMENT_NAME=${{ vars.AZURE_OPENAI_DEPLOYMENT_NAME }}
-        AZURE_OPENAI_API_VERSION=${{ vars.AZURE_OPENAI_API_VERSION }}
-        PINECONE_API_KEY=${{ vars.PINECONE_API_KEY }}
-        PINECONE_ENV=${{ vars.PINECONE_ENV }}
-        PINECONE_INDEX_NAME=${{ vars.PINECONE_INDEX_NAME }}
-        EOF
-    - name : Download spaCy English model
-      run  : python -m spacy download en_core_web_sm
+#     - name: Create .env file
+#       run: |
+#         mkdir -p config
+#         cat > config/.env << EOF
+#         AZURE_OPENAI_API_KEY=${{ vars.AZURE_OPENAI_API_KEY }}
+#         AZURE_OPENAI_ENDPOINT=${{ vars.AZURE_OPENAI_ENDPOINT }}
+#         AZURE_OPENAI_DEPLOYMENT_NAME=${{ vars.AZURE_OPENAI_DEPLOYMENT_NAME }}
+#         AZURE_OPENAI_API_VERSION=${{ vars.AZURE_OPENAI_API_VERSION }}
+#         PINECONE_API_KEY=${{ vars.PINECONE_API_KEY }}
+#         PINECONE_ENV=${{ vars.PINECONE_ENV }}
+#         PINECONE_INDEX_NAME=${{ vars.PINECONE_INDEX_NAME }}
+#         EOF
+#     - name : Download spaCy English model
+#       run  : python -m spacy download en_core_web_sm
 
-    - name: Verify environment variables
-      run: |
-        echo "Checking environment variables..."
-        echo "AZURE_OPENAI_ENDPOINT: $AZURE_OPENAI_ENDPOINT"
-        echo "AZURE_OPENAI_DEPLOYMENT_NAME: $AZURE_OPENAI_DEPLOYMENT_NAME"
-        echo "AZURE_OPENAI_API_VERSION: $AZURE_OPENAI_API_VERSION"
-        echo "PINECONE_ENV: $PINECONE_ENV"
-        echo "PINECONE_INDEX_NAME: $PINECONE_INDEX_NAME"
-        echo "API keys are set: $([ -n "$AZURE_OPENAI_API_KEY" ] && echo "✅" || echo "❌")"
-        echo "Pinecone key is set: $([ -n "$PINECONE_API_KEY" ] && echo "✅" || echo "❌")"
-        echo "Checking .env file exists: $([ -f config/.env ] && echo "✅" || echo "❌")"
+#     - name: Verify environment variables
+#       run: |
+#         echo "Checking environment variables..."
+#         echo "AZURE_OPENAI_ENDPOINT: $AZURE_OPENAI_ENDPOINT"
+#         echo "AZURE_OPENAI_DEPLOYMENT_NAME: $AZURE_OPENAI_DEPLOYMENT_NAME"
+#         echo "AZURE_OPENAI_API_VERSION: $AZURE_OPENAI_API_VERSION"
+#         echo "PINECONE_ENV: $PINECONE_ENV"
+#         echo "PINECONE_INDEX_NAME: $PINECONE_INDEX_NAME"
+#         echo "API keys are set: $([ -n "$AZURE_OPENAI_API_KEY" ] && echo "✅" || echo "❌")"
+#         echo "Pinecone key is set: $([ -n "$PINECONE_API_KEY" ] && echo "✅" || echo "❌")"
+#         echo "Checking .env file exists: $([ -f config/.env ] && echo "✅" || echo "❌")"
     
-    - name: Run ingestion pipeline
-      run: |
-        echo "Starting ingestion pipeline..."
-        echo "Running main.py..."
-        python main.py
-        echo "Ingestion pipeline completed successfully! ✅"
+#     - name: Run ingestion pipeline
+#       run: |
+#         echo "Starting ingestion pipeline..."
+#         echo "Running main.py..."
+#         python main.py
+#         echo "Ingestion pipeline completed successfully! ✅"
